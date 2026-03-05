@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -106,6 +107,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -124,6 +126,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "89.124.71.66",
+      "server_port": 8443,
+      "uuid": "9a63b59c-5e54-437a-b7a1-2788780a7c13",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",

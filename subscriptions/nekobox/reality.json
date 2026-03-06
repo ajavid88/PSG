@@ -80,7 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2",
+        "🇪🇸 ES | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -96,7 +99,6 @@
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
@@ -119,7 +121,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2",
+        "🇪🇸 ES | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -135,7 +140,6 @@
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
@@ -235,12 +239,66 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "89.124.71.66",
-      "server_port": 8443,
-      "uuid": "9a63b59c-5e54-437a-b7a1-2788780a7c13",
-      "packet_encoding": "xudp"
+      "server": "217.13.105.1",
+      "server_port": 5443,
+      "uuid": "928beba1-eef6-478a-b06f-db6bc020e078",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "217.13.104.112",
+      "server_port": 3443,
+      "uuid": "928beba1-eef6-478a-b06f-db6bc020e078",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "212.227.95.106",
+      "server_port": 443,
+      "uuid": "438f81f8-aa18-4261-820a-87ee42122d0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "194.9.6.29",
+      "server_port": 443,
+      "uuid": "0509acee-63e3-4364-95cc-21c601f059be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
@@ -519,28 +577,6 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

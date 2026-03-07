@@ -83,6 +83,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -99,7 +100,7 @@
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -166,6 +167,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -182,7 +184,7 @@
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -345,6 +347,28 @@
       "server_port": 2053,
       "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "nld26.luckernld.org",
+      "server_port": 443,
+      "uuid": "40d7798a-6c76-4298-a9d4-9e6181cd2dd7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -548,11 +572,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #2",
       "type": "vless",
-      "server": "python.org",
-      "server_port": 80,
-      "uuid": "a26bbed7-a286-4840-84bc-dc102c526777",
+      "server": "sps.blackhoster.com",
+      "server_port": 8080,
+      "uuid": "19f529fe-9fed-40c2-a41d-491575a9a1c5",
       "packet_encoding": "xudp"
     },
     {

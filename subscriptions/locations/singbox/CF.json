@@ -95,7 +95,7 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -216,7 +216,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -314,7 +313,7 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #3",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -435,7 +434,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -574,17 +572,41 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "172.67.145.103",
+      "server": "104.21.90.132",
       "server_port": 80,
-      "uuid": "0617025a-660d-40e3-9108-74611138dde5",
-      "packet_encoding": "xudp"
+      "uuid": "8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "v2.dabache.top",
+      "server": "172.67.65.241",
       "server_port": 443,
-      "uuid": "1b2c91ab-f6c9-42f8-b2c6-8de0ac133d63",
+      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "vip1.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "2a667767-995c-4892-9719-f52c3db2b0f2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -600,22 +622,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "172.64.80.1",
-      "server_port": 80,
-      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
-        "headers": {
-          "Host": "m9o0.1xq.indevs.in"
         }
       }
     },
@@ -2067,22 +2073,6 @@
       "server_port": 2086,
       "uuid": "96196fc5-67a7-400f-9b1a-e8f2e530e411",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "www.gossipglove.com",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @red2ray #1",

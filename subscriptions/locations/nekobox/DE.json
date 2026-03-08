@@ -86,6 +86,9 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -94,11 +97,11 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2",
         "🇩🇪 DE | VLESS | @NamiraConfigs #1"
@@ -118,6 +121,9 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -126,11 +132,11 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #1",
         "🇩🇪 DE | VLESS | @vpnv2raytop #2",
         "🇩🇪 DE | VLESS | @NamiraConfigs #1"
@@ -287,6 +293,46 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "842b5f9dd11e458d8613c907c4cc5723",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2086,
+      "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @mpproxy #2",
+      "type": "trojan",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "81.88.25.20",
@@ -409,14 +455,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
-      "type": "vless",
-      "server": "test.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "TELEGRAM-CONFiGLiNE-29",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
       "server": "52.29.115.99",
@@ -488,6 +526,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnowl #1",
+      "type": "vless",
+      "server": "20.218.137.249",
+      "server_port": 443,
+      "uuid": "jina",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

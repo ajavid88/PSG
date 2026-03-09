@@ -93,6 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
@@ -110,6 +112,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇰🇿 KZ | VLESS | @config_proxy #1",
+        "🇰🇿 KZ | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
@@ -196,6 +200,40 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "kz.darknet.run",
+      "server_port": 443,
+      "uuid": "c970f910-1103-446a-bdc8-a9cfb22381bf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "kz.fasti.win",
+      "server_port": 443,
+      "uuid": "be224aaf-618c-4a9e-877c-1cee0e32056b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

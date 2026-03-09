@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRUU=
+//profile-title: base64:UFNHIHwgSUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2"
+        "🇮🇪 IE | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2"
+        "🇮🇪 IE | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,40 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "tag": "🇮🇪 IE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "93.123.39.213",
-      "server_port": 443,
-      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "93.123.39.225",
-      "server_port": 443,
-      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "23.95.225.214",
+      "server_port": 2053,
+      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

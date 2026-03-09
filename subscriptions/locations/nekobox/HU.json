@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇬 VG | VLESS | @dailyv2ray #1",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "mtn.ircf.space",
-      "server_port": 2096,
-      "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a",
-      "packet_encoding": "xudp"
+      "server": "217.13.104.112",
+      "server_port": 7443,
+      "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "217.13.104.112",
+      "server_port": 5443,
+      "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

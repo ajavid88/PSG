@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇺 HU | VLESS | @config_proxy #1", "server": "217.13.104.112", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇭🇺 HU | VLESS | @config_proxy #2", "server": "217.13.104.112", "port": 5443, "type": "vless", "skip-cert-verify": true, "uuid": "fe0f8774-4064-4d2c-a523-dcd7bf8809bf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇪🇪 EE | VLESS | @config_proxy #1", "server": "93.123.39.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇪🇪 EE | VLESS | @config_proxy #2", "server": "93.123.39.225", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇺 HU | VLESS | @config_proxy #1'
-      - '🇭🇺 HU | VLESS | @config_proxy #2'
+      - '🇪🇪 EE | VLESS | @config_proxy #1'
+      - '🇪🇪 EE | VLESS | @config_proxy #2'
 
   - name: 🌍 Global Media
     type: select

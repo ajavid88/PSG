@@ -80,8 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -110,8 +108,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | VMESS | @config_proxy #1",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -213,47 +209,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "f8c38428-t6r5s0-t8jzg2-1hd7v.hkt.gotochinatown.net"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "zzrt.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zzrt.uhomdex.shop",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "zzrt.uhomdex.shop"
         }
       }
     },

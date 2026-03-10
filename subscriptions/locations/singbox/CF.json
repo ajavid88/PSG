@@ -95,8 +95,6 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -213,7 +211,6 @@
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
@@ -313,8 +310,6 @@
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -431,7 +426,6 @@
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
@@ -572,65 +566,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s2.eldoradu.ir",
-      "server_port": 2053,
-      "uuid": "23d1eb83-45e6-42df-bd38-4505c8e6cb3b",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "064059ce-23b9-45d3-953d-57d4c5092874",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "s3.eldoradu.ir",
-      "server_port": 2053,
-      "uuid": "23d1eb83-45e6-42df-bd38-4505c8e6cb3b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "s1.eldoradu.ir",
-      "server_port": 2053,
-      "uuid": "23d1eb83-45e6-42df-bd38-4505c8e6cb3b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "zzrt.uhomdex.shop",
-      "server_port": 8443,
-      "uuid": "0b4c4ed4-deed-4bda-ae3d-6c8ccd1d1199",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "zzrt.uhomdex.shop",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -639,9 +581,33 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "",
         "headers": {
-          "Host": "zzrt.uhomdex.shop"
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "104.18.32.47",
+      "server_port": 443,
+      "uuid": "6b2d40f5-9db1-4964-aa9d-103d2a37fac6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -2053,22 +2019,6 @@
       "server_port": 8880,
       "uuid": "312b0699-a47a-496e-97b6-cb3af1654d35",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "www.gossipglove.com",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",

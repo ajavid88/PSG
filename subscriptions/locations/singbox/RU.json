@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
@@ -114,9 +116,17 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "5.188.140.3",
-      "server_port": 8718,
-      "uuid": "7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd",
+      "server": "188.225.75.60",
+      "server_port": 3443,
+      "uuid": "399cd23a-f17e-4db6-83a4-b5c22aecdf8f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "ya.asbndx.com",
+      "server_port": 2777,
+      "uuid": "7559ad2a-a419-4fd7-bc6a-9350a017f72a",
       "packet_encoding": "xudp"
     },
     {

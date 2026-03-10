@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "de2.pineappled.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71322f86-f37a-4929-ada0-05e6a2688145", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "138.2.64.175", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "69ab6d73-6db3-1c80-4eb6-2b91420c3944", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy #1'
+      - '🇸🇬 SG | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

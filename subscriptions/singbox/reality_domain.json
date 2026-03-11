@@ -93,11 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇪🇸 ES | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -116,11 +116,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #2",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇪🇸 ES | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -212,19 +212,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "tag": "🇪🇸 ES | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "ya.asbndx.com",
-      "server_port": 2777,
-      "uuid": "7559ad2a-a419-4fd7-bc6a-9350a017f72a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "h2.buzzvpn.online",
+      "server": "istanbul-meow.nethcloud.top",
       "server_port": 443,
-      "uuid": "b8b281b8-aada-4324-a0ad-240b7c008191",
+      "uuid": "2010e842-ad9b-463e-8c94-32339ed45fca",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -273,6 +265,28 @@
       "server": "cid.wlrus.lol",
       "server_port": 37016,
       "uuid": "c6be0a05-6105-4c0a-8af5-3e227f10735f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "est.pink-service.ru",
+      "server_port": 443,
+      "uuid": "9c7d89ae-daf3-45c2-84d6-a7447e9123f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

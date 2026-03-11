@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
@@ -90,6 +91,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
@@ -109,6 +111,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "d1.designister.com",
+      "server_port": 443,
+      "uuid": "3ebd01e3-763d-45c9-bfcc-fa220e81bd5f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",

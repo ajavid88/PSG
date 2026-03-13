@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VMESS | @config_proxy #1",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -100,7 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VMESS | @config_proxy #1",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @netmellianti #1"
       ],
@@ -114,19 +114,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
-      "type": "vless",
-      "server": "sv22.v2bit.com",
-      "server_port": 443,
-      "uuid": "cbaf27fe-914e-5457-9db6-92719bfaafac",
-      "packet_encoding": "xudp",
+      "tag": "🇦🇪 AE | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "188.144.99.0",
+      "server_port": 8443,
+      "uuid": "35362039-3920-4537-a035-302035342031",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "188.208.110.58",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "188.208.110.58"
         }
       }
     },

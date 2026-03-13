@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VMESS | @config_proxy #1", "server": "188.144.99.0", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "35362039-3920-4537-a035-302035342031", "alterId": 0, "cipher": "none", "network": "ws", "tls": true, "ws-opts": {"path": "/ws", "headers": {"Host": "188.208.110.58"}}}
+  - {"name": "🇱🇺 LU | VLESS | @config_proxy #1", "server": "107.189.7.176", "port": 49839, "type": "vless", "skip-cert-verify": true, "uuid": "c56375ea-317d-4d81-9213-582d024e5d3a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇺 LU | VMESS | @config_proxy #1", "server": "107.189.7.176", "port": 34972, "type": "vmess", "skip-cert-verify": true, "uuid": "4814b7d2-b478-4482-a1ab-6cea34b6581b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "107.189.7.176"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VMESS | @config_proxy #1'
+      - '🇱🇺 LU | VLESS | @config_proxy #1'
+      - '🇱🇺 LU | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

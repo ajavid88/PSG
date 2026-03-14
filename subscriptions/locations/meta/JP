@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇴 NO | VLESS | @config_proxy #1", "server": "nr-01.opsvpnvless.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1218c022-dca8-49e5-b7d4-a04f3023db81", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @config_proxy #1", "server": "jp2.up-pay.xyz", "port": 63222, "type": "vless", "skip-cert-verify": true, "uuid": "9a576b01-9544-4b1d-9cfc-979fcf4d20c4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇴 NO | VLESS | @config_proxy #1'
+      - '🇯🇵 JP | VLESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select

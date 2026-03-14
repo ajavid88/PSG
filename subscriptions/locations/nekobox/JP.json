@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @config_proxy #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -101,14 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "jp2.up-pay.xyz",
-      "server_port": 63222,
-      "uuid": "9a576b01-9544-4b1d-9cfc-979fcf4d20c4",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",

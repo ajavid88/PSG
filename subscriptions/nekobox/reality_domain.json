@@ -80,10 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -101,10 +100,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -199,12 +197,22 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hong-kong.sbrf-cdn342.ru",
-      "server_port": 4241,
-      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
-      "packet_encoding": "xudp"
+      "server": "der.jojack.ru",
+      "server_port": 443,
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -221,28 +229,6 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

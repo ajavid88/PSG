@@ -97,11 +97,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
-        "🇩🇪 DE | TROJAN | @mpproxy #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
-        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
@@ -132,11 +128,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
-        "🇩🇪 DE | TROJAN | @mpproxy #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
-        "🇩🇪 DE | TROJAN | @mpproxy #2",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
@@ -166,10 +158,11 @@
     {
       "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "77.110.99.57",
+      "server": "der.jojack.ru",
       "server_port": 443,
-      "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173",
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -272,74 +265,12 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @minovpnch #1",
       "type": "vless",
       "server": "92.223.124.29",
       "server_port": 443,
       "uuid": "e1034c59-c944-4a60-bdba-8f9cea0324b1",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @mpproxy #1",
-      "type": "trojan",
-      "server": "srv1.khatibirepair.ir",
-      "server_port": 443,
-      "password": "842b5f9dd11e458d8613c907c4cc5723",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
-      "type": "vless",
-      "server": "srv1.khatibirepair.ir",
-      "server_port": 2086,
-      "uuid": "c6812323-833b-454d-80c0-e1ccc22e9fc5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @mpproxy #2",
-      "type": "trojan",
-      "server": "srv1.khatibirepair.ir",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

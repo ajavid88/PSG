@@ -111,7 +111,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -155,8 +155,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -255,8 +255,8 @@
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -303,7 +303,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nn_vpn #1",
@@ -347,8 +347,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -447,8 +447,8 @@
         "🇽🇽 XX | VLESS | @vboxpanel #2",
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -890,7 +890,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
@@ -1476,11 +1476,26 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "104.17.138.160",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "37.18.15.85",
+      "server": "5.188.141.170",
       "server_port": 443,
-      "uuid": "3ecd4547-7ee1-4181-837d-03bc56117705",
+      "uuid": "47d149e3-8ba6-03e8-b91f-3dd9771fa7cc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -1492,14 +1507,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "104.17.148.22",
-      "server_port": 2082,
-      "uuid": "28b1fd8a-57b0-481e-830b-af3a7907f474",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -2733,9 +2740,9 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.36.148.207",
+      "server": "52.58.248.163",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -2748,9 +2755,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "52.58.248.163",
+      "server": "13.39.7.170",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

@@ -82,7 +82,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
@@ -135,10 +135,9 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -225,7 +224,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
@@ -278,10 +277,9 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -459,12 +457,22 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hong-kong.sbrf-cdn342.ru",
-      "server_port": 4241,
-      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
-      "packet_encoding": "xudp"
+      "server": "der.jojack.ru",
+      "server_port": 443,
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -1091,28 +1099,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @mester_v2ray #6",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -1147,7 +1133,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,

@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -109,10 +109,9 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -131,7 +130,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
@@ -146,10 +145,9 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇪🇸 ES | VLESS | @vpnplusee_free #1",
-        "🇨🇾 CY | VLESS | @config_proxy #1",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -242,9 +240,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "37.18.15.85",
+      "server": "5.188.141.170",
       "server_port": 443,
-      "uuid": "3ecd4547-7ee1-4181-837d-03bc56117705",
+      "uuid": "47d149e3-8ba6-03e8-b91f-3dd9771fa7cc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -258,12 +256,13 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "77.110.99.57",
+      "server": "5.188.141.239",
       "server_port": 443,
-      "uuid": "21915536-afb5-4a0c-b047-fcf549d3a173",
+      "uuid": "47d149e3-8ba6-2710-b91f-3dd9771fa7cc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -540,12 +539,22 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "hong-kong.sbrf-cdn342.ru",
-      "server_port": 4241,
-      "uuid": "15b3ebe9-9b85-4274-b79a-4e4d39dec9c9",
-      "packet_encoding": "xudp"
+      "server": "der.jojack.ru",
+      "server_port": 443,
+      "uuid": "c67f81df-34e8-4cb3-ab43-599585775fa9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -562,28 +571,6 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

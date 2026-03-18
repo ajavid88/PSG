@@ -31,11 +31,8 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @bored_vpn #1", "server": "199.232.79.229", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @buffalo_vpn #1", "server": "188.114.97.0", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "188.114.97.0"}}}
   - {"name": "🇺🇸 US | VLESS | @buffalo_vpn #1", "server": "199.232.0.177", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "199.232.0.177"}}}
-  - {"name": "🇰🇷 KR | VLESS | @config_proxy #1", "server": "112.163.51.148", "port": 20000, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇷 FR | VLESS | @config_proxy #1", "server": "194.146.12.230", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "194.36.39.106", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cadadce7-0daa-44c1-9f7a-05fe4ebcbb30", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #2", "server": "194.36.39.134", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cadadce7-0daa-44c1-9f7a-05fe4ebcbb30", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇭🇺 HU | VLESS | @config_proxy #1", "server": "79.127.133.101", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cc3f40b8-b869-4559-8490-9207bf0ed261", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @config_proxy #2", "server": "138.68.80.112", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @config_proxy #3", "server": "64.226.95.244", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #1", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "VPNCUSTOMIZE", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #2", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "017c320f-e573-46a9-a86d-edd8f4a8cbbf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @customizev2ray #3", "server": "188.114.98.224", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "-VPNCUSTOMIZE-", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -259,11 +256,8 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @bored_vpn #1'
       - '🇽🇽 XX | VLESS | @buffalo_vpn #1'
       - '🇺🇸 US | VLESS | @buffalo_vpn #1'
-      - '🇰🇷 KR | VLESS | @config_proxy #1'
-      - '🇫🇷 FR | VLESS | @config_proxy #1'
-      - '🇱🇻 LV | VLESS | @config_proxy #1'
-      - '🇱🇻 LV | VLESS | @config_proxy #2'
-      - '🇭🇺 HU | VLESS | @config_proxy #1'
+      - '🇩🇪 DE | VLESS | @config_proxy #2'
+      - '🇩🇪 DE | VLESS | @config_proxy #3'
       - '🇽🇽 XX | VLESS | @customizev2ray #1'
       - '🇽🇽 XX | VLESS | @customizev2ray #2'
       - '🇽🇽 XX | VLESS | @customizev2ray #3'

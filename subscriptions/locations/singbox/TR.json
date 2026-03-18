@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVUE=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇦 UA | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇦 UA | VLESS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇦 UA | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "md-kiv-2.blook.network",
-      "server_port": 443,
-      "uuid": "aa167bb9-4882-417e-a9d1-676250111f70",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "45.12.143.191",
+      "server_port": 20329,
+      "uuid": "e105e56a-5f81-41a2-ab44-bfffc9b00674",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -119,8 +120,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | SS | @vpn_ioss #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,6 +128,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -157,8 +158,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | SS | @vpn_ioss #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -168,6 +168,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "g-api1.maps-yandex.net",
+      "server_port": 10120,
+      "uuid": "9b73c904-e704-4537-ab1a-6aadfc5c535e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -507,14 +515,6 @@
         "insecure": false,
         "alpn": null
       }
-    },
-    {
-      "tag": "🇸🇪 SE | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "45.80.231.75",
-      "server_port": 31019,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYTjZYZjBacXdEZUZydDM5VFFyYWVu",
-      "password": null
     }
   ],
   "route": {

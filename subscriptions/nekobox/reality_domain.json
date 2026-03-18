@@ -80,8 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇱🇻 LV | VLESS | @config_proxy #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -100,8 +99,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇱🇻 LV | VLESS | @config_proxy #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -197,20 +195,21 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "lv2.fastdbn.com",
-      "server_port": 5001,
-      "uuid": "997bc475-4621-4612-8337-cc55a0cb68ab",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "g-api1.maps-yandex.net",
-      "server_port": 10120,
-      "uuid": "9b73c904-e704-4537-ab1a-6aadfc5c535e",
-      "packet_encoding": "xudp"
+      "server": "most-pl.harknmav.fun",
+      "server_port": 443,
+      "uuid": "a0a70922-a539-4188-9273-ceef2131af36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",

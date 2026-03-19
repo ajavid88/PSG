@@ -79,7 +79,6 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -145,7 +144,6 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇺🇸 US | VMESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
@@ -247,15 +245,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "cn01.365cloud8754.com",
-      "server_port": 6001,
-      "uuid": "db75bc92-4e32-48dd-b792-d7a8b707626c",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -522,13 +511,21 @@
     {
       "tag": "🇺🇸 US | SS | @key_outline #1",
       "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpreThVaXhZWWxoM1VEaDEwV01kUFF0",
+      "password": null
+    },
+    {
+      "tag": "🇺🇸 US | SS | @key_outline #2",
+      "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsOVBpN3I0bThQSFFIclViQ1hFS3lG",
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #2",
+      "tag": "🇺🇸 US | SS | @key_outline #3",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -536,7 +533,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #3",
+      "tag": "🇺🇸 US | SS | @key_outline #4",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
@@ -544,7 +541,7 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #4",
+      "tag": "🇺🇸 US | SS | @key_outline #5",
       "type": "shadowsocks",
       "server": "216.105.168.18",
       "server_port": 443,
@@ -552,19 +549,11 @@
       "password": null
     },
     {
-      "tag": "🇺🇸 US | SS | @key_outline #5",
-      "type": "shadowsocks",
-      "server": "104.192.227.162",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTZFb3RCUHJDMFU4VnBoeThjS0Vi",
-      "password": null
-    },
-    {
       "tag": "🇺🇸 US | SS | @key_outline #6",
       "type": "shadowsocks",
       "server": "104.192.227.162",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVWG11a25HUXFpSm9JdG1RVFhqY0Yy",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTZFb3RCUHJDMFU4VnBoeThjS0Vi",
       "password": null
     },
     {

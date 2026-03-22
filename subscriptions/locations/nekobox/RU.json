@@ -78,6 +78,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
+        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -88,6 +91,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
+        "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
+        "🇷🇺 RU | VLESS | @config_proxy #4",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
@@ -107,10 +113,64 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "37.9.4.241",
+      "server": "185.130.113.108",
       "server_port": 443,
-      "uuid": "ee2ba6e0-6795-4413-b8cc-0b6ef7c3c7f0",
+      "uuid": "dc133057-72e1-4f71-9639-feacd33be34d",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "84.201.180.10",
+      "server_port": 443,
+      "uuid": "428aa184-89e8-4708-871d-f0b623f4195e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "212.193.157.118",
+      "server_port": 443,
+      "uuid": "001a44d7-69e6-07d0-8d11-828fe2119621",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #4",
+      "type": "vless",
+      "server": "109.120.191.199",
+      "server_port": 443,
+      "uuid": "001a44d7-69e6-07d0-8d11-828fe2119621",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

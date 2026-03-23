@@ -79,6 +79,7 @@
         "direct",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -133,6 +134,7 @@
       "outbounds": [
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -221,6 +223,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "zmaoz.faculty.ucdavis.edu",
+      "server_port": 443,
+      "uuid": "d6ec4a5b-3e01-4688-a40b-e8c714f4b461",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

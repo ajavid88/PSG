@@ -103,11 +103,11 @@
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,11 +128,11 @@
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
-        "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #2"
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -323,7 +323,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "s2.eldoradu.ir",
+      "server_port": 8443,
+      "uuid": "dcf1917a-7cd5-49fd-b229-265ba074dd58",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -339,7 +347,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,
@@ -352,14 +360,6 @@
       "server": "b.pabloping.cloud",
       "server_port": 2052,
       "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "file.data-recive.ir",
-      "server_port": 2096,
-      "uuid": "a5323cba-7ba7-4e10-87f5-a49fd2c4f4c0",
       "packet_encoding": "xudp"
     }
   ],

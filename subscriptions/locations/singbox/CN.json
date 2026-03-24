@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgQ04=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇨🇳 CN | VMESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1"
+        "🇨🇳 CN | VMESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "77.83.245.135",
-      "server_port": 34205,
-      "uuid": "854f8ba5-8e03-490c-a758-5204be4caef6",
-      "packet_encoding": "xudp"
+      "tag": "🇨🇳 CN | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "135.125.134.177",
+      "server_port": 443,
+      "uuid": "d4734bd8-906b-4426-b9ff-9dbc388d56da",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "www.baidu.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

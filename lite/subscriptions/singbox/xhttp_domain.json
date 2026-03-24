@@ -93,10 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -108,10 +108,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -196,12 +196,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s2.eldoradu.ir",
-      "server_port": 8443,
-      "uuid": "dcf1917a-7cd5-49fd-b229-265ba074dd58",
-      "packet_encoding": "xudp"
+      "server": "pl.riotvpn.eu",
+      "server_port": 80,
+      "uuid": "1d8120a6-15de-4001-92ad-eeaf8ba63699",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
@@ -220,7 +229,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
       "type": "vless",
       "server": "test.fast.hosting-ip.com",
       "server_port": 80,

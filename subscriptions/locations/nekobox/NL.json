@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @minovpnch #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -96,8 +96,8 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @config_proxy #1",
-        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VLESS | @minovpnch #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -123,37 +123,11 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "144.31.237.121",
-      "server_port": 443,
-      "uuid": "7b4c4858-96ba-441e-a2fd-1af58b36c756",
+      "server": "89.124.89.81",
+      "server_port": 8443,
+      "uuid": "860efa797d4a40cd840629956a20671f",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "85.17.118.17",
-      "server_port": 443,
-      "uuid": "ad9d1e99-cc1d-4f05-ae31-36b9f22d9bf9",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -162,6 +136,14 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @minovpnch #1",
+      "type": "vless",
+      "server": "151.101.204.190",
+      "server_port": 80,
+      "uuid": "8285eef0-147d-4bb6-9d12-0e4601a36e78",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @netfreedom0 #1",

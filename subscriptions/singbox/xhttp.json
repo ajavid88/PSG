@@ -103,15 +103,16 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
+        "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
@@ -138,15 +139,16 @@
         "🇽🇽 XX | VLESS | @proxie #4",
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
+        "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @vpnowl #3",
         "🇸🇨 SC | VLESS | @vpnplusee_free #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @nofiltering2 #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @vip_vpn_2022 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
@@ -370,6 +372,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @proxygrizzly #1",
+      "type": "vless",
+      "server": "147.182.183.207",
+      "server_port": 443,
+      "uuid": "e7be1334-6a1d-47c0-8c9a-c7a5b8575499",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -419,7 +438,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -443,21 +462,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "04cc4ef1beb1b536.freestly.sapienza-mahan.ir",
-      "server_port": 443,
-      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "w.smarteracloud.com",
+      "server_port": 2096,
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",

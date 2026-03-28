@@ -80,11 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
-        "🇮🇶 IQ | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -100,6 +99,7 @@
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -116,11 +116,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
-        "🇮🇶 IQ | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
         "🇨🇭 CH | VLESS | @proxyfn #1",
@@ -136,6 +135,7 @@
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1",
         "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
@@ -229,11 +229,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "2.27.41.179",
+      "server": "185.39.204.27",
       "server_port": 443,
-      "uuid": "fe3fc5ba-9a87-4ea7-bc77-7866a0d7d775",
+      "uuid": "7d51e3fe-a49a-4245-83b6-98a0346cdd09",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -242,15 +242,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @config_proxy #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "81.90.29.86",
-      "server_port": 1888,
-      "uuid": "a47fb050-8477-4d86-9332-5f687f572d94",
+      "server": "212.34.137.193",
+      "server_port": 8443,
+      "uuid": "161f6660-1e6b-44a6-8a3b-e2cbd0eb4dfa",
       "packet_encoding": "xudp"
     },
     {
@@ -281,28 +286,6 @@
       "server": "77.73.232.61",
       "server_port": 19747,
       "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @free4allvpn #1",
-      "type": "vless",
-      "server": "15.168.173.144",
-      "server_port": 443,
-      "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -598,6 +581,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "nlx1.braidpro.online",
+      "server_port": 443,
+      "uuid": "7bbcc147-4352-4fed-bb2c-82ab60989575",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

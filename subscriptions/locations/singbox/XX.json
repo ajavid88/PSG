@@ -93,7 +93,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -326,7 +325,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
-        "🇽🇽 XX | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -598,14 +596,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "104.18.13.229",
-      "server_port": 8880,
-      "uuid": "78c5b6bd-1cb6-463c-bcba-9f17ef70c85b",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -2528,10 +2518,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.24.45.247",
-      "server_port": 80,
-      "uuid": "2e71d8fc-d2e8-44fc-89bd-c8a449a193aa",
-      "packet_encoding": "xudp"
+      "server": "162.159.152.20",
+      "server_port": 443,
+      "uuid": "8d2aeab8-ce98-47a6-84ec-d5b45d060b66",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",

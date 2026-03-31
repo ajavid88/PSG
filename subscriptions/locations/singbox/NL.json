@@ -91,11 +91,13 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -105,11 +107,13 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -128,6 +132,23 @@
       "server_port": 8443,
       "uuid": "161f6660-1e6b-44a6-8a3b-e2cbd0eb4dfa",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "nlx1.braidpro.online",
+      "server_port": 443,
+      "uuid": "7bbcc147-4352-4fed-bb2c-82ab60989575",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -176,6 +197,14 @@
       "server": "45.131.4.5",
       "server_port": 2052,
       "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.131.209.130",
+      "server_port": 8443,
+      "uuid": "57ba2ab1-a283-42eb-82ee-dc3561a805b8",
       "packet_encoding": "xudp"
     },
     {

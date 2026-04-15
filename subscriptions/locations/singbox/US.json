@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -143,7 +142,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -198,14 +196,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "199.232.79.229",
-      "server_port": 80,
-      "uuid": "3d142a41-8e57-47d7-a579-f52c6eae79f7",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -659,14 +649,14 @@
     {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #2",
       "type": "vmess",
-      "server": "172.67.152.214",
+      "server": "172.67.196.112",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "meroiy.icu",
+        "server_name": "kellie.makeup",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -677,7 +667,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "meroiy.icu"
+          "Host": "kellie.makeup"
         }
       }
     },

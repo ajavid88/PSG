@@ -109,11 +109,12 @@
         "🇽🇽 XX | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @turboo_server #2",
         "🇽🇽 XX | VLESS | @turboo_server #6",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpnowl #3",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @freeconfigsplus #3",
+        "🇽🇽 XX | VLESS | @freeconfigsplus #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2"
@@ -143,11 +144,12 @@
         "🇽🇽 XX | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @turboo_server #2",
         "🇽🇽 XX | VLESS | @turboo_server #6",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpnowl #3",
-        "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @freeconfigsplus #3",
+        "🇽🇽 XX | VLESS | @freeconfigsplus #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2"
@@ -443,11 +445,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "188.114.97.3",
+      "server_port": 443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "1260fbdc-57b6-4e2c-a76f-c6f748d26917",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "185.143.234.200",
+      "server_port": 80,
+      "uuid": "1cd5fa1a-fae9-45a3-a4b8-2bc636ec0952",
       "packet_encoding": "xudp"
     },
     {
@@ -459,14 +486,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "tsstt.1.globalmymusic2.com",
-      "server_port": 80,
-      "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
@@ -475,7 +494,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @freeconfigsplus #3",
+      "tag": "🇽🇽 XX | VLESS | @freeconfigsplus #2",
       "type": "vless",
       "server": "ips.cf2.mobileemdad.top",
       "server_port": 443,

@@ -81,7 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,7 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇩🇪 DE | VLESS | @vpnv2raytop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,6 +210,28 @@
       "server": "fi.podpiska.vip",
       "server_port": 443,
       "uuid": "fc363de7-5d11-42e0-b9c0-79d59274882a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnv2raytop #1",
+      "type": "vless",
+      "server": "eedf07fd7be44fcd.reni-z1.maf-tahas.ir",
+      "server_port": 8585,
+      "uuid": "31351ae7-e506-43d3-9fcf-246c5248d336",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

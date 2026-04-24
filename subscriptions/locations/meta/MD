@@ -23,11 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇽🇽 XX | TROJAN | @freeconfigsplus #1", "server": "172.64.149.54", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
-  - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "15.237.229.47", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1", "server": "172.64.149.54", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇲🇩 MD | VLESS | @v2ray_free_conf #1", "server": "4.cdnconn.com", "port": 23335, "type": "vless", "skip-cert-verify": true, "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇽🇽 XX | TROJAN | @freeconfigsplus #1'
-      - '🇦🇹 AT | TROJAN | @mpproxy #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
+      - '🇲🇩 MD | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

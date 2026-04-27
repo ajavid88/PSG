@@ -83,6 +83,7 @@
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
@@ -95,8 +96,6 @@
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
@@ -105,6 +104,8 @@
         "🇽🇽 XX | VLESS | @frev2rayng #1",
         "🇽🇽 XX | VLESS | @garnet_free #1",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -203,6 +204,7 @@
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
@@ -215,8 +217,6 @@
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
@@ -225,6 +225,8 @@
         "🇽🇽 XX | VLESS | @frev2rayng #1",
         "🇽🇽 XX | VLESS | @garnet_free #1",
         "🇽🇽 XX | VLESS | @gervpn #1",
+        "🇽🇽 XX | VLESS | @ghalagyann #1",
+        "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -437,6 +439,23 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @arv2ray #2",
+      "type": "vless",
+      "server": "156.243.83.167",
+      "server_port": 443,
+      "uuid": "telegram-id-Arfilter",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @buffalo_vpn #1",
       "type": "vless",
       "server": "188.114.97.0",
@@ -592,22 +611,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
-      "type": "vless",
-      "server": "185.143.234.235",
-      "server_port": 80,
-      "uuid": "f20de03b-c016-45cd-a6e2-d73713fa1fe0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
-      "server": "185.143.233.235",
-      "server_port": 80,
-      "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "92.60.78.221",
@@ -725,6 +728,31 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "185.143.235.200",
+      "server_port": 80,
+      "uuid": "1935cc85-8ab0-4382-f0fc-d691e5ddbb53",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @goldenshiinevpn #1",

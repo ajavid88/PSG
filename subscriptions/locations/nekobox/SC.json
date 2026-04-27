@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
+        "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
@@ -120,11 +122,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @arv2ray #2",
       "type": "vless",
-      "server": "dlbazi2.ketakhan.sbs",
-      "server_port": 8443,
-      "uuid": "75851373-9166-4413-bcb4-e995135ca3ce",
+      "server": "156.243.83.167",
+      "server_port": 443,
+      "uuid": "telegram-id-Arfilter",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -135,6 +137,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.130.125.160",
+      "server_port": 2052,
+      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

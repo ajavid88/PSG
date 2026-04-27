@@ -97,6 +97,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -186,6 +187,7 @@
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -218,6 +220,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
+        "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -307,6 +310,7 @@
         "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -631,6 +635,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @filtershekan_channel #2",
+      "type": "vless",
+      "server": "185.143.235.200",
+      "server_port": 80,
+      "uuid": "1935cc85-8ab0-4382-f0fc-d691e5ddbb53",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
@@ -1800,6 +1812,21 @@
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
       "server": "13.39.77.217",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "3.75.35.234",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

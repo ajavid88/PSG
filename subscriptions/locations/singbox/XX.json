@@ -111,10 +111,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
-        "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | VLESS | @father_vpn #2",
         "🇽🇽 XX | TROJAN | @father_vpn #1",
-        "🇽🇽 XX | TROJAN | @father_vpn #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -372,10 +369,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
-        "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | VLESS | @father_vpn #2",
         "🇽🇽 XX | TROJAN | @father_vpn #1",
-        "🇽🇽 XX | TROJAN | @father_vpn #2",
         "🇽🇽 XX | VLESS | @filterk0sh #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -844,39 +838,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @father_vpn #1",
-      "type": "vless",
-      "server": "104.20.6.134",
-      "server_port": 8443,
-      "uuid": "d340e519-6b0f-4a84-84d7-431a72a98440",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @father_vpn #2",
-      "type": "vless",
-      "server": "104.20.6.134",
-      "server_port": 2096,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @father_vpn #1",
-      "type": "trojan",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @father_vpn #2",
       "type": "trojan",
       "server": "104.20.6.134",
       "server_port": 2096,
@@ -3347,30 +3309,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #1",
       "type": "vless",
-      "server": "172.64.149.54",
-      "server_port": 8443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
-      "type": "vless",
       "server": "104.18.16.56",
       "server_port": 8080,
       "uuid": "8d5e71e6-1c60-4084-b573-a343879c9380",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #3",
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #2",
       "type": "vless",
       "server": "172.64.149.54",
       "server_port": 2053,
@@ -3378,11 +3323,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #4",
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #3",
       "type": "vless",
       "server": "172.64.152.23",
       "server_port": 8443,
       "uuid": "b179aef9-46a6-4e21-9a15-d21139c705b9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #4",
+      "type": "vless",
+      "server": "104.18.16.56",
+      "server_port": 80,
+      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
       "packet_encoding": "xudp"
     },
     {
@@ -3396,10 +3349,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @vip_vpn_2022 #6",
       "type": "vless",
-      "server": "104.18.16.56",
-      "server_port": 80,
-      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
-      "packet_encoding": "xudp"
+      "server": "172.64.152.23",
+      "server_port": 443,
+      "uuid": "db487de4-7e8f-4b3b-b5e8-1e7337ea7954",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vipnetmeli #1",

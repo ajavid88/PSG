@@ -92,6 +92,7 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -134,7 +135,6 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
-        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -216,7 +216,6 @@
         "🇽🇽 XX | VLESS | @new_proxy_channel #4",
         "🇽🇽 XX | VLESS | @new_proxy_channel #5",
         "🇽🇽 XX | VLESS | @new_proxy_channel #6",
-        "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #2",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #3",
@@ -354,6 +353,7 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | TROJAN | @config_proxy #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
@@ -396,7 +396,6 @@
         "🇽🇽 XX | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @garnet_free #3",
         "🇽🇽 XX | VLESS | @gervpn #1",
-        "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #1",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
@@ -478,7 +477,6 @@
         "🇽🇽 XX | VLESS | @new_proxy_channel #4",
         "🇽🇽 XX | VLESS | @new_proxy_channel #5",
         "🇽🇽 XX | VLESS | @new_proxy_channel #6",
-        "🇽🇽 XX | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #2",
         "🇽🇽 XX | VLESS | @nofilter_v2rayng #3",
@@ -646,6 +644,22 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "104.20.6.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1104,23 +1118,6 @@
       "server": "104.18.218.118",
       "server_port": 443,
       "uuid": "a94edb46-0734-4593-a8b5-9cd11ddc57f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @ghalagyann #1",
-      "type": "vless",
-      "server": "104.20.6.134",
-      "server_port": 443,
-      "uuid": "06ef598c-1555-4887-b3f9-08214a2f6792",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2197,23 +2194,6 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @nn_vpn #1",
-      "type": "vless",
-      "server": "allsms.rozfa.com",
-      "server_port": 443,
-      "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {

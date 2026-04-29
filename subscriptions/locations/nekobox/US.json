@@ -108,6 +108,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
+        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇺🇸 US | SS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
@@ -123,6 +124,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
@@ -163,6 +165,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @parsashonam #1",
+        "🇺🇸 US | VLESS | @parsashonam #2",
         "🇺🇸 US | SS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
@@ -178,6 +181,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VLESS | @v2raytg #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
@@ -606,6 +610,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @parsashonam #2",
+      "type": "vless",
+      "server": "helm.sh",
+      "server_port": 443,
+      "uuid": "Telegram-Parsashonam",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | SS | @proxy_confiingir #1",
       "type": "shadowsocks",
       "server": "ak1857.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
@@ -829,6 +850,23 @@
       "server_port": 2053,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "letsencrypt.org",
+      "server_port": 443,
+      "uuid": "db3d4f12-ed79-48a6-8b32-78f3ac3bf4ec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",

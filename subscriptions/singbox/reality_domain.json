@@ -94,6 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -106,6 +107,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -195,6 +197,28 @@
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "download.lastilhame.monster",
+      "server_port": 443,
+      "uuid": "a8da758c-510d-4827-83cf-2f2b51c49c5b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

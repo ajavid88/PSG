@@ -98,9 +98,11 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @father_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VLESS | @ghalagyann #1",
         "🇺🇸 US | SS | @godv2rang #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -153,9 +155,11 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @father_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VLESS | @ghalagyann #1",
         "🇺🇸 US | SS | @godv2rang #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -284,6 +288,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @father_vpn #1",
+      "type": "vless",
+      "server": "216.24.57.1",
+      "server_port": 443,
+      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "192.0.54.32",
@@ -321,6 +342,30 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @ghalagyann #1",
+      "type": "vless",
+      "server": "216.24.57.1",
+      "server_port": 443,
+      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -727,9 +772,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "download.lastilhame.monster",
+      "server": "04cc4ef1beb1b536.freestly.sapienza-mahan.ir",
       "server_port": 443,
-      "uuid": "a8da758c-510d-4827-83cf-2f2b51c49c5b",
+      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -738,11 +783,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

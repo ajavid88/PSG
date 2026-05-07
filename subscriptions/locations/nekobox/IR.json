@@ -86,7 +86,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
         "🇮🇷 IR | VLESS | @ehsawn8 #4",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #3",
@@ -94,12 +93,9 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #6",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -136,7 +132,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
         "🇮🇷 IR | VLESS | @ehsawn8 #4",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @father_vpn #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #2",
         "🇮🇷 IR | VLESS | @filtershekan_channel #3",
@@ -144,12 +139,9 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
+        "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #6",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -283,14 +275,6 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
-      "server": "ikco.ir",
-      "server_port": 8080,
-      "uuid": "5b472cca-4187-43bd-855b-d7a9428df8e6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "20d78284-fe65-4a9c-921c-a50138380f16",
@@ -381,69 +365,34 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "9abd3240-0dd5-47de-a2be-7a8d4f22a283",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 443,
-      "uuid": "3e4f6e33-79de-4453-922e-129c1a6ff8c4",
+      "server": "cdn3.whitepol4.ir",
+      "server_port": 2052,
+      "uuid": "c8a390d4-743a-42d3-806c-2a4c6ee8b7df",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "185.143.234.235",
       "server_port": 80,
-      "uuid": "8e26ca05-e8e6-411f-9fce-e0c88d84136b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-      "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 443,
-      "uuid": "e896ad6e-72e2-4ceb-b1d7-f0d22fa3c783",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-      "type": "vless",
-      "server": "tapsi.ir",
-      "server_port": 8080,
-      "uuid": "1723e136-0261-45e6-9a53-1b3bb06be78a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
-      "type": "vless",
-      "server": "tamin.ir",
-      "server_port": 80,
-      "uuid": "174377a8-7429-4793-af64-7d53e0675a84",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #6",
-      "type": "vless",
-      "server": "faraaa.darakio.ir",
-      "server_port": 80,
-      "uuid": "30e35bd7-6ce7-4c0c-8fbd-cec03071852f",
+      "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2",
       "packet_encoding": "xudp"
     },
     {

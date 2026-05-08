@@ -129,6 +129,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -210,6 +212,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -393,14 +397,6 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
-      "server": "tapsi.ir",
-      "server_port": 8080,
-      "uuid": "9f4c3a72-a88e-4ee3-bee8-40901085a352",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
       "server": "camp.nahidapp.com",
       "server_port": 443,
       "uuid": "bdffa6a0-8da1-4f6a-aede-bcda4daa6c1f",
@@ -414,6 +410,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "606252cc-1c04-4e09-b5b1-f537dbcf5f58",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -883,6 +887,31 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cdn2.sensishop.com.tr",
+      "server_port": 2082,
+      "uuid": "c40aca8b-c612-4221-9460-03978559ba91",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "admins.digimobile.bond",
+      "server_port": 443,
+      "uuid": "faa96ec4-0916-4911-971d-f4ed74d237b3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "min.oraclego.ir",
@@ -959,9 +988,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
-      "server": "abr.superip.ir",
-      "server_port": 2086,
-      "uuid": "0ecb2769-9d3c-4ed3-9ffd-88a96f90f30a",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "0b5d07af-3a5d-42f5-92f7-cce38e9f31db",
       "packet_encoding": "xudp"
     },
     {

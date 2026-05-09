@@ -131,7 +131,6 @@
         "🇺🇸 US | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #2",
@@ -143,7 +142,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -214,7 +213,6 @@
         "🇺🇸 US | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @red2ray #2",
@@ -226,7 +224,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -406,6 +404,14 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
+      "server": "tapsi.ir",
+      "server_port": 8080,
+      "uuid": "9f4c3a72-a88e-4ee3-bee8-40901085a352",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
+      "type": "vless",
       "server": "camp.nahidapp.com",
       "server_port": 443,
       "uuid": "bdffa6a0-8da1-4f6a-aede-bcda4daa6c1f",
@@ -419,14 +425,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "606252cc-1c04-4e09-b5b1-f537dbcf5f58",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -772,14 +770,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-      "type": "vless",
-      "server": "toy-people.com",
-      "server_port": 8880,
-      "uuid": "312b0699-a47a-496e-97b6-cb3af1654d35",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "snapp.ir",
@@ -898,27 +888,18 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "cdn2.sensishop.com.tr",
-      "server_port": 2082,
-      "uuid": "c40aca8b-c612-4221-9460-03978559ba91",
+      "server": "snappfood.ir",
+      "server_port": 8880,
+      "uuid": "6934a482-7a42-44bc-aa37-943471060923",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "admins.digimobile.bond",
-      "server_port": 443,
-      "uuid": "faa96ec4-0916-4911-971d-f4ed74d237b3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "glob.thisiswe.uno",
+      "server_port": 2083,
+      "uuid": "dfe76531-d087-4129-cf5f-41975a1fa894",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",

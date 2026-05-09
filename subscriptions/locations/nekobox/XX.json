@@ -118,6 +118,7 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @goldenvpn_v2rayy #1",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -159,6 +160,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
+        "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #1",
@@ -170,6 +172,7 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #4",
         "🇽🇽 XX | VLESS | @mester_v2ray #5",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
+        "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -353,6 +356,7 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @goldenvpn_v2rayy #1",
+        "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
         "🇽🇽 XX | VLESS | @iran_access #3",
@@ -394,6 +398,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #1",
+        "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @meli_v2rayng #1",
@@ -405,6 +410,7 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #4",
         "🇽🇽 XX | VLESS | @mester_v2ray #5",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
+        "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
         "🇽🇽 XX | VLESS | @mt_proxy #1",
@@ -1030,6 +1036,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "172.67.207.114",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 1,
+      "tls": {
+        "enabled": true,
+        "server_name": "ophelia.mom",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "ophelia.mom"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @iran_access #1",
       "type": "vless",
       "server": "188.114.96.1",
@@ -1583,6 +1614,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @manstervpn #2",
+      "type": "vmess",
+      "server": "172.67.71.160",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @manstervpn #2",
       "type": "vless",
       "server": "173.245.59.212",
@@ -1730,6 +1786,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @mi_pn_official #1",
+      "type": "vmess",
+      "server": "104.21.15.212",
+      "server_port": 443,
+      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "glweidf.sbs",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "glweidf.sbs"
         }
       }
     },

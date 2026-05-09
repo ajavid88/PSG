@@ -98,13 +98,10 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
-        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -114,9 +111,7 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VMESS | @khoneproxy #1",
-        "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
-        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇺🇸 US | VLESS | @minovpnch #2",
         "🇺🇸 US | VLESS | @msv2raynp #1",
@@ -153,13 +148,10 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
-        "🇺🇸 US | SS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
-        "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -169,9 +161,7 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VMESS | @khoneproxy #1",
-        "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
-        "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇺🇸 US | VLESS | @minovpnch #2",
         "🇺🇸 US | VLESS | @msv2raynp #1",
@@ -292,28 +282,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "192.0.54.32",
       "server_port": 2096,
       "uuid": "b65f4df7-f6af-42b2-877a-cef33f21675e",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | SS | @free4allvpn #1",
-      "type": "shadowsocks",
-      "server": "217.60.249.112",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowZUM0WkJ2U3RPZ1FFelRwQ1lqV041",
-      "password": null
     },
     {
       "tag": "🇺🇸 US | VLESS | @free4allvpn #1",
@@ -355,31 +329,6 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @ir_netproxy #1",
-      "type": "vmess",
-      "server": "172.67.207.114",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 1,
-      "tls": {
-        "enabled": true,
-        "server_name": "ophelia.mom",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "linkvws",
-        "headers": {
-          "Host": "ophelia.mom"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -507,62 +456,12 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @manstervpn #1",
-      "type": "vmess",
-      "server": "172.67.71.160",
-      "server_port": 443,
-      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "obdii.cfd",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "obdii.cfd"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @manstervpn #1",
       "type": "vless",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "c009b9eb-1cd9-4df8-92d2-4aafe17ac136",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @mi_pn_official #1",
-      "type": "vmess",
-      "server": "104.21.15.212",
-      "server_port": 443,
-      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "glweidf.sbs",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "glweidf.sbs"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @minovpnch #1",

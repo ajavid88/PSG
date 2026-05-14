@@ -85,6 +85,7 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
@@ -95,7 +96,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #5",
         "🇺🇸 US | VLESS | @jokerv2ray #1",
         "🇺🇸 US | VLESS | @jokerv2ray #2",
-        "🇺🇸 US | VMESS | @khoneproxy #1",
+        "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇺🇸 US | VLESS | @minovpnch #2",
@@ -110,6 +111,7 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
@@ -131,6 +133,7 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
+        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
@@ -141,7 +144,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #5",
         "🇺🇸 US | VLESS | @jokerv2ray #1",
         "🇺🇸 US | VLESS | @jokerv2ray #2",
-        "🇺🇸 US | VMESS | @khoneproxy #1",
+        "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @manstervpn #1",
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇺🇸 US | VLESS | @minovpnch #2",
@@ -156,6 +159,7 @@
         "🇺🇸 US | VLESS | @v2aryng_vpn #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2raytg #1",
@@ -262,6 +266,14 @@
       "server": "clfconnect.pishipishi.pro",
       "server_port": 8880,
       "uuid": "vpn_connects",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
     },
     {
@@ -398,29 +410,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VMESS | @khoneproxy #1",
-      "type": "vmess",
-      "server": "us-2.0rd.net",
-      "server_port": 443,
-      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/tq98e0yk",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "056d10f1-4ebd-40e1-9f78-c7e11fce5258",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @manstervpn #1",
@@ -602,6 +597,23 @@
       "server": "103.133.1.227",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "letsencrypt.org",
+      "server_port": 443,
+      "uuid": "db3d4f12-ed79-48a6-8b32-78f3ac3bf4ec",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -81,10 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -97,10 +96,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -197,6 +195,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "spd-mynames.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
       "type": "vless",
       "server": "cr7.zx-shop.ir",
@@ -211,40 +217,6 @@
       "server_port": 2053,
       "uuid": "1621caa6-2a23-4364-919b-1276ab6ca81a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "letsencrypt.org",
-      "server_port": 443,
-      "uuid": "db3d4f12-ed79-48a6-8b32-78f3ac3bf4ec",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "m.spotihi.ir",
-      "server_port": 8443,
-      "uuid": "d3f96499-3f60-400c-b05a-7ea82ddb44e3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",

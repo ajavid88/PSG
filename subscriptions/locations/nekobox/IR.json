@@ -83,6 +83,7 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -96,8 +97,6 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -130,6 +129,7 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @filtershekan_channel #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -143,8 +143,6 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
@@ -231,6 +229,14 @@
       "server": "snapp.ir",
       "server_port": 8880,
       "uuid": "72a61ef2-f87d-44ee-a42a-e4154dcd5086",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 8080,
+      "uuid": "0a47ab98-b50b-4b92-baec-6e16af930dde",
       "packet_encoding": "xudp"
     },
     {
@@ -344,58 +350,31 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 2082,
-      "uuid": "de58d82f-a6b1-4da6-b731-51554f140b61",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "1453d13a-8370-4a00-bd9e-4c181aa9621c",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 2086,
-      "uuid": "503e3426-8280-4610-8ad2-268426ee84ac",
+      "server": "ikco.ir",
+      "server_port": 8080,
+      "uuid": "ecb703b3-8203-41e7-9ecf-e9cf4300edbf",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "hi-trex.docos.tech",
-      "server_port": 443,
-      "uuid": "0ee9b973-b31c-49de-a382-a440623943a1",
+      "server": "plusred0shop8.lol",
+      "server_port": 2052,
+      "uuid": "d25ad3da-281d-4b0e-87e2-c13d197d87a0",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-      "type": "vless",
-      "server": "arvancloud.ir",
-      "server_port": 80,
-      "uuid": "ad148fcd-aefa-47e8-8c7e-5fc242f9e2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
-      "type": "vless",
-      "server": "trex.docos.tech",
-      "server_port": 443,
-      "uuid": "ca2b7ba9-a7cf-4a84-b300-6bb2be25f8e5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -541,9 +520,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #3",
       "type": "vless",
-      "server": "bitpin.ir",
-      "server_port": 8080,
-      "uuid": "c956d8be-f6b1-454f-a111-a2fc7956635d",
+      "server": "arvancloud.ir",
+      "server_port": 2095,
+      "uuid": "0b75e1b3-31ae-44fb-ab4b-bc1b98ea1358",
       "packet_encoding": "xudp"
     },
     {

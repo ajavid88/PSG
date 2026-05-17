@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
@@ -93,6 +94,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
@@ -115,6 +117,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @merdesert #1",
+      "type": "vless",
+      "server": "51.75.30.8",
+      "server_port": 80,
+      "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -152,7 +162,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "15.236.132.94",
+      "server": "15.237.54.100",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -168,7 +178,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
       "type": "trojan",
-      "server": "15.237.54.100",
+      "server": "13.38.225.194",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -217,7 +227,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "15.236.132.94",
+      "server": "15.237.54.100",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -232,7 +242,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "15.237.54.100",
+      "server": "13.38.225.194",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",

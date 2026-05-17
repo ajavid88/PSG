@@ -125,6 +125,7 @@
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranproxypro #3",
         "🇽🇽 XX | VLESS | @iranproxypro #4",
+        "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kafing_2 #2",
@@ -246,6 +247,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -348,6 +350,7 @@
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranproxypro #3",
         "🇽🇽 XX | VLESS | @iranproxypro #4",
+        "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kafing_2 #2",
@@ -469,6 +472,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -1132,6 +1136,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @iranvipnet #1",
+      "type": "vless",
+      "server": "visa.org",
+      "server_port": 2052,
+      "uuid": "dfc1a9ab-6241-4b73-92f7-b299fc6b7751",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -2632,10 +2644,27 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "162.159.153.235",
-      "server_port": 2053,
-      "uuid": "b818576e-951a-4a9c-879a-d32611b977ad",
+      "server": "104.18.4.130",
+      "server_port": 2083,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "nekopingbot.thisiswe.uno",
+      "server_port": 2053,
+      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_youtube #1",

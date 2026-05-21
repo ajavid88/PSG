@@ -2647,10 +2647,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.21.55.47",
-      "server_port": 2095,
-      "uuid": "31b3fa93-788f-43ab-a3bb-ba6e00352fd3",
-      "packet_encoding": "xudp"
+      "server": "ip-data.turkserver.ir",
+      "server_port": 2087,
+      "uuid": "ad8a28d6-a327-4ccc-9335-41fdd9738437",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

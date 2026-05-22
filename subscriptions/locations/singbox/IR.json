@@ -92,12 +92,12 @@
         "direct",
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
+        "🇮🇷 IR | VLESS | @configv2rayforfree #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @freeconfigsplus #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -123,11 +123,8 @@
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #3",
         "🇮🇷 IR | VLESS | @vmesskhodam #4",
-        "🇮🇷 IR | VLESS | @vmesskhodam #5",
-        "🇮🇷 IR | VLESS | @vmesskhodam #6",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇮🇷 IR | VLESS | @vpnfree85 #2",
-        "🇮🇷 IR | VLESS | @vpnowl #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -137,12 +134,12 @@
       "outbounds": [
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
+        "🇮🇷 IR | VLESS | @configv2rayforfree #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @freeconfigsplus #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -168,11 +165,8 @@
         "🇮🇷 IR | VLESS | @vmesskhodam #2",
         "🇮🇷 IR | VLESS | @vmesskhodam #3",
         "🇮🇷 IR | VLESS | @vmesskhodam #4",
-        "🇮🇷 IR | VLESS | @vmesskhodam #5",
-        "🇮🇷 IR | VLESS | @vmesskhodam #6",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇮🇷 IR | VLESS | @vpnfree85 #2",
-        "🇮🇷 IR | VLESS | @vpnowl #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -201,6 +195,14 @@
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
+      "server": "185.143.233.235",
+      "server_port": 80,
+      "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @config_proxy #2",
+      "type": "vless",
       "server": "185.143.234.235",
       "server_port": 80,
       "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2",
@@ -215,15 +217,15 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
+      "tag": "🇮🇷 IR | VLESS | @configv2rayforfree #2",
       "type": "vless",
       "server": "snapp.ir",
-      "server_port": 8880,
-      "uuid": "72a61ef2-f87d-44ee-a42a-e4154dcd5086",
+      "server_port": 80,
+      "uuid": "9dc1bebe-e059-4c96-b3a3-46a2936b1a53",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
       "type": "vless",
       "server": "digipay.ir",
       "server_port": 8080,
@@ -233,21 +235,13 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
-      "server": "www.varzesh3.com",
-      "server_port": 2095,
-      "uuid": "9f5a8dee-efe9-4c5a-9f96-8d3e632586b6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
       "server": "anten.ir",
       "server_port": 2052,
       "uuid": "98e2a7aa-2f22-4829-893a-7c8f7e8ba8ce",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #3",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
       "type": "vless",
       "server": "anten.ir",
       "server_port": 2052,
@@ -363,33 +357,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 80,
-      "uuid": "f9407c17-cd7d-4404-b53d-e64ef2785844",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "dff554dd-646c-4154-aaf4-ac0429f17648",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
-      "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 80,
-      "uuid": "41e2f118-ae14-4f07-bef7-e6878ed0f919",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
-      "type": "vless",
-      "server": "sky.iraniandex.ir",
+      "server": "185.226.140.140",
       "server_port": 443,
-      "uuid": "7fbd0285-5c40-49fa-9c5f-747e3dc5bad5",
+      "uuid": "dff5f175-ef05-4800-a844-cc417d6e0f15",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -402,11 +372,42 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "185.143.233.5",
+      "server_port": 8443,
+      "uuid": "459d641b-9efc-43e9-8694-c9d1ef4051e0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "rfral.aghanami.ir",
+      "server_port": 80,
+      "uuid": "172ce10b-eeb6-46c1-8787-4e7d75c7e627",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
+      "type": "vless",
+      "server": "fr.it-net.top",
+      "server_port": 80,
+      "uuid": "97fdc613-af07-40ef-bfde-7052d1c90c61",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #5",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "413942ad-ec11-4d58-ae2a-e66eb325941a",
+      "server": "1.1.2.avencore.ir",
+      "server_port": 2087,
+      "uuid": "5db5b561-39ae-47f2-a6dc-8456803cc512",
       "packet_encoding": "xudp"
     },
     {
@@ -502,22 +503,6 @@
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #4",
       "type": "vless",
-      "server": "bitpin.ir",
-      "server_port": 8080,
-      "uuid": "c956d8be-f6b1-454f-a111-a2fc7956635d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #5",
-      "type": "vless",
-      "server": "arvancloud.ir",
-      "server_port": 2095,
-      "uuid": "0b75e1b3-31ae-44fb-ab4b-bc1b98ea1358",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #6",
-      "type": "vless",
       "server": "arvancloud.ir",
       "server_port": 2095,
       "uuid": "1d1816e5-7192-435b-a4fc-975cbd3ba8ea",
@@ -537,14 +522,6 @@
       "server": "s4.tehranionliine.ir",
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnowl #1",
-      "type": "vless",
-      "server": "www.tgju.org",
-      "server_port": 2087,
-      "uuid": "d1b421cc-ebaf-48cf-bf12-e7947af11c53",
       "packet_encoding": "xudp"
     }
   ],

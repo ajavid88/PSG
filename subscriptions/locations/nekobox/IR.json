@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
@@ -85,7 +84,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @freeconfigsplus #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -95,7 +93,6 @@
         "🇮🇷 IR | VLESS | @nofilter_v2rayng #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
-        "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
@@ -121,7 +118,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
@@ -129,7 +125,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @father_vpn #2",
-        "🇮🇷 IR | VLESS | @father_vpn #3",
         "🇮🇷 IR | VLESS | @freeconfigsplus #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -139,7 +134,6 @@
         "🇮🇷 IR | VLESS | @nofilter_v2rayng #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
-        "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
@@ -171,21 +165,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "185.143.233.235",
-      "server_port": 80,
-      "uuid": "8135074a-49d9-46da-b79d-b58d2b9dcb6a",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
@@ -230,21 +209,13 @@
     {
       "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
       "type": "vless",
-      "server": "www.varzesh3.com",
-      "server_port": 2095,
-      "uuid": "9f5a8dee-efe9-4c5a-9f96-8d3e632586b6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
-      "type": "vless",
       "server": "anten.ir",
       "server_port": 2052,
       "uuid": "98e2a7aa-2f22-4829-893a-7c8f7e8ba8ce",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @father_vpn #3",
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #2",
       "type": "vless",
       "server": "anten.ir",
       "server_port": 2052,
@@ -336,21 +307,13 @@
     {
       "tag": "🇮🇷 IR | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "c6ceccbe-351b-444f-b7eb-2462fcdab45f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #2",
-      "type": "vless",
       "server": "185.143.234.235",
       "server_port": 80,
       "uuid": "7a9d10c8-db5e-446d-ba95-61c2f54e0bc9",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #3",
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #2",
       "type": "vless",
       "server": "snapp.ir",
       "server_port": 8080,
@@ -360,40 +323,26 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "snapp.ir",
+      "server": "arvancloud.ir",
       "server_port": 8080,
-      "uuid": "3d9299b5-eef3-485c-ab7a-134ada5863f0",
+      "uuid": "60a82974-575e-b9ae-0573-022141475e29",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "185.143.233.235",
-      "server_port": 8080,
-      "uuid": "bc344862-da55-4e1c-bd95-d5233f230290",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "8f2bfe2f-d4ca-4244-a9d9-8d801bfdac22",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 80,
-      "uuid": "b190b429-15f5-41b7-bc2e-bfa2cbbf9ca7",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "snapp.ir",
+      "server_port": 8080,
+      "uuid": "d904c2ab-38c4-4aca-9205-33971fa63d34",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",

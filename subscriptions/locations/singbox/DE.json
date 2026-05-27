@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇩🇪 DE | VLESS | @ehsawn8 #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @goldenshiinevpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -99,10 +100,12 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | TUIC | @vipv2rey #1"
+        "🇩🇪 DE | TUIC | @vipv2rey #1",
+        "🇩🇪 DE | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,6 +113,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇩🇪 DE | VLESS | @ehsawn8 #1",
         "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @goldenshiinevpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -119,10 +123,12 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | TUIC | @vipv2rey #1"
+        "🇩🇪 DE | TUIC | @vipv2rey #1",
+        "🇩🇪 DE | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -132,6 +138,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @ehsawn8 #1",
+      "type": "vless",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
@@ -274,6 +297,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "be.darknet.cv",
+      "server_port": 443,
+      "uuid": "6c36723b-75a3-4816-9c19-1ccd3fde83fe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
       "server": "93.94.51.210",
@@ -335,6 +380,13 @@
         "insecure": false,
         "alpn": null
       }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "37.120.190.125",
+      "server_port": 8443,
+      "password": "8r%3C%5B9%27l6hAO%238ZQi"
     }
   ],
   "route": {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVk4=
+//profile-title: base64:UFNHIHwgTFY=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇳 VN | SS | @netfreedom0 #1",
-        "🇻🇳 VN | SS | @netfreedom0 #2"
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇳 VN | SS | @netfreedom0 #1",
-        "🇻🇳 VN | SS | @netfreedom0 #2"
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇳 VN | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "103.186.154.187",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
-    },
-    {
-      "tag": "🇻🇳 VN | SS | @netfreedom0 #2",
-      "type": "shadowsocks",
-      "server": "103.186.154.222",
-      "server_port": 38388,
-      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
+      "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
+      "type": "vless",
+      "server": "91.218.143.194",
+      "server_port": 43798,
+      "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

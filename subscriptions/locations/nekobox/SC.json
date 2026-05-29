@@ -77,21 +77,18 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @filtershekan_channel #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #2",
-        "🇸🇨 SC | VLESS | @mpproxy #3",
-        "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @freevirgoolnet #1",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | TROJAN | @netmellianti #1",
         "🇸🇨 SC | TROJAN | @outline_ir #1",
         "🇸🇨 SC | VLESS | @parsashonam #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | TROJAN | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,21 +96,18 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @bored_vpn #2",
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @filtershekan_channel #1",
-        "🇸🇨 SC | VLESS | @flyv2ray #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #2",
-        "🇸🇨 SC | VLESS | @mpproxy #3",
-        "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @freevirgoolnet #1",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
+        "🇸🇨 SC | TROJAN | @netmellianti #1",
         "🇸🇨 SC | TROJAN | @outline_ir #1",
         "🇸🇨 SC | VLESS | @parsashonam #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | TROJAN | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,23 +121,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @ai_duet #1",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @arv2ray #1",
@@ -188,6 +165,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "45.130.125.160",
+      "server_port": 8880,
+      "uuid": "5b575077-e5c6-49ac-808c-1cd3326f7e2f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @father_vpn #1",
       "type": "vless",
       "server": "45.130.125.160",
@@ -222,19 +207,19 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @flyv2ray #1",
+      "tag": "🇸🇨 SC | VLESS | @freevirgoolnet #1",
       "type": "vless",
       "server": "45.130.125.69",
       "server_port": 2096,
-      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
+      "uuid": "5e8c894b-1efa-48d4-85ee-9daf5d574c16",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "srv1.khatibirepair.ir",
+      "server": "45.130.125.76",
       "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "uuid": "27302727-9dfa-4975-990e-88c7a63747cd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -247,37 +232,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #2",
-      "type": "vless",
-      "server": "srv1.khatibirepair.ir",
-      "server_port": 2053,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #3",
-      "type": "vless",
-      "server": "srv1.khatibirepair.ir",
+      "tag": "🇸🇨 SC | TROJAN | @netmellianti #1",
+      "type": "trojan",
+      "server": "45.130.125.76",
       "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #4",
-      "type": "vless",
-      "server": "srv1.khatibirepair.ir",
-      "server_port": 443,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp",
+      "password": "4Fi9DdXrBq",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -328,22 +287,6 @@
       "server_port": 443,
       "uuid": "8f8a9baf-16c2-4d59-a267-09e65b0a55e4",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | TROJAN | @vmesskhodam #1",
-      "type": "trojan",
-      "server": "45.130.125.69",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

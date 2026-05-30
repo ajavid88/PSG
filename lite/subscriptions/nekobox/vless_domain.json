@@ -86,8 +86,6 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -132,8 +130,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
@@ -171,8 +167,6 @@
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @ehsawn8 #1",
-        "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
@@ -217,8 +211,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
@@ -373,38 +365,6 @@
       "server_port": 8880,
       "uuid": "vpn_connects",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @ehsawn8 #1",
-      "type": "vless",
-      "server": "dey.lnmarketplace.net",
-      "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "0c422f0c-5ada-4ef7-8294-0f383b42ad65",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @f_nirevil #1",
@@ -911,36 +871,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "v843042.hosted-by-vdsina.com",
-      "server_port": 443,
-      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "8d22f06b-32af-472a-b4ef-133e5ddf7477",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

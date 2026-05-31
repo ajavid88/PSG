@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @ehsawn8 #1", "server": "dey.lnmarketplace.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @filtershekan_channel #1", "server": "g10.steptofsvo.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @freeconfigsplus #1", "server": "51.158.206.25", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @netfreedom0 #1", "server": "51.158.206.87", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,7 +45,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VLESS | @ehsawn8 #1'
       - '🇳🇱 NL | VLESS | @filtershekan_channel #1'
       - '🇳🇱 NL | VLESS | @freeconfigsplus #1'
       - '🇳🇱 NL | VLESS | @netfreedom0 #1'

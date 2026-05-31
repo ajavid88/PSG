@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -105,7 +105,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
@@ -207,7 +207,7 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
+      "tag": "🇦🇪 AE | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
       "server_port": 443,
@@ -418,10 +418,24 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "3.122.10.29",
-      "server_port": 8083,
-      "uuid": "Masir_Sefid",
-      "packet_encoding": "xudp"
+      "server": "91.107.140.160",
+      "server_port": 443,
+      "uuid": "34c461c3-f6e9-4c7f-b300-4365cb00e533",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

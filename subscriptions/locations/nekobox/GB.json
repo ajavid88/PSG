@@ -83,7 +83,9 @@
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | SS | @torang_vpn #1"
+        "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +99,9 @@
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | SS | @torang_vpn #1"
+        "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -166,6 +170,31 @@
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "199.232.57.91",
+      "server_port": 443,
+      "uuid": "1be9716b-6568-4929-8e0b-5f193945fded",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
+      "type": "shadowsocks",
+      "server": "57.129.129.247",
+      "server_port": 19308,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTA1NWU5ZTkwMzEyOGEx",
       "password": null
     }
   ],

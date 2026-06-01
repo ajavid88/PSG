@@ -86,7 +86,6 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
@@ -97,6 +96,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -114,7 +114,6 @@
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
@@ -125,6 +124,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -354,15 +354,6 @@
           "Host": "mute-math-d64e.0e503992ad7026.woRKERS.DeV"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @khoneproxy #2",
-      "type": "vmess",
-      "server": "78.47.131.39",
-      "server_port": 8443,
-      "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇽🇽 XX | VMESS | @manstervpn #1",
@@ -602,6 +593,31 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "aris.arisping-ir.store",
+      "server_port": 443,
+      "uuid": "67f79907-6163-475c-b5ba-2a3faa0c02c5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.arisping-ir.store",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "cdn.arisping-ir.store"
         }
       }
     },

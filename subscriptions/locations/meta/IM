@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "de.atlasl.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a00f252a-38df-4003-9274-74c47421d9de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇲 IM | VLESS | @freeconfigsplus #1", "server": "web.subster.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "web.subster.ir"}}}
+  - {"name": "🇮🇲 IM | VLESS | @freeconfigsplus #2", "server": "web.subster.ir", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "web.subster.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
+      - '🇮🇲 IM | VLESS | @freeconfigsplus #1'
+      - '🇮🇲 IM | VLESS | @freeconfigsplus #2'
 
   - name: 🌍 Global Media
     type: select

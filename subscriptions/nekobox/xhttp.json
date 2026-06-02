@@ -86,7 +86,7 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
-        "🇬🇧 GB | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇳🇱 NL | VLESS | @parsashonam #1",
@@ -115,7 +115,6 @@
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @red2ray #3",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #2",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
@@ -135,7 +134,7 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
-        "🇬🇧 GB | VLESS | @netmellianti #1",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇳🇱 NL | VLESS | @parsashonam #1",
@@ -164,7 +163,6 @@
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @red2ray #3",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #2",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
@@ -321,12 +319,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @netmellianti #1",
+      "tag": "🇸🇨 SC | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "188.119.149.107",
-      "server_port": 8080,
-      "uuid": "4e735fe4-8f1a-48c6-ad74-105d27bcac47",
-      "packet_encoding": "xudp"
+      "server": "45.130.125.76",
+      "server_port": 443,
+      "uuid": "1f9d104e-ca0e-4202-ba4b-a0afb969c747",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @parsashonam #1",
@@ -551,10 +558,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.17.121.71",
-      "server_port": 2083,
-      "uuid": "82e1c83c-3d29-48a1-9ed0-d8064f321ebb",
-      "packet_encoding": "xudp"
+      "server": "104.16.7.70",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -722,23 +738,6 @@
       "server_port": 80,
       "uuid": "96eec36e-2c44-5b09-898e-6f0f0526e57f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "mountain.cloudureld.com",
-      "server_port": 443,
-      "uuid": "93445c0c-7a2d-4dda-8d5b-607abcd2f3b9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngvpn_1 #2",

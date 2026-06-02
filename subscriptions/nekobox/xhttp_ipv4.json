@@ -82,7 +82,6 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @bored_vpn #1",
-        "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇺🇸 US | VLESS | @filtershekan_channel #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
@@ -102,6 +101,9 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
         "🇸🇨 SC | VLESS | @vmesc #1",
@@ -120,7 +122,6 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @bored_vpn #1",
-        "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇺🇸 US | VLESS | @filtershekan_channel #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
@@ -140,6 +141,9 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #2",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
         "🇸🇨 SC | VLESS | @vmesc #1",
@@ -256,23 +260,6 @@
       "server_port": 8443,
       "uuid": "7aa517e2-435f-4236-a68b-7777a3b1a76a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @father_vpn #1",
-      "type": "vless",
-      "server": "104.16.7.70",
-      "server_port": 443,
-      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @filtershekan_channel #1",
@@ -541,6 +528,39 @@
       "server": "45.130.125.76",
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.17.121.71",
+      "server_port": 2083,
+      "uuid": "82e1c83c-3d29-48a1-9ed0-d8064f321ebb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "9c59c1e9-0505-400b-a3d6-1965d7fc8530",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "type": "vless",
+      "server": "151.101.193.57",
+      "server_port": 80,
+      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
       "packet_encoding": "xudp"
     },
     {

@@ -91,17 +91,19 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @bored_vpn #1",
+        "🇬🇧 GB | VLESS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | SS | @netfreedom0 #3",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayopen #2",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -111,17 +113,19 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @bored_vpn #1",
+        "🇬🇧 GB | VLESS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | SS | @netfreedom0 #3",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayopen #2",
+        "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -140,6 +144,14 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @father_vpn #1",
+      "type": "vless",
+      "server": "217.163.76.118",
+      "server_port": 2083,
+      "uuid": "41f37ced-2021-4111-93a8-82d57ff2eb5b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @free1_vpn #1",
@@ -198,18 +210,18 @@
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #2",
       "type": "shadowsocks",
-      "server": "82.38.31.35",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #3",
-      "type": "shadowsocks",
       "server": "82.38.31.184",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "159.65.92.206",
+      "server_port": 27774,
+      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
@@ -242,6 +254,14 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "159.65.92.206",
+      "server_port": 27774,
+      "uuid": "c83014e0-ad3e-4ebd-9e8f-8f7a1f6088d6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",

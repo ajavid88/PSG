@@ -91,11 +91,12 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @configv2rayforfree #1",
+        "🇮🇹 IT | VLESS | @filtershekan_channel #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @red2ray #1",
-        "🇮🇹 IT | VLESS | @red2ray #2",
         "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇹 IT | VLESS | @vmesc #1"
+        "🇮🇹 IT | VLESS | @vmesc #1",
+        "🇮🇹 IT | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +105,12 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @configv2rayforfree #1",
+        "🇮🇹 IT | VLESS | @filtershekan_channel #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @red2ray #1",
-        "🇮🇹 IT | VLESS | @red2ray #2",
         "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇹 IT | VLESS | @vmesc #1"
+        "🇮🇹 IT | VLESS | @vmesc #1",
+        "🇮🇹 IT | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,6 +125,14 @@
       "tag": "🇮🇹 IT | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "sca12.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "sca17.myfymain.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
@@ -144,14 +154,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "sca13.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "sca9.myfymain.com",
@@ -161,6 +163,14 @@
     },
     {
       "tag": "🇮🇹 IT | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "sca13.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vmesc #2",
       "type": "vless",
       "server": "sca20.myfymain.com",
       "server_port": 8880,

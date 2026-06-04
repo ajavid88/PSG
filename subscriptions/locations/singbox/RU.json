@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2rayngconfiig #1"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2rayngconfiig #1"
       ],
@@ -132,6 +134,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "field.wildgarden.digital",
+      "server_port": 443,
+      "uuid": "d9aff7cc-4e0f-4cd6-bb30-40f083974874",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

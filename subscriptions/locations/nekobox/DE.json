@@ -84,8 +84,9 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇩🇪 DE | VLESS | @netmellianti #2",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -94,6 +95,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @turboo_server #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
@@ -117,8 +120,9 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtpv2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇩🇪 DE | VLESS | @netmellianti #2",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇩🇪 DE | VLESS | @proxy48 #1",
@@ -127,6 +131,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @turboo_server #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
@@ -246,6 +252,14 @@
     {
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
+      "server": "blit1.hamrahcore.ir",
+      "server_port": 719,
+      "uuid": "258dc62e-e7fe-4993-9b73-3203b47998ea",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @netmellianti #2",
+      "type": "vless",
       "server": "152.233.35.228",
       "server_port": 8443,
       "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
@@ -263,32 +277,18 @@
     {
       "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "94.156.170.46",
-      "server_port": 8443,
-      "uuid": "74120ed7-7f61-4017-8882-bd3dbb393bd7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #2",
-      "type": "vless",
       "server": "helixgaming.ir",
       "server_port": 80,
       "uuid": "f6fe31b9-43a9-420e-a0cd-9a82e6fa62f4",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "57.129.121.230",
+      "server_port": 10443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Uk91RXFzTDhJVU1NVmI0d0R3bkdV",
+      "password": null
     },
     {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
@@ -410,6 +410,31 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "93.114.56.217",
+      "server_port": 443,
+      "uuid": "9ad1bde1-ad66-4abe-932a-b778ef09cbfd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "obito.homan554.ir",
+      "server_port": 80,
+      "uuid": "5bcaed47-9082-4e34-ada4-1d7d17066f70",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",

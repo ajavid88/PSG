@@ -81,7 +81,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
@@ -92,15 +91,14 @@
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @rez1vpn #1",
-        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +110,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @ghalagyann #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
@@ -123,15 +120,14 @@
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @rez1vpn #1",
-        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -234,14 +230,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "151.101.193.57",
-      "server_port": 80,
-      "uuid": "5cdf99d3-a51b-570e-8245-f87d674dc652",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @filtershekan_channel #1",
@@ -369,6 +357,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "167.82.2.79",
+      "server_port": 443,
+      "uuid": "23e35579-baad-487c-80de-aca4475d50b2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -435,14 +440,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @rez1vpn #1",
-      "type": "vless",
-      "server": "fastly.com",
-      "server_port": 80,
-      "uuid": "InternetAzadRobot",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "fsxhh.fastshop1.com",
@@ -458,14 +455,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nytimes.com",
-      "server_port": 80,
-      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

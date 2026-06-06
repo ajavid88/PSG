@@ -94,10 +94,9 @@
         "🇮🇹 IT | VLESS | @configv2rayforfree #1",
         "🇮🇹 IT | VLESS | @filtershekan_channel #1",
         "🇮🇹 IT | VLESS | @filtershekan_channel #2",
+        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @mehrosaboran #1",
-        "🇮🇹 IT | VLESS | @red2ray #1",
-        "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇹 IT | VLESS | @v2rayngvpn_1 #2"
+        "🇮🇹 IT | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,10 +108,9 @@
         "🇮🇹 IT | VLESS | @configv2rayforfree #1",
         "🇮🇹 IT | VLESS | @filtershekan_channel #1",
         "🇮🇹 IT | VLESS | @filtershekan_channel #2",
+        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @mehrosaboran #1",
-        "🇮🇹 IT | VLESS | @red2ray #1",
-        "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇹 IT | VLESS | @v2rayngvpn_1 #2"
+        "🇮🇹 IT | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -156,6 +154,18 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+      "type": "vless",
+      "server": "sca17.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
       "tag": "🇮🇹 IT | VLESS | @mehrosaboran #1",
       "type": "vless",
       "server": "sca18.myfymain.com",
@@ -166,23 +176,7 @@
     {
       "tag": "🇮🇹 IT | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "151.115.165.172",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @v2rayngvpn_1 #1",
-      "type": "vless",
-      "server": "sca9.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @v2rayngvpn_1 #2",
-      "type": "vless",
-      "server": "151.115.164.116",
+      "server": "sca16.myfymain.com",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"

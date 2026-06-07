@@ -94,8 +94,6 @@
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #2"
@@ -123,8 +121,6 @@
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #2"
@@ -345,9 +341,9 @@
     {
       "tag": "🇸🇨 SC | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "358ca5cf-5406-493d-b872-a344988b2e11",
+      "server": "45.130.125.18",
+      "server_port": 80,
+      "uuid": "2ac6e527-6410-48ce-b9ba-cc8135ee2a3b",
       "packet_encoding": "xudp"
     },
     {
@@ -357,31 +353,6 @@
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "358ca5cf-5406-493d-b872-a344988b2e11",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 8443,
-      "uuid": "2df587e5-b81e-4078-93c1-2e4c97e44ccf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",

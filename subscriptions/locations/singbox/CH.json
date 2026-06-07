@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇨🇭 CH | VLESS | @turboo_server #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @outline_ir #1",
         "🇨🇭 CH | VLESS | @turboo_server #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "swiss.janusgate.org",
+      "server_port": 443,
+      "uuid": "92d41509-4228-43da-aebb-70b1d8d68f04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @turboo_server #1",

@@ -87,9 +87,8 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #2",
-        "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | TROJAN | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #2"
       ],
@@ -109,9 +108,8 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #2",
-        "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | TROJAN | @vmesc #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #2"
       ],
@@ -236,12 +234,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @parsashonam #1",
+      "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
+      "server_port": 2053,
+      "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "45.130.125.96",
       "server_port": 443,
-      "uuid": "Telegram-Parsashonam-8",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -251,22 +256,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
-      "type": "vless",
-      "server": "45.130.125.76",
-      "server_port": 2053,
-      "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "3d7c04ea-0d63-4847-b916-1103cc6a488f",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",

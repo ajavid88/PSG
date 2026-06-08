@@ -91,12 +91,14 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @ai_duet #1",
+        "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
         "🇮🇷 IR | VLESS | @ehsawn8 #4",
+        "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
@@ -111,15 +113,13 @@
         "🇮🇷 IR | SS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
-        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,12 +128,14 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @ai_duet #1",
+        "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
         "🇮🇷 IR | VLESS | @ehsawn8 #4",
+        "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
@@ -148,15 +150,13 @@
         "🇮🇷 IR | SS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
-        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -173,6 +173,14 @@
       "server": "tamin.ir",
       "server_port": 80,
       "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "blubank.ir",
+      "server_port": 80,
+      "uuid": "afb3eb91-6ab7-4c70-874e-716e2481cb7d",
       "packet_encoding": "xudp"
     },
     {
@@ -242,6 +250,21 @@
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "0f6bc229-6a6e-4604-8a7d-f6242e9609d6",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #5",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "1ecfc07d-5ab5-46cd-8438-02ff221b1881",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -409,13 +432,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "arvancloud.ir",
-      "server_port": 2082,
-      "password": "fTkGeLgRco"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -493,14 +509,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 2052,
-      "uuid": "f1408962-8163-4718-a293-200fe7ca1ef4",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

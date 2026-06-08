@@ -83,11 +83,11 @@
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2raych #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -105,6 +105,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -119,11 +120,11 @@
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2raych #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -141,6 +142,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -262,14 +264,48 @@
     {
       "tag": "🇽🇽 XX | VMESS | @hope_net #1",
       "type": "vmess",
-      "server": "172.67.115.6",
-      "server_port": 2095,
-      "uuid": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
+      "server": "172.67.135.195",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/hgcefomn",
+        "path": "/wss51068",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @hope_net #2",
+      "type": "vmess",
+      "server": "104.24.161.123",
+      "server_port": 443,
+      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wss51068",
         "headers": {
           "Host": ""
         }
@@ -354,22 +390,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "154.92.9.121",
-      "server_port": 80,
-      "uuid": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/blue",
-        "headers": {
-          "Host": ""
-        }
       }
     },
     {
@@ -762,6 +782,24 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "de5.taskflowhub.org",
+      "server_port": 2053,
+      "uuid": "ca58b165-0f7d-49aa-9fae-a017e8a0f884",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

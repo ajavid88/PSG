@@ -80,9 +80,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇲🇩 MD | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
@@ -94,9 +98,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇲🇩 MD | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
@@ -185,6 +193,28 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
+      "type": "vless",
+      "server": "access.technocoms.com",
+      "server_port": 8443,
+      "uuid": "fdadca9a-ca00-4c6a-9110-1a7ad5b1b7ea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇦🇪 AE | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -215,12 +245,73 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "nid.pink-perfect.ru",
+      "server_port": 443,
+      "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fr.pink-perfect.ru",
+      "server_port": 443,
+      "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "mm-ir1.master-minds.ir",
       "server_port": 8443,
       "uuid": "7431a5ef-b374-4800-8f5d-d5e9d298c4da",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "md.riotvpn.eu",
+      "server_port": 443,
+      "uuid": "30bbbfc5-6a24-4348-8f3b-d44331b6aab8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayng0 #1",

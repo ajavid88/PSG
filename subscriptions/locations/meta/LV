@@ -24,8 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇱🇻 LV | VLESS | @megavpn_link #1", "server": "91.218.143.194", "port": 43798, "type": "vless", "skip-cert-verify": true, "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇻 LV | VLESS | @vmesskhodam #1", "server": "95.182.90.67", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "26b1f6ac-7f81-4eba-90a9-1c053c6cc418", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇱🇻 LV | VLESS | @vmesskhodam #2", "server": "95.182.90.67", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "26b1f6ac-7f81-4eba-90a9-1c053c6cc418", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇱🇻 LV | VLESS | @megavpn_link #1'
-      - '🇱🇻 LV | VLESS | @vmesskhodam #1'
-      - '🇱🇻 LV | VLESS | @vmesskhodam #2'
 
   - name: 🌍 Global Media
     type: select

@@ -103,22 +103,20 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @mehrosaboran #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | SS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -139,22 +137,20 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
+        "🇮🇷 IR | VLESS | @mehrosaboran #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | SS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @vip_vpn_2022 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -332,6 +328,14 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "blubank.ir",
+      "server_port": 80,
+      "uuid": "afb3eb91-6ab7-4c70-874e-716e2481cb7d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
       "type": "vless",
       "server": "parspack.com",
@@ -382,14 +386,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "dl3.p31download.info",
-      "server_port": 2095,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206Yk03b050T1dVNk40Q2dlbmJCK1c3Zz09OkdsR1pORUFUSXhGSUdaWWxtdXVSb3c9PQ==",
-      "password": null
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ang #1",
       "type": "vless",
       "server": "193.151.141.36",
@@ -403,14 +399,6 @@
       "server": "::ffff:c197:8d24",
       "server_port": 2026,
       "uuid": "c9c416ed-8a72-4572-8bd6-12292dee8dfd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ninisite.com",
-      "server_port": 80,
-      "uuid": "9bfd89a3-a25f-4427-9ed8-fae2eb017b7f",
       "packet_encoding": "xudp"
     },
     {
@@ -442,7 +430,7 @@
       "type": "shadowsocks",
       "server": "e1.cover20.ir",
       "server_port": 51570,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaRFpaa0EycjA3NVhxWllFZDJ2R3FadCtvaHd3eDdKQjdWRUswalNnaUZZPQ==",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKcm1hMUdSOE91K0g4MVlPR3BPU21qOURkT1hJVjFhRHROMnJtZUpFOEI0PQ==",
       "password": null
     },
     {
@@ -491,14 +479,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "62.60.251.131",
-      "server_port": 45656,
-      "uuid": "d3d59da0-31a4-45da-bf9e-373c6ab140db",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

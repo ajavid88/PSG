@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @vmesskhodam #1", "server": "dpv5wxbk2f9f.zozothedog.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9a7328de-04ad-4292-9e04-d970b50be415", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇷 BR | VMESS | @Fr33C0nfig #1", "server": "172.233.17.76", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @vmesskhodam #1'
+      - '🇧🇷 BR | VMESS | @Fr33C0nfig #1'
 
   - name: 🌍 Global Media
     type: select

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWkE=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | SS | @vmesc #1"
+        "🇹🇷 TR | VLESS | @bored_vpn #1",
+        "🇹🇷 TR | SS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | SS | @vmesc #1"
+        "🇹🇷 TR | VLESS | @bored_vpn #1",
+        "🇹🇷 TR | SS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | SS | @vmesc #1",
-      "type": "shadowsocks",
-      "server": "20.164.116.218",
+      "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "five.paliss.ir",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHVFN5bVc0eXNIY2FxSDcw",
+      "uuid": "2e409cdc-d0c9-4fc0-b285-9371034b8002",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "62.133.63.169",
+      "server_port": 37096,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZNUVKWm9qVk1FTnZrRFZGWWxpRXFF",
       "password": null
     }
   ],

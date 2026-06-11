@@ -93,17 +93,20 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @mehrosaboran #1",
         "🇮🇷 IR | VLESS | @mehrosaboran #2",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | VLESS | @nofiltering2 #3",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
+        "🇮🇷 IR | VLESS | @v2ang #1",
+        "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -127,17 +130,20 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @mehrosaboran #1",
         "🇮🇷 IR | VLESS | @mehrosaboran #2",
+        "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | VLESS | @nofiltering2 #3",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
+        "🇮🇷 IR | VLESS | @v2ang #1",
+        "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -343,6 +349,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
+      "type": "vless",
+      "server": "parspack.com",
+      "server_port": 443,
+      "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "snapp.ir",
@@ -384,27 +407,52 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #3",
+      "tag": "🇮🇷 IR | VLESS | @parsashonam #1",
       "type": "vless",
-      "server": "sv3.azparadox.ir",
-      "server_port": 8880,
-      "uuid": "d5468e62-dfc1-4e6e-bdb5-76206ade51fc",
+      "server": "185.116.162.12",
+      "server_port": 443,
+      "uuid": "Telegram-Parsashonam-11",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ang #1",
+      "type": "vless",
+      "server": "193.151.141.36",
+      "server_port": 2026,
+      "uuid": "fdfa6120-6f97-4153-ac3d-979d9ecae058",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ang #2",
+      "type": "vless",
+      "server": "::ffff:c197:8d24",
+      "server_port": 2026,
+      "uuid": "c9c416ed-8a72-4572-8bd6-12292dee8dfd",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "snapp.ir",
-      "server_port": 2095,
-      "uuid": "41bc5a50-7c41-4078-9a2a-611ab1c6dddb",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "arvancloud.ir",
-      "server_port": 2082,
-      "password": "fTkGeLgRco"
+      "server_port": 80,
+      "uuid": "e5cf6e4b-f622-4997-b87c-02223071fa93",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -451,6 +499,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 2087,
+      "uuid": "c8fc1f9f-f06d-49f5-ec3e-7f6b37dd30d5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

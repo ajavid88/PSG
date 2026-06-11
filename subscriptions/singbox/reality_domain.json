@@ -96,9 +96,11 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,9 +114,11 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -236,12 +240,48 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "ips.list.nonpath.ir",
-      "server_port": 3350,
-      "uuid": "44dcf63d-5240-40de-b7ab-ce0201e42ebb",
-      "packet_encoding": "xudp"
+      "server": "bypass.ch-gt-01.com",
+      "server_port": 8443,
+      "uuid": "4fdec620-73bb-40a7-a8d5-2570a59f1832",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "tralalero.site",
+      "server_port": 8443,
+      "uuid": "85c42ce4-7789-49cb-9012-9d6d6ba16581",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
@@ -281,6 +321,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "hamrahaval.soft26.ir",
+      "server_port": 8443,
+      "uuid": "d39664df-5bc0-4f49-9894-8f03b4150082",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

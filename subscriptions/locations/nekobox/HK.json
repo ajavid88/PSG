@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,12 +128,21 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "tag": "🇭🇰 HK | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "64.49.46.222",
-      "server_port": 51008,
-      "uuid": "a7e9b227-57bb-44b3-ac47-58367a40adf8",
-      "packet_encoding": "xudp"
+      "server": "219.76.13.169",
+      "server_port": 443,
+      "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

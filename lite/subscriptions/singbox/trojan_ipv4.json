@@ -96,14 +96,14 @@
         "🇽🇽 XX | TROJAN | @bored_vpn #1",
         "🇽🇽 XX | TROJAN | @father_vpn #1",
         "🇯🇵 JP | TROJAN | @freeconfigsplus #1",
+        "🇦🇹 AT | TROJAN | @freeconfigsplus #1",
         "🇽🇽 XX | TROJAN | @ghalagyann #1",
-        "🇭🇰 HK | TROJAN | @hope_net #1",
-        "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | TROJAN | @v2raych #1",
+        "🇩🇪 DE | TROJAN | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2rayprotocol #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #2",
@@ -123,14 +123,14 @@
         "🇽🇽 XX | TROJAN | @bored_vpn #1",
         "🇽🇽 XX | TROJAN | @father_vpn #1",
         "🇯🇵 JP | TROJAN | @freeconfigsplus #1",
+        "🇦🇹 AT | TROJAN | @freeconfigsplus #1",
         "🇽🇽 XX | TROJAN | @ghalagyann #1",
-        "🇭🇰 HK | TROJAN | @hope_net #1",
-        "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #2",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | TROJAN | @v2raych #1",
+        "🇩🇪 DE | TROJAN | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2rayprotocol #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #2",
@@ -259,9 +259,9 @@
       "password": "eeb6823c-b926-4ea2-866a-5542edd26e59"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @ghalagyann #1",
+      "tag": "🇦🇹 AT | TROJAN | @freeconfigsplus #1",
       "type": "trojan",
-      "server": "188.114.97.6",
+      "server": "212.183.88.136",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -275,18 +275,11 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @hope_net #1",
+      "tag": "🇽🇽 XX | TROJAN | @ghalagyann #1",
       "type": "trojan",
-      "server": "103.177.136.44",
-      "server_port": 47909,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
-    },
-    {
-      "tag": "🇦🇹 AT | TROJAN | @mpproxy #1",
-      "type": "trojan",
-      "server": "152.53.45.251",
-      "server_port": 8888,
-      "password": "trojan",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -362,11 +355,27 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "password": "qFgh3C8Ei8",
+      "server": "3.78.191.119",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "18.198.170.186",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
       "tls": {
         "enabled": true,
         "server_name": "",

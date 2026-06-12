@@ -102,7 +102,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
-        "🇮🇷 IR | SS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -113,6 +112,7 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -139,7 +139,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
-        "🇮🇷 IR | SS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -150,6 +149,7 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -299,14 +299,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @hope_net #1",
-      "type": "shadowsocks",
-      "server": "103.130.147.40",
-      "server_port": 1122,
-      "method": "YWVzLTI1Ni1nY206d2MvZXFSUHJZam54ZkFKMkpLbmlvN2NHMktvOUs5RGlNd3pvblJqVTNMST0=",
-      "password": null
-    },
-    {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "37.32.23.122",
@@ -430,6 +422,23 @@
       "server_port": 8443,
       "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @parsashonam #1",
+      "type": "vless",
+      "server": "185.116.162.12",
+      "server_port": 443,
+      "uuid": "Telegram-Parsashonam-11",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ang #1",

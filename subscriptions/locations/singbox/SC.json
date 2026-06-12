@@ -100,8 +100,9 @@
         "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇸🇨 SC | VLESS | @mpproxy #3",
         "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -120,8 +121,9 @@
         "🇸🇨 SC | VLESS | @mpproxy #2",
         "🇸🇨 SC | VLESS | @mpproxy #3",
         "🇸🇨 SC | VLESS | @mpproxy #4",
+        "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -268,6 +270,28 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "45.197.134.89",
+      "server_port": 8443,
+      "uuid": "4fdec620-73bb-40a7-a8d5-2570a59f1832",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -276,12 +300,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9",
-      "packet_encoding": "xudp"
+      "server": "45.130.125.158",
+      "server_port": 443,
+      "uuid": "2b127cd7-6117-46c7-8efc-f69dc003b206",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",

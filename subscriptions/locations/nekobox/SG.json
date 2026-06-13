@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VLESS | @vmesc #1"
+        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VLESS | @vmesc #1"
+        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
+      "tag": "🇸🇬 SG | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "5.223.42.211",
+      "server": "www.lianchuang123.com",
       "server_port": 443,
-      "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f",
+      "uuid": "2c473bc0-484c-49d5-8cf3-c89d26b724fe",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,20 +116,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @vmesc #1",
+      "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
-      "server": "46.137.225.209",
-      "server_port": 32946,
-      "uuid": "0ff7989d-59b3-4cbd-a2e4-960ac02fb2f1",
+      "server": "5.223.42.211",
+      "server_port": 443,
+      "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

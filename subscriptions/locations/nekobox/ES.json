@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @flyv2ray #1"
+        "🇪🇸 ES | VLESS | @v2raych #1",
+        "🇪🇸 ES | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @flyv2ray #1"
+        "🇪🇸 ES | VLESS | @v2raych #1",
+        "🇪🇸 ES | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @flyv2ray #1",
+      "tag": "🇪🇸 ES | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "de.srv.anti-zapret.com",
+      "server": "195.96.132.125",
       "server_port": 443,
-      "uuid": "8d1803b9-f9ff-4c09-a6d0-aceb98c4a019",
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "195.96.132.125",
+      "server_port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

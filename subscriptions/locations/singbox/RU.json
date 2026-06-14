@@ -92,10 +92,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,10 +102,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -164,28 +158,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "freetg.strettenvpn.com",
-      "server_port": 443,
-      "uuid": "31fb98b7-e7a1-4b56-8c6a-3f060f06393c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "188.225.80.183",
@@ -204,32 +176,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ru.riotvpn.eu",
-      "server_port": 6443,
-      "uuid": "3314aee8-9420-440c-bc3c-a0daa545517b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "51.250.95.197",
-      "server_port": 443,
-      "uuid": "7a825690-7f63-4397-915d-c2965bd4832e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

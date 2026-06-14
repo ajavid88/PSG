@@ -99,14 +99,14 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇩🇪 DE | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -136,14 +136,14 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇩🇪 DE | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -473,6 +473,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 8443,
+      "uuid": "d36326aa-7456-4747-84dc-405868554f1b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "188.114.97.6",
@@ -581,23 +589,6 @@
       "server_port": 2083,
       "uuid": "efffa718-6ce3-4b0f-88dc-fc68ed38ff1f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "45.130.125.8",
-      "server_port": 443,
-      "uuid": "85dcf0fd-2652-467b-b8fd-0970d64ec932",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

@@ -81,7 +81,7 @@
         "🇮🇹 IT | VLESS | @filtershekan_channel #2",
         "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @v2raych #1",
         "🇮🇹 IT | VLESS | @v2rayngconfiig #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1",
@@ -97,7 +97,7 @@
         "🇮🇹 IT | VLESS | @filtershekan_channel #2",
         "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @v2raych #1",
         "🇮🇹 IT | VLESS | @v2rayngconfiig #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1",
@@ -158,12 +158,16 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "151.115.164.36",
+      "server": "151.115.164.110",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
       "tag": "🇮🇹 IT | VLESS | @v2rayngconfiig #1",

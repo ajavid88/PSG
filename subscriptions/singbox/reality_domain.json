@@ -94,14 +94,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
-        "🇮🇶 IQ | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @free1_vpn #2",
+        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
@@ -114,14 +114,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
-        "🇮🇶 IQ | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @free1_vpn #2",
+        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
@@ -228,28 +228,6 @@
       }
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "de.srv.anti-zapret.com",
-      "server_port": 443,
-      "uuid": "8d1803b9-f9ff-4c09-a6d0-aceb98c4a019",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇹 IT | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "it-8.flowersred.ru",
@@ -270,6 +248,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "germany-vip.soft26.ir",
+      "server_port": 8443,
+      "uuid": "d39664df-5bc0-4f49-9894-8f03b4150082",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
@@ -293,6 +279,28 @@
       "server": "grns1.ravenlo.ir",
       "server_port": 7005,
       "uuid": "dde00f06-f3bb-42d7-b78b-942c072bce0f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "host.rent-home-now.com",
+      "server_port": 443,
+      "uuid": "9c8bf6ca-5b56-4f0b-ba22-a2ecd0282daf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -345,28 +353,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-      "type": "vless",
-      "server": "de.pink-perfect.ru",
-      "server_port": 443,
-      "uuid": "8ea0665e-dee3-418c-8822-1f70f350f2db",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

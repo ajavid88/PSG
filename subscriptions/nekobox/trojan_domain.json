@@ -81,9 +81,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇽🇽 XX | TROJAN | @hope_net #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇷🇺 RU | TROJAN | @vmesc #1"
+        "🇺🇸 US | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +96,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇯🇵 JP | TROJAN | @free4allvpn #1",
+        "🇽🇽 XX | TROJAN | @hope_net #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇷🇺 RU | TROJAN | @vmesc #1"
+        "🇺🇸 US | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -201,6 +203,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @hope_net #1",
+      "type": "trojan",
+      "server": "v3.dabache.top",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @teamvpnpro #1",
       "type": "trojan",
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
@@ -233,7 +251,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | TROJAN | @vmesc #1",
+      "tag": "🇺🇸 US | TROJAN | @vmesc #1",
       "type": "trojan",
       "server": "ip.feywebsite.ir",
       "server_port": 8443,

@@ -102,7 +102,6 @@
         "🇺🇸 US | SS | @godv2rang #1",
         "🇺🇸 US | VLESS | @goldenvpn_v2rayy #1",
         "🇺🇸 US | VLESS | @hope_net #1",
-        "🇺🇸 US | VLESS | @hope_net #2",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -131,6 +130,7 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #3",
@@ -143,7 +143,6 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -166,7 +165,6 @@
         "🇺🇸 US | SS | @godv2rang #1",
         "🇺🇸 US | VLESS | @goldenvpn_v2rayy #1",
         "🇺🇸 US | VLESS | @hope_net #1",
-        "🇺🇸 US | VLESS | @hope_net #2",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -195,6 +193,7 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #3",
@@ -207,7 +206,6 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
@@ -354,36 +352,10 @@
     {
       "tag": "🇺🇸 US | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "69.84.182.85",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @hope_net #2",
-      "type": "vless",
-      "server": "151.101.130.219",
-      "server_port": 443,
-      "uuid": "9e3456fa-bcce-44b6-b91e-22c324a2f12f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "151.101.66.219",
+      "server_port": 80,
+      "uuid": "25102a1a-e0ea-4a0d-a40d-c68f74d2fe9f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -787,6 +759,28 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
+      "server": "2.26.88.109",
+      "server_port": 443,
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
       "server": "141.193.213.10",
       "server_port": 443,
       "uuid": "fc965ad9-bdd7-4815-ad71-b39ec5972dc1",
@@ -994,14 +988,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "151.101.109.223",
-      "server_port": 80,
-      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @vpn_ioss #1",

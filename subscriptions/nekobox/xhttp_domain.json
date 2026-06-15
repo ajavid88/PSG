@@ -83,7 +83,7 @@
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1"
+        "🇷🇺 RU | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +97,7 @@
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1"
+        "🇷🇺 RU | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -209,12 +209,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1",
-      "type": "vless",
-      "server": "tun2.axenet.company",
+      "tag": "🇷🇺 RU | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "ip.feywebsite.ir",
       "server_port": 8443,
-      "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
-      "packet_encoding": "xudp"
+      "password": "15dde292f853ec5"
     }
   ],
   "route": {

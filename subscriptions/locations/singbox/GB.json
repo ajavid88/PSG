@@ -92,12 +92,14 @@
         "direct",
         "🇬🇧 GB | SS | @bored_vpn #1",
         "🇬🇧 GB | SS | @father_vpn #1",
+        "🇬🇧 GB | SS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @ghalagyann #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1"
       ],
@@ -109,12 +111,14 @@
       "outbounds": [
         "🇬🇧 GB | SS | @bored_vpn #1",
         "🇬🇧 GB | SS | @father_vpn #1",
+        "🇬🇧 GB | SS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @ghalagyann #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1"
       ],
@@ -139,6 +143,14 @@
       "tag": "🇬🇧 GB | SS | @father_vpn #1",
       "type": "shadowsocks",
       "server": "82.38.31.176",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @flyv2ray #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.214",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
@@ -170,17 +182,17 @@
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
       "type": "shadowsocks",
-      "server": "82.38.31.214",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "server": "admin.c1.webramz.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #2",
       "type": "shadowsocks",
-      "server": "admin.c1.webramz.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "server": "146.70.61.37",
+      "server_port": 8080,
+      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
       "password": null
     },
     {
@@ -190,6 +202,28 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "cdn-prouk.plusmusical2.ir",
+      "server_port": 80,
+      "uuid": "37ff8e4b-83ab-0823-6d53-321510339493",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",

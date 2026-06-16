@@ -81,7 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
-        "🇮🇹 IT | VLESS | @free1_vpn #2",
+        "🇮🇹 IT | VLESS | @free1_vpn #1",
+        "🇨🇿 CZ | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
@@ -108,7 +109,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
-        "🇮🇹 IT | VLESS | @free1_vpn #2",
+        "🇮🇹 IT | VLESS | @free1_vpn #1",
+        "🇨🇿 CZ | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
@@ -233,11 +235,33 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @free1_vpn #2",
+      "tag": "🇮🇹 IT | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "it-8.flowersred.ru",
       "server_port": 443,
       "uuid": "82a7f52c-f047-4f8c-b913-3ea1f29bdb38",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "de.srv.anti-zapret.com",
+      "server_port": 443,
+      "uuid": "8d1803b9-f9ff-4c09-a6d0-aceb98c4a019",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -421,9 +445,9 @@
     {
       "tag": "🇦🇹 AT | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "152.53.44.148",
-      "server_port": 443,
-      "uuid": "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249",
+      "server": "185.224.3.41",
+      "server_port": 10443,
+      "uuid": "f6431ff1-dec0-4a6c-be4a-ce917913b589",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

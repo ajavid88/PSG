@@ -82,9 +82,9 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,9 +97,9 @@
         "KingRezaPahlavi",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,28 +217,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "de.ipsenter.org",
-      "server_port": 443,
-      "uuid": "c381ed79-f3c9-4028-85ae-687795d89ece",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "nl-pro.maxg.ch",
@@ -261,6 +239,28 @@
       "server": "wp14.virgool.best",
       "server_port": 55014,
       "uuid": "b01631fa-502b-497f-b8ed-2fda669667ad",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "grns1.ravenlo.ir",
+      "server_port": 7005,
+      "uuid": "dde00f06-f3bb-42d7-b78b-942c072bce0f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

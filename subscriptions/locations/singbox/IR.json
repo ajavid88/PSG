@@ -96,6 +96,7 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
+        "🇮🇷 IR | VLESS | @ehsawn8 #4",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -103,7 +104,6 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
-        "🇮🇷 IR | VLESS | @netmellianti #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
@@ -111,10 +111,9 @@
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
-        "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
@@ -130,6 +129,7 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @ehsawn8 #3",
+        "🇮🇷 IR | VLESS | @ehsawn8 #4",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -137,7 +137,6 @@
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
-        "🇮🇷 IR | VLESS | @netmellianti #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
@@ -145,10 +144,9 @@
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
         "🇮🇷 IR | VLESS | @v2aryng_vpn #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
-        "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
@@ -221,6 +219,21 @@
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "0f6bc229-6a6e-4604-8a7d-f6242e9609d6",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #4",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "1ecfc07d-5ab5-46cd-8438-02ff221b1881",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -323,23 +336,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #2",
-      "type": "vless",
-      "server": "upload3.kooroshupload.lol",
-      "server_port": 60009,
-      "uuid": "6cf0c68e-6ca7-4a27-a5e7-b0339b12370c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "allsms.rozfa.com",
@@ -405,14 +401,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "arvan.videobazi.com",
-      "server_port": 2096,
-      "uuid": "756b2fee-6f6e-4de2-8a13-7ed1e6e53168",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -421,19 +409,19 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 2087,
+      "uuid": "d2b29908-d015-4be8-a305-6e6a7d5ef00f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "xiaomandapple4certificate.ikco.ir.soserverbot.shop",
       "server_port": 15152,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2eE53NWRpWllOM3NycTh1Q2ZtUVI5OHZZYzM5ZWN0NA==",
-      "password": null
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @v2rayng3 #2",
-      "type": "shadowsocks",
-      "server": "212.16.68.6",
-      "server_port": 30874,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpaTUdLKzNWdElSKzB4dmVPYi9POFRSSkllQWZyNHJIelZ4bDRFS1pBUXBJPQ==",
       "password": null
     },
     {

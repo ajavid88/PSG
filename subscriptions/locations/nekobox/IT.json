@@ -81,6 +81,8 @@
         "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @free1_vpn #2",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇮🇹 IT | VLESS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
         "🇮🇹 IT | VLESS | @v2rayngconfiig #1",
         "🇮🇹 IT | VLESS | @v2rayopen #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1",
@@ -96,6 +98,8 @@
         "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @free1_vpn #2",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇮🇹 IT | VLESS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
         "🇮🇹 IT | VLESS | @v2rayngconfiig #1",
         "🇮🇹 IT | VLESS | @v2rayopen #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1",
@@ -166,6 +170,36 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "sca21.myfymain.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.76.113.29",
+      "server_port": 443,
+      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

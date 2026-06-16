@@ -101,10 +101,10 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | TROJAN | @vmesc #1"
+        "🇺🇸 US | VLESS | @kafing_2 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,10 +123,10 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | TROJAN | @vmesc #1"
+        "🇺🇸 US | VLESS | @kafing_2 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -310,6 +310,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.130.125.194",
+      "server_port": 2083,
+      "uuid": "77f38d51-f16f-42de-940a-05016f317d21",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -350,13 +358,6 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @vmesc #1",
-      "type": "trojan",
-      "server": "ip.feywebsite.ir",
-      "server_port": 8443,
-      "password": "15dde292f853ec5"
     }
   ],
   "route": {

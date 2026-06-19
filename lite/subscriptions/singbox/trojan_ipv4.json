@@ -96,7 +96,9 @@
         "🇯🇵 JP | TROJAN | @freeconfigsplus #1",
         "🇽🇽 XX | TROJAN | @ghalagyann #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #2",
+        "🇽🇽 XX | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
@@ -118,7 +120,9 @@
         "🇯🇵 JP | TROJAN | @freeconfigsplus #1",
         "🇽🇽 XX | TROJAN | @ghalagyann #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇩🇪 DE | TROJAN | @privatevpns #2",
+        "🇽🇽 XX | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
@@ -249,11 +253,43 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "13.39.232.152",
+      "server": "63.178.57.215",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #2",
+      "type": "trojan",
+      "server": "18.195.157.51",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "104.24.17.0",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",

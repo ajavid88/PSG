@@ -114,7 +114,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2raych #2",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1",
         "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -147,7 +150,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2raych #2",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1",
         "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -415,6 +421,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.159.12.123",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "45.159.12.194",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -428,6 +450,28 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "78.40.117.131",
+      "server_port": 443,
+      "uuid": "1281ef13-f1cd-493b-903e-4c2f4ffe1eba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     },
     {

@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "15.224.75.26", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "15.224.75.26", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇹🇷 TR | VMESS | @v2raych #1", "server": "turk1.net.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "tr1-smart.adelping.com."}}}
+  - {"name": "🇹🇷 TR | VMESS | @v2raych #2", "server": "turk1.net.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560", "headers": {"Host": "tr1-smart.adelping.com."}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
+      - '🇹🇷 TR | VMESS | @v2raych #1'
+      - '🇹🇷 TR | VMESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

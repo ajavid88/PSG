@@ -94,7 +94,10 @@
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #2"
+        "🇹🇷 TR | VLESS | @red2ray #2",
+        "🇹🇷 TR | VLESS | @red2ray #3",
+        "🇹🇷 TR | VMESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +109,10 @@
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #2"
+        "🇹🇷 TR | VLESS | @red2ray #2",
+        "🇹🇷 TR | VLESS | @red2ray #3",
+        "🇹🇷 TR | VMESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -173,7 +179,15 @@
       "tag": "🇹🇷 TR | VLESS | @red2ray #1",
       "type": "vless",
       "server": "hm.khoycityman.ir",
-      "server_port": 443,
+      "server_port": 41319,
+      "uuid": "83a30307-e371-40ed-ad56-0e9fdb98b4b4",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "hm.khoycityman.ir",
+      "server_port": 57176,
       "uuid": "83a30307-e371-40ed-ad56-0e9fdb98b4b4",
       "packet_encoding": "xudp",
       "tls": {
@@ -192,12 +206,58 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #2",
+      "tag": "🇹🇷 TR | VLESS | @red2ray #3",
       "type": "vless",
       "server": "hm.khoycityman.ir",
-      "server_port": 41319,
-      "uuid": "83a30307-e371-40ed-ad56-0e9fdb98b4b4",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "8072396c-6a74-46b3-8a43-91b5e86ed160",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2raych #2",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
     }
   ],
   "route": {

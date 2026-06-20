@@ -90,12 +90,15 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇽🇽 XX | VMESS | @outline_ir #1",
         "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇹🇷 TR | VMESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2raych #2",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -117,12 +120,15 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇽🇽 XX | VMESS | @outline_ir #1",
         "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇹🇷 TR | VMESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2raych #2",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -429,6 +435,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @outline_ir #1",
+      "type": "vmess",
+      "server": "104.17.121.43",
+      "server_port": 443,
+      "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "omkuzygiv.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "omkuzygiv.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -575,6 +606,38 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2raych #2",
+      "type": "vmess",
+      "server": "turk1.net.net",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
         }
       }
     },

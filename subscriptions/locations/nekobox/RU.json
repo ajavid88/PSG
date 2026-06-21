@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | SS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @megavpn_link #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | SS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,6 +127,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "ru.faygo.bot",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "188.225.80.183",
@@ -147,14 +169,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "ru.moktana.app",
-      "server_port": 51523,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3U0VzdGRtTGhmLWFGS19HOWVhWUhLVF9ZcFNvdjU4Qg==",
-      "password": null
     }
   ],
   "route": {

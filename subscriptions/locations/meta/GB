@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇬🇧 GB | VLESS | @v2aryng_vpn #1", "server": "s8.meoshop.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "2dacceea-8664-4fed-ba16-27fdd3b40f3e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "152.233.28.200", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "394f6981-a782-4779-9a85-e6cf22935d93", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇬🇧 GB | VLESS | @v2aryng_vpn #1'
-      - '🇬🇧 GB | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

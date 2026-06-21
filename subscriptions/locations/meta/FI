@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.37.68.185", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "35.181.86.50", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @red2ray #1", "server": "13.37.68.185", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-directvpn"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.37.68.185", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
-  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2", "server": "35.181.86.50", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "node-fi.dostup-est.info", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c931f737-cafe-4e4f-998a-a65517941256", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @vmesskhodam #1", "server": "46.246.34.174", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "394f6981-a782-4779-9a85-e6cf22935d93", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #2'
-      - '🇫🇷 FR | TROJAN | @red2ray #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
-      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #2'
+      - '🇫🇮 FI | VLESS | @v2raych #1'
+      - '🇫🇮 FI | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

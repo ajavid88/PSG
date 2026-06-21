@@ -96,10 +96,10 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
@@ -114,10 +114,10 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
@@ -240,28 +240,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "turk.nomac.ir",
-      "server_port": 8443,
-      "uuid": "19af3d13-4a9a-41da-8501-efffc6ec317b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "sadaf.netherlands.mehrdadsadaf.com",
@@ -283,6 +261,28 @@
       "server": "frirancellspeedfr.naxinshooping.ir",
       "server_port": 36611,
       "uuid": "d999eb9a-4aa8-43e4-a912-e86ef99ec143",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "ru.faygo.bot",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

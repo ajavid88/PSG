@@ -82,7 +82,12 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +100,12 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -213,6 +223,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "pl.fantoff.online",
+      "server_port": 443,
+      "uuid": "b95dd8e5-2758-408f-be99-9362eecee609",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "sugem.consolgame.ir",
+      "server_port": 1152,
+      "uuid": "77fc16d2-5145-4aa3-952c-7caaf25cd921",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "nl-pro.maxg.ch",
@@ -226,6 +266,67 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "poland.mymarzban.com",
+      "server_port": 5000,
+      "uuid": "6270a1e6-44ab-4f9d-8d0f-b313a7f97c51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "amin.sylixteam.ir",
+      "server_port": 443,
+      "uuid": "f78e60da-32b7-4867-aeef-8bed337901a2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "cdn.netraidly.ru",
+      "server_port": 40443,
+      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

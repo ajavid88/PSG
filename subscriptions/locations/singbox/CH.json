@@ -92,7 +92,8 @@
         "direct",
         "🇨🇭 CH | VLESS | @hope_net #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | TROJAN | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @hope_net #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | TROJAN | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -148,20 +150,18 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @vmesskhodam #1",
+      "tag": "🇨🇭 CH | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "37.156.45.237",
-      "server_port": 42549,
-      "password": "SoftNetConnect",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "37.156.44.157",
+      "server_port": 8443,
+      "password": "SoftNetConnect"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "37.156.44.157",
+      "server_port": 2087,
+      "password": "SoftNetConnect"
     }
   ],
   "route": {

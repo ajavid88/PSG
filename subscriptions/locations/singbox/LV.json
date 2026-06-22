@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free1_vpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free1_vpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -154,6 +156,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "xn-riga.easyodin.ir",
+      "server_port": 80,
+      "uuid": "45dfac88-5edf-4e42-9af4-e20f49452596",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

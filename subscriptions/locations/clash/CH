@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | TROJAN | @vmesskhodam #1", "server": "37.156.45.237", "port": 42549, "type": "trojan", "skip-cert-verify": false, "password": "SoftNetConnect"}
+  - {"name": "🇨🇭 CH | TROJAN | @v2raych #1", "server": "37.156.44.157", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "SoftNetConnect"}
+  - {"name": "🇨🇭 CH | TROJAN | @v2raych #2", "server": "37.156.44.157", "port": 2087, "type": "trojan", "skip-cert-verify": false, "password": "SoftNetConnect"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | TROJAN | @vmesskhodam #1'
+      - '🇨🇭 CH | TROJAN | @v2raych #1'
+      - '🇨🇭 CH | TROJAN | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

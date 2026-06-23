@@ -93,7 +93,7 @@
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +104,7 @@
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -182,12 +182,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "185.147.27.105",
-      "server_port": 80,
-      "uuid": "9f45695f-0848-4d9d-9fac-949efdf2dc0b",
-      "packet_encoding": "xudp"
+      "tag": "🇷🇺 RU | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "185.23.34.71",
+      "server_port": 2050,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpOVkVRYXIya05KWDFaNFpCcll6dVRR",
+      "password": null
     }
   ],
   "route": {

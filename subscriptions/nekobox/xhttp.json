@@ -92,9 +92,8 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇸🇨 SC | VLESS | @prrofile_purple #2",
-        "🇸🇨 SC | VLESS | @prrofile_purple #3",
-        "🇸🇨 SC | VLESS | @prrofile_purple #4",
+        "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -105,8 +104,12 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @flyv2ray #3",
+        "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #3",
@@ -133,9 +136,8 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇸🇨 SC | VLESS | @prrofile_purple #2",
-        "🇸🇨 SC | VLESS | @prrofile_purple #3",
-        "🇸🇨 SC | VLESS | @prrofile_purple #4",
+        "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -146,8 +148,12 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @flyv2ray #3",
+        "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #2",
+        "🇺🇸 US | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #3",
@@ -407,28 +413,38 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #2",
+      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9",
-      "packet_encoding": "xudp"
+      "server": "45.130.125.8",
+      "server_port": 443,
+      "uuid": "85dcf0fd-2652-467b-b8fd-0970d64ec932",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #3",
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #4",
-      "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9",
-      "packet_encoding": "xudp"
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "85dcf0fd-2652-467b-b8fd-0970d64ec932",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -547,7 +563,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #3",
+      "type": "vless",
+      "server": "fsxhh.fastshop1.com",
+      "server_port": 443,
+      "uuid": "4c9b304f-ec00-41af-be5b-aa3f22ed430e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "ipw.ygdfw.com",
       "server_port": 443,
@@ -569,6 +602,30 @@
       "server": "spd-mynames.global.ssl.fastly.net",
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "euro.connectingissues.ir",
+      "server_port": 80,
+      "uuid": "884d809e-de48-4fa8-ab97-30b080789702",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "global.connectingissues.ir",
+      "server_port": 80,
+      "uuid": "884d809e-de48-4fa8-ab97-30b080789702",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "mci.connectingissues.ir",
+      "server_port": 80,
+      "uuid": "884d809e-de48-4fa8-ab97-30b080789702",
       "packet_encoding": "xudp"
     },
     {

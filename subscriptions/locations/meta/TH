@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "pl.fantoff.online", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b95dd8e5-2758-408f-be99-9362eecee609", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇭 TH | VLESS | @mtproxy22_v2ray #1", "server": "116.206.124.228", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "3c52e091-6714-4915-949f-2149fe69951b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
+      - '🇹🇭 TH | VLESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select

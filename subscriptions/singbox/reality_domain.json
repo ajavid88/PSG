@@ -101,8 +101,10 @@
         "🇬🇧 GB | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -122,8 +124,10 @@
         "🇬🇧 GB | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -342,11 +346,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ge3.pandaonline.org",
-      "server_port": 443,
-      "uuid": "bf038412-931e-4b18-a6a7-32d09304f333",
+      "server": "de.ko.prod.n7.homes",
+      "server_port": 8443,
+      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -364,12 +368,70 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "tag": "🇬🇧 GB | VLESS | @rez1vpn #1",
       "type": "vless",
-      "server": "netherland.soft26.ir",
-      "server_port": 8443,
-      "uuid": "d39664df-5bc0-4f49-9894-8f03b4150082",
-      "packet_encoding": "xudp"
+      "server": "cdn-prouk.plusmusical2.ir",
+      "server_port": 80,
+      "uuid": "37ff8e4b-83ab-0823-6d53-321510339493",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "pl.fantoff.online",
+      "server_port": 443,
+      "uuid": "b95dd8e5-2758-408f-be99-9362eecee609",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "re2.losthonor.ir",
+      "server_port": 443,
+      "uuid": "d6ef367c-4b0f-44ec-a8c4-8c5947ec747b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vpnowl #1",

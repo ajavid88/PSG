@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @netfreedom0 #1", "server": "fi1.vitok.cc", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "151.101.244.151", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @netfreedom0 #1'
+      - '🇫🇮 FI | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

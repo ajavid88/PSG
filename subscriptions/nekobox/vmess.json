@@ -83,6 +83,7 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
         "🇺🇸 US | VMESS | @khoneproxy #1",
@@ -104,8 +105,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,6 +119,7 @@
         "🇺🇸 US | VMESS | @dailyv2ray #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
         "🇺🇸 US | VMESS | @khoneproxy #1",
@@ -140,8 +141,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @prrofile_purple #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -291,6 +291,24 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "5.161.156.196",
+      "server_port": 443,
+      "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "internet.life.com.by",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -788,24 +806,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @prrofile_purple #1",
-      "type": "vmess",
-      "server": "31.56.178.107",
-      "server_port": 443,
-      "uuid": "185a3bb6-a1a7-4a43-da37-659026c79aea",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     }
   ],

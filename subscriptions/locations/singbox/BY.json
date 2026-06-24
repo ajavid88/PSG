@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRkk=
+//profile-title: base64:UFNHIHwgQlk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @netfreedom0 #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "fi1.vitok.cc",
+      "tag": "🇧🇾 BY | VMESS | @ir_netproxy #1",
+      "type": "vmess",
+      "server": "5.161.156.196",
       "server_port": 443,
-      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
-      "packet_encoding": "xudp",
+      "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "internet.life.com.by",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

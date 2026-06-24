@@ -82,8 +82,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,8 +96,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,11 +215,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "de-01.gni-daed.ru",
-      "server_port": 443,
-      "uuid": "7c0f30a2-a7c1-43b1-bc51-20f07036a76e",
+      "server": "check04.allenshop2024.ir",
+      "server_port": 8443,
+      "uuid": "82da8e0a-c3db-4fea-8181-4c4db16ab43c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -228,15 +228,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vpn_ioss #1",
+      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "cdn.netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
+      "server": "greb.loralden.com",
+      "server_port": 443,
+      "uuid": "2065a8c9-8b3d-4dba-b0ce-90d649aa3da7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -78,8 +78,7 @@
         "auto",
         "direct",
         "🇨🇿 CZ | VLESS | @bored_vpn #1",
-        "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1"
+        "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇿 CZ | VLESS | @bored_vpn #1",
-        "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1"
+        "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,23 +141,6 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "de-01.gni-daed.ru",
-      "server_port": 443,
-      "uuid": "7c0f30a2-a7c1-43b1-bc51-20f07036a76e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

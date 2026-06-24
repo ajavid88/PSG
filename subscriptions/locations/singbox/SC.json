@@ -98,8 +98,9 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | TROJAN | @vpn_ioss #1"
@@ -118,8 +119,9 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | TROJAN | @vpn_ioss #1"
@@ -228,9 +230,17 @@
     {
       "tag": "🇸🇨 SC | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "45.130.125.8",
+      "server": "45.130.125.218",
+      "server_port": 8443,
+      "uuid": "77e69c70-31b4-44ea-af46-4664df9a614c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "45.151.106.122",
       "server_port": 443,
-      "uuid": "85dcf0fd-2652-467b-b8fd-0970d64ec932",
+      "uuid": "36562b99-aadd-4e38-b566-24e0d219b1d6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -251,21 +261,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "45.130.125.126",
-      "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "45.206.0.41",
+      "server_port": 8443,
+      "uuid": "52faee73-e0fe-4661-992d-67259257170f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇨 SC | VLESS | @vmesc #1",

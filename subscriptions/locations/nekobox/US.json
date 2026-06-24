@@ -113,6 +113,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇺🇸 US | TROJAN | @outline_ir #1",
         "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -122,6 +123,7 @@
         "🇺🇸 US | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
@@ -131,6 +133,7 @@
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #3",
         "🇺🇸 US | VLESS | @v2raying #1",
+        "🇺🇸 US | VLESS | @v2raying #2",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -188,6 +191,7 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇺🇸 US | TROJAN | @outline_ir #1",
         "🇺🇸 US | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -197,6 +201,7 @@
         "🇺🇸 US | VMESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
@@ -206,6 +211,7 @@
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #3",
         "🇺🇸 US | VLESS | @v2raying #1",
+        "🇺🇸 US | VLESS | @v2raying #2",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -698,6 +704,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "45.61.52.243",
+      "server_port": 443,
+      "password": "O4O8.Ew%2BujFX6GJBQ%3DxQr.heGwux0GYHqk",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -830,6 +852,22 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "207.126.167.241",
+      "server_port": 443,
+      "password": "GTCCjtvCtuy03-aV1mwF0OkG2q6yL%2BFc5K",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @tobevasl #1",
@@ -979,6 +1017,14 @@
       "server": "psf-1.zdshop.ir",
       "server_port": 80,
       "uuid": "7dfdbb4b-5bf7-4503-b2c0-4ef05922dcb9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raying #2",
+      "type": "vless",
+      "server": "167.82.0.1",
+      "server_port": 80,
+      "uuid": "0058c215-ab1e-400c-a403-b5b2fda7e846",
       "packet_encoding": "xudp"
     },
     {

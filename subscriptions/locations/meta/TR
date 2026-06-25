@@ -25,7 +25,6 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @father_vpn #1", "server": "6.call-me-seyed.ir", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "2e409cdc-d0c9-4fc0-b285-9371034b8002", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @turboo_server #1", "server": "37.221.79.82", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "hm.khoycityman.ir", "port": 57176, "type": "vless", "skip-cert-verify": true, "uuid": "1ea04eb0-1470-4c41-ab75-8e3de65b0ef6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +40,6 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @father_vpn #1'
       - '🇹🇷 TR | VLESS | @turboo_server #1'
-      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

@@ -92,7 +92,6 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇱🇻 LV | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -101,15 +100,17 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @flyv2ray #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇺🇸 US | VLESS | @red2ray #3",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,7 +133,6 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇱🇻 LV | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -141,15 +141,17 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @flyv2ray #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇺🇸 US | VLESS | @red2ray #3",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -405,23 +407,6 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "90.156.254.168",
-      "server_port": 443,
-      "uuid": "4af298c3-5c2d-4cf1-af68-5261e482c4e7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -522,21 +507,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "5.175.249.174",
-      "server_port": 443,
-      "uuid": "1ca2c927-f8ba-4475-94cb-f85e0fb03ff5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "188.114.97.0",
+      "server_port": 2087,
+      "uuid": "2bab4dfb-8bd2-4844-bfdb-48a019ca27c7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @configv2rayforfree #2",
@@ -590,7 +566,23 @@
     {
       "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "global.cloud-play.ir",
+      "server": "euro.cloud-play.ir",
+      "server_port": 80,
+      "uuid": "08cfad1f-bb82-4bac-8d1d-bbe664c9c6a3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "local.cloud-play.ir",
+      "server_port": 80,
+      "uuid": "08cfad1f-bb82-4bac-8d1d-bbe664c9c6a3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "mci.cloud-play.ir",
       "server_port": 80,
       "uuid": "08cfad1f-bb82-4bac-8d1d-bbe664c9c6a3",
       "packet_encoding": "xudp"
@@ -604,11 +596,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "suolar.yellowsky.ir",
-      "server_port": 2053,
-      "uuid": "a4548d7f-8e0f-4780-9f5a-30cbd2754550",
+      "server": "local.cloud-play.ir",
+      "server_port": 80,
+      "uuid": "903123fd-84fd-45d9-abc8-08c83d704224",
       "packet_encoding": "xudp"
     }
   ],

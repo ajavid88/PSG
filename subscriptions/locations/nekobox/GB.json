@@ -78,17 +78,16 @@
         "auto",
         "direct",
         "🇬🇧 GB | VLESS | @bored_vpn #1",
-        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayprotocol #1",
         "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
@@ -99,17 +98,16 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VLESS | @bored_vpn #1",
-        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
+        "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayprotocol #1",
         "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
@@ -149,23 +147,6 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "91.193.58.77",
-      "server_port": 443,
-      "uuid": "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
       "type": "shadowsocks",
       "server": "141.98.101.182",
@@ -177,6 +158,14 @@
       "tag": "🇬🇧 GB | SS | @free4allvpn #2",
       "type": "shadowsocks",
       "server": "82.38.31.205",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.206",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
@@ -206,6 +195,28 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "cdn-prouk.plusmusical2.ir",
+      "server_port": 80,
+      "uuid": "37ff8e4b-83ab-0823-6d53-321510339493",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
@@ -222,27 +233,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.203",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "82.38.31.35",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.206",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {

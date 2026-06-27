@@ -83,12 +83,10 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
-        "🇺🇸 US | VLESS | @flyv2ray #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @netmellianti #3",
+        "🇺🇸 US | VLESS | @netmellianti #2",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #3",
-        "🇽🇽 XX | VLESS | @v2raych #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,12 +100,10 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @flyv2ray #2",
-        "🇺🇸 US | VLESS | @flyv2ray #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @netmellianti #3",
+        "🇺🇸 US | VLESS | @netmellianti #2",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #3",
-        "🇽🇽 XX | VLESS | @v2raych #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,21 +201,13 @@
     {
       "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "local.cloud-play.ir",
-      "server_port": 80,
-      "uuid": "6253100c-3ff4-42d9-b183-7fe46e5a9039",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @flyv2ray #2",
-      "type": "vless",
       "server": "euro.cloud-play.ir",
       "server_port": 80,
       "uuid": "6253100c-3ff4-42d9-b183-7fe46e5a9039",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @flyv2ray #3",
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #2",
       "type": "vless",
       "server": "fsxhh.fastshop1.com",
       "server_port": 443,
@@ -244,7 +232,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @netmellianti #3",
+      "tag": "🇺🇸 US | VLESS | @netmellianti #2",
       "type": "vless",
       "server": "local.cloud-play.ir",
       "server_port": 80,
@@ -260,29 +248,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #3",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "euro.cloud-play.ir",
+      "server": "local.cloud-play.ir",
       "server_port": 80,
-      "uuid": "f353b55f-4624-4031-94ee-457eed8889de",
+      "uuid": "903123fd-84fd-45d9-abc8-08c83d704224",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

@@ -79,9 +79,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,9 +89,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,32 +115,7 @@
     {
       "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "telewebion.com.fin2.shakhle.ir",
-      "server_port": 52525,
-      "uuid": "21702d6d-7b35-4faa-8462-c23dc7e20e00",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
       "server": "217.217.247.248",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "217.217.247.249",
       "server_port": 443,
       "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
@@ -164,11 +135,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "65.109.218.60",
-      "server_port": 2080,
-      "uuid": "65488bcf-8573-44ee-9b4f-9abf4390acca",
+      "server": "fanlandv3.sorcepack.ir",
+      "server_port": 52077,
+      "uuid": "a36b1024-70b2-476e-9caf-0fd644d5b9ac",
       "packet_encoding": "xudp"
     }
   ],

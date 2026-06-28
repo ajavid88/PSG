@@ -96,6 +96,8 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "proxy",
@@ -110,6 +112,8 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "auto",
@@ -225,6 +229,31 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "h2.garletshopino.com",
+      "server_port": 2096,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "fsxhh.fastshop1.com",
+      "server_port": 443,
+      "uuid": "2947e655-6da6-4f90-b983-4deb8b5bc539",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2aryng_vpn #1",

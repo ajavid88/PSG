@@ -84,7 +84,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,7 +99,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -247,26 +247,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇨🇾 CY | VLESS | @nn_vpn #2",
       "type": "vless",
-      "server": "vip.donyavps2.ir",
-      "server_port": 44689,
-      "uuid": "5db36897-2266-4b5b-8373-60f0662345c3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "sadaf.melorin.mehrdadsadaf.com",
+      "server_port": 80,
+      "uuid": "b8debe38-3858-4a7e-9bfc-ee090ac7597b",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

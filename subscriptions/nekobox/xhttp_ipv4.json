@@ -83,6 +83,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
+        "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | VLESS | @mimitdl #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -91,17 +92,15 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,6 +114,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
+        "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | VLESS | @mimitdl #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -123,17 +123,15 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇱🇹 LT | VLESS | @v_2rayng0 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -252,6 +250,23 @@
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "151.101.56.6",
+      "server_port": 443,
+      "uuid": "5e6a66e9-a250-465d-adb5-0b7bd692f48a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @mimitdl #1",
@@ -381,14 +396,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #4",
-      "type": "vless",
-      "server": "104.17.122.123",
-      "server_port": 2083,
-      "uuid": "6c22648a-18f5-4249-9ace-72a1639d4190",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -405,11 +412,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "104.16.7.70",
+      "server": "89.144.30.104",
       "server_port": 443,
-      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -503,14 +510,6 @@
       "server": "91.188.254.124",
       "server_port": 2083,
       "uuid": "efffa718-6ce3-4b0f-88dc-fc68ed38ff1f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "45.130.125.206",
-      "server_port": 2053,
-      "uuid": "6f959878-d364-461d-be38-5e7b35bc81b3",
       "packet_encoding": "xudp"
     }
   ],

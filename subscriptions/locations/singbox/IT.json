@@ -92,7 +92,8 @@
         "direct",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
         "🇮🇹 IT | VLESS | @bored_vpn #1",
-        "🇮🇹 IT | VLESS | @ehsawn8 #1"
+        "🇮🇹 IT | VLESS | @ehsawn8 #1",
+        "🇮🇹 IT | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
         "🇮🇹 IT | VLESS | @bored_vpn #1",
-        "🇮🇹 IT | VLESS | @ehsawn8 #1"
+        "🇮🇹 IT | VLESS | @ehsawn8 #1",
+        "🇮🇹 IT | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,6 +138,18 @@
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "sca30.mysilipdir.com",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {

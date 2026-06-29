@@ -84,8 +84,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,8 +99,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -249,19 +247,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fln1.jobwebs.ir",
-      "server_port": 52077,
-      "uuid": "a9c0d70c-8283-4dfb-b3e0-6e797fc4ce26",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "nl-1.coinbridge.nl",
-      "server_port": 443,
-      "uuid": "b0f08ae1-7cf9-4612-ad61-72681e0b92da",
+      "server": "vip.donyavps2.ir",
+      "server_port": 44689,
+      "uuid": "5db36897-2266-4b5b-8373-60f0662345c3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -270,6 +260,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

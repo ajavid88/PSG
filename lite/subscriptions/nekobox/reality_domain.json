@@ -82,8 +82,9 @@
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇭🇰 HK | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -97,8 +98,9 @@
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇭🇰 HK | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -231,6 +233,14 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "fanlandv2.sorcepack.ir",
+      "server_port": 52077,
+      "uuid": "f6c9ef00-feb2-456e-ac54-11fd5a996cc3",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "sadaf.netherlands.mehrdadsadaf.com",
@@ -239,26 +249,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "gbp6.tbk2.agdb.a.rros.cc",
-      "server_port": 443,
-      "uuid": "575324da-63f6-448e-963f-4d67e9ea4cb4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "fln1.jobwebs.ir",
+      "server_port": 52077,
+      "uuid": "a9c0d70c-8283-4dfb-b3e0-6e797fc4ce26",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",

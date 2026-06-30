@@ -92,6 +92,7 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @prooxyk #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
@@ -103,6 +104,7 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @prooxyk #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
@@ -135,6 +137,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @prooxyk #1",
+      "type": "vmess",
+      "server": "77.v2ray1.xyz",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "77.v2ray1.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "77.v2ray1.xyz"
         }
       }
     },

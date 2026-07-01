@@ -81,13 +81,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇱🇹 LT | VLESS | @free1_vpn #2",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
@@ -101,13 +101,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇱🇹 LT | VLESS | @free1_vpn #2",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
@@ -219,11 +219,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8443,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "server": "fi.faygo.bot",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -241,11 +241,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "tag": "🇱🇹 LT | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "fi.faygo.bot",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "server": "cherry-lt-01.live",
+      "server_port": 8443,
+      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -309,26 +309,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "pl1.appcodes.ir",
-      "server_port": 2026,
-      "uuid": "98144540-9699-42b2-bac7-e1c243310ae7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "tr.ulanbatur.dasbild.ir",
+      "server_port": 2045,
+      "uuid": "96415c82-8f18-467a-8fcb-8e48b0042ffa",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "turk1.codesystem.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "98144540-9699-42b2-bac7-e1c243310ae7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "tr.ulanbatur.dasbild.ir", "port": 2045, "type": "vless", "skip-cert-verify": true, "uuid": "96415c82-8f18-467a-8fcb-8e48b0042ffa", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @v2raych #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

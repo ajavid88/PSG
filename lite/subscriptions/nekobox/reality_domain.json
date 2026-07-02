@@ -82,8 +82,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1"
+        "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,8 +97,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1"
+        "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -229,12 +231,26 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1",
+      "tag": "🇱🇹 LT | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "ch-gt-02.com",
+      "server": "cherry-lt-01.live",
       "server_port": 8443,
-      "uuid": "06bcd513-ef0b-4c0c-a03b-e25fcda66fe2",
-      "packet_encoding": "xudp"
+      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
@@ -242,6 +258,14 @@
       "server": "sadaf.netherlands.mehrdadsadaf.com",
       "server_port": 80,
       "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "coco.sorix-home.ir",
+      "server_port": 38733,
+      "uuid": "d136cf56-5fe0-4c3e-b1af-915e738d2320",
       "packet_encoding": "xudp"
     }
   ],

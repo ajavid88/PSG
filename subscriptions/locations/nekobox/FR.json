@@ -77,16 +77,18 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VMESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @father_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
-        "🇫🇷 FR | VLESS | @v_2rayng0 #1"
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,16 +96,18 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VMESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @father_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
-        "🇫🇷 FR | VLESS | @v_2rayng0 #1"
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +121,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "69.84.182.49",
+      "server_port": 80,
+      "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @father_vpn #1",
@@ -177,12 +197,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "de.vpnbase.net",
-      "server_port": 80,
-      "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-      "packet_encoding": "xudp"
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "51.45.25.17",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @prrofile_purple #1",
@@ -256,6 +284,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "it.fifapes.monster",
+      "server_port": 29148,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇨 SC | TROJAN | @v2ray_free_conf #1", "server": "45.130.125.112", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇫🇷 FR | VMESS | @NamiraConfigs #1", "server": "69.84.182.49", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "f8975871-a7a0-4906-8835-a23c1258ca1e", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."}}}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "51.45.25.17", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇨 SC | TROJAN | @v2ray_free_conf #1'
+      - '🇫🇷 FR | VMESS | @NamiraConfigs #1'
+      - '🇫🇷 FR | TROJAN | @privatevpns #1'
 
   - name: 🌍 Global Media
     type: select

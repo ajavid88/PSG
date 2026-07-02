@@ -96,8 +96,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,8 +110,7 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -254,28 +252,6 @@
       "server_port": 80,
       "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "nl-t2.vinnypuxtomoon.today",
-      "server_port": 2053,
-      "uuid": "1ee0c3d2-9c42-463f-8497-ee05f76b84e5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

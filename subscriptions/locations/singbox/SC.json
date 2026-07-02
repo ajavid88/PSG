@@ -98,11 +98,12 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
+        "🇸🇨 SC | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,11 +119,12 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
+        "🇸🇨 SC | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -248,6 +250,28 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "bypass.fr-gt-01.com",
+      "server_port": 8443,
+      "uuid": "356ccb34-22cc-4446-a137-072bc60d65ca",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "45.195.137.48",
@@ -300,20 +324,34 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "45.130.125.114",
-      "server_port": 8443,
-      "uuid": "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "45.130.125.194",
       "server_port": 8443,
       "uuid": "358ca5cf-5406-493d-b872-a344988b2e11",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "45.195.137.62",
+      "server_port": 8443,
+      "uuid": "7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

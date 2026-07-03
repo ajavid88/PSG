@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
@@ -101,6 +102,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
@@ -114,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "130.49.219.126",
+      "server_port": 8443,
+      "uuid": "2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @megavpn_link #1",
@@ -162,9 +172,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "94.242.55.42",
+      "server": "ruded2.cloudstreamself.com",
       "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "uuid": "740e350b-2881-4f16-8492-4f3bd140e1ae",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -173,6 +183,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

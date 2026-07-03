@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | VLESS | @NamiraConfigs #1", "server": "45.13.119.219", "port": 8888, "type": "vless", "skip-cert-verify": true, "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @father_vpn #1", "server": "79.127.196.11", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "55f7d143-a594-4a91-b030-f227039f85ef", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @merdesert #1", "server": "51.75.30.8", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @minovpnch #1", "server": "199.232.169.135", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -51,7 +50,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | VLESS | @NamiraConfigs #1'
       - '🇫🇷 FR | VLESS | @father_vpn #1'
       - '🇫🇷 FR | VLESS | @merdesert #1'
       - '🇫🇷 FR | VLESS | @minovpnch #1'

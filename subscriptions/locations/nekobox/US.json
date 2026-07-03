@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -117,7 +118,6 @@
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
-        "🇺🇸 US | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
@@ -126,10 +126,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -156,6 +154,7 @@
       "interval": "10m",
       "outbounds": [
         "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -195,7 +194,6 @@
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
-        "🇺🇸 US | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
@@ -204,10 +202,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -256,6 +252,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "57.151.100.27",
+      "server_port": 10086,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -812,9 +817,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "fast.cd-tur4.ir",
+      "server": "151.101.110.219",
       "server_port": 443,
-      "uuid": "9a1ca418-134f-4750-b97a-55ea81135742",
+      "uuid": "5d86d067-f0b3-4950-aef7-c27e3c99e52a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -825,14 +830,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @prrofile_purple #2",
-      "type": "vless",
-      "server": "local.connectingissues.ir",
-      "server_port": 80,
-      "uuid": "718ff826-3d64-441c-b1ec-54a1d7394931",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @public504 #1",
@@ -967,23 +964,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "node-877017628-4d038b-production.up.railway.app",
-      "server_port": 443,
-      "uuid": "talafreevpn",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "162.251.82.240",
@@ -1016,14 +996,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "udf4532193.dadashinet10.ir",
-      "server_port": 2044,
-      "uuid": "9205058d-99ca-4493-836a-0137834ece4d",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",

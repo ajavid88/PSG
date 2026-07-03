@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+        "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -89,10 +88,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+        "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -109,12 +107,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
       "type": "vless",
-      "server": "130.49.219.126",
-      "server_port": 8443,
-      "uuid": "2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5",
-      "packet_encoding": "xudp"
+      "server": "2.26.8.55",
+      "server_port": 443,
+      "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @megavpn_link #1",
@@ -144,28 +152,6 @@
       "server": "188.225.80.183",
       "server_port": 443,
       "uuid": "5475990d-e0ce-46ea-95e5-50f9e4879af9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ruded2.cloudstreamself.com",
-      "server_port": 443,
-      "uuid": "740e350b-2881-4f16-8492-4f3bd140e1ae",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

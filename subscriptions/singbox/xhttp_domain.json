@@ -93,14 +93,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -112,14 +112,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -204,7 +204,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @bored_vpn #1",
+      "tag": "🇸🇨 SC | VLESS | @bored_vpn #1",
       "type": "vless",
       "server": "ipw.ygdfw.com",
       "server_port": 443,
@@ -261,28 +261,19 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "fbi.gov",
+      "server_port": 2053,
+      "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #3",
       "type": "vless",
       "server": "us.aleykesalam.dpdns.org",
       "server_port": 443,
       "uuid": "b72e5e3e-2353-4f66-a915-f938e8fb9988",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "cdn6.sudonetwork.com",
-      "server_port": 443,
-      "uuid": "68f68e9d-e1f2-4904-9971-10983e47ffc4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

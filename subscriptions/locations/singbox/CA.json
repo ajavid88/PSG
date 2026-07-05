@@ -92,8 +92,9 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @red2ray #1",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +104,9 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @red2ray #1",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,12 +141,21 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
+      "tag": "🇨🇦 CA | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ov-canada1.09vpn.com",
-      "server_port": 8443,
-      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
-      "packet_encoding": "xudp"
+      "server": "shopify.com",
+      "server_port": 443,
+      "uuid": "04c808e2-0b59-47b0-a54b-32fc7ef1c902",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",
@@ -162,6 +173,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "185.196.61.82",
+      "server_port": 8080,
+      "method": "YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==",
+      "password": null
     }
   ],
   "route": {

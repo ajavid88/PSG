@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -105,6 +106,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -122,6 +124,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.151",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | TROJAN | @nofiltering2 #1",
@@ -213,10 +223,24 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "141.11.21.242",
-      "server_port": 53924,
-      "uuid": "ca3e2071-6857-4e46-9b01-c7bfafc4300d",
-      "packet_encoding": "xudp"
+      "server": "103.118.208.134",
+      "server_port": 9010,
+      "uuid": "991e8e3a-9c23-4855-816a-571fe3cf3856",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",

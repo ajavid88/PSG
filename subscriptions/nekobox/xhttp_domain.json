@@ -84,9 +84,14 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇽🇽 XX | VLESS | @outline_ir #3",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
+        "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,9 +106,14 @@
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇽🇽 XX | VLESS | @outline_ir #3",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
+        "🇽🇽 XX | VLESS | @vmesc #2",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -232,11 +242,36 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @outline_ir #3",
+      "type": "vless",
+      "server": "az.bgp6.ir",
+      "server_port": 443,
+      "uuid": "19a04069-2321-4d57-a289-44fa974a08f8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
       "type": "vless",
       "server": "s8.meoshop.ir",
       "server_port": 2053,
       "uuid": "2dacceea-8664-4fed-ba16-27fdd3b40f3e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "s1.zynavo.ir",
+      "server_port": 2087,
+      "uuid": "ba044fbf-8379-4ec8-c552-bb9b18331778",
       "packet_encoding": "xudp"
     },
     {
@@ -262,6 +297,39 @@
       "server": "alpha.iranhttp.com",
       "server_port": 4242,
       "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #4",
+      "type": "vless",
+      "server": "fbi.gov",
+      "server_port": 2053,
+      "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "az.bgp6.ir",
+      "server_port": 443,
+      "uuid": "19a04069-2321-4d57-a289-44fa974a08f8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "s1.zynavo.ir",
+      "server_port": 2087,
+      "uuid": "5c00c141-856a-4439-56ec-e1ccffb310fe",
       "packet_encoding": "xudp"
     }
   ],

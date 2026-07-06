@@ -93,6 +93,7 @@
         "🇮🇷 IR | VLESS | @mpproxy #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
@@ -103,8 +104,7 @@
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesc #2"
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,6 +128,7 @@
         "🇮🇷 IR | VLESS | @mpproxy #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
@@ -138,8 +139,7 @@
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇮🇷 IR | VLESS | @vmesc #2"
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -353,6 +353,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "2.144.22.87",
+      "server_port": 443,
+      "uuid": "5e9d217c-0f9f-4c8c-aa79-a600baa8765b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -452,23 +469,6 @@
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "2.144.22.87",
-      "server_port": 443,
-      "uuid": "5e9d217c-0f9f-4c8c-aa79-a600baa8765b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesc #2",
       "type": "vless",
       "server": "2.144.25.196",
       "server_port": 443,

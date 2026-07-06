@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -88,7 +89,8 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇹 IT | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,6 +101,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -107,7 +110,8 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇹 IT | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -193,6 +197,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
@@ -372,6 +385,31 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "57.131.35.243",
+      "server_port": 443,
+      "uuid": "8f9391ed-fede-4ee6-b7c2-89d0939545bd",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
       }
     }
   ],

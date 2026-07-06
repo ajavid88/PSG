@@ -80,12 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇹 IT | VMESS | @v2raych #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,12 +95,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇹 IT | VMESS | @v2raych #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,11 +187,11 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs #1",
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
       "type": "vmess",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "alter_id": 0
     },
@@ -278,31 +276,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 IT | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "57.131.35.243",
-      "server_port": 443,
-      "uuid": "8f9391ed-fede-4ee6-b7c2-89d0939545bd",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     }

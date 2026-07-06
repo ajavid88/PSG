@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @outline_ir #1",
+        "🇱🇻 LV | VLESS | @outline_ir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @outline_ir #1",
+        "🇱🇻 LV | VLESS | @outline_ir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,28 +127,6 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "91.218.143.194",
-      "server_port": 43798,
-      "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇱🇻 LV | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "subi.polnejat.ir",
@@ -169,6 +147,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "fn.fifapes.monster",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

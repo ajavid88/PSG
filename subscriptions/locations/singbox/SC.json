@@ -98,6 +98,7 @@
         "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | TROJAN | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @selinc #2",
@@ -117,6 +118,7 @@
         "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | TROJAN | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @selinc #2",
@@ -230,6 +232,22 @@
       "server_port": 443,
       "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "45.130.125.2",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

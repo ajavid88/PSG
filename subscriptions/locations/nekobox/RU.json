@@ -83,7 +83,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +99,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -221,10 +225,41 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "213.171.30.172",
-      "server_port": 9881,
-      "uuid": "97d290a0-acec-4aae-b8cf-c7111a5a6397",
-      "packet_encoding": "xudp"
+      "server": "ruded2.cloudstreamself.com",
+      "server_port": 443,
+      "uuid": "740e350b-2881-4f16-8492-4f3bd140e1ae",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "217.144.184.246",
+      "server_port": 443,
+      "uuid": "b22d87f9-3098-429f-a9fe-56463e0dc741",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fast_s24.slopllex.app",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
@@ -245,6 +280,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "fast3.slopllex.app",
+      "server_port": 443,
+      "uuid": "b22d87f9-3098-429f-a9fe-56463e0dc741",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

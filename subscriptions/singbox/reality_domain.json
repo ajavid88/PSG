@@ -96,10 +96,10 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,10 +113,10 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -252,28 +252,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "subi.polnejat.ir",
-      "server_port": 25718,
-      "uuid": "28074c22-d65e-46ce-8426-22f9e05e0363",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "shop.frahidx.ir",
@@ -282,11 +260,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ruded2.cloudstreamself.com",
+      "server": "odqwd.foot8all.ir",
+      "server_port": 50567,
+      "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "b02.connectv.net",
       "server_port": 443,
-      "uuid": "740e350b-2881-4f16-8492-4f3bd140e1ae",
+      "uuid": "c65ca957-329a-0001-8e62-eaaa48468833",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -304,11 +290,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "b02.connectv.net",
-      "server_port": 443,
-      "uuid": "c65ca957-329a-0001-8e62-eaaa48468833",
+      "server": "de-fardad.oorluma.ir",
+      "server_port": 6800,
+      "uuid": "4055380b-0f38-4b80-99af-706ef9cab2fa",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

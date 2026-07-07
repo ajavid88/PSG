@@ -82,7 +82,10 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇩🇪 DE | VLESS | @sobi_vpn #1"
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +98,10 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇩🇪 DE | VLESS | @sobi_vpn #1"
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -227,11 +233,63 @@
       }
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "it-one.quiet-rogue.site",
+      "server_port": 443,
+      "uuid": "bf142126-5bc4-46fa-986e-ffc4517655dd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "shop.frahidx.ir",
       "server_port": 2044,
       "uuid": "075232d9-82c0-4500-b049-812e944c655c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "s2.dipvpn.ru",
+      "server_port": 443,
+      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "turntable.proxy.rlwy.net",
+      "server_port": 42810,
+      "uuid": "d2ac1a6e-dc19-466a-a9ee-1412669b5bcb",
       "packet_encoding": "xudp"
     }
   ],

@@ -77,9 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | SS | @NamiraConfigs #1",
+        "🇬🇧 GB | SS | @NamiraConfigs #2",
+        "🇬🇧 GB | SS | @NamiraConfigs #3",
+        "🇬🇧 GB | SS | @NamiraConfigs #4",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
-        "🇬🇧 GB | TROJAN | @mehrosaboran #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
@@ -88,7 +91,6 @@
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | TUIC | @vipv2rey #1",
-        "🇬🇧 GB | SS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
@@ -98,9 +100,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | SS | @NamiraConfigs #1",
+        "🇬🇧 GB | SS | @NamiraConfigs #2",
+        "🇬🇧 GB | SS | @NamiraConfigs #3",
+        "🇬🇧 GB | SS | @NamiraConfigs #4",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
-        "🇬🇧 GB | TROJAN | @mehrosaboran #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
@@ -109,7 +114,6 @@
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | TUIC | @vipv2rey #1",
-        "🇬🇧 GB | SS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
@@ -127,6 +131,38 @@
       "type": "direct"
     },
     {
+      "tag": "🇬🇧 GB | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.164",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @NamiraConfigs #2",
+      "type": "shadowsocks",
+      "server": "82.38.31.206",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @NamiraConfigs #3",
+      "type": "shadowsocks",
+      "server": "82.38.31.3",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @NamiraConfigs #4",
+      "type": "shadowsocks",
+      "server": "82.38.31.190",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
       "type": "shadowsocks",
       "server": "141.98.101.182",
@@ -141,22 +177,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | TROJAN | @mehrosaboran #1",
-      "type": "trojan",
-      "server": "164.38.155.135",
-      "server_port": 443,
-      "password": "MITIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -191,7 +211,7 @@
     {
       "tag": "🇬🇧 GB | SS | @outline_ir #1",
       "type": "shadowsocks",
-      "server": "82.38.31.215",
+      "server": "82.38.31.203",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
@@ -243,14 +263,6 @@
         "insecure": false,
         "alpn": null
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @vmesskhodam #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.47",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",

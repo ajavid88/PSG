@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2raych #1", "server": "45.12.30.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "13.38.149.14", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2raych #1'
+      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
 
   - name: 🌍 Global Media
     type: select

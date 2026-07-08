@@ -106,8 +106,9 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -131,8 +132,9 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -383,6 +385,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "panel1.bakhe01.ir",
+      "server_port": 443,
+      "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "nl.ipsafe2.site",
@@ -391,11 +410,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "hayabusa.proxy.rlwy.net",
-      "server_port": 45900,
-      "uuid": "%40MAconnectt",
+      "server": "speedtest.net",
+      "server_port": 80,
+      "uuid": "d1a63ff3-3f64-42f9-9f6d-28c1220e43a1",
       "packet_encoding": "xudp"
     }
   ],

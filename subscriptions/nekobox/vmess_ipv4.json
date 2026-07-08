@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #3",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VMESS | @hope_net #2",
@@ -89,8 +90,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #3",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VMESS | @hope_net #2",
@@ -110,8 +111,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -199,7 +199,16 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #2",
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
       "type": "vmess",
       "server": "57.151.100.27",
       "server_port": 10086,
@@ -208,13 +217,22 @@
       "alter_id": 0
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #3",
       "type": "vmess",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng #1",
@@ -386,15 +404,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "144.31.234.153",
-      "server_port": 110,
-      "uuid": "8365ce94-5cc5-45df-be41-065eb9d31049",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

@@ -91,10 +91,10 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,28 +124,6 @@
       "server_port": 2087,
       "uuid": "7943183f-5c33-4728-8d57-8f18efe6ce25",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "fi1.vitok.cc",
-      "server_port": 443,
-      "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
@@ -192,6 +170,28 @@
       "server": "fi.theatak.com",
       "server_port": 4450,
       "uuid": "051154dd-2eac-4f84-8d20-e253ada6eac8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "66.234.150.145",
+      "server_port": 443,
+      "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

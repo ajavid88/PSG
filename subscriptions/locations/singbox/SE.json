@@ -117,7 +117,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
+        "🇸🇪 SE | VLESS | @v2raymelliii #2",
+        "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -153,7 +156,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
+        "🇸🇪 SE | VLESS | @v2raymelliii #2",
+        "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -472,6 +478,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "yout.foot8all.ir",
+      "server_port": 56625,
+      "uuid": "14e1a612-a523-4a4e-b8fc-64d073006ca8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "192.71.82.2",
@@ -485,6 +499,36 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raymelliii #2",
+      "type": "vless",
+      "server": "yout.foot8all.ir",
+      "server_port": 56625,
+      "uuid": "14e1a612-a523-4a4e-b8fc-64d073006ca8",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "sw.linuxbase.ir",
+      "server_port": 1152,
+      "uuid": "4973357c-6436-4970-b1e6-e21244d2ef94",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

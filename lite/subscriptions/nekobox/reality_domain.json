@@ -84,10 +84,10 @@
         "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,10 +102,10 @@
         "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -267,28 +267,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "ru.faygo.bot",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "shop.frahidx.ir",
@@ -297,11 +275,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "qwjz.foot8all.ir",
-      "server_port": 50567,
-      "uuid": "e2a442d3-b454-4b3d-a3c1-4db2f91837a3",
+      "server": "nl-kjahsdlahskjdhgakjshdgkjahsgdkjahsgdk.ssdhdd.org",
+      "server_port": 20262,
+      "uuid": "918819b0-fc03-4090-8adf-569a192cce9d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -339,6 +317,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "hayabusa.proxy.rlwy.net",
+      "server_port": 45900,
+      "uuid": "%40MAconnectt",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇸🇪 SE | VLESS | @deli_servers #1",
-        "🇸🇪 SE | VLESS | @flyv2ray #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -105,7 +104,6 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
-        "🇸🇪 SE | VLESS | @v2raymelliii #2",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
@@ -116,7 +114,6 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇪 SE | VLESS | @deli_servers #1",
-        "🇸🇪 SE | VLESS | @flyv2ray #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -143,7 +140,6 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
-        "🇸🇪 SE | VLESS | @v2raymelliii #2",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
@@ -167,23 +163,6 @@
       "server_port": 80,
       "uuid": "telegram-deli-servers",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "192.71.82.2",
-      "server_port": 443,
-      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @free_vip3 #1",
@@ -482,14 +461,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2raymelliii #2",
-      "type": "vless",
-      "server": "yout.foot8all.ir",
-      "server_port": 56625,
-      "uuid": "14e1a612-a523-4a4e-b8fc-64d073006ca8",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",

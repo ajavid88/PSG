@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @NamiraConfigs #1", "server": "turki.gelqino.ir", "port": 17830, "type": "vless", "skip-cert-verify": true, "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @mehrosaboran #1", "server": "panel1.bakhe01.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "help.novaano.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ecbaa049-4a7e-4e18-a363-5ef58b6278f7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @mehrosaboran #1'
+      - '🇹🇷 TR | VLESS | @netmellianti #1'
 
   - name: 🌍 Global Media
     type: select

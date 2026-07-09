@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1"
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1"
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "help.novaano.ir",
+      "server_port": 443,
+      "uuid": "ecbaa049-4a7e-4e18-a363-5ef58b6278f7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

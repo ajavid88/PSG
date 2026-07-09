@@ -96,21 +96,19 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @flyv2ray #2",
+        "🇧🇷 BR | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
-        "🇺🇸 US | VLESS | @netmellianti #1",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,21 +122,19 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @flyv2ray #2",
+        "🇧🇷 BR | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
-        "🇺🇸 US | VLESS | @netmellianti #1",
-        "🇽🇽 XX | VLESS | @netmellianti #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -255,6 +251,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇧🇷 BR | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "200.25.53.5",
+      "server_port": 80,
+      "uuid": "b14bc0dc-623e-42ca-b45a-383a572fa192",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
       "type": "vless",
       "server": "104.21.62.144",
@@ -320,23 +324,6 @@
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "69.46.46.122",
-      "server_port": 443,
-      "uuid": "ee2bb7c0-683f-6450-012a-c3f7a818aad8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -423,27 +410,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "us.ipsafe2.site",
-      "server_port": 40646,
-      "uuid": "41a6a386-485c-417f-971c-06167252863a",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "cdn1.mehfa.site",
       "server_port": 80,
       "uuid": "b14bc0dc-623e-42ca-b45a-383a572fa192",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "hayabusa.proxy.rlwy.net",
-      "server_port": 45900,
-      "uuid": "%40MAconnectt",
       "packet_encoding": "xudp"
     }
   ],

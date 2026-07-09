@@ -92,6 +92,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -141,6 +143,28 @@
       "server": "65.109.184.172",
       "server_port": 1020,
       "uuid": "01aacd3b-fdda-4e3f-894b-bc380f184fe1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "217.217.247.251",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

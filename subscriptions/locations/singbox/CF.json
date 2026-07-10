@@ -128,6 +128,7 @@
         "🇽🇽 XX | VLESS | @flyv2ray #3",
         "🇽🇽 XX | VLESS | @flyv2ray #4",
         "🇽🇽 XX | VLESS | @flyv2ray #5",
+        "🇽🇽 XX | TROJAN | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -275,15 +276,16 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #4",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
+        "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
@@ -374,6 +376,7 @@
         "🇽🇽 XX | VLESS | @flyv2ray #3",
         "🇽🇽 XX | VLESS | @flyv2ray #4",
         "🇽🇽 XX | VLESS | @flyv2ray #5",
+        "🇽🇽 XX | TROJAN | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -521,15 +524,16 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #4",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
+        "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
@@ -596,10 +600,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "172.67.250.163",
-      "server_port": 80,
-      "uuid": "234c52f2-0d7b-dc4a-0d6b-b0b30000002e",
-      "packet_encoding": "xudp"
+      "server": "octopusss5.info",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -998,6 +1011,22 @@
       "server_port": 8443,
       "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @free1_vpn #1",
+      "type": "trojan",
+      "server": "104.16.174.12",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
@@ -2956,9 +2985,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "172.64.147.255",
-      "server_port": 80,
-      "uuid": "478cc26d-16b3-4fdd-be64-60d5a58c1622",
+      "server": "173.245.58.75",
+      "server_port": 443,
+      "uuid": "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "digitalocean.com",
+      "server_port": 2086,
+      "uuid": "b08f7f87-fda7-4674-8e40-82fdcc09672a",
       "packet_encoding": "xudp"
     },
     {
@@ -3028,19 +3074,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "188.114.99.109",
-      "server_port": 2087,
-      "uuid": "%40V2ConfigPro",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "162.159.38.119",
+      "server": "join-telegram-channel.tirexnet.kdns.fr",
       "server_port": 443,
-      "password": "MITIVPN",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -3064,6 +3102,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2rayng3 #1",
+      "type": "vmess",
+      "server": "104.17.121.43",
+      "server_port": 443,
+      "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "omkuzygiv.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "omkuzygiv.com"
         }
       }
     },

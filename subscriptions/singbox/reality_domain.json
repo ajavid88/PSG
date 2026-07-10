@@ -98,11 +98,9 @@
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #3",
-        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
@@ -122,11 +120,9 @@
         "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #3",
-        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
@@ -305,72 +301,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "de2.whiteshark.click",
-      "server_port": 10443,
-      "uuid": "03f4e625-e25e-4beb-93bd-8f275d3717e1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #3",
-      "type": "vless",
-      "server": "de2.sharkphotos.de",
-      "server_port": 10443,
-      "uuid": "03f4e625-e25e-4beb-93bd-8f275d3717e1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "all094.allenshop66245.ir",
-      "server_port": 443,
-      "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "shop.frahidx.ir",
@@ -379,13 +309,43 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "nh5.skyfanta.sbs",
-      "server_port": 8443,
-      "uuid": "544fd259-8ce4-2663-ea8d-6cfec14a96c2",
+      "server": "teain.org",
+      "server_port": 1005,
+      "uuid": "19f6900b-e716-4efc-55bb-c43b3cb4acfc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de-3.coinbridge.nl",
+      "server_port": 443,
+      "uuid": "b0f08ae1-7cf9-4612-ad61-72681e0b92da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @v2raymelliii #1",

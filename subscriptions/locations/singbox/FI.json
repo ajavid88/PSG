@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -100,8 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -114,11 +114,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "65.109.184.172",
-      "server_port": 1020,
-      "uuid": "01aacd3b-fdda-4e3f-894b-bc380f184fe1",
+      "server": "217.217.247.251",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -136,11 +136,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "217.217.247.251",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "server": "31.76.21.58",
+      "server_port": 57176,
+      "uuid": "6395bc01-f320-4327-94a4-7f523e96b5dc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -124,11 +124,9 @@
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
-        "🇹🇷 TR | VLESS | @oonfig #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
@@ -141,8 +139,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
@@ -200,11 +197,9 @@
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
-        "🇹🇷 TR | VLESS | @oonfig #1",
         "🇽🇽 XX | VLESS | @parsashonam #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
@@ -217,8 +212,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
@@ -675,23 +669,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @mehrosaboran #1",
-      "type": "vless",
-      "server": "panel1.bakhe01.ir",
-      "server_port": 443,
-      "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "manage.fastly.com",
@@ -713,23 +690,6 @@
       "server": "allsms.rozfa.com",
       "server_port": 443,
       "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @oonfig #1",
-      "type": "vless",
-      "server": "my.filpower.shop",
-      "server_port": 443,
-      "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -883,11 +843,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "all171.allenshop66245.ir",
+      "server": "dekrep.tgflow.me",
       "server_port": 443,
-      "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
+      "uuid": "9f19123a-1450-49f9-8ca4-3cc5f92f600b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -896,16 +856,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "alese.locations-sub.com",
-      "server_port": 6300,
-      "uuid": "8f6ccdb2-2b4e-4834-a90b-344bff490402",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

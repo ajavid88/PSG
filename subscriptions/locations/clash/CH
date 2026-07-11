@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @prrofile_purple #1", "server": "217.217.247.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇭 CH | TROJAN | @v2raych #1", "server": "8y7r-2-4-3-1-4-5-2-2-3.poki-pakipon.ir", "port": 27111, "type": "trojan", "skip-cert-verify": false, "password": "-----------BanV2ray------------"}
+  - {"name": "🇨🇭 CH | TROJAN | @vmesc #1", "server": "179.237.75.28", "port": 61235, "type": "trojan", "skip-cert-verify": false, "password": "2TzqY10FJL"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @prrofile_purple #1'
+      - '🇨🇭 CH | TROJAN | @v2raych #1'
+      - '🇨🇭 CH | TROJAN | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

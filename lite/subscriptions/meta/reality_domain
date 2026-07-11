@@ -27,7 +27,7 @@ proxies:
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇩🇪 DE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇹🇷 TR | VLESS | @oonfig #1", "server": "my.filpower.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "plkrep.tgflow.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9f19123a-1450-49f9-8ca4-3cc5f92f600b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -45,7 +45,7 @@ proxy-groups:
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
       - '🇩🇪 DE | VLESS | @filterk0sh #1'
-      - '🇹🇷 TR | VLESS | @oonfig #1'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

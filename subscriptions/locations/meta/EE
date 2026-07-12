@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VMESS | @NamiraConfigs #1", "server": "31.76.78.98", "port": 110, "type": "vmess", "skip-cert-verify": true, "uuid": "c4caf231-bf6c-4603-98d8-f4518bfc52af", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇪🇪 EE | VLESS | @red2ray #1", "server": "185.155.97.58", "port": 45176, "type": "vless", "skip-cert-verify": true, "uuid": "dc7940e0-6bff-45e3-853d-4007561803c3", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VMESS | @NamiraConfigs #1'
+      - '🇪🇪 EE | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -281,6 +280,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -288,7 +290,6 @@
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
@@ -352,7 +353,6 @@
       "interval": "10m",
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -542,6 +542,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -549,7 +552,6 @@
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
@@ -622,23 +624,6 @@
       "server_port": 2083,
       "uuid": "fdb12587-1c15-4883-8d7a-9894641e183c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "172.67.193.253",
-      "server_port": 443,
-      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -2485,9 +2470,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "172.67.71.247",
+      "server": "zeus-panel-axmii0.zeus-14c2mr.workers.dev",
+      "server_port": 2053,
+      "uuid": "b330f356-0c52-4252-9cea-2448df405b03",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "104.16.72.50",
       "server_port": 443,
-      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "uuid": "7968c546-02dc-4f8c-b791-934591a94cb2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2498,14 +2491,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @outline_ir #2",
-      "type": "vless",
-      "server": "zeus-panel-axmii0.zeus-14c2mr.workers.dev",
-      "server_port": 2053,
-      "uuid": "b330f356-0c52-4252-9cea-2448df405b03",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @parsashonam #1",
@@ -3068,6 +3053,48 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.18.42.163",
+      "server_port": 2095,
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "104.16.72.2",
+      "server_port": 443,
+      "uuid": "b26ec0f4-6c92-45f7-b287-2a664abf1963",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
+      "type": "vless",
+      "server": "8.6.112.8",
+      "server_port": 443,
+      "uuid": "7850c959-f9d5-42da-b8a9-35c7954cc86d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "172.64.152.241",
@@ -3136,52 +3163,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "162.159.38.101",
-      "server_port": 443,
-      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "162.159.38.101",
-      "server_port": 443,
-      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "zeus-panel-198klk.ahmad-7761376.workers.dev",
+      "server_port": 2053,
+      "uuid": "ce201caa-b81c-4d51-8e75-f6df34bf06f6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "v3.dabache.top",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "172.64.144.251",
+      "server_port": 2083,
+      "password": "Mehdi1234"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raying #1",

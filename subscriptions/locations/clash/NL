@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @oonfig #1", "server": "my.filpower.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VMESS | @NamiraConfigs #1", "server": "31.76.78.98", "port": 110, "type": "vmess", "skip-cert-verify": true, "uuid": "c4caf231-bf6c-4603-98d8-f4518bfc52af", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @oonfig #1'
+      - '🇳🇱 NL | VMESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

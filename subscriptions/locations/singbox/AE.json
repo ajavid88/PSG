@@ -92,7 +92,8 @@
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -145,6 +147,14 @@
     },
     {
       "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "test.dnmpropack.ir",
+      "server_port": 80,
+      "uuid": "864f675f-2177-4cdb-967e-6bfc13792a24",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "test.dnmpropack.ir",
       "server_port": 443,

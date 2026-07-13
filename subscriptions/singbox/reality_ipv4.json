@@ -95,7 +95,6 @@
         "KingRezaPahlavi",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
         "🇱🇻 LV | VLESS | @megavpn_link #1",
@@ -106,14 +105,14 @@
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -127,7 +126,6 @@
         "KingRezaPahlavi",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
         "🇱🇻 LV | VLESS | @megavpn_link #1",
@@ -138,14 +136,14 @@
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -257,28 +255,6 @@
       "server": "77.73.232.61",
       "server_port": 19747,
       "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "83.168.71.216",
-      "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -501,11 +477,11 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @red2ray #1",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "178.236.17.86",
+      "server": "31.76.39.116",
       "server_port": 443,
-      "uuid": "6fdfdb73-51b0-4a14-89a5-c9355a0e0397",
+      "uuid": "16ad976d-b5df-4b4e-87b6-87cc64ac0a8b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -589,6 +565,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "37.9.4.22",
+      "server_port": 443,
+      "uuid": "04b3ed78-61b5-42bb-9143-eeb70e64b5aa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
       "server": "5.223.42.211",
@@ -638,28 +636,6 @@
       "server": "49.13.135.58",
       "server_port": 443,
       "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "31.77.161.2",
-      "server_port": 8443,
-      "uuid": "a6704fb4-4874-4e6b-98f4-571b048e3d90",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇹 LT | TROJAN | @v2raych #1", "server": "89.116.250.135", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇰🇷 KR | TROJAN | @v2raych #1", "server": "growing-ram.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "CF68213490"}
+  - {"name": "🇰🇷 KR | TROJAN | @v2raych #2", "server": "aware-lionfish.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "CF68213490"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇹 LT | TROJAN | @v2raych #1'
+      - '🇰🇷 KR | TROJAN | @v2raych #1'
+      - '🇰🇷 KR | TROJAN | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

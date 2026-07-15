@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "tk1.degeristir.ir",
+      "server_port": 443,
+      "uuid": "8838647d-6f86-4dbc-b946-af6a1f5a2e1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",

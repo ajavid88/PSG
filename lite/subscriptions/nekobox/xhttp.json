@@ -96,6 +96,7 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇨🇿 CZ | VLESS | @mehrosaboran #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2"
       ],
       "tag": "proxy",
@@ -123,6 +124,7 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇨🇿 CZ | VLESS | @mehrosaboran #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2"
       ],
       "tag": "auto",
@@ -409,6 +411,23 @@
       "server_port": 8443,
       "uuid": "76b7834c-75d4-4fce-a90b-2639739e8e3e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "tk1.degeristir.ir",
+      "server_port": 443,
+      "uuid": "8838647d-6f86-4dbc-b946-af6a1f5a2e1e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",

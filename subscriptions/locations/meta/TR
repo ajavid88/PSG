@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "tk1.degeristir.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8838647d-6f86-4dbc-b946-af6a1f5a2e1e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesc #1", "server": "107.161.174.153", "port": 59142, "type": "vless", "skip-cert-verify": true, "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "107.161.174.153", "port": 59142, "type": "vless", "skip-cert-verify": true, "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
       - '🇹🇷 TR | VLESS | @vmesc #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 

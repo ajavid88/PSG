@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,6 +137,14 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "92.113.124.204",
+      "server_port": 18443,
+      "uuid": "143b295d-1b75-4b42-8ce1-84ec60d5738a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

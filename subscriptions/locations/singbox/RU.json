@@ -94,7 +94,7 @@
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -108,7 +108,7 @@
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
@@ -164,9 +164,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "84.38.187.134",
+      "server": "138.124.255.17",
       "server_port": 443,
-      "uuid": "1f897d22-9b1f-0024-93f4-e4bf1cfc0b28",
+      "uuid": "162539ad-3df4-429f-8e71-ecdb7023b786",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -175,32 +175,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "90.156.218.132",
-      "server_port": 443,
-      "uuid": "522e84a6-2f0b-4109-901d-dbf05b60ce59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "147.45.97.168",
+      "server_port": 2053,
+      "uuid": "fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "94.242.55.42",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "server": "185.40.28.216",
+      "server_port": 8443,
+      "uuid": "ecad47b0-249e-0007-adff-e3c8f02b1897",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

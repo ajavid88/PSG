@@ -23,13 +23,14 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @NamiraConfigs #1", "server": "195.63.137.251", "port": 8090, "type": "vless", "skip-cert-verify": true, "uuid": "ef14c532-b69a-4f46-ae29-272f2fdaf673", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @configv2rayforfree #1", "server": "c1.fineartsnet.org", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "668869b1-860e-4308-b1da-386e222defce", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | TROJAN | @prrofile_purple #1", "server": "45.131.4.118", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2ray_free_conf #1", "server": "3at0z.sannest.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "05f0037e-bf24-49e6-8c71-5560e9324144", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_youtube #1", "server": "alpha.iranhttp.com", "port": 4242, "type": "vless", "skip-cert-verify": true, "uuid": "df196287-5b8c-4592-870f-b3ede251fa68", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "82.41.131.21", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e5573bd4-6b10-4010-a67d-54ea2b51e8bf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "8xd2l.pastilbastani.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9fe0830a-f305-4320-b021-23ef855439e1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @vmesc #1", "server": "153.75.89.148", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8afb91d5-76bd-11f1-bd1f-525400b0a67a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @vmesskhodam #1", "server": "nl4.helper-internet.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "59da5351-5151-417d-b2f7-6923848b717e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +44,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VLESS | @NamiraConfigs #1'
       - '🇳🇱 NL | VLESS | @configv2rayforfree #1'
       - '🇳🇱 NL | TROJAN | @prrofile_purple #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
+      - '🇳🇱 NL | VLESS | @v2ray_free_conf #1'
       - '🇳🇱 NL | VLESS | @v2ray_youtube #1'
       - '🇳🇱 NL | VLESS | @v2raych #1'
       - '🇳🇱 NL | VLESS | @vmesc #1'
+      - '🇳🇱 NL | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "a.bazardam.shop", "port": 2056, "type": "vless", "skip-cert-verify": true, "uuid": "3f646f4d-b96e-4ba4-b562-0fd4854391a8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "95.85.251.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d2e3768f-cb23-4cfc-a884-dbd6813cb70b", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1", "server": "bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir", "port": 1944, "type": "trojan", "skip-cert-verify": false, "password": "------BanV2ray-----"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @red2ray #1'
-      - '🇫🇮 FI | VLESS | @v2raych #1'
+      - '🇨🇭 CH | TROJAN | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

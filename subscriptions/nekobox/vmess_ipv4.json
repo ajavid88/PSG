@@ -80,13 +80,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #2",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇺🇸 US | VMESS | @orange_vpns #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,13 +99,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #2",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇺🇸 US | VMESS | @orange_vpns #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,6 +193,33 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #2",
+      "type": "vmess",
+      "server": "31.77.149.131",
+      "server_port": 110,
+      "uuid": "5ed7206a-cd8d-4b02-add1-4f7b787178c9",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng #1",
@@ -290,15 +321,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @orange_vpns #1",
-      "type": "vmess",
-      "server": "57.151.100.27",
-      "server_port": 10086,
-      "uuid": "550e8400-e29b-41d4-a716-446655440000",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "172.66.213.38",
@@ -318,6 +340,24 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ],

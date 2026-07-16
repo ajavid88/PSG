@@ -98,8 +98,11 @@
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -116,8 +119,11 @@
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -284,6 +290,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "pol.mrsolo5323.ir",
+      "server_port": 2053,
+      "uuid": "592b8484-76af-40b3-8892-a35001ce015a",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
       "type": "vless",
       "server": "tv.myblog.org.tr",
@@ -326,6 +340,23 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fn4.sannest.ir",
+      "server_port": 8443,
+      "uuid": "544fd259-8ce4-2663-ea8d-6cfec14a96c2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "swser2.foot8all.ir",
+      "server_port": 50567,
+      "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @vmesc #1",

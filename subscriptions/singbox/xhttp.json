@@ -99,6 +99,7 @@
         "🇽🇽 XX | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | TROJAN | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -120,7 +121,7 @@
         "🇨🇿 CZ | VLESS | @mehrosaboran #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #2",
-        "🇵🇱 PL | VLESS | @red2ray #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3"
@@ -140,6 +141,7 @@
         "🇽🇽 XX | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | TROJAN | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -161,7 +163,7 @@
         "🇨🇿 CZ | VLESS | @mehrosaboran #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #2",
-        "🇵🇱 PL | VLESS | @red2ray #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3"
@@ -303,6 +305,22 @@
       "server_port": 443,
       "uuid": "f09d18a9-d778-4e00-a49a-c0063d1c1b11",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @nofiltering2 #1",
+      "type": "trojan",
+      "server": "151.101.34.144",
+      "server_port": 443,
+      "password": "itX52H4tiA",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -590,7 +608,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
       "server": "pol.mrsolo5323.ir",
       "server_port": 2053,

@@ -86,7 +86,9 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
-        "🇩🇪 DE | VLESS | @savagev2ray #2"
+        "🇩🇪 DE | VLESS | @savagev2ray #2",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,7 +105,9 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
-        "🇩🇪 DE | VLESS | @savagev2ray #2"
+        "🇩🇪 DE | VLESS | @savagev2ray #2",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -300,6 +304,50 @@
       "server": "tv.myblog.org.tr",
       "server_port": 25520,
       "uuid": "db1aebd3-7599-4d9e-962f-0004ee87119e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "real2.gogoli.xyz",
+      "server_port": 53921,
+      "uuid": "1414bd61-ef9c-42fc-94b6-0ac796b6a845",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "de2.raketa-balance.com",
+      "server_port": 443,
+      "uuid": "8a22fde8-e72e-4ce2-96f6-285aeffe66a2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

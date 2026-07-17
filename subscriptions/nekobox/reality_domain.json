@@ -86,16 +86,18 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @orange_vpns #2",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇪🇸 ES | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #3",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,16 +114,18 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @orange_vpns #2",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇪🇸 ES | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #3",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -299,7 +303,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @orange_vpns #2",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "de2.raketa-balance.com",
       "server_port": 443,
@@ -314,6 +318,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sp.foot8all.ir",
+      "server_port": 56625,
+      "uuid": "df0e61f6-dd51-49d6-bee7-6d5ff06ae44b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
@@ -382,11 +394,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "new.akinamo.willbe.sinitk.outforyou.ir",
-      "server_port": 20580,
-      "uuid": "612d16de-aebd-4738-829e-533dbfa9e936",
+      "server": "real2.gogoli.xyz",
+      "server_port": 53921,
+      "uuid": "1414bd61-ef9c-42fc-94b6-0ac796b6a845",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -483,6 +495,28 @@
       "server": "nl4.helper-internet.com",
       "server_port": 443,
       "uuid": "59da5351-5151-417d-b2f7-6923848b717e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #3",
+      "type": "vless",
+      "server": "de2.raketa-balance.com",
+      "server_port": 443,
+      "uuid": "8a22fde8-e72e-4ce2-96f6-285aeffe66a2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

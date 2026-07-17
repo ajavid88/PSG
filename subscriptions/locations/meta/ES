@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | TROJAN | @prrofile_purple #1", "server": "164.38.155.135", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MITIVPN"}
+  - {"name": "🇪🇸 ES | VLESS | @vmesskhodam #1", "server": "sp.foot8all.ir", "port": 56625, "type": "vless", "skip-cert-verify": true, "uuid": "c1000175-0b05-46e3-b0f5-1985ffa1ee55", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | TROJAN | @prrofile_purple #1'
+      - '🇪🇸 ES | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

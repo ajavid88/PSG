@@ -79,11 +79,9 @@
         "direct",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
-        "🇷🇺 RU | VLESS | @v2raych #4",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -94,11 +92,9 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
-        "🇷🇺 RU | VLESS | @v2raych #4",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -155,6 +151,23 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "mx.bexumconnect.ltd",
+      "server_port": 443,
+      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "138.124.255.17",
@@ -177,37 +190,26 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.40.28.216",
-      "server_port": 8443,
-      "uuid": "ecad47b0-249e-0007-adff-e3c8f02b1897",
+      "server": "217.168.247.209",
+      "server_port": 16923,
+      "uuid": "c1ad576a-302d-4bd2-9549-77c0b32e2027",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "185.40.28.216",
-      "server_port": 8443,
-      "uuid": "ecad47b0-249e-0007-adff-e3c8f02b1897",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "185.40.28.216",
-      "server_port": 8443,
-      "uuid": "ecad47b0-249e-0007-adff-e3c8f02b1897",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #4",
-      "type": "vless",
-      "server": "194.55.239.202",
-      "server_port": 8443,
-      "uuid": "ecad47b0-249e-0006-adff-e3c8f02b1897",
-      "packet_encoding": "xudp"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

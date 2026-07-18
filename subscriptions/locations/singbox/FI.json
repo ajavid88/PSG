@@ -89,23 +89,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | SS | @v2ray_free_conf #1",
-        "🇫🇮 FI | SS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | SS | @v2ray_free_conf #1",
-        "🇫🇮 FI | SS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -114,61 +105,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "mx.bexumconnect.ltd",
-      "server_port": 443,
-      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "65.109.219.124",
-      "server_port": 18269,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206dVhTZ1cybTRzYmZvWWNrVGJGaUduYVZuUDF5Z0lVTGkxMkxQUXZVWk5qTT06Rk5Xekk0T3dQVE5nQUZaVVVVRmp4MTltNVlmTG8zcU5YdDA3dENRM2xadz0=",
-      "password": null
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "65.109.219.124",
-      "server_port": 18269,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "fi5.liveflow.space",
-      "server_port": 443,
-      "uuid": "8bba3194-4856-46d1-8319-075817d87eb1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

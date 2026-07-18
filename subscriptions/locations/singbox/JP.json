@@ -92,8 +92,7 @@
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @red2ray #1",
-        "🇯🇵 JP | TROJAN | @red2ray #2"
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +102,7 @@
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @red2ray #1",
-        "🇯🇵 JP | TROJAN | @red2ray #2"
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -141,25 +139,9 @@
       "password": null
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @red2ray #1",
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "immune-grackle.rooster465.autos",
-      "server_port": 443,
-      "password": "NQ26071394",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @red2ray #2",
-      "type": "trojan",
-      "server": "upright-caribou.rooster465.autos",
+      "server": "optimal-penguin.rooster465.autos",
       "server_port": 443,
       "password": "NQ26071394",
       "tls": {

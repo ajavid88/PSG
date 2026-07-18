@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | TROJAN | @prrofile_purple #1", "server": "94.140.0.100", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MITIVPN"}
+  - {"name": "🇳🇱 NL | TROJAN | @prrofile_purple #1", "server": "45.131.4.118", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇳🇱 NL | TROJAN | @red2ray #1", "server": "renewed-phoenix.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "NQ26071394"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | TROJAN | @prrofile_purple #1'
+      - '🇳🇱 NL | TROJAN | @prrofile_purple #1'
+      - '🇳🇱 NL | TROJAN | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

@@ -23,14 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @red2ray #1", "server": "certain-kit.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "JA96378052"}
-  - {"name": "🇯🇵 JP | TROJAN | @red2ray #2", "server": "casual-bee.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "HW85960347"}
-  - {"name": "🇯🇵 JP | TROJAN | @red2ray #3", "server": "elegant-arachnid.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "HW85960347"}
   - {"name": "🇸🇬 SG | TROJAN | @red2ray #1", "server": "excited-alien.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "HW85960347"}
   - {"name": "🇺🇸 US | TROJAN | @red2ray #1", "server": "dashing-possum.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "HW85960347"}
+  - {"name": "🇺🇸 US | TROJAN | @red2ray #2", "server": "primary-mallard.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "JA96378052"}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #1", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22f86840-bcac-11ee-abea-1239d0255272"}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #2", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
-  - {"name": "🇺🇸 US | TROJAN | @v2raych #1", "server": "tolerant-rattler.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "CF68213490"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2raych #1", "server": "golden-fox.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PD07395842"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -44,14 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @red2ray #1'
-      - '🇯🇵 JP | TROJAN | @red2ray #2'
-      - '🇯🇵 JP | TROJAN | @red2ray #3'
       - '🇸🇬 SG | TROJAN | @red2ray #1'
       - '🇺🇸 US | TROJAN | @red2ray #1'
+      - '🇺🇸 US | TROJAN | @red2ray #2'
       - '🇽🇽 XX | TROJAN | @teamvpnpro #1'
       - '🇽🇽 XX | TROJAN | @teamvpnpro #2'
-      - '🇺🇸 US | TROJAN | @v2raych #1'
+      - '🇩🇪 DE | TROJAN | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

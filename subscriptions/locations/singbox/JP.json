@@ -91,11 +91,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @red2ray #1",
-        "🇯🇵 JP | TROJAN | @red2ray #2",
-        "🇯🇵 JP | TROJAN | @red2ray #3",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @red2ray #1",
-        "🇯🇵 JP | TROJAN | @red2ray #2",
-        "🇯🇵 JP | TROJAN | @red2ray #3",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,62 +135,6 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "certain-kit.rooster465.autos",
-      "server_port": 443,
-      "password": "JA96378052",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @red2ray #2",
-      "type": "trojan",
-      "server": "casual-bee.rooster465.autos",
-      "server_port": 443,
-      "password": "HW85960347",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @red2ray #3",
-      "type": "trojan",
-      "server": "elegant-arachnid.rooster465.autos",
-      "server_port": 443,
-      "password": "HW85960347",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "138.3.222.124",
-      "server_port": 46209,
-      "uuid": "1d16c6e0-1bbe-435b-b661-90043fee999c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

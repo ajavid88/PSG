@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | TROJAN | @outline_ir #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | TROJAN | @outline_ir #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +112,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @outline_ir #1",
-      "type": "trojan",
+      "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
+      "type": "vless",
       "server": "185.18.250.252",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -128,11 +129,11 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.18.250.252",
-      "server_port": 443,
-      "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
+      "server": "185.18.250.127",
+      "server_port": 2096,
+      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

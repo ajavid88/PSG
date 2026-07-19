@@ -9,12 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇯🇵 JP | TROJAN | @v2raych #1 = trojan, pumped-sailfish.rooster465.autos, 443, password = PD07395842, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @red2ray #1 = trojan, certain-kit.rooster465.autos, 443, password = JA96378052, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @red2ray #2 = trojan, casual-bee.rooster465.autos, 443, password = HW85960347, skip-cert-verify = true
+🇯🇵 JP | TROJAN | @red2ray #3 = trojan, elegant-arachnid.rooster465.autos, 443, password = HW85960347, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @v2raych #1
-PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @v2raych #1
-PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @v2raych #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @red2ray #1, 🇯🇵 JP | TROJAN | @red2ray #2, 🇯🇵 JP | TROJAN | @red2ray #3
+PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @red2ray #1, 🇯🇵 JP | TROJAN | @red2ray #2, 🇯🇵 JP | TROJAN | @red2ray #3
+PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @red2ray #1, 🇯🇵 JP | TROJAN | @red2ray #2, 🇯🇵 JP | TROJAN | @red2ray #3
 
 [Rule]
 GEOIP,IR,DIRECT

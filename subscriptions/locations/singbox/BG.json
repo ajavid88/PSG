@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgQkc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | SS | @red2ray #1",
-        "🇷🇴 RO | SS | @red2ray #2"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | SS | @red2ray #1",
-        "🇷🇴 RO | SS | @red2ray #2"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "93.152.223.98",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF",
-      "password": null
-    },
-    {
-      "tag": "🇷🇴 RO | SS | @red2ray #2",
-      "type": "shadowsocks",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF",
-      "password": null
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

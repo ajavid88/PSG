@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -101,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "fr.sv.temas-bor.ir",
-      "server_port": 22011,
-      "uuid": "dddff7f3-9a3d-463f-9213-0b8243e7f1db",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",

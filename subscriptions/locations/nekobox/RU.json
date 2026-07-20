@@ -79,9 +79,9 @@
         "direct",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | SS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -92,9 +92,9 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | SS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -146,6 +146,23 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #2",
+      "type": "vless",
+      "server": "45.8.211.217",
+      "server_port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "188.225.80.183",
@@ -170,27 +187,10 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.241.198.20",
-      "server_port": 443,
-      "uuid": "7612dd26-d0ce-4fe0-be7c-d093bb8645da",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "185.22.154.254",
-      "server_port": 6018,
-      "method": "YWVzLTI1Ni1nY206MzJjMGVhNmU4MjMzNDFhMg==",
-      "password": null
+      "server": "87.242.85.201",
+      "server_port": 35412,
+      "uuid": "566f8818-17fe-4ca9-8035-c9081ece6f68",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

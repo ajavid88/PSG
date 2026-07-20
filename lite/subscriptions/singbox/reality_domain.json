@@ -98,10 +98,9 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇱🇹 LT | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,10 +116,9 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇱🇹 LT | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -304,28 +302,6 @@
       }
     },
     {
-      "tag": "🇱🇹 LT | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "cherry-lt-01.live",
-      "server_port": 8443,
-      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
       "type": "vless",
       "server": "tv.myblog.org.tr",
@@ -370,12 +346,26 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "uter.sorixset.ir",
-      "server_port": 38733,
-      "uuid": "384a72e6-8a10-4695-9ee5-c93728ef7e2a",
-      "packet_encoding": "xudp"
+      "server": "www.qelqira.ir",
+      "server_port": 443,
+      "uuid": "44071682-0e02-49eb-9312-953613aaabbe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

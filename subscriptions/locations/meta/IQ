@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | TROJAN | @red2ray #1", "server": "pretty-quail.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PD07395842"}
-  - {"name": "🇫🇷 FR | TROJAN | @red2ray #2", "server": "tough-pigeon.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PD07395842"}
+  - {"name": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1", "server": "www.qelqira.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "44071682-0e02-49eb-9312-953613aaabbe", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | TROJAN | @red2ray #1'
-      - '🇫🇷 FR | TROJAN | @red2ray #2'
+      - '🇮🇶 IQ | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

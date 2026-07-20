@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "meow-warsaw.nethcloud.top",
+      "server": "www.qelqira.ir",
       "server_port": 443,
-      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "uuid": "44071682-0e02-49eb-9312-953613aaabbe",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,6 +114,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

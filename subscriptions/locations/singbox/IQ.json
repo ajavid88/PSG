@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgSVE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @v2raych #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @v2raych #1"
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "genuine-grackle.rooster465.autos",
+      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "www.qelqira.ir",
       "server_port": 443,
-      "password": "ON38567014",
+      "uuid": "44071682-0e02-49eb-9312-953613aaabbe",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -122,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

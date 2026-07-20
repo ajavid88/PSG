@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2raych #1"
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2raych #1"
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,9 +124,26 @@
     {
       "tag": "🇨🇭 CH | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir",
-      "server_port": 2899,
-      "password": "------------BanV2ray-----------"
+      "server": "mmmmmmmmmmmmmmmm-11111111111111111111111.poki-pakipon.ir",
+      "server_port": 57711,
+      "password": "--------BanV2ray---------"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "179.237.75.199",
+      "server_port": 443,
+      "uuid": "t.me.TradeIP",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

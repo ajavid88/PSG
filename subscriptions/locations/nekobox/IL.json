@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇱 IL | VLESS | @v2raych #1",
-        "🇮🇱 IL | VLESS | @v2raych #2"
+        "🇮🇱 IL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇱 IL | VLESS | @v2raych #1",
-        "🇮🇱 IL | VLESS | @v2raych #2"
+        "🇮🇱 IL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,29 +101,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇱 IL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "37.142.205.77",
-      "server_port": 20443,
-      "uuid": "808a0627-05e5-47b3-8d27-edd65020ef09",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇱 IL | VLESS | @v2raych #2",
+      "tag": "🇮🇱 IL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "37.142.205.77",
       "server_port": 20443,

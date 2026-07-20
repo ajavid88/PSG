@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVE=
+//profile-title: base64:UFNHIHwgRVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "www.qelqira.ir",
+      "server": "65.20.103.115",
       "server_port": 443,
-      "uuid": "44071682-0e02-49eb-9312-953613aaabbe",
+      "uuid": "da73ef81-621f-4e4f-8d5d-915a3b276486",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

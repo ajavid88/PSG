@@ -98,9 +98,11 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇱🇹 LT | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,9 +118,11 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇱🇹 LT | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -302,6 +306,28 @@
       }
     },
     {
+      "tag": "🇱🇹 LT | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "cherry-lt-01.live",
+      "server_port": 8443,
+      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
       "type": "vless",
       "server": "tv.myblog.org.tr",
@@ -346,11 +372,33 @@
       }
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇹 IT | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "www.qelqira.ir",
+      "server": "hudrososov.blog",
       "server_port": 443,
-      "uuid": "44071682-0e02-49eb-9312-953613aaabbe",
+      "uuid": "2428711f-5117-46e9-a2cb-741797a60ed8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "fn2-unlimited.pavilof.ir",
+      "server_port": 1020,
+      "uuid": "37182b68-6422-4414-9518-7df6776c0150",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | VLESS | @v2raych #1"
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | VLESS | @v2raych #1"
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,12 +137,20 @@
       }
     },
     {
-      "tag": "🇦🇺 AU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "82.115.16.211",
-      "server_port": 2082,
-      "uuid": "1c404fde-0aa5-482c-ab00-0b34db703ac8",
-      "packet_encoding": "xudp"
+      "tag": "🇦🇺 AU | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "true-pony.rooster465.autos",
+      "server_port": 443,
+      "password": "PD07395842",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

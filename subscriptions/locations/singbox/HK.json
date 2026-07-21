@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSUw=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇱 IL | VLESS | @vmesc #1"
+        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇱 IL | VLESS | @vmesc #1"
+        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇱 IL | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "37.142.205.77",
-      "server_port": 20443,
-      "uuid": "808a0627-05e5-47b3-8d27-edd65020ef09",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "47.83.221.185",
+      "server_port": 80,
+      "uuid": "771a590c-5eac-5732-b796-17251132f8d2",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

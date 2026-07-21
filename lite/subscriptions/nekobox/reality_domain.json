@@ -86,11 +86,11 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @v2raymelliii #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -108,11 +108,11 @@
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇦🇱 AL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @v2raymelliii #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -318,6 +318,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "api.oneokgames.com",
+      "server_port": 443,
+      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
       "type": "vless",
       "server": "tv.myblog.org.tr",
@@ -362,55 +379,19 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "de.edge-9d7c.com",
-      "server_port": 443,
-      "uuid": "bbae962a-b6e9-46e6-990c-6abf13e6b075",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "b95a29ad12426134.nimaghaffarzadeh.ir",
+      "server_port": 56625,
+      "uuid": "f3d05beb-ea6f-46c9-afc8-fe98c191f82e",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",
       "type": "vless",
-      "server": "naran-mil-ow.fizikade.ir",
-      "server_port": 443,
-      "uuid": "1ffd6264-c6ce-4ff1-ad30-5329c9cad3d7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "hudrososov.blog",
-      "server_port": 443,
-      "uuid": "2428711f-5117-46e9-a2cb-741797a60ed8",
+      "server": "fn2-unlimited.pavilof.ir",
+      "server_port": 1020,
+      "uuid": "37182b68-6422-4414-9518-7df6776c0150",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

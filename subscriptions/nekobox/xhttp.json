@@ -95,7 +95,6 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -103,11 +102,12 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇩🇪 DE | VLESS | @mehrosaboran #1",
+        "🇨🇦 CA | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @mehrosaboran #2",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @vmesc #1"
@@ -136,7 +136,6 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -144,11 +143,12 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇩🇪 DE | VLESS | @mehrosaboran #1",
+        "🇨🇦 CA | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @mehrosaboran #2",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @vmesc #1"
@@ -447,23 +447,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "45.130.125.76",
-      "server_port": 443,
-      "uuid": "1f9d104e-ca0e-4202-ba4b-a0afb969c747",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #3",
       "type": "vless",
       "server": "104.26.14.137",
@@ -556,7 +539,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "tag": "🇨🇦 CA | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "spd-mynames.global.ssl.fastly.net",
       "server_port": 80,
@@ -564,7 +547,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mehrosaboran #1",
+      "tag": "🇳🇱 NL | VLESS | @mehrosaboran #2",
       "type": "vless",
       "server": "dey.lnmarketplace.net",
       "server_port": 443,
@@ -612,6 +595,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "ge2vip.ecopingfast.com",
+      "server_port": 2026,
+      "uuid": "d63a9365-41a4-4228-91dd-88c25dfc3411",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",

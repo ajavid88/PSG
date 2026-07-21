@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -99,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "0720-zard.kovira2.ir",
+      "server_port": 13424,
+      "uuid": "aec1c261-26ef-4547-8caa-310b5bd6cac6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",

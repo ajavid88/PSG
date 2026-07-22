@@ -97,11 +97,10 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @netmellianti #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
@@ -110,6 +109,7 @@
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -132,11 +132,10 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @netmellianti #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
@@ -145,6 +144,7 @@
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -324,50 +324,6 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "91.218.143.194",
-      "server_port": 43798,
-      "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "178.104.85.6",
-      "server_port": 5050,
-      "uuid": "35ecec8f-f364-4efb-8c75-dc7390eb2492",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "151.80.147.30",
@@ -412,6 +368,28 @@
       "server": "151.80.147.30",
       "server_port": 443,
       "uuid": "a1750ade-801f-4e3e-a5d2-de825771205d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.192.2.115",
+      "server_port": 443,
+      "uuid": "0b8dfc50-9e2d-4b3c-85cd-870b478312a0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -588,6 +566,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "89.23.108.92",
+      "server_port": 2443,
+      "uuid": "8bba3194-4856-46d1-8319-075817d87eb1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

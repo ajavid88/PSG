@@ -79,6 +79,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -89,6 +90,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -124,9 +126,31 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "info.ulanbatur.dasbild.ir",
-      "server_port": 8443,
-      "uuid": "abce0769-3356-45a4-b325-c6f034a66649",
+      "server": "de.sv.temas-bor.ir",
+      "server_port": 22006,
+      "uuid": "b8069ac2-041f-432d-90d3-5af2139ec2da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "ch-play.montago-shop.ir",
+      "server_port": 443,
+      "uuid": "112a40cd-a9b2-46e1-8904-e46ba5b01f17",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

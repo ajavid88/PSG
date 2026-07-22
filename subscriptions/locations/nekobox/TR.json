@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,21 +125,12 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "ninja.monak2.ir",
-      "server_port": 443,
-      "uuid": "69c0e64c-363f-46da-865c-88d5075a9356",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "144.225.65.176",
+      "server_port": 80,
+      "uuid": "680071d4-42e8-4931-ad42-592d21721da6",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

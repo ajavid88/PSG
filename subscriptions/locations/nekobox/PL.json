@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,27 +103,36 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇿 CZ | VMESS | @freev2rays #1",
-      "type": "vmess",
-      "server": "time.is",
+      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "meow-warsaw.nethcloud.top",
       "server_port": 443,
-      "uuid": "b526926d-1474-4f41-985e-8b877cb840cd",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "time.is",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "shs111.kejixiaoqi666.store"
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "poland.vpnserverhub.com",
+      "server_port": 443,
+      "uuid": "1aed7c8a-d3c9-4c57-9544-ef40dc61a2da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

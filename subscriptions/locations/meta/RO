@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
+  - {"name": "🇷🇴 RO | VLESS | @red2ray #1", "server": "205.237.109.210", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "70df38ff-5a22-4ffc-a3f9-1725515e0ea5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇿 CZ | VMESS | @freev2rays #1'
+      - '🇷🇴 RO | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

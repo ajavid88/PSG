@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
@@ -88,7 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
@@ -122,11 +122,11 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "185.18.250.127",
-      "server_port": 2096,
-      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "server": "at-play.montago-shop.ir",
+      "server_port": 443,
+      "uuid": "112a40cd-a9b2-46e1-8904-e46ba5b01f17",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -135,15 +135,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇨🇭 CH | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "mmmmmmmmmmmmmmmm-11111111111111111111111.poki-pakipon.ir",
-      "server_port": 43321,
-      "password": "----------------BanV2ray---------------"
+      "server": "oooooooooooooooo-00000000000000000.poki-pakipon.ir",
+      "server_port": 2831,
+      "password": "---------------BanV2ray-------------"
     }
   ],
   "route": {

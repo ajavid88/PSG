@@ -97,7 +97,7 @@
         "🇳🇱 NL | TROJAN | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +112,7 @@
         "🇳🇱 NL | TROJAN | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -206,12 +206,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "185.125.203.221",
+      "tag": "🇳🇱 NL | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "89.39.70.159",
       "server_port": 443,
-      "uuid": "00a84cc6-073c-454b-9487-f0b7238e715f",
-      "packet_encoding": "xudp",
+      "password": "XG59623478",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -219,11 +218,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

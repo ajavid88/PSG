@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇫🇮 FI | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇫🇮 FI | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,7 +110,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "mx.bexumconnect.ltd",
       "server_port": 443,
@@ -125,28 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "fn2-unlimited.pavilof.ir",
-      "server_port": 1020,
-      "uuid": "37182b68-6422-4414-9518-7df6776c0150",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #1", "server": "meow-warsaw.nethcloud.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "pl-allnet.onlinernet.ir", "port": 20000, "type": "vless", "skip-cert-verify": true, "uuid": "199436d3-2fa2-4e34-a1de-844419de5a4f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #2", "server": "poland.vpnserverhub.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1aed7c8a-d3c9-4c57-9544-ef40dc61a2da", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @netfreedom0 #1'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #2'
 
   - name: 🌍 Global Media
     type: select

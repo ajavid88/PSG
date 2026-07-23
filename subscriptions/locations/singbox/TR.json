@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,12 +134,26 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "144.225.65.176",
-      "server_port": 80,
-      "uuid": "680071d4-42e8-4931-ad42-592d21721da6",
-      "packet_encoding": "xudp"
+      "server": "t.avrilon.us",
+      "server_port": 443,
+      "uuid": "d0e2ae3e-0be7-4dcf-9abb-dcc82aabc076",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

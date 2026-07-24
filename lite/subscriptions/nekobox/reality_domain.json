@@ -81,9 +81,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇸🇪 SE | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
+        "🇹🇷 TR | VLESS | @vmesc #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +98,12 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇸🇪 SE | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
+        "🇹🇷 TR | VLESS | @vmesc #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,11 +213,11 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @flyv2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "static.oneoneok.com",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -220,15 +226,42 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "con.aliceit.ru",
-      "server_port": 58843,
-      "uuid": "25209e75-6776-420e-9dd3-b7b6a77a3eb4",
+      "server": "germany2.avrilon.us",
+      "server_port": 443,
+      "uuid": "d0e2ae3e-0be7-4dcf-9abb-dcc82aabc076",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "static2.hexogate.net",
+      "server_port": 443,
+      "uuid": "0fccbf30-7e79-455b-a756-548f9ba43ec2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -251,6 +284,50 @@
       "server": "fn2-unlimited.pavilof.ir",
       "server_port": 1020,
       "uuid": "37182b68-6422-4414-9518-7df6776c0150",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "t.avrilon.us",
+      "server_port": 443,
+      "uuid": "d0e2ae3e-0be7-4dcf-9abb-dcc82aabc076",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "onkwo.ojcenter.com",
+      "server_port": 3468,
+      "uuid": "ef340ab7-b1a5-a3de-cdcd-5e5d4f2cf9fd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

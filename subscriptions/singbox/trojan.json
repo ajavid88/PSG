@@ -97,6 +97,7 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
+        "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
         "🇮🇪 IE | TROJAN | @jiedianf #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | TROJAN | @nofiltering2 #1",
@@ -123,7 +124,7 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1"
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -138,6 +139,7 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
+        "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
         "🇮🇪 IE | TROJAN | @jiedianf #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | TROJAN | @nofiltering2 #1",
@@ -164,7 +166,7 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1"
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -297,6 +299,22 @@
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
+      "type": "trojan",
+      "server": "104.19.229.21",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
       "type": "trojan",
       "server": "104.19.229.21",
       "server_port": 443,
@@ -719,11 +737,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇦🇺 AU | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "www.calmlunch.com",
+      "server": "eternal-frog.rooster465.autos",
       "server_port": 443,
-      "password": "humanity",
+      "password": "IQ68037294",
       "tls": {
         "enabled": true,
         "server_name": "",

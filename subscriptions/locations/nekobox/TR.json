@@ -78,8 +78,6 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @netmellianti #3",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
@@ -90,8 +88,6 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @netmellianti #3",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
@@ -110,36 +106,6 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "213.156.152.221",
-      "server_port": 8080,
-      "uuid": "7377227f-358d-497a-8a83-52460b905e80",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
-      "type": "vless",
-      "server": "panel1.molock.click",
-      "server_port": 443,
-      "uuid": "5b8eb4fd-c93c-4149-b4ae-167df0db7d84",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #3",
       "type": "vless",
       "server": "212.87.198.123",
       "server_port": 443,

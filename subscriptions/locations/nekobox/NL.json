@@ -83,7 +83,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | TROJAN | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
@@ -98,7 +98,7 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | TROJAN | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
@@ -189,12 +189,26 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "alpha.iranhttp.com",
-      "server_port": 4242,
-      "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
-      "packet_encoding": "xudp"
+      "server": "31.77.131.97",
+      "server_port": 8444,
+      "uuid": "b05346a9-4d13-41a4-8d2a-6b7b64e73ffc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | TROJAN | @vmesc #1",

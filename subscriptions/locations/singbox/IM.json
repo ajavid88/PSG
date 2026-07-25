@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVQ=
+//profile-title: base64:UFNHIHwgSU0=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @vpnowl #1"
+        "🇮🇲 IM | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @vpnowl #1"
+        "🇮🇲 IM | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @vpnowl #1",
+      "tag": "🇮🇲 IM | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "tbxjthftff-1952313922-direct.irgame.co",
-      "server_port": 443,
-      "uuid": "tbxjthftff",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "de.pub.accuratenetworkchecker.ir",
+      "server_port": 2053,
+      "uuid": "StableInternet",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

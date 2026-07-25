@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -99,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "65.109.187.194",
+      "server_port": 8888,
+      "uuid": "d233e659-98c9-445d-9a77-b9391f5e1f01",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",

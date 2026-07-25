@@ -111,8 +111,6 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
@@ -122,12 +120,11 @@
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇳🇱 NL | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @v2raych #1",
-        "🇩🇪 DE | TROJAN | @v2raych #1"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -156,8 +153,6 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
         "🇽🇽 XX | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
@@ -167,12 +162,11 @@
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇳🇱 NL | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpn_ioss #1",
+        "🇽🇽 XX | TROJAN | @vpn_ioss #2",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @v2raych #1",
-        "🇩🇪 DE | TROJAN | @v2raych #1"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -535,20 +529,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "179.237.74.104",
-      "server_port": 4161,
-      "password": "1-----------------BanV2ray-----------------1"
-    },
-    {
-      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
-      "type": "trojan",
-      "server": "179.237.74.104",
-      "server_port": 3181,
-      "password": "1-----------------BanV2ray-----------------1"
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @v2raymelliii #1",
       "type": "trojan",
       "server": "104.16.72.50",
@@ -693,6 +673,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @vpn_ioss #2",
+      "type": "trojan",
+      "server": "172.67.180.92",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @vpnfree85 #1",
       "type": "trojan",
       "server": "188.114.97.6",
@@ -755,20 +751,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "kkvlvvq-a.catcat321.com",
-      "server_port": 20023,
-      "password": "7e70223b-f331-41d5-9313-02b8d2df2885"
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "white-mt.jorzel.ir",
-      "server_port": 19302,
-      "password": "q7iW9S_aGcWEV9wYe6INEA"
     }
   ],
   "route": {

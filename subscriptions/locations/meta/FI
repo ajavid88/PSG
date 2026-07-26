@@ -25,7 +25,6 @@ dns:
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @evay_vpn #1", "server": "s1.esantion.info", "port": 24206, "type": "vless", "skip-cert-verify": true, "uuid": "b90bc52c-d95b-49d2-8061-598ddb44e288", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @netmellianti #1", "server": "storage.vipdatanetwork.com", "port": 24504, "type": "vless", "skip-cert-verify": true, "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | TROJAN | @v2raych #1", "server": "vh-prod-v3-st-main-22c755-6972ab78.livemy.site", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ce839d2be86feee01a522d6fdc6868d0"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +40,6 @@ proxy-groups:
     proxies: 
       - '🇫🇮 FI | VLESS | @evay_vpn #1'
       - '🇫🇮 FI | VLESS | @netmellianti #1'
-      - '🇫🇮 FI | TROJAN | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

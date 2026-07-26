@@ -78,8 +78,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | TROJAN | @v2raych #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | TROJAN | @v2raych #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,22 +117,6 @@
       "server_port": 24504,
       "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "vh-prod-v3-st-main-22c755-6972ab78.livemy.site",
-      "server_port": 443,
-      "password": "ce839d2be86feee01a522d6fdc6868d0",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

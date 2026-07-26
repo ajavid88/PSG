@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @evay_vpn #1",
         "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @netmellianti #2"
+        "🇫🇮 FI | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @evay_vpn #1",
         "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @netmellianti #2"
+        "🇫🇮 FI | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,12 +114,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
+      "tag": "🇫🇮 FI | VLESS | @evay_vpn #1",
       "type": "vless",
-      "server": "mx.bexumconnect.ltd",
+      "server": "s1.esantion.info",
+      "server_port": 24206,
+      "uuid": "b90bc52c-d95b-49d2-8061-598ddb44e288",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "storage.vipdatanetwork.com",
+      "server_port": 24504,
+      "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "vh-prod-v3-st-main-22c755-6972ab78.livemy.site",
       "server_port": 443,
-      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
-      "packet_encoding": "xudp",
+      "password": "ce839d2be86feee01a522d6fdc6868d0",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -129,22 +144,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "65.109.187.194",
-      "server_port": 8888,
-      "uuid": "d233e659-98c9-445d-9a77-b9391f5e1f01",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #2",
-      "type": "vless",
-      "server": "storage.vipdatanetwork.com",
-      "server_port": 24504,
-      "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

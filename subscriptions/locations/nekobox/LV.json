@@ -77,9 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇻 LV | VLESS | @flyv2ray #1",
         "🇱🇻 LV | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @v2raymelliii #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇻 LV | VLESS | @flyv2ray #1",
         "🇱🇻 LV | VLESS | @free1_vpn #1",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @v2raymelliii #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +105,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "fn.fifapes.monster",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇱🇻 LV | VLESS | @free1_vpn #1",
@@ -135,12 +145,26 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @v2raymelliii #1",
+      "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
       "type": "vless",
-      "server": "gr1.fifapes.monster",
-      "server_port": 8882,
-      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-      "packet_encoding": "xudp"
+      "server": "91.218.143.194",
+      "server_port": 43798,
+      "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2raych #1"
+        "🇮🇹 IT | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | VLESS | @orange_vpns #1",
-        "🇮🇹 IT | VLESS | @v2raych #1"
+        "🇮🇹 IT | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,37 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "151.115.164.117",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇹 IT | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "151.115.166.129",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "naran-mil-ow.fizikade.ir",
-      "server_port": 443,
-      "uuid": "28736f64-9665-4fd9-b9fd-d3bf9cf2d262",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

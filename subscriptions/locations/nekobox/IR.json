@@ -91,8 +91,13 @@
         "🇮🇷 IR | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #2",
+        "🇮🇷 IR | SS | @v2rayng3 #3",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -118,8 +123,13 @@
         "🇮🇷 IR | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #2",
+        "🇮🇷 IR | SS | @v2rayng3 #3",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -319,6 +329,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "de18-dl-persianmusics.arvinov.ir",
+      "server_port": 443,
+      "uuid": "8244a899-3a5d-4548-bf8b-0ee189ee1f7a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "www.googleecosystem.com",
+      "server_port": 8080,
+      "uuid": "58e6177d-df5d-468b-9eb8-a56e3596416f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -334,6 +369,30 @@
       "uuid": "0c9dc39b-47d9-47d8-8dab-c3cce76e3099",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "e1.cover20.ir",
+      "server_port": 51570,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0S1JMKzNWRXNtbzZ1S05EMXB3UTZtK2JhVmRPZ1MzR1oxMW8vd1dLRGJBPQ==",
+      "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2rayng3 #2",
+      "type": "shadowsocks",
+      "server": "e4.cover20.ir",
+      "server_port": 16156,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqVlBqeU5HZ09BZnY0YjRlOGRVSzY5M2V0MjdhS2tMSnAxVHhUUlVJZ0hzPQ==",
+      "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2rayng3 #3",
+      "type": "shadowsocks",
+      "server": "e3.cover20.ir",
+      "server_port": 56985,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpSb0drdk1tUXVvOHZKais5MnVGMmNMUFc5Zm1ORXZsNmFsTDBNeUxnZUkwPQ==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2rayngalpha #1",

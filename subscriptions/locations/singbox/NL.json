@@ -95,8 +95,10 @@
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #2",
+        "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -110,8 +112,10 @@
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #2",
+        "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -196,6 +200,14 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "mail.netraidly.ru",
+      "server_port": 40443,
+      "uuid": "e2047d88-9aa0-4e47-9218-12c0859913db",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "193.29.139.235",
@@ -209,6 +221,23 @@
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "31.56.222.208",
+      "server_port": 443,
+      "uuid": "65cb3afe-d397-4d4e-ac47-410d64002a9d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

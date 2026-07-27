@@ -77,18 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @father_vpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | VLESS | @mehrosaboran #1",
-        "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -97,18 +90,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @father_vpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | VLESS | @mehrosaboran #1",
-        "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @vmesc #1"
       ],
       "tag": "auto",
@@ -123,30 +109,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @father_vpn #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.176",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @free4allvpn #1",
-      "type": "shadowsocks",
-      "server": "141.98.101.182",
-      "server_port": 443,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @free4allvpn #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.205",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @mehrosaboran #1",
@@ -166,14 +128,6 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.181",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "45.86.159.132",
@@ -182,37 +136,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.11",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "uk-google.montago-shop.ir",
-      "server_port": 443,
-      "uuid": "7f0b88ec-c0f5-47d5-8c5e-34c9171f3a3d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2ray_youtube #1",
@@ -228,14 +157,6 @@
       "server": "82.38.31.35",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.206",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {

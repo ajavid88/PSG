@@ -95,8 +95,8 @@
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -110,8 +110,8 @@
         "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -240,19 +240,28 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "gbbbbbb.fervian.ir",
-      "server_port": 1155,
-      "uuid": "3d5851ed-daaf-6b83-e634-0801bd06509e",
-      "packet_encoding": "xudp"
+      "server": "de-3.coinbridge.nl",
+      "server_port": 443,
+      "uuid": "b0f08ae1-7cf9-4612-ad61-72681e0b92da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "qq.utiltools.ru",
-      "server_port": 443,
-      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "server": "gr.helpower.ir",
+      "server_port": 2087,
+      "uuid": "d6184c9f-b9dd-4564-9fd7-680601b6cb16",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

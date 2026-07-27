@@ -88,7 +88,7 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -108,7 +108,7 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -288,12 +288,21 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2",
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "ge.smartboti.ir",
-      "server_port": 2082,
-      "uuid": "9c99019f-d868-4c91-8afc-16f152f3c1a2",
-      "packet_encoding": "xudp"
+      "server": "rvg-production-0e6a.up.railway.app",
+      "server_port": 443,
+      "uuid": "0020817d-50cb-a5a2-3587-60cb3416abd1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",

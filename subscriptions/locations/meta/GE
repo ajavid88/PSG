@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇬 BG | VLESS | @red2ray #1", "server": "de.vrsvpn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇪 GE | VLESS | @red2ray #1", "server": "n2.zynovax.ir", "port": 1080, "type": "vless", "skip-cert-verify": true, "uuid": "09c3a956-075e-43b1-a125-2df71dac7aec", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇬 BG | VLESS | @red2ray #1'
+      - '🇬🇪 GE | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

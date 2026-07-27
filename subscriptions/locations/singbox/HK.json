@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkc=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇭🇰 HK | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇭🇰 HK | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "de.vrsvpn.com",
+      "tag": "🇭🇰 HK | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "93ucrn4i0pffuabk.v.3dns.vip",
       "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-      "packet_encoding": "xudp",
+      "uuid": "f23bb427c1f94373876c2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "93ucrn4i0PffUAbk.v.3dns.vip",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "93ucrn4i0PffUAbk.v.3dns.vip"
         }
       }
     }

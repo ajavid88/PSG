@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,6 +137,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "panel.jorgotr.ir",
+      "server_port": 42754,
+      "uuid": "a3bf5677-eaa6-42c5-959c-38cfdcd58d48",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

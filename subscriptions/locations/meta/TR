@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "abqwe.gfdcty.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eeb75ded-02ad-4e8f-9bb1-ccc5cd96e7cc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @netmellianti #2", "server": "abqwe.gfdcty.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eeb75ded-02ad-4e8f-9bb1-ccc5cd96e7cc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "panel.jorgotr.ir", "port": 42754, "type": "vless", "skip-cert-verify": true, "uuid": "a3bf5677-eaa6-42c5-959c-38cfdcd58d48", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @netmellianti #1'
       - '🇹🇷 TR | VLESS | @netmellianti #2'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

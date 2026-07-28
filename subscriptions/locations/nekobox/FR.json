@@ -84,7 +84,7 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -100,7 +100,7 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -177,9 +177,9 @@
     {
       "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "170.39.216.98",
-      "server_port": 1103,
-      "uuid": "2a8ade53-54c9-407b-a194-4a81bd591323",
+      "server": "fr.motorbazan.com",
+      "server_port": 2087,
+      "uuid": "75b38c79-92e3-454b-b98e-52fbd254884d",
       "packet_encoding": "xudp"
     },
     {
@@ -200,12 +200,26 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "91.209.71.82",
-      "server_port": 8443,
-      "uuid": "784974f6-6289-4988-a51d-7d54f9e6915c",
-      "packet_encoding": "xudp"
+      "server": "151.80.147.30",
+      "server_port": 443,
+      "uuid": "a1750ade-801f-4e3e-a5d2-de825771205d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @vpn_ioss #1",

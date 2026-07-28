@@ -93,10 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2",
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "proxy",
@@ -108,10 +106,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2",
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "auto",
@@ -196,24 +192,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-      "type": "vmess",
-      "server": "91.107.139.186",
-      "server_port": 51459,
-      "uuid": "500cdc83-b189-4d79-b06b-139c7972a57f",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "142.132.163.200",
@@ -230,11 +208,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
       "type": "vmess",
-      "server": "167.235.205.182",
+      "server": "37.32.23.122",
       "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
+      "uuid": "d12bc882-43c7-415e-87c5-2a7fdc8371c0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
@@ -244,6 +222,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket/",
+        "headers": {
+          "Host": ""
         }
       }
     },

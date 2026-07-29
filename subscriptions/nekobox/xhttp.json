@@ -82,7 +82,7 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
-        "🇽🇽 XX | VLESS | @evay_vpn #3",
+        "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇪🇸 ES | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -93,6 +93,7 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -104,9 +105,10 @@
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,7 +121,7 @@
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
-        "🇽🇽 XX | VLESS | @evay_vpn #3",
+        "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇪🇸 ES | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -130,6 +132,7 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -141,9 +144,10 @@
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -256,7 +260,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @evay_vpn #3",
+      "tag": "🇽🇽 XX | VLESS | @evay_vpn #2",
       "type": "vless",
       "server": "104.17.108.1",
       "server_port": 443,
@@ -425,6 +429,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "77.42.83.112",
+      "server_port": 8443,
+      "uuid": "e315526f-c838-44db-9bd4-01ccb03450b9",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -549,11 +561,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @mehrosaboran #1",
+      "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
       "type": "vless",
-      "server": "dey.lnmarketplace.net",
+      "server": "djangoproject.com",
+      "server_port": 80,
+      "uuid": "9fd3bdf1-d158-4055-869d-390738793020",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "sakura.proxy.rlwy.net",
+      "server_port": 13397,
+      "uuid": "%40MAconnectt",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+      "type": "vless",
+      "server": "securitytrails.com",
       "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -566,19 +594,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "djangoproject.com",
-      "server_port": 80,
-      "uuid": "9fd3bdf1-d158-4055-869d-390738793020",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-      "type": "vless",
-      "server": "securitytrails.com",
+      "server": "jush.sukario.ir",
       "server_port": 443,
-      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

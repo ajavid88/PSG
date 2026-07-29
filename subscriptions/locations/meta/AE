@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "130.185.121.169", "port": 18269, "type": "vless", "skip-cert-verify": true, "uuid": "f379f28e-c535-4d03-a1ca-0f413429e9ac", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @filterk0sh #1'
+      - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

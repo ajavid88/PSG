@@ -24,8 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇮🇹 IT | VLESS | @freeconfigsplus #1", "server": "31.76.113.51", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇹 IT | VLESS | @v2raych #1", "server": "ipv.sorixset.ir", "port": 38654, "type": "vless", "skip-cert-verify": true, "uuid": "3e9ce6c2-7153-4ccc-b019-457c5af1c3b8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇮🇹 IT | VLESS | @v2raych #2", "server": "ipv.sorixset.ir", "port": 38654, "type": "vless", "skip-cert-verify": true, "uuid": "3e9ce6c2-7153-4ccc-b019-457c5af1c3b8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇮🇹 IT | VLESS | @freeconfigsplus #1'
-      - '🇮🇹 IT | VLESS | @v2raych #1'
-      - '🇮🇹 IT | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

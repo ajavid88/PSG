@@ -84,6 +84,7 @@
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
@@ -102,6 +103,7 @@
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
@@ -225,6 +227,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "test.tw1x.space",
+      "server_port": 443,
+      "uuid": "8d9f44e1-4ef7-4f25-8b2f-0e8c387ff2e7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
       "type": "vless",
       "server": "djangoproject.com",
@@ -260,19 +279,10 @@
     {
       "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "jush.sukario.ir",
-      "server_port": 443,
-      "uuid": "337bf72e-bb79-4d5f-be3f-7822eb77100c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "mci.pictureiran.ir",
+      "server_port": 2087,
+      "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

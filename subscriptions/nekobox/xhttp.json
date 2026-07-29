@@ -83,7 +83,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇪🇸 ES | VLESS | @free1_vpn #1",
+        "🇪🇸 ES | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -94,6 +94,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -101,15 +102,13 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
-        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @red2ray #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,7 +122,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇪🇸 ES | VLESS | @free1_vpn #1",
+        "🇪🇸 ES | VLESS | @flyv2ray #2",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -134,6 +133,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -141,15 +141,13 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
-        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @red2ray #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -279,7 +277,7 @@
       }
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @free1_vpn #1",
+      "tag": "🇪🇸 ES | VLESS | @flyv2ray #2",
       "type": "vless",
       "server": "170.168.97.3",
       "server_port": 443,
@@ -439,6 +437,13 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "176.124.198.224",
+      "server_port": 11400,
+      "password": "ptvZ8vjK9i"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",
       "type": "vless",
       "server": "104.26.14.137",
@@ -540,14 +545,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "animall-zooke.fardaty.ir",
-      "server_port": 8080,
-      "uuid": "e912f8d6-f59a-48b1-b5ad-bbe548d7ebf3",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "c1.fineartsnet.org",
@@ -620,14 +617,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "mci.pictureiran.ir",
-      "server_port": 2087,
-      "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

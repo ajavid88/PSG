@@ -93,12 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
+        "🇹🇷 TR | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,12 +109,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
+        "🇹🇷 TR | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,19 +198,33 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "animall-zooke.fardaty.ir",
-      "server_port": 8080,
-      "uuid": "e912f8d6-f59a-48b1-b5ad-bbe548d7ebf3",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇦🇪 AE | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
       "server_port": 443,
       "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "cdn-xui185.korvexe.ir",
+      "server_port": 45367,
+      "uuid": "05d30a1a-7525-46af-897a-504035ef2633",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -289,11 +303,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "tun.temas-bor.ir",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "38df5518-26c5-449b-98d9-a4f456f5f689",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

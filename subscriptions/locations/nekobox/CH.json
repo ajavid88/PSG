@@ -79,7 +79,8 @@
         "direct",
         "🇨🇭 CH | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #2",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #2",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -164,6 +166,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "83.228.251.208",
+      "server_port": 3468,
+      "uuid": "ef340ab7-b1a5-a3de-cdcd-5e5d4f2cf9fd",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

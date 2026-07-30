@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇨🇾 CY | VLESS | @eliteproxyv2 #1", "server": "germany.fast.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇾 CY | VLESS | @v2ray_free_conf #1", "server": "ee1.samovargate.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5d680dcf-88a5-4ea4-b799-0a12ef2c0dfd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇾 CY | VLESS | @eliteproxyv2 #1'
-      - '🇨🇾 CY | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

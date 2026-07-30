@@ -93,14 +93,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #4",
+        "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇸🇪 SE | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,14 +114,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #4",
+        "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇸🇪 SE | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,6 +208,23 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "static.lotussec.com",
+      "server_port": 443,
+      "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "c1.fineartsnet.org",
@@ -218,7 +241,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #4",
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
       "type": "vless",
       "server": "mci.pictureiran.ir",
       "server_port": 2087,
@@ -282,6 +305,31 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "se1.lion-game.ir",
+      "server_port": 443,
+      "uuid": "a2ec0704-f70c-4b1e-b3ef-fc26d76dabdc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "tk2.lion-game.ir",
+      "server_port": 8080,
+      "uuid": "a2ec0704-f70c-4b1e-b3ef-fc26d76dabdc",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

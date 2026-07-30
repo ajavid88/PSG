@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | SS | @NamiraConfigs #1"
+        "🇦🇺 AU | VLESS | @red2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | SS | @NamiraConfigs #1"
+        "🇦🇺 AU | VLESS | @red2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "namahdod.lion-game.ir",
+      "server_port": 8044,
+      "uuid": "a2ec0704-f70c-4b1e-b3ef-fc26d76dabdc",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -126,14 +134,6 @@
           "Host": "janett.click"
         }
       }
-    },
-    {
-      "tag": "🇦🇺 AU | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "103.106.231.82",
-      "server_port": 5600,
-      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
-      "password": null
     }
   ],
   "route": {

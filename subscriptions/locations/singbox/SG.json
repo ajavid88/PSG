@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | SS | @v2raych #1",
+        "🇸🇬 SG | VLESS | @hope_net #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | SS | @v2raych #1",
+        "🇸🇬 SG | VLESS | @hope_net #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -138,12 +138,21 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "194.87.10.216",
-      "server_port": 8388,
-      "method": "YWVzLTI1Ni1nY206c0hoNDJqUmdDVWZW",
-      "password": null
+      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "206.238.236.186",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

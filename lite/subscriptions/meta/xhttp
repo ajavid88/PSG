@@ -29,6 +29,7 @@ proxies:
   - {"name": "🇸🇨 SC | VLESS | @ai_duet #1", "server": "45.130.125.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @ehsawn8 #1", "server": "199.232.78.159", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2c9af5d8-8e1c-40e7-8b6b-c200fc5488e8", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @evay_vpn #2", "server": "104.17.108.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "31d3bb30-fbb1-4e25-ac62-6dbca39fe439", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @flyv2ray #1", "server": "170.168.97.3", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5e243126-4a2a-84b6-782a-73b14797fb5f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxie #1", "server": "104.21.62.144", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f98e06c6-6b36-47f1-a0e3-77d7937c3ec7", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxie #2", "server": "104.21.62.144", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "45948c7b-cd85-4040-92b2-9e634e9ddd52", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @proxygrizzly #1", "server": "147.182.183.207", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e7be1334-6a1d-47c0-8c9a-c7a5b8575499", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -43,7 +44,6 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @kafing_2 #1", "server": "spd-mynames.global.ssl.fastly.net", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @nofilter_v2rayng #1", "server": "djangoproject.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "9fd3bdf1-d158-4055-869d-390738793020", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxy_confiingir #2", "server": "securitytrails.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "mmlplp.jorzel.ir", "port": 1963, "type": "vless", "skip-cert-verify": true, "uuid": "ed81e147-b441-48d3-8b84-ea9db782b0b2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -63,6 +63,7 @@ proxy-groups:
       - '🇸🇨 SC | VLESS | @ai_duet #1'
       - '🇺🇸 US | VLESS | @ehsawn8 #1'
       - '🇽🇽 XX | VLESS | @evay_vpn #2'
+      - '🇪🇸 ES | VLESS | @flyv2ray #1'
       - '🇽🇽 XX | VLESS | @proxie #1'
       - '🇽🇽 XX | VLESS | @proxie #2'
       - '🇺🇸 US | VLESS | @proxygrizzly #1'
@@ -77,7 +78,6 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @kafing_2 #1'
       - '🇺🇸 US | VLESS | @nofilter_v2rayng #1'
       - '🇽🇽 XX | VLESS | @proxy_confiingir #2'
-      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

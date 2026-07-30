@@ -33,6 +33,8 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @nofilter_v2rayng #1", "server": "djangoproject.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "9fd3bdf1-d158-4055-869d-390738793020", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @orange_vpns #1", "server": "sakura.proxy.rlwy.net", "port": 13397, "type": "vless", "skip-cert-verify": true, "uuid": "%40MAconnectt", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxy_confiingir #2", "server": "securitytrails.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "mmlplp.jorzel.ir", "port": 1963, "type": "vless", "skip-cert-verify": true, "uuid": "ed81e147-b441-48d3-8b84-ea9db782b0b2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2", "server": "ge.smartboti.ir", "port": 2082, "type": "vless", "skip-cert-verify": true, "uuid": "9c99019f-d868-4c91-8afc-16f152f3c1a2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -56,6 +58,8 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @nofilter_v2rayng #1'
       - '🇺🇸 US | VLESS | @orange_vpns #1'
       - '🇽🇽 XX | VLESS | @proxy_confiingir #2'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
+      - '🇩🇪 DE | VLESS | @v2rayngvpn_1 #2'
 
   - name: 🌍 Global Media
     type: select

@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | SS | @red2ray #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @red2ray #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | SS | @red2ray #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @red2ray #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +114,42 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "31.76.30.79",
-      "server_port": 10808,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
-      "password": null
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "3bcd331c14bcf7a0.mbcloudynias.ir",
+      "server_port": 80,
+      "uuid": "8f0a9c91-ec47-4351-a8e8-93dfd493cd5f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "62.238.63.51",
+      "server_port": 1234,
+      "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "62.238.53.197",
+      "server_port": 1234,
+      "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

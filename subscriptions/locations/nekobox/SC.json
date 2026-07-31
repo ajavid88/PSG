@@ -83,9 +83,9 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @jiedianf #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2"
       ],
@@ -101,9 +101,9 @@
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @jiedianf #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2"
       ],
@@ -211,6 +211,28 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "45.196.201.129",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -232,28 +254,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.198.96.153",
-      "server_port": 443,
-      "uuid": "83ab4443-ec22-4b3d-a587-53090be7beb2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

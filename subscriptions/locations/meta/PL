@@ -25,6 +25,8 @@ dns:
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @netmellianti #1", "server": "168.222.49.20", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "ea3e24c1-6bc1-4a7a-9711-88f937f08bbb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇵🇱 PL | VLESS | @prrofile_purple #1", "server": "83.168.71.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "144.31.0.34", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "1fef5248-fdd2-40d6-b3b9-6c33d4e74724", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #2", "server": "144.31.0.34", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "1fef5248-fdd2-40d6-b3b9-6c33d4e74724", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +42,8 @@ proxy-groups:
     proxies: 
       - '🇵🇱 PL | VLESS | @netmellianti #1'
       - '🇵🇱 PL | VLESS | @prrofile_purple #1'
+      - '🇵🇱 PL | VLESS | @v2raych #1'
+      - '🇵🇱 PL | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

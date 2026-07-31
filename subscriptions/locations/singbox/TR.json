@@ -91,7 +91,10 @@
         "auto",
         "direct",
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +132,30 @@
       "server": "arme.biscuitnazari.ir",
       "server_port": 9443,
       "uuid": "fd5d3017-c682-46dd-9259-a6a884e918df",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "newtr.karmatel.ir",
+      "server_port": 20727,
+      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "jsv-ir2.randino.ir",
+      "server_port": 2,
+      "uuid": "fc7f5780-4c4e-11f1-a3f8-b58432c62d9c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "shopcar.rafeaftabsokhtegi.com",
+      "server_port": 9443,
+      "uuid": "7dfe2f33-54c5-43cf-a654-7c8919a266be",
       "packet_encoding": "xudp"
     }
   ],

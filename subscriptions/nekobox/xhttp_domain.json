@@ -84,11 +84,8 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,11 +100,8 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇷🇺 RU | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -236,23 +230,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "test.tw1x.space",
-      "server_port": 443,
-      "uuid": "8d9f44e1-4ef7-4f25-8b2f-0e8c387ff2e7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
       "type": "vless",
       "server": "djangoproject.com",
@@ -266,31 +243,6 @@
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "77e120a9-7ced-44a3-b6da-47c27be42eeb",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "x4g-production-3704.up.railway.app",
-      "server_port": 443,
-      "uuid": "4af481af-0bc3-3511-4c07-c4d6bdbeda11",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

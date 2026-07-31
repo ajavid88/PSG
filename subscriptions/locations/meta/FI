@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "135.181.32.60", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "20f293d5-b0a5-4f15-bcb7-b79da2b17c81", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "pi.paydar.site", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "388b972d-299f-4d8e-8025-061d68e1e1d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "r.telewebion.ir.varzesh3.com.de", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "edae0c5c-6979-44ba-b82b-1575cb5804d6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @orange_vpns #1'
       - '🇫🇮 FI | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media

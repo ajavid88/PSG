@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
@@ -103,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "135.181.32.60",
+      "server": "r.telewebion.ir.varzesh3.com.de",
       "server_port": 443,
-      "uuid": "20f293d5-b0a5-4f15-bcb7-b79da2b17c81",
+      "uuid": "edae0c5c-6979-44ba-b82b-1575cb5804d6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,16 +114,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "pi.paydar.site",
-      "server_port": 80,
-      "uuid": "388b972d-299f-4d8e-8025-061d68e1e1d3",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

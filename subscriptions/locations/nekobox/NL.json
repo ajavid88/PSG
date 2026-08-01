@@ -78,9 +78,8 @@
         "auto",
         "direct",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @hope_net #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -90,9 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @hope_net #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -117,21 +115,12 @@
       "password": null
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "194.152.44.250",
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "109.201.152.181",
       "server_port": 443,
-      "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -140,24 +129,6 @@
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "192.142.8.200",
-      "server_port": 443,
-      "uuid": "eb295947-24de-0001-9b8f-85431e5fe493",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

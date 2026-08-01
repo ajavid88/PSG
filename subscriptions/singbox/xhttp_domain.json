@@ -95,10 +95,11 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,10 +112,11 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -223,6 +225,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
+      "type": "vless",
+      "server": "mci.pictureiran.ir",
+      "server_port": 2087,
+      "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "spd-mynames.global.ssl.fastly.net",
@@ -256,12 +266,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vmesc #2",
+      "tag": "🇨🇿 CZ | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "mci.pictureiran.ir",
-      "server_port": 2087,
-      "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-      "packet_encoding": "xudp"
+      "server": "sentinel.unlimitedprojects.fun",
+      "server_port": 443,
+      "uuid": "6fa1b8eb-56f4-4f41-97dc-e0185bcfc575",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

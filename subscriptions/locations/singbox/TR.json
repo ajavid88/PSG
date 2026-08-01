@@ -90,10 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,15 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "5.188.190.252",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -141,12 +130,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "5.175.136.134",
-      "server_port": 2053,
-      "uuid": "dd280dbb-75ec-4631-9979-d65237e27185",
-      "packet_encoding": "xudp"
+      "server": "t.avrilon.us",
+      "server_port": 443,
+      "uuid": "e996abc7-cff3-4d9f-a9dc-0d717048a345",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | SS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @netmellianti #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | SS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @netmellianti #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "188.41.249.20",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -124,18 +132,10 @@
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
       "type": "vless",
-      "server": "newtr.karmatel.ir",
-      "server_port": 20727,
-      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
+      "server": "apiapi.gold-temas.com",
+      "server_port": 52632,
+      "uuid": "7f34b2d2-f06c-4c9d-8a40-40aab0f80976",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "188.41.249.20",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B",
-      "password": null
     }
   ],
   "route": {

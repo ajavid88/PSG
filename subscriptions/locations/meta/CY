@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @megavpn_link #1", "server": "91.218.143.194", "port": 43798, "type": "vless", "skip-cert-verify": true, "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇻 LV | VLESS | @vpn_ioss #1", "server": "gr1.fifapes.monster", "port": 8882, "type": "vless", "skip-cert-verify": true, "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇾 CY | VLESS | @eliteproxyv2 #1", "server": "germany.fast.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @megavpn_link #1'
-      - '🇱🇻 LV | VLESS | @vpn_ioss #1'
+      - '🇨🇾 CY | VLESS | @eliteproxyv2 #1'
 
   - name: 🌍 Global Media
     type: select

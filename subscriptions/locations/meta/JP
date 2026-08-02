@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VMESS | @v2raych #1", "server": "45.76.202.45", "port": 4010, "type": "vmess", "skip-cert-verify": true, "uuid": "071a8a71-c656-4fb6-a908-4e42eb72243d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/liksuzcp", "headers": {"Host": "45.76.202.45"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | VLESS | @megavpn_link #1'
-      - '🇯🇵 JP | VMESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

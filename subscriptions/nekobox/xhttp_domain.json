@@ -84,7 +84,9 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,7 +101,9 @@
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -243,6 +247,21 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "mmd.asan9720.ir",
+      "server_port": 8880,
+      "password": "hGGbs2T6hf"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "ge.smartboti.ir",
+      "server_port": 2082,
+      "uuid": "9c99019f-d868-4c91-8afc-16f152f3c1a2",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

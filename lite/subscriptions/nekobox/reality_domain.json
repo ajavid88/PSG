@@ -80,9 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +94,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -183,6 +185,28 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "us2.levikogjgfdd.ir",
+      "server_port": 40443,
+      "uuid": "5e3f974b-06fc-4555-907a-6681391b7c17",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "meow-warsaw.nethcloud.top",
@@ -217,7 +241,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
       "server_port": 443,

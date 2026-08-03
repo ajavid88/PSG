@@ -142,9 +142,9 @@
     {
       "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "141.98.118.70",
-      "server_port": 443,
-      "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
+      "server": "45.141.148.75",
+      "server_port": 8000,
+      "uuid": "4aef3ccd-b048-4efa-bbd6-3b8f259e3dc5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -153,6 +153,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

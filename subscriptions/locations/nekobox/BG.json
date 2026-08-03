@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #2"
+        "🇧🇬 BG | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @prrofile_purple #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #2"
+        "🇧🇬 BG | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,55 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1",
+      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "83.168.71.216",
+      "server": "87.120.92.181",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "pl2.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "6a248b82-ad33-4a8f-8ef7-cdd0ac26c261",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "nl3.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "94d2d711-76e5-4d82-a3c9-4f06fd5558c8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -91,7 +90,7 @@
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
@@ -104,7 +103,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -118,7 +116,7 @@
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
@@ -137,21 +135,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "nobitex.ir",
-      "server_port": 2086,
-      "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -312,12 +295,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "37.32.25.222",
-      "server_port": 9131,
-      "method": "YWVzLTI1Ni1nY206TlRJMU5qSmxaak00Tm1VMFpqWmxNemRsTXpZNU5ESTFZVFprTkRWbQ==",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "nobitex.ir",
+      "server_port": 2086,
+      "uuid": "9ec0f053-4dd2-4511-b5f8-00257ead90d4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",

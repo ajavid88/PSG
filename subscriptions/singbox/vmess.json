@@ -102,7 +102,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -114,6 +113,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -143,7 +143,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -155,6 +154,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -405,24 +405,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @red2ray #1",
-      "type": "vmess",
-      "server": "165.140.216.141",
-      "server_port": 443,
-      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @freev2rays #1",
       "type": "vmess",
       "server": "xcf037.facai2024.com",
@@ -662,6 +644,31 @@
         "path": "/linkws",
         "headers": {
           "Host": "glweidf.sbs"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "apjhdggyx.com",
+      "server_port": 443,
+      "uuid": "5f72f180-b21b-4b7a-8484-240759012604",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "apjhdggyx.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/5f72f180-b21b-4b7a-8484-240759096785",
+        "headers": {
+          "Host": "apjhdggyx.com"
         }
       }
     },

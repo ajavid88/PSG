@@ -85,8 +85,7 @@
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @vmesc #1"
+        "🇸🇨 SC | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,8 +101,7 @@
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @vmesc #1"
+        "🇸🇨 SC | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -223,10 +221,19 @@
     {
       "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "45.194.53.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
+      "server": "45.130.125.229",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",
@@ -242,28 +249,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "45.196.201.185",
-      "server_port": 443,
-      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

@@ -86,7 +86,8 @@
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇬🇪 GE | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,7 +104,8 @@
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇬🇪 GE | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -318,11 +320,19 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raying #1",
+      "tag": "🇬🇪 GE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
+      "server": "s2.milaty.ir",
+      "server_port": 5030,
+      "uuid": "6b8e0891-d7f8-477d-b092-9852d93d5c2f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "qq.utiltools.ru",
+      "server_port": 443,
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

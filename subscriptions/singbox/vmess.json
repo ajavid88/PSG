@@ -119,7 +119,6 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
@@ -160,7 +159,6 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
@@ -250,18 +248,18 @@
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
       "type": "vmess",
-      "server": "82.198.246.97",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "server": "195.133.193.18",
+      "server_port": 27726,
+      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
       "security": "auto",
       "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
       "type": "vmess",
-      "server": "195.133.193.18",
-      "server_port": 27726,
-      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "alter_id": 0
     },
@@ -794,31 +792,6 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": "v2ray1.dozapp.xyz"
         }
       }
     },

@@ -85,6 +85,7 @@
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #2"
       ],
@@ -102,6 +103,7 @@
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #2"
       ],
@@ -284,6 +286,23 @@
       "server": "my.filpower.shop",
       "server_port": 443,
       "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "vip.cdkshop.ir",
+      "server_port": 443,
+      "uuid": "56b8b308-b257-47d7-bbee-2fe103f9b3b6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

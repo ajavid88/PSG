@@ -78,10 +78,9 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #2",
-        "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
+        "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | TROJAN | @orange_vpns #1",
         "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -102,10 +101,9 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @free4allvpn #2",
-        "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
+        "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | TROJAN | @orange_vpns #1",
         "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
@@ -135,26 +133,10 @@
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
       "type": "shadowsocks",
-      "server": "141.98.101.182",
-      "server_port": 443,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @free4allvpn #2",
-      "type": "shadowsocks",
       "server": "82.38.31.205",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "45.86.159.132",
-      "server_port": 2085,
-      "uuid": "23a373f4-7f8a-4b8c-b002-60f4cf3f2557",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -170,6 +152,14 @@
       "server": "82.38.31.198",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #3",
+      "type": "shadowsocks",
+      "server": "146.70.61.37",
+      "server_port": 8080,
+      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
       "password": null
     },
     {

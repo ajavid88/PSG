@@ -96,12 +96,11 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇬🇪 GE | VLESS | @netfreedom0 #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇷🇺 RU | VLESS | @v2raymelliii #1",
         "🇬🇧 GB | VLESS | @v2rayopen #1",
@@ -121,12 +120,11 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇬🇪 GE | VLESS | @netfreedom0 #1",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇷🇺 RU | VLESS | @v2raymelliii #1",
         "🇬🇧 GB | VLESS | @v2rayopen #1",
@@ -263,6 +261,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "62.152.59.224",
+      "server_port": 443,
+      "uuid": "efa7cb19-2845-4eb7-bcd7-e860a8a4628d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "168.119.156.101",
@@ -319,28 +334,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "141.98.118.70",
+      "server": "81.85.93.108",
       "server_port": 443,
-      "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "103.94.185.145",
-      "server_port": 443,
-      "uuid": "40aba943-fa2a-4236-9034-e5a8911b8f78",
+      "uuid": "c96cac1f-b41a-4357-93ce-1ea03752a23c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -354,23 +352,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "150.241.124.105",
-      "server_port": 443,
-      "uuid": "b55a6115-07f5-4464-85b5-7059ce4701f3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

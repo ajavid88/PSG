@@ -91,12 +91,14 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @hope_net #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -106,12 +108,14 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @hope_net #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -129,6 +133,23 @@
       "server": "nasnet-162191099-direct.mbghalibaf.com",
       "server_port": 443,
       "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "217.163.76.55",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -221,12 +242,29 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.13.119.219",
+      "server_port": 8888,
+      "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "upf.appcity-download.ir",
-      "server_port": 26131,
-      "uuid": "85bc5923-c4b6-4dd4-b83e-7c2e301fb253",
-      "packet_encoding": "xudp"
+      "server": "nasnet-162191099-direct.mbghalibaf.com",
+      "server_port": 443,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

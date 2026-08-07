@@ -100,6 +100,7 @@
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
@@ -118,6 +119,7 @@
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
@@ -271,6 +273,23 @@
       "server": "154.222.9.190",
       "server_port": 443,
       "uuid": "83ab4443-ec22-4b3d-a587-53090be7beb2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.130.125.229",
+      "server_port": 443,
+      "uuid": "c35050ce-01ab-45a9-91b8-54cec637d0a8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

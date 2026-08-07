@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "195.133.193.18", "port": 27726, "type": "vmess", "skip-cert-verify": true, "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #2", "server": "82.198.246.250", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #3", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #2", "server": "195.133.193.18", "port": 27726, "type": "vmess", "skip-cert-verify": true, "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | TROJAN | @father_vpn #1", "server": "91.233.8.25", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "104.19.229.21", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #2", "server": "104.19.229.21", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -73,7 +72,8 @@ proxies:
   - {"name": "🇸🇨 SC | TROJAN | @v2ray_collector #1", "server": "45.130.125.126", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇭🇰 HK | TROJAN | @v2ray_collector #1", "server": "18.163.180.201", "port": 6357, "type": "trojan", "skip-cert-verify": false, "password": "d1960ba9f0f6353353994fa844cf817b"}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector #1", "server": "163.245.196.68", "port": 49361, "type": "trojan", "skip-cert-verify": false, "password": "0ebb269c9f2d4e8e46b0cd4105a55134"}
-  - {"name": "🇽🇽 XX | TROJAN | @v2raych #1", "server": "172.67.149.60", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇺🇸 US | TROJAN | @v2ray_free_conf #1", "server": "199.232.78.140", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #1", "server": "shop.tundardelta.top", "port": 1960, "type": "vmess", "skip-cert-verify": true, "uuid": "c54d4dd2-a3a8-4a3b-be46-cf763ce9f0b7", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VMESS | @v2rayng3 #1", "server": "client.cloudafra.top", "port": 4356, "type": "vmess", "skip-cert-verify": true, "uuid": "0c9dc39b-47d9-47d8-8dab-c3cce76e3099", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | TROJAN | @v2rayng3 #1", "server": "165.215.250.14", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | VMESS | @v2rayng3 #1", "server": "104.17.121.43", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "omkuzygiv.com"}}}
@@ -102,7 +102,6 @@ proxy-groups:
     proxies: 
       - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇩🇪 DE | VMESS | @NamiraConfigs #2'
-      - '🇩🇪 DE | VMESS | @NamiraConfigs #3'
       - '🇩🇪 DE | TROJAN | @father_vpn #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #2'
@@ -150,7 +149,8 @@ proxy-groups:
       - '🇸🇨 SC | TROJAN | @v2ray_collector #1'
       - '🇭🇰 HK | TROJAN | @v2ray_collector #1'
       - '🇺🇸 US | TROJAN | @v2ray_collector #1'
-      - '🇽🇽 XX | TROJAN | @v2raych #1'
+      - '🇺🇸 US | TROJAN | @v2ray_free_conf #1'
+      - '🇮🇷 IR | VMESS | @v2raych #1'
       - '🇮🇷 IR | VMESS | @v2rayng3 #1'
       - '🇺🇸 US | TROJAN | @v2rayng3 #1'
       - '🇽🇽 XX | VMESS | @v2rayng3 #1'

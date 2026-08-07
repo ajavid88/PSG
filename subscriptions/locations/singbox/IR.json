@@ -105,10 +105,9 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VMESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | SS | @v2raych #1",
+        "🇮🇷 IR | SS | @v2raych #2",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -135,10 +134,9 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VMESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | SS | @v2raych #1",
+        "🇮🇷 IR | SS | @v2raych #2",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -328,14 +326,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "185.143.234.238",
-      "server_port": 2086,
-      "uuid": "1ee1f28d-4975-4d7c-95c7-76172c20eed5",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -344,35 +334,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "shop.tundardelta.top",
-      "server_port": 1960,
-      "uuid": "c54d4dd2-a3a8-4a3b-be46-cf763ce9f0b7",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇮🇷 IR | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "e1.cover20.ir",
+      "server_port": 51570,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVYWxQS2JpTytockd2bE1oWFpOVDVLNVBlSm9XTGFVTU95REVOb29WT2lrPQ==",
+      "password": null
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "vip.nekeodjdbdji.fanzeka.ir",
-      "server_port": 61885,
-      "uuid": "6d50f4d6-ce1c-401b-bb4c-0cb54c0bb071",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇮🇷 IR | SS | @v2raych #2",
+      "type": "shadowsocks",
+      "server": "e3.cover20.ir",
+      "server_port": 56985,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZmRIWG05QXhrSmx4K0FZQ2IxS0ZSUXVqaEpBWFlOQkdhVDNQYUhsN2YwPQ==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VMESS | @v2rayng3 #1",

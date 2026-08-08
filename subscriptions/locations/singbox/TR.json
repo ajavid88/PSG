@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
@@ -101,7 +100,6 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
@@ -119,28 +117,6 @@
       "server": "nod4.kaafserver.ir",
       "server_port": 8443,
       "uuid": "f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @mtpv2ray #1",
-      "type": "vless",
-      "server": "45.92.219.204",
-      "server_port": 8088,
-      "uuid": "06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

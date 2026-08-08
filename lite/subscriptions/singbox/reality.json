@@ -95,14 +95,14 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇦🇱 AL | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇺🇸 US | VLESS | @outlinereleasedkey #1",
+        "🇸🇨 SC | VLESS | @outlinereleasedkey #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
@@ -115,11 +115,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇿🇦 ZA | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,14 +130,14 @@
         "KingRezaPahlavi",
         "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇦🇱 AL | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇺🇸 US | VLESS | @outlinereleasedkey #1",
+        "🇸🇨 SC | VLESS | @outlinereleasedkey #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
@@ -152,11 +150,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇿🇦 ZA | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -265,28 +261,6 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @mtpv2ray #1",
-      "type": "vless",
-      "server": "45.92.219.204",
-      "server_port": 8088,
-      "uuid": "06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇦🇱 AL | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "144.31.129.42",
@@ -314,6 +288,31 @@
       "server": "78.159.250.214",
       "server_port": 443,
       "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "194.55.189.249",
+      "server_port": 40443,
+      "uuid": "8212a50b-25bf-4739-bba1-aaffb5ffc84c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "45.198.96.153",
+      "server_port": 443,
+      "uuid": "83ab4443-ec22-4b3d-a587-53090be7beb2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -392,23 +391,6 @@
       "server": "95.179.138.190",
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "95.85.233.181",
-      "server_port": 443,
-      "uuid": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -670,28 +652,6 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "19.07-7.yunus.guru",
-      "server_port": 443,
-      "uuid": "a5ea9247-79f3-4655-aece-3fb51e1e669e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
       "type": "vless",
       "server": "netraidly.ru",
@@ -739,28 +699,6 @@
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "uk.khabarvarzesh3.com",
-      "server_port": 443,
-      "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "neter.khabarvarzesh3.com",
       "server_port": 443,
       "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
       "packet_encoding": "xudp",

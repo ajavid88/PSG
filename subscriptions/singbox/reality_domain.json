@@ -100,8 +100,9 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -128,8 +129,9 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -352,28 +354,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "fast.superturk.ir",
-      "server_port": 443,
-      "uuid": "b3790af1-e595-408d-bd26-2f21a15cd610",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -392,6 +372,41 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "direct-nl.bachidze.com",
+      "server_port": 443,
+      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pro-de.emrata.top",
+      "server_port": 443,
+      "uuid": "f33e604e-d0c0-4775-91e2-934cc2e8d37c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

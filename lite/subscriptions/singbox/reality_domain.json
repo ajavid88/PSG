@@ -97,6 +97,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1"
@@ -114,6 +116,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇬🇧 GB | VLESS | @vmesskhodam #1"
@@ -272,6 +276,32 @@
       "server_port": 443,
       "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "vl1.salar4040.ir",
+      "server_port": 4040,
+      "uuid": "b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "direct-nl.bachidze.com",
+      "server_port": 443,
+      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

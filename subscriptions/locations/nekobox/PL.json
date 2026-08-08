@@ -79,6 +79,7 @@
         "direct",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @prrofile_purple #2",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -89,6 +90,7 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @prrofile_purple #2",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -145,6 +147,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "alapo.sannest.ir",
+      "server_port": 443,
+      "uuid": "1d798021-6b6e-4bff-8e8c-b7efc51d51b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

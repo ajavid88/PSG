@@ -98,10 +98,10 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇿🇦 ZA | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,10 +117,10 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇿🇦 ZA | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -295,24 +295,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "direct-nl.bachidze.com",
-      "server_port": 443,
-      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
       "type": "vless",
       "server": "netraidly.ru",
@@ -360,6 +342,28 @@
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "uk.khabarvarzesh3.com",
+      "server_port": 443,
+      "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇿🇦 ZA | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "neter.khabarvarzesh3.com",
       "server_port": 443,
       "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
       "packet_encoding": "xudp",

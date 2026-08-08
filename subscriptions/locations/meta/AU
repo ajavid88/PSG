@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇺 AU | VMESS | @red2ray #1", "server": "82.115.21.139", "port": 54337, "type": "vmess", "skip-cert-verify": true, "uuid": "603d8ad0-6ec5-49a9-8ef4-3cbd37cc664b", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "162.159.135.79", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "janett.click"}}}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇺 AU | VMESS | @red2ray #1'
       - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
 
   - name: 🌍 Global Media

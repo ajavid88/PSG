@@ -84,8 +84,9 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,8 +101,9 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,19 +207,11 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "35.181.197.53",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "72.60.189.172",
+      "server": "nasnet-162191099-direct.mbghalibaf.com",
       "server_port": 443,
-      "uuid": "f6f62b37-e002-42c2-8c32-51fe3da6750f",
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -226,13 +220,24 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "54.37.6.119",
+      "server_port": 2053,
+      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "54.37.6.119",
+      "server_port": 2053,
+      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

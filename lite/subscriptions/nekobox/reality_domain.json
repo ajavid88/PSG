@@ -80,10 +80,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "proxy",
@@ -95,10 +98,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "auto",
@@ -187,6 +193,28 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "nod4.kaafserver.ir",
+      "server_port": 8443,
+      "uuid": "f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @mt_proxy #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -266,6 +294,50 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "blog.allcaline.ir",
+      "server_port": 6690,
+      "uuid": "2c26ed61-be8a-45d1-978c-3774e062ac2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "journalist_info.allcaline.ir",
+      "server_port": 6690,
+      "uuid": "2c26ed61-be8a-45d1-978c-3774e062ac2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

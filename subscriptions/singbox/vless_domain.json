@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -119,7 +119,8 @@
         "🇺🇸 US | VLESS | @garnet_free #1",
         "🇺🇸 US | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
-        "🇽🇽 XX | VLESS | @hope_net #4",
+        "🇺🇸 US | VLESS | @hope_net #1",
+        "🇽🇽 XX | VLESS | @hope_net #5",
         "🇽🇽 XX | VLESS | @iran_access #6",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
         "🇽🇽 XX | VLESS | @iranproxypro #2",
@@ -201,6 +202,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -246,7 +248,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -272,7 +274,8 @@
         "🇺🇸 US | VLESS | @garnet_free #1",
         "🇺🇸 US | VLESS | @garnet_free #2",
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
-        "🇽🇽 XX | VLESS | @hope_net #4",
+        "🇺🇸 US | VLESS | @hope_net #1",
+        "🇽🇽 XX | VLESS | @hope_net #5",
         "🇽🇽 XX | VLESS | @iran_access #6",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
         "🇽🇽 XX | VLESS | @iranproxypro #2",
@@ -354,6 +357,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -472,11 +476,11 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "de.vpnbase.net",
-      "server_port": 80,
-      "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+      "server": "95.lorqino.ir",
+      "server_port": 998,
+      "uuid": "928cfab8-097c-4f24-9bad-0d6e2abdfc66",
       "packet_encoding": "xudp"
     },
     {
@@ -728,11 +732,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #4",
+      "tag": "🇺🇸 US | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "cdn.discordapp.com",
+      "server_port": 8880,
+      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @hope_net #5",
       "type": "vless",
       "server": "www.parsvds.ir",
       "server_port": 8080,
-      "uuid": "-VPNCUSTOMIZE-",
+      "uuid": "VpNCUSTOMiZE",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -1789,6 +1801,23 @@
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "9a84e4a2-731d-4dd5-a22d-796c7a345e39",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "mnjgkf-rfefef-21d0e4-production.up.railway.app",
+      "server_port": 443,
+      "uuid": "10c3b62f-59da-55cb-b24f-2072ecb4348c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

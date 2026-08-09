@@ -122,11 +122,9 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
-        "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | TROJAN | @free1_vpn #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -145,7 +143,6 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1",
         "🇽🇽 XX | VLESS | @hope_net #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VLESS | @hope_net #2",
         "🇽🇽 XX | VLESS | @hope_net #3",
         "🇽🇽 XX | VLESS | @hope_net #4",
@@ -286,6 +283,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -293,7 +291,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -382,11 +379,9 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
-        "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | TROJAN | @free1_vpn #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -405,7 +400,6 @@
         "🇽🇽 XX | VLESS | @goldenshiinevpn #3",
         "🇽🇽 XX | VLESS | @grizzlyvpn #1",
         "🇽🇽 XX | VLESS | @hope_net #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VLESS | @hope_net #2",
         "🇽🇽 XX | VLESS | @hope_net #3",
         "🇽🇽 XX | VLESS | @hope_net #4",
@@ -546,6 +540,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -553,7 +548,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -624,10 +618,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "104.16.72.101",
-      "server_port": 80,
-      "uuid": "d5598622-46b8-b017-3af3-232500000001",
-      "packet_encoding": "xudp"
+      "server": "104.16.75.44",
+      "server_port": 443,
+      "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -916,7 +926,7 @@
     {
       "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
       "type": "trojan",
-      "server": "104.16.174.36",
+      "server": "104.18.152.77",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -932,22 +942,6 @@
     {
       "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
       "type": "trojan",
-      "server": "104.18.152.77",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
-      "type": "trojan",
       "server": "104.18.152.140",
       "server_port": 443,
       "password": "humanity",
@@ -962,7 +956,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #4",
+      "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #3",
       "type": "trojan",
       "server": "104.16.174.12",
       "server_port": 443,
@@ -979,23 +973,6 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "172.66.44.97",
-      "server_port": 443,
-      "uuid": "4d10c997-4781-4cd9-82c3-15453523e12c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "172.66.44.97",
       "server_port": 443,
@@ -1028,7 +1005,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
@@ -1242,9 +1219,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "104.19.30.118",
+      "server": "104.24.179.164",
       "server_port": 443,
-      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "uuid": "c0e1f187-a2c5-44f9-a9c1-642e483dd890",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1253,93 +1230,43 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
-      "type": "vmess",
-      "server": "zula.ir",
-      "server_port": 2096,
-      "uuid": "30cab746-5ca5-46ef-aa9b-537f20f6a40c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "kingo.hightechservice.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "kingo.hightechservice.ir"
         }
       }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #2",
       "type": "vless",
-      "server": "172.64.87.52",
-      "server_port": 443,
-      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "104.17.147.22",
+      "server_port": 8080,
+      "uuid": "telegram-id-ArV2ray",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #3",
       "type": "vless",
-      "server": "104.18.84.115",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "104.17.148.22",
+      "server_port": 8080,
+      "uuid": "telegram-id-PcV2ray",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #4",
       "type": "vless",
-      "server": "www.parsvds.ir",
+      "server": "104.18.101.41",
       "server_port": 8080,
-      "uuid": "-VPNCUSTOMIZE-",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "uuid": "927eb03d-f806-4f21-88ea-de23d0f755ec",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #5",
       "type": "vless",
-      "server": "104.21.20.68",
-      "server_port": 80,
-      "uuid": "7f1548ae-3c31-45a4-9150-727e5d08e068",
+      "server": "www.parsvds.ir",
+      "server_port": 8080,
+      "uuid": "VpNCUSTOMiZE",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "",
         "headers": {
           "Host": ""
         }
@@ -3125,6 +3052,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "172.67.218.38",
+      "server_port": 443,
+      "password": "Telegram_healer_config",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "172.66.46.250",
@@ -3205,14 +3148,6 @@
       "server": "berovps.masoodbiranvand-230.workers.dev",
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "172.67.137.11",
-      "server_port": 8080,
-      "uuid": "416f18ec-11f3-4648-9693-8c6480d0662d",
       "packet_encoding": "xudp"
     },
     {

@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @red2ray #1", "server": "206_207.iranacar.ir", "port": 6690, "type": "vless", "skip-cert-verify": true, "uuid": "2c26ed61-be8a-45d1-978c-3774e062ac2b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇭 CH | VLESS | @rez1vpn #1", "server": "185.18.250.252", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @red2ray #1'
       - '🇨🇭 CH | VLESS | @rez1vpn #1'
 
   - name: 🌍 Global Media

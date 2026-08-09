@@ -102,7 +102,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -135,7 +136,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -442,6 +444,14 @@
         "insecure": false,
         "alpn": null
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 8443,
+      "uuid": "71286f3b-ec0f-4d12-9d3b-8d2941dee6ae",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

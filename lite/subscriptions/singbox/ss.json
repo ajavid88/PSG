@@ -101,9 +101,9 @@
         "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
+        "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇮🇷 IR | SS | @v2raych #1",
-        "🇮🇷 IR | SS | @v2raych #2"
+        "🇹🇷 TR | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,9 +122,9 @@
         "🇬🇧 GB | SS | @vpn_ioss #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
+        "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇮🇷 IR | SS | @v2raych #1",
-        "🇮🇷 IR | SS | @v2raych #2"
+        "🇹🇷 TR | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -272,6 +272,14 @@
       "password": null
     },
     {
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #2",
+      "type": "shadowsocks",
+      "server": "page.hsrdnr.ir",
+      "server_port": 2044,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
@@ -280,19 +288,11 @@
       "password": null
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2raych #1",
+      "tag": "🇹🇷 TR | SS | @v2raych #1",
       "type": "shadowsocks",
-      "server": "e1.cover20.ir",
-      "server_port": 51570,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1S0xwY3ZwcE8xYnI3bHJYY0E3cFpjK2Q0MDA2NHJWSzFVK0t2U0ltcVkwPQ==",
-      "password": null
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @v2raych #2",
-      "type": "shadowsocks",
-      "server": "e1.cover20.ir",
-      "server_port": 51570,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUHMrcHVDdTdMWFBxSVRDSml0bXQ0Tk9CbG5vc3pSR3JwdlVXdHRncU93PQ==",
+      "server": "tr-1.stunnel.cc",
+      "server_port": 8444,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtZmJyb2Y=",
       "password": null
     }
   ],

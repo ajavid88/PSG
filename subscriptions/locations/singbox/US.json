@@ -90,10 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
-        "🇺🇸 US | VLESS | @NamiraConfigs #2",
-        "🇺🇸 US | VLESS | @NamiraConfigs #3",
-        "🇺🇸 US | VLESS | @NamiraConfigs #4",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -103,6 +99,7 @@
         "🇺🇸 US | VLESS | @garnet_free #1",
         "🇺🇸 US | VLESS | @garnet_free #2",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -133,6 +130,7 @@
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | SS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -154,9 +152,6 @@
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #4",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vboxpanel #1",
-        "🇺🇸 US | VLESS | @vboxpanel #2",
-        "🇺🇸 US | VLESS | @vboxpanel #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -167,10 +162,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
-        "🇺🇸 US | VLESS | @NamiraConfigs #2",
-        "🇺🇸 US | VLESS | @NamiraConfigs #3",
-        "🇺🇸 US | VLESS | @NamiraConfigs #4",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -180,6 +171,7 @@
         "🇺🇸 US | VLESS | @garnet_free #1",
         "🇺🇸 US | VLESS | @garnet_free #2",
         "🇺🇸 US | SS | @godv2rang #1",
+        "🇺🇸 US | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #2",
         "🇺🇸 US | VLESS | @iranvipnet #3",
@@ -210,6 +202,7 @@
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | SS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -231,9 +224,6 @@
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #4",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vboxpanel #1",
-        "🇺🇸 US | VLESS | @vboxpanel #2",
-        "🇺🇸 US | VLESS | @vboxpanel #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -246,74 +236,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "rvg-production-1176f.up.railway.app",
-      "server_port": 443,
-      "uuid": "2fa33163-12a8-f4b2-c3bd-4d5506d97b5d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "rvg-production-464c.up.railway.app",
-      "server_port": 443,
-      "uuid": "d0a0701e-9aef-972f-a69a-cad18aeb4426",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #3",
-      "type": "vless",
-      "server": "x4g-production-79c8.up.railway.app",
-      "server_port": 443,
-      "uuid": "1877533b-91d5-a66d-51de-2c709b277b13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #4",
-      "type": "vless",
-      "server": "x4g-production-246b.up.railway.app",
-      "server_port": 443,
-      "uuid": "3503d010-b395-960b-e840-db518a918eaa",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -428,6 +350,23 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "162.159.135.232",
+      "server_port": 2053,
+      "uuid": "db9cf031-33ec-4a39-b27e-6da323144963",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @iranvipnet #1",
@@ -851,6 +790,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "216.105.168.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoQ0NXT2NJc0s1d3JGejRPWDcwcldm",
+      "password": null
+    },
+    {
       "tag": "🇺🇸 US | TROJAN | @rez1vpn #1",
       "type": "trojan",
       "server": "151.101.56.6",
@@ -1181,57 +1128,6 @@
       "server": "199.232.78.160",
       "server_port": 443,
       "uuid": "23e35579-baad-487c-80de-aca4475d50b2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vboxpanel #1",
-      "type": "vless",
-      "server": "dns8.nufilter.store",
-      "server_port": 443,
-      "uuid": "7f99da38-1333-4a8e-abf1-9ecd951b9365",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vboxpanel #2",
-      "type": "vless",
-      "server": "dns8.nufilter.store",
-      "server_port": 443,
-      "uuid": "7f99da38-1333-4a8e-abf1-9ecd951b9365",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vboxpanel #3",
-      "type": "vless",
-      "server": "dns8.nufilter.store",
-      "server_port": 443,
-      "uuid": "7f99da38-1333-4a8e-abf1-9ecd951b9365",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

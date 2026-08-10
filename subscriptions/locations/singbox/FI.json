@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "dgvleggb9eddc.zostoree.ir",
+      "server_port": 2044,
+      "uuid": "80d9c97b-fa23-4ce9-bbfb-555a732c35e9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | SS | @vmesskhodam #1",

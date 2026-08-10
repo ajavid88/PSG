@@ -98,7 +98,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,7 +115,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -308,6 +310,28 @@
       "server": "netraidly.ru",
       "server_port": 40443,
       "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "opg.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "e798361c-d177-4111-ae73-55fd17042a2b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

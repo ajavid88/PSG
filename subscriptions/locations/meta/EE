@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "dgvleggb9eddc.zostoree.ir", "port": 2044, "type": "vless", "skip-cert-verify": true, "uuid": "80d9c97b-fa23-4ce9-bbfb-555a732c35e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @free1_vpn #1", "server": "188.255.236.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇪🇪 EE | VLESS | @v2ray_free_conf #1", "server": "188.255.236.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "cosmic-aurora.cdn.cachefleet.com"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @red2ray #1'
+      - '🇪🇪 EE | VLESS | @free1_vpn #1'
+      - '🇪🇪 EE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

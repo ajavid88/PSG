@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFQ=
+//profile-title: base64:UFNHIHwgWkE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | TROJAN | @prrofile_purple #1"
+        "🇿🇦 ZA | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | TROJAN | @prrofile_purple #1"
+        "🇿🇦 ZA | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇹 LT | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "89.116.250.135",
+      "tag": "🇿🇦 ZA | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "31.43.191.39",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇴 CO | VLESS | @v2raych #1", "server": "149.130.189.106", "port": 62145, "type": "vless", "skip-cert-verify": true, "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | TROJAN | @v2ray_collector #1", "server": "distinct-llama.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇴 CO | VLESS | @v2raych #1'
+      - '🇰🇷 KR | TROJAN | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select

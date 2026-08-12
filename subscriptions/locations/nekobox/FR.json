@@ -83,7 +83,9 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
@@ -99,7 +101,9 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
@@ -197,11 +201,35 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
+      "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "45.13.119.219",
-      "server_port": 8888,
-      "uuid": "eb77be10-9d9e-527b-a78d-8caaf58992d6",
+      "server": "13.36.186.181",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "star-kiwi.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "star-kiwi.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2053,
+      "uuid": "b6c29ae7-4748-4049-b642-b695c0d2c776",
       "packet_encoding": "xudp"
     },
     {

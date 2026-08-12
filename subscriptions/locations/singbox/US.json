@@ -123,11 +123,9 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
-        "🇺🇸 US | TROJAN | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -137,9 +135,7 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -197,11 +193,9 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
-        "🇺🇸 US | TROJAN | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
@@ -211,9 +205,7 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -690,28 +682,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "144.31.65.68",
-      "server_port": 443,
-      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -755,22 +725,6 @@
     },
     {
       "tag": "🇺🇸 US | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "199.232.22.39",
-      "server_port": 443,
-      "password": "MITIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @prrofile_purple #2",
       "type": "trojan",
       "server": "151.101.1.194",
       "server_port": 443,
@@ -927,44 +881,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "ru.federal-usa.com",
-      "server_port": 8443,
-      "password": "08QNE5JBq7kTV6b9Dd6e_w-y4WhjMLS9",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",
       "type": "vless",
       "server": "ezaccess1-sulgx-ezaccess1-6934.up.railway.app",
       "server_port": 443,
       "uuid": "d5df62ac-557d-4c90-b553-e37609463512",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "69.46.46.53",
-      "server_port": 443,
-      "uuid": "b9d4c53c-2e6c-8eaf-362f-ae2602a3a8af",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

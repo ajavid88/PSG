@@ -90,7 +90,7 @@
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -98,8 +98,9 @@
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇰🇷 KR | TROJAN | @v2ray_collector #1"
@@ -123,7 +124,7 @@
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇽🇽 XX | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -131,8 +132,9 @@
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇰🇷 KR | TROJAN | @v2ray_collector #1"
@@ -374,11 +376,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
       "type": "trojan",
-      "server": "91.193.58.201",
+      "server": "104.18.152.219",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -502,9 +504,9 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
+      "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
-      "server": "upright-hamster.rooster465.autos",
+      "server": "clear-snail.rooster465.autos",
       "server_port": 443,
       "password": "ND91608427",
       "tls": {
@@ -518,11 +520,27 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+      "tag": "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
-      "server": "clear-snail.rooster465.autos",
+      "server": "skilled-lioness.rooster465.autos",
       "server_port": 443,
       "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "skilled-lioness.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "ru.federal-usa.com",
+      "server_port": 8443,
+      "password": "08QNE5JBq7kTV6b9Dd6e_w-y4WhjMLS9",
       "tls": {
         "enabled": true,
         "server_name": "",

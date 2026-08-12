@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @configv2rayforfree #1"
+        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @configv2rayforfree #1"
+        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "45.74.178.41",
       "server_port": 719,
       "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "newtr.karmatel.ir",
+      "server_port": 20727,
+      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
       "packet_encoding": "xudp"
     }
   ],

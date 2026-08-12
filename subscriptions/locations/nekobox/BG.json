@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @outline_ir #1"
+        "🇧🇬 BG | VLESS | @NamiraConfigs #1",
+        "🇧🇬 BG | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @outline_ir #1"
+        "🇧🇬 BG | VLESS | @NamiraConfigs #1",
+        "🇧🇬 BG | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @outline_ir #1",
+      "tag": "🇧🇬 BG | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "87.58.205.88",
-      "server_port": 443,
-      "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "93.123.13.7",
+      "server_port": 15755,
+      "uuid": "c863c8f0-cda1-429c-be76-cbefc8a418a1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇬 BG | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "93.123.13.7",
+      "server_port": 25783,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4Y211dnphOWd5ZXR4MHo4",
+      "password": null
     }
   ],
   "route": {

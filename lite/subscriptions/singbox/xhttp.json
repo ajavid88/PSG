@@ -103,6 +103,7 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -111,7 +112,6 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -133,6 +133,7 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -141,7 +142,6 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -247,7 +247,7 @@
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "XpnTeam-5",
+      "uuid": "XpnTeam-8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -264,7 +264,7 @@
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "XpnTeam-8",
+      "uuid": "XpnTeam-12",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -387,6 +387,23 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "206.71.158.124",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "151.101.3.8",
@@ -476,23 +493,6 @@
       "server_port": 80,
       "uuid": "9fd3bdf1-d158-4055-869d-390738793020",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-      "type": "vless",
-      "server": "securitytrails.com",
-      "server_port": 443,
-      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",

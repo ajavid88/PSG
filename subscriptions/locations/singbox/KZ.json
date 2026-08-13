@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkc=
+//profile-title: base64:UFNHIHwgS1o=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @NamiraConfigs #1",
-        "🇧🇬 BG | SS | @NamiraConfigs #1",
-        "🇧🇬 BG | VLESS | @NamiraConfigs #2"
+        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @NamiraConfigs #1",
-        "🇧🇬 BG | SS | @NamiraConfigs #1",
-        "🇧🇬 BG | VLESS | @NamiraConfigs #2"
+        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,28 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @NamiraConfigs #1",
+      "tag": "🇰🇿 KZ | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "93.123.13.7",
-      "server_port": 15139,
-      "uuid": "ab16b404-1d3a-4ba6-a37c-67bed61e3b5d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇧🇬 BG | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "93.123.13.7",
-      "server_port": 16460,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4eWV6ZDQwbHIydzR6ejA4",
-      "password": null
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "93.123.13.7",
-      "server_port": 10079,
-      "uuid": "c8d2ebd5-d3cb-445e-923a-84f952a71917",
-      "packet_encoding": "xudp"
+      "server": "178.236.17.86",
+      "server_port": 443,
+      "uuid": "6fdfdb73-51b0-4a14-89a5-c9355a0e0397",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

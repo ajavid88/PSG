@@ -90,10 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VMESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VMESS | @free1_vpn #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VMESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VMESS | @free1_vpn #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +112,15 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "168.222.49.188",
+      "server_port": 80,
+      "uuid": "20e840a9-b3d6-4941-ab1f-d37cd958b0b8",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
@@ -133,15 +140,6 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VMESS | @free1_vpn #1",
-      "type": "vmess",
-      "server": "168.222.49.188",
-      "server_port": 80,
-      "uuid": "20e840a9-b3d6-4941-ab1f-d37cd958b0b8",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
       "server": "relaxed-gull.rooster465.autos",
@@ -150,23 +148,6 @@
       "tls": {
         "enabled": true,
         "server_name": "relaxed-gull.rooster465.autos",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "144.31.171.233",
-      "server_port": 443,
-      "uuid": "551955b3-46e9-5129-95c9-e7474c15ed6b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

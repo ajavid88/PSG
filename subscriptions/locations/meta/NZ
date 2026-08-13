@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | TROJAN | @v2ray_collector #1", "server": "star-kiwi.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427", "sni": "star-kiwi.rooster465.autos"}
+  - {"name": "🇳🇿 NZ | VLESS | @vpn_ioss #1", "server": "202.37.33.80", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5aafc2be-9348-4dec-b896-f4a91253bbca", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | TROJAN | @v2ray_collector #1'
+      - '🇳🇿 NZ | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

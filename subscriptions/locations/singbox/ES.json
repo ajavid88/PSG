@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVE=
+//profile-title: base64:UFNHIHwgRVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @v2raych #1",
-        "🇮🇶 IQ | VLESS | @v2raych #2"
+        "🇪🇸 ES | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @v2raych #1",
-        "🇮🇶 IQ | VLESS | @v2raych #2"
+        "🇪🇸 ES | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,48 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @v2raych #1",
+      "tag": "🇪🇸 ES | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "81.90.29.151",
-      "server_port": 13868,
-      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇶 IQ | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "81.90.29.151",
-      "server_port": 13868,
-      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "170.168.97.5",
+      "server_port": 8443,
+      "uuid": "c6f220ed-41f2-21ba-438c-80f05ebbf92a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

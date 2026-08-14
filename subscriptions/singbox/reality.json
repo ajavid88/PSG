@@ -120,8 +120,9 @@
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇪🇸 ES | VLESS | @v2ray_collector #1",
         "🇭🇰 HK | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇹🇭 TH | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
@@ -182,8 +183,9 @@
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇪🇸 ES | VLESS | @v2ray_collector #1",
         "🇭🇰 HK | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇹🇭 TH | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
@@ -792,11 +794,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.79.138.71",
-      "server_port": 448,
-      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "server": "170.168.99.4",
+      "server_port": 993,
+      "uuid": "fc03a9a8-ef0f-5794-e119-0c3b68b178e8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -814,11 +816,33 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "176.96.138.122",
-      "server_port": 443,
-      "uuid": "518a99df-54f6-4f42-819d-b60abd880edf",
+      "server": "15.204.97.216",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇭 TH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "171.97.18.114",
+      "server_port": 8443,
+      "uuid": "d6c81f6d-24a8-46d9-a3bf-c38d51fc5fe5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

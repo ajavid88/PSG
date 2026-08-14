@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "185.193.30.94", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VMESS | @vpn_ioss #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @v2raych #1'
       - '🇬🇧 GB | VMESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media

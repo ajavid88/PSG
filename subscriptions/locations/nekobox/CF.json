@@ -231,12 +231,12 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
         "🇽🇽 XX | VLESS | @renetvpn #4",
         "🇽🇽 XX | VLESS | @selinc #1",
-        "🇽🇽 XX | VLESS | @selinc #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
@@ -262,6 +262,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -272,6 +273,7 @@
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #3",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -480,12 +482,12 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
         "🇽🇽 XX | VLESS | @renetvpn #4",
         "🇽🇽 XX | VLESS | @selinc #1",
-        "🇽🇽 XX | VLESS | @selinc #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
@@ -511,6 +513,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -521,6 +524,7 @@
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #3",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -2548,9 +2552,26 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "104.26.14.85",
+      "server": "ez-733129.nova-b6ad66.workers.dev",
       "server_port": 443,
-      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
+      "uuid": "756702ad-3df1-fe31-176b-325500000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "chatgpt-async-webps-prod-centralus-0.chatgpt.com",
+      "server_port": 443,
+      "uuid": "3666e25b-a1c2-48ec-b060-075392b1aa6e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2605,14 +2626,6 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @selinc #1",
-      "type": "vless",
-      "server": "cf.levikogjgfdd.ir",
-      "server_port": 8443,
-      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @selinc #2",
       "type": "vless",
       "server": "162.159.38.119",
       "server_port": 8443,
@@ -2933,11 +2946,27 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "104.18.152.133",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.16.72.101",
+      "server": "198.41.223.119",
       "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "uuid": "9f2ecebe-3a52-460e-80ac-74a21fffdaf7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -3011,9 +3040,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #5",
       "type": "vless",
-      "server": "ser.coolfrog-bot.ir",
-      "server_port": 8080,
-      "uuid": "8107e7a8-8c8c-4c24-90d5-103e2d5d8254",
+      "server": "104.16.100.66",
+      "server_port": 8880,
+      "uuid": "730cbebb-39b2-4a1c-b2f8-f922095d6623",
       "packet_encoding": "xudp"
     },
     {
@@ -3035,26 +3064,25 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "b9ab32b7-a5f3-43b2-9f3a-9544b50f96b1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "188.114.97.6",
+      "server_port": 2096,
+      "uuid": "ee63b875-215e-4a2e-879d-d8ebb5dc2da5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "www.speedtest.net",
+      "server": "104.16.72.162",
+      "server_port": 8443,
+      "uuid": "d98e06d3-7f42-41e8-8dad-e9f35517a992",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "172.64.146.153",
       "server_port": 2095,
-      "uuid": "-----DIGIV2Ray----",
+      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
       "packet_encoding": "xudp"
     },
     {

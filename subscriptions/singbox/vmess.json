@@ -101,6 +101,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇩🇪 DE | VMESS | @vpn_ioss #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -114,7 +115,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -142,6 +142,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇩🇪 DE | VMESS | @vpn_ioss #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -155,7 +156,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
@@ -381,6 +381,15 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
@@ -647,31 +656,6 @@
         "path": "/linkws",
         "headers": {
           "Host": "glweidf.sbs"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "nycqg19zkwacpm1b.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "NYcQg19zkwaCPM1B.v.3dns.vip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
         }
       }
     },

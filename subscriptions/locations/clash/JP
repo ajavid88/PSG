@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @v2ray_collector #1", "server": "casual-bee.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #1", "server": "54.238.194.119", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FH72359861"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #2", "server": "18.183.245.11", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FH72359861"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #3", "server": "living-hagfish.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "FH72359861"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @v2ray_collector #1'
+      - '🇯🇵 JP | TROJAN | @v2raych #1'
+      - '🇯🇵 JP | TROJAN | @v2raych #2'
+      - '🇯🇵 JP | TROJAN | @v2raych #3'
 
   - name: 🌍 Global Media
     type: select

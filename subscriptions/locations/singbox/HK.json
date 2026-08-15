@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTUQ=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇩 MD | VLESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇩 MD | VLESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "144.31.131.241",
-      "server_port": 8443,
-      "uuid": "b406bc51-9002-474c-beae-b194b02c91da",
-      "packet_encoding": "xudp",
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "u2frxj0g13vdi0wo.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "U2FRxj0G13vDI0Wo.v.3dns.vip",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "U2FRxj0G13vDI0Wo.v.3dns.vip"
         }
       }
     }

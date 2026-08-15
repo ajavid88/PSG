@@ -25,6 +25,9 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "newtr.karmatel.ir", "port": 20727, "type": "vless", "skip-cert-verify": true, "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "141.98.118.70", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "a70e1e500a951bdda70e1e500a951bdd.ssdhdd.org", "port": 8765, "type": "vless", "skip-cert-verify": true, "uuid": "352fc42a-8cf9-4608-8ca8-fe8f4310c7d4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #2", "server": "dashbourd.speedmizban.net", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "a771a06c-3ddc-4f25-a0da-1bab830059b0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "146.103.26.96", "port": 37211, "type": "vless", "skip-cert-verify": true, "uuid": "f8fd2381-40ea-4b46-973b-f9dab2eed50b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +43,9 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @netmellianti #1'
       - '🇹🇷 TR | VLESS | @orange_vpns #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #2'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

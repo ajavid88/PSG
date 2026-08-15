@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @configv2rayforfree #1", "server": "45.74.178.41", "port": 719, "type": "vless", "skip-cert-verify": true, "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "newtr.karmatel.ir", "port": 20727, "type": "vless", "skip-cert-verify": true, "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "141.98.118.70", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -40,7 +39,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @configv2rayforfree #1'
-      - '🇹🇷 TR | VLESS | @netmellianti #1'
       - '🇹🇷 TR | VLESS | @orange_vpns #1'
 
   - name: 🌍 Global Media

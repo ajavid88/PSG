@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇴🇲 OM | VLESS | @v2raych #1", "server": "omdr.whooisthebest.ir", "port": 33353, "type": "vless", "skip-cert-verify": true, "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇴🇲 OM | VLESS | @v2raych #2", "server": "omdr.whooisthebest.ir", "port": 33353, "type": "vless", "skip-cert-verify": true, "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1", "server": "185.244.208.13", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇴🇲 OM | VLESS | @v2raych #1'
-      - '🇴🇲 OM | VLESS | @v2raych #2'
+      - '🇭🇰 HK | TROJAN | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

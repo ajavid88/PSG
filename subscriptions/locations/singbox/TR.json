@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "193.111.78.106",
+      "server_port": 61134,
+      "uuid": "bd73cb46-5d86-42ca-ac4e-e702825a221a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -158,6 +158,8 @@
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
@@ -192,8 +194,12 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇴🇲 OM | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -307,6 +313,8 @@
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy48 #2",
@@ -341,8 +349,12 @@
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇴🇲 OM | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -1456,6 +1468,41 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "direct-nl.bachidze.com",
+      "server_port": 443,
+      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "api.noneok.com",
+      "server_port": 443,
+      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @prooxyk #1",
       "type": "vless",
       "server": "avalpardakht.com",
@@ -1842,15 +1889,17 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "de22.fastplus7.site",
-      "server_port": 2086,
-      "uuid": "0d1c3cee-2952-4a3e-a03e-fbe99d32dc72",
+      "server": "cpanel.mizban-b.site",
+      "server_port": 443,
+      "uuid": "f1679e17-47a4-42d1-8e9f-6c3e2be19674",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1871,19 +1920,83 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "27telegram.com.zapas.iran.janebicall.ir",
-      "server_port": 2087,
-      "uuid": "725a4f7d-a997-4bc9-9cdf-e6a88de05a5d",
+      "server": "gig.fifapes.monster",
+      "server_port": 45058,
+      "uuid": "7731fc05-e183-47bf-ad02-2c3618eda83d",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #3",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "27telegram.com.zapas.iran.janebicall.ir",
-      "server_port": 2087,
-      "uuid": "725a4f7d-a997-4bc9-9cdf-e6a88de05a5d",
+      "server": "rvg-production-9909.up.railway.app",
+      "server_port": 443,
+      "uuid": "8d67bb91-2a75-dd88-44f5-ed7771727a7b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de.n.belka.network",
+      "server_port": 443,
+      "uuid": "68dc7ee8-179e-4dff-8275-2c4ebc5c03ea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇴🇲 OM | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "omdr.whooisthebest.ir",
+      "server_port": 33353,
+      "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "rvg-production-9909.up.railway.app",
+      "server_port": 443,
+      "uuid": "8d67bb91-2a75-dd88-44f5-ed7771727a7b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇴🇲 OM | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "omdr.whooisthebest.ir",
+      "server_port": 33353,
+      "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1",
       "packet_encoding": "xudp"
     },
     {

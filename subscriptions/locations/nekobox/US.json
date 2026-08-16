@@ -137,10 +137,12 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
@@ -220,10 +222,12 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
@@ -1165,11 +1169,29 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "151.101.110.219",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "rvg-production-9909.up.railway.app",
       "server_port": 443,
-      "password": "Mitivpn",
+      "uuid": "8d67bb91-2a75-dd88-44f5-ed7771727a7b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "rvg-production-9909.up.railway.app",
+      "server_port": 443,
+      "uuid": "8d67bb91-2a75-dd88-44f5-ed7771727a7b",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1220,6 +1242,22 @@
       "server_port": 443,
       "uuid": "b2cd6eb9-2cc5-4387-9414-0c1c26936cd9",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
+      "type": "trojan",
+      "server": "151.101.110.219",
+      "server_port": 443,
+      "password": "Mitivpn",
       "tls": {
         "enabled": true,
         "server_name": "",

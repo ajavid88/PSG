@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | SS | @NamiraConfigs #1",
-        "🇿🇦 ZA | VLESS | @orange_vpns #1"
+        "🇴🇲 OM | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | SS | @NamiraConfigs #1",
-        "🇿🇦 ZA | VLESS | @orange_vpns #1"
+        "🇴🇲 OM | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,29 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "4.168.234.5",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWTk0Q0w4SG91VXdFUEYz",
-      "password": null
+      "tag": "🇴🇲 OM | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "omdr.whooisthebest.ir",
+      "server_port": 33353,
+      "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇿🇦 ZA | VLESS | @orange_vpns #1",
+      "tag": "🇴🇲 OM | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "31.43.191.39",
-      "server_port": 443,
-      "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "omdr.whooisthebest.ir",
+      "server_port": 33353,
+      "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

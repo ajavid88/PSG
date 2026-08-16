@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,15 +112,24 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @configv2rayforfree #1",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "45.74.178.41",
-      "server_port": 719,
-      "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
-      "packet_encoding": "xudp"
+      "server": "141.98.118.70",
+      "server_port": 443,
+      "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
       "type": "vless",
       "server": "141.98.118.70",
       "server_port": 443,

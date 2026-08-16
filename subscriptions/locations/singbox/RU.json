@@ -90,8 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
@@ -102,9 +100,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,8 +110,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
@@ -124,9 +120,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,22 +132,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "77.222.37.89",
-      "server_port": 2200,
-      "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "185.247.16.117",
-      "server_port": 2200,
-      "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
@@ -345,26 +325,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "45.8.211.57",
-      "server_port": 443,
-      "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "45.151.30.127",
-      "server_port": 9873,
-      "uuid": "2a650f3b-d95b-4bd6-aadf-16ccc0717155",
+      "server": "31.177.82.106",
+      "server_port": 4100,
+      "uuid": "5d0fbb28-3be3-4044-bc5b-e4b7ca1916c7",
       "packet_encoding": "xudp"
     },
     {
@@ -396,6 +359,23 @@
       "server_port": 4100,
       "uuid": "269c4c7d-6e37-4c63-9a8f-2f162bd892a3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "92.42.96.240",
+      "server_port": 443,
+      "uuid": "mahanvpn-mahanvpn",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

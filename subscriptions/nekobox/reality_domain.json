@@ -83,9 +83,10 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #2",
+        "🇩🇪 DE | VLESS | @prrofile_purple #3",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -104,9 +105,10 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #2",
+        "🇩🇪 DE | VLESS | @prrofile_purple #3",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -265,24 +267,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "direct-nl.bachidze.com",
-      "server_port": 443,
-      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "api.oneokgames.com",
@@ -313,6 +297,45 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "media.oneokgames.com",
+      "server_port": 443,
+      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "de-193-58.neobo-tooth.ru",
+      "server_port": 2053,
+      "uuid": "b6c29ae7-4748-4049-b642-b695c0d2c776",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

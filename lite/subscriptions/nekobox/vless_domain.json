@@ -83,6 +83,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇽🇽 XX | VLESS | @bored_vpn #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -119,13 +120,11 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -136,7 +135,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -160,6 +158,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
+        "🇽🇽 XX | VLESS | @bored_vpn #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -196,13 +195,11 @@
         "🇺🇸 US | VLESS | @nofilter_v2rayng #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
-        "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -213,7 +210,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -331,7 +327,24 @@
       "type": "vless",
       "server": "www.speedtest.net",
       "server_port": 443,
-      "uuid": "XpnTeam-20",
+      "uuid": "XpnTeam-22",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "XpnTeam-24",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -794,6 +807,28 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "uk2.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @prooxyk #1",
       "type": "vless",
       "server": "avalpardakht.com",
@@ -818,23 +853,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "marzban-node-production-9471.up.railway.app",
-      "server_port": 443,
-      "uuid": "84c36cec-6ac4-449f-a9ef-dbed2e892195",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @public504 #1",
       "type": "vless",
       "server": "fr.turboo-server.xyz",
@@ -848,36 +866,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "cf.levikogjgfdd.ir",
-      "server_port": 2053,
-      "uuid": "d361072e-9e0e-4e2d-8ec7-2a4189b5b23a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "br1.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -1001,23 +989,6 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "x4g-production-09d5.up.railway.app",
-      "server_port": 443,
-      "uuid": "e1036b18-0034-63f6-0dce-b92c359f0946",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

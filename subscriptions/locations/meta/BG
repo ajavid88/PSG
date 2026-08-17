@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇷 KR | TROJAN | @v2ray_collector #1", "server": "communal-sunbird.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
+  - {"name": "🇧🇬 BG | VLESS | @v2ray_free_conf #1", "server": "93.152.223.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "62a08ea5-0564-47b4-a92c-25be07ad6358", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇷 KR | TROJAN | @v2ray_collector #1'
+      - '🇧🇬 BG | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

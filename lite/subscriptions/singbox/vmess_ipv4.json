@@ -97,8 +97,6 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -114,8 +112,6 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -269,40 +265,6 @@
       "tls": {
         "enabled": true,
         "server_name": "astra.iraniangamersclub.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "193.111.78.106",
-      "server_port": 58304,
-      "uuid": "26b6fd32-04e6-43ff-a065-bea36f748655",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "165.140.216.141",
-      "server_port": 443,
-      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

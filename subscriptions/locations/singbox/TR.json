@@ -91,11 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #2",
         "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #2",
         "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,14 +115,6 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "188.132.174.237",
-      "server_port": 22753,
-      "uuid": "c5721b62-ba28-4cd0-b2e8-aad2eec644f4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #2",
       "type": "vless",
       "server": "89.251.8.180",
       "server_port": 43080,
@@ -164,30 +150,6 @@
       "server_port": 8444,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtZmJyb2Y=",
       "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "custom.zelnora.ir",
-      "server_port": 64584,
-      "uuid": "a19bdc9c-042f-4ee6-a1a7-3dedd2ef337b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "193.111.78.106",
-      "server_port": 58304,
-      "uuid": "26b6fd32-04e6-43ff-a065-bea36f748655",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     }
   ],
   "route": {

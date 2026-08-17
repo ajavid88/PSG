@@ -103,6 +103,7 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -111,8 +112,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -133,6 +133,7 @@
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -141,8 +142,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -451,6 +451,31 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "104.105.28.164",
+      "server_port": 2053,
+      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "deapp.jisuyun.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/devm",
+        "headers": {
+          "Host": "deapp.jisuyun.top"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -651,15 +676,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "82.198.246.37",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

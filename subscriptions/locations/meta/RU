@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #1", "server": "45.8.211.57", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "03707fb7-0990-440f-88f6-b0e0f7242a38", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @free1_vpn #1", "server": "5.129.194.34", "port": 4100, "type": "vless", "skip-cert-verify": true, "uuid": "af325624-e28d-44fd-a8a7-058a439d128f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #1", "server": "87.228.122.100", "port": 2200, "type": "vless", "skip-cert-verify": true, "uuid": "099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @jiedianf #1", "server": "2.26.8.55", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VLESS | @mt_proxy #1", "server": "qq.utiltools.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @netfreedom0 #1", "server": "185.86.145.253", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bdba330b-dfc6-0023-93e4-b10f906bf4fb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -33,7 +32,6 @@ proxies:
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #3", "server": "78.159.250.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #4", "server": "78.159.250.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @selinc #1", "server": "qq.utiltools.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "176.108.243.192", "port": 9880, "type": "vless", "skip-cert-verify": true, "uuid": "14777bd9-56a5-46f6-a94f-826b4800dc05", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2raytg #1", "server": "b02.connectv.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c65ca957-329a-0001-8e62-eaaa48468833", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesskhodam #1", "server": "185.103.100.134", "port": 4100, "type": "vless", "skip-cert-verify": true, "uuid": "269c4c7d-6e37-4c63-9a8f-2f162bd892a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -50,7 +48,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @NamiraConfigs #1'
-      - '🇷🇺 RU | VLESS | @free1_vpn #1'
       - '🇷🇺 RU | VLESS | @jiedianf #1'
       - '🇷🇺 RU | VLESS | @mt_proxy #1'
       - '🇷🇺 RU | VLESS | @netfreedom0 #1'
@@ -59,7 +56,6 @@ proxy-groups:
       - '🇷🇺 RU | VLESS | @nofiltering2 #3'
       - '🇷🇺 RU | VLESS | @nofiltering2 #4'
       - '🇷🇺 RU | VLESS | @selinc #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @v2raytg #1'
       - '🇷🇺 RU | VLESS | @vmesskhodam #1'
 

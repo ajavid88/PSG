@@ -107,7 +107,8 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇰🇷 KR | TROJAN | @v2ray_collector #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,7 +133,8 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇰🇷 KR | TROJAN | @v2ray_collector #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -218,7 +220,7 @@
     {
       "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
       "type": "trojan",
-      "server": "104.16.174.44",
+      "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -234,7 +236,7 @@
     {
       "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
       "type": "trojan",
-      "server": "104.19.229.21",
+      "server": "104.16.174.36",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -436,6 +438,22 @@
       "server": "communal-sunbird.rooster465.autos",
       "server_port": 443,
       "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "loyal-killdeer.rooster465.autos",
+      "server_port": 443,
+      "password": "FH72359861",
       "tls": {
         "enabled": true,
         "server_name": "",

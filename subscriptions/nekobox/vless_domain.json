@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -160,7 +161,6 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #2",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -191,9 +191,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇹 IT | VLESS | @v2ray_collector #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -230,6 +230,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -310,7 +311,6 @@
         "🇽🇽 XX | VLESS | @nofiltering2 #2",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -341,9 +341,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇹 IT | VLESS | @v2ray_collector #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -453,6 +453,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "purple-butterfly-8496.erfannull36.workers.dev",
+      "server_port": 443,
+      "uuid": "29fb68bb-ff05-4fd4-8393-cc6c05d81a79",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1484,14 +1501,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "germany.panelbaz.com",
-      "server_port": 5000,
-      "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "chat.openai.com",
@@ -1836,27 +1845,45 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "it.zarqivo.ir",
-      "server_port": 2083,
-      "uuid": "5d2679fd-7320-4474-ac47-57adb5c99e66",
-      "packet_encoding": "xudp"
+      "server": "rvg-production-8249.up.railway.app",
+      "server_port": 443,
+      "uuid": "f1f47653-d57b-5917-fa47-c80823a8b7f3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "nl8.helper-internet.com",
+      "server_port": 443,
+      "uuid": "670decfe-68cc-499e-8cb1-22b39c20acbb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
       "server": "hikvision-plus.com",
       "server_port": 2052,
       "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "faranse.duravex.net",
-      "server_port": 8443,
-      "uuid": "2860e569-4c06-4950-af3e-3b72d892cdf2",
       "packet_encoding": "xudp"
     },
     {

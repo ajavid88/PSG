@@ -92,7 +92,8 @@
         "direct",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1"
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | TROJAN | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1"
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | TROJAN | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -167,6 +169,13 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "139.162.100.58",
+      "server_port": 49755,
+      "password": "a196faa4-403e-4a8b-987a-d1789f379685"
     }
   ],
   "route": {

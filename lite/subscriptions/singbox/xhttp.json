@@ -101,13 +101,15 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
-        "🇽🇽 XX | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @nofilter_v2rayng #1"
+        "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
+        "🇺🇸 US | TROJAN | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -126,13 +128,15 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @bored_vpn #1",
-        "🇽🇽 XX | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @nofilter_v2rayng #1"
+        "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
+        "🇺🇸 US | TROJAN | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -334,6 +338,40 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "69.46.46.88",
+      "server_port": 443,
+      "uuid": "ecd2e03a-7f21-99ba-15be-da5ccfd29830",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.220.86.213",
+      "server_port": 443,
+      "uuid": "74ed8b25-5ff1-40bf-bcd7-3db03be19f53",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -389,23 +427,6 @@
       "type": "vless",
       "server": "www.speedtest.net",
       "server_port": 443,
-      "uuid": "XpnTeam-24",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @bored_vpn #2",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
       "uuid": "XpnTeam-26",
       "packet_encoding": "xudp",
       "tls": {
@@ -433,6 +454,22 @@
       "server_port": 80,
       "uuid": "9fd3bdf1-d158-4055-869d-390738793020",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "rvg-production-0061.up.railway.app",
+      "server_port": 443,
+      "password": "6eb1e2aa-d6dd-c43a-23f8-37cf2883f952",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

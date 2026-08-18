@@ -90,8 +90,6 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇽🇽 XX | TROJAN | @v2raych #1",
-        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -100,10 +98,10 @@
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇰🇷 KR | TROJAN | @outlinereleasedkey #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇮🇪 IE | TROJAN | @v2ray_collector #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1"
+        "🇮🇪 IE | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,8 +122,6 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇽🇽 XX | TROJAN | @v2raych #1",
-        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -134,10 +130,10 @@
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇰🇷 KR | TROJAN | @outlinereleasedkey #1",
+        "🇺🇸 US | TROJAN | @red2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇮🇪 IE | TROJAN | @v2ray_collector #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1"
+        "🇮🇪 IE | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -376,20 +372,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "104.21.60.109",
-      "server_port": 2087,
-      "password": "netra"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @v2raych #2",
-      "type": "trojan",
-      "server": "104.21.60.109",
-      "server_port": 2087,
-      "password": "netra"
-    },
-    {
       "tag": "🇺🇸 US | TROJAN | @v2raymelliii #1",
       "type": "trojan",
       "server": "151.101.56.6",
@@ -518,6 +500,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "rvg-production-0061.up.railway.app",
+      "server_port": 443,
+      "password": "6eb1e2aa-d6dd-c43a-23f8-37cf2883f952",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @teamvpnpro #1",
       "type": "trojan",
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
@@ -555,22 +553,6 @@
       "server": "definite-ladybird.rooster465.autos",
       "server_port": 443,
       "password": "UO36402987",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "sacred-shepherd.rooster465.autos",
-      "server_port": 443,
-      "password": "FH72359861",
       "tls": {
         "enabled": true,
         "server_name": "",

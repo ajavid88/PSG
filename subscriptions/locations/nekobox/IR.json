@@ -81,6 +81,7 @@
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
@@ -91,7 +92,6 @@
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
@@ -109,6 +109,7 @@
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
+        "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
@@ -119,7 +120,6 @@
         "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
@@ -143,18 +143,13 @@
     {
       "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "a.samrayan.ir",
-      "server_port": 443,
-      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
+      "server": "adgof.mgodping12.xyz",
+      "server_port": 2086,
+      "uuid": "257c313c-36fa-4d99-ba06-bb4a02aae70d",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
@@ -179,6 +174,14 @@
       "server": "185.143.234.235",
       "server_port": 80,
       "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @father_vpn #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 2052,
+      "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
       "packet_encoding": "xudp"
     },
     {
@@ -330,14 +333,6 @@
       "server": "zula.ir",
       "server_port": 80,
       "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "adgof.mgodping12.xyz",
-      "server_port": 2086,
-      "uuid": "257c313c-36fa-4d99-ba06-bb4a02aae70d",
       "packet_encoding": "xudp"
     },
     {

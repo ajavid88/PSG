@@ -98,7 +98,7 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
@@ -118,7 +118,7 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
@@ -230,26 +230,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "150.241.94.59",
-      "server_port": 13443,
-      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.225",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

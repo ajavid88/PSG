@@ -99,6 +99,7 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇻🇳 VN | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "proxy",
@@ -116,6 +117,7 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇻🇳 VN | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "auto",
@@ -296,6 +298,28 @@
       "server": "qq.utiltools.ru",
       "server_port": 443,
       "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇻🇳 VN | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "bftu-stnbal.servora.top",
+      "server_port": 443,
+      "uuid": "432ab7a2-6e2b-4f0b-be4a-06bdcc714624",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

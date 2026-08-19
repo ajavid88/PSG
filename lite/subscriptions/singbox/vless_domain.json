@@ -147,9 +147,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇻🇳 VN | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -224,9 +224,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇻🇳 VN | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -982,14 +982,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "cctvhikvision.center",
-      "server_port": 2052,
-      "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -1004,6 +996,28 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇻🇳 VN | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "bftu-stnbal.servora.top",
+      "server_port": 443,
+      "uuid": "432ab7a2-6e2b-4f0b-be4a-06bdcc714624",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

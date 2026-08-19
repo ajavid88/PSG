@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | SS | @outline_ir #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | SS | @outline_ir #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +120,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "92.118.205.211",
-      "server_port": 5600,
-      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "polandlewandoski.hchdhsbs12gd.ir",
+      "server_port": 7006,
+      "uuid": "67f37ffe-c8c4-4ced-8f9c-5b45738224f1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

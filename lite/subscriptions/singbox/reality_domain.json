@@ -97,7 +97,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "proxy",
@@ -113,7 +115,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
       "tag": "auto",
@@ -272,11 +276,55 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "de.trxlnsnet.ir",
+      "server_port": 443,
+      "uuid": "afd63042-1c62-472f-9b56-5904d71e44d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
       "server_port": 443,
       "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "polandlewandoski.hchdhsbs12gd.ir",
+      "server_port": 7006,
+      "uuid": "67f37ffe-c8c4-4ced-8f9c-5b45738224f1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

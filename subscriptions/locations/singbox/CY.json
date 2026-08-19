@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @outline_ir #1"
+        "🇨🇾 CY | VLESS | @outline_ir #1",
+        "🇨🇾 CY | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @outline_ir #1"
+        "🇨🇾 CY | VLESS | @outline_ir #1",
+        "🇨🇾 CY | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "194.76.154.31",
+      "server_port": 40443,
+      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

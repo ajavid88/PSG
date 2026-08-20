@@ -80,11 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇩🇪 DE | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #2",
+        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,11 +96,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇩🇪 DE | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #2",
+        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -187,22 +189,6 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "ace-starling.rooster465.autos",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
       "server": "healthy-louse.rooster465.autos",
@@ -251,11 +237,43 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @v2ray_collector #1",
+      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #2",
       "type": "trojan",
-      "server": "up-dinosaur.rooster465.autos",
+      "server": "distinct-quail.rooster465.autos",
       "server_port": 443,
       "password": "AE62539071",
+      "tls": {
+        "enabled": true,
+        "server_name": "distinct-quail.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "ready-monarch.rooster465.autos",
+      "server_port": 443,
+      "password": "PQ05174892",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "balanced-goat.rooster465.autos",
+      "server_port": 443,
+      "password": "PQ05174892",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -99,8 +99,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #3",
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -118,8 +119,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #3",
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -321,6 +323,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "5.129.253.177",
+      "server_port": 443,
+      "uuid": "fe0138b5-ca60-4a67-91aa-b5a49266eeb5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -343,11 +367,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_collector #1",
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "youtube.superbuba.top",
+      "server": "109.71.247.41",
       "server_port": 443,
-      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
+      "uuid": "fe0138b5-ca60-4a67-91aa-b5a49266eeb5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -356,6 +380,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

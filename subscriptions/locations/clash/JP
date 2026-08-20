@@ -24,6 +24,9 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1", "server": "healthy-louse.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #1", "server": "ready-monarch.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PQ05174892"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #2", "server": "balanced-goat.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PQ05174892"}
+  - {"name": "🇯🇵 JP | VMESS | @v2raych #1", "server": "tokyo02.zgjok.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "3fe113f9-e564-4111-b8c7-11f597687689", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "tokyo02.zgjok.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | TROJAN | @outlinereleasedkey #1'
+      - '🇯🇵 JP | TROJAN | @v2raych #1'
+      - '🇯🇵 JP | TROJAN | @v2raych #2'
+      - '🇯🇵 JP | VMESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

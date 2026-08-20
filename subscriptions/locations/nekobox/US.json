@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @bored_vpn #3",
@@ -132,8 +133,7 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -148,6 +148,7 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #2",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
@@ -160,6 +161,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @bored_vpn #3",
@@ -215,8 +217,7 @@
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -231,6 +232,7 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #2",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
@@ -249,6 +251,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "rvg-production-2017.up.railway.app",
+      "server_port": 443,
+      "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -1085,19 +1104,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "xn-ht.dbsll.ir",
-      "server_port": 8080,
-      "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "69.46.46.88",
+      "server": "167.104.217.250",
       "server_port": 443,
-      "uuid": "ecd2e03a-7f21-99ba-15be-da5ccfd29830",
+      "uuid": "efd400cd-98e1-4a9b-a98c-6f4a3b7cce7f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1334,6 +1345,23 @@
       "server": "199.232.78.159",
       "server_port": 443,
       "uuid": "e0454af2-6fe9-4983-a55d-05e1da202602",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "69.46.46.123",
+      "server_port": 443,
+      "uuid": "31eedc18-975c-f36a-b4f1-7298708f9178",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

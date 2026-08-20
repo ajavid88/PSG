@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @mimitdl #1",
@@ -97,8 +99,7 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @red2ray #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #2"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,6 +107,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @mimitdl #1",
@@ -113,8 +116,7 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @red2ray #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #2"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "finite-node.rtxconfigz.com",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
@@ -210,22 +237,6 @@
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "13.36.175.151",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "classic-gator.rooster465.autos",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #2",
       "type": "trojan",
       "server": "distinct-quail.rooster465.autos",
       "server_port": 443,

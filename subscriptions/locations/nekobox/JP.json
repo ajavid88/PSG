@@ -80,9 +80,8 @@
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
-        "🇯🇵 JP | TROJAN | @v2raych #2",
-        "🇯🇵 JP | VMESS | @v2raych #1"
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +92,8 @@
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
-        "🇯🇵 JP | TROJAN | @v2raych #2",
-        "🇯🇵 JP | VMESS | @v2raych #1"
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -166,11 +164,19 @@
       }
     },
     {
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.76.91.138",
+      "server_port": 2087,
+      "uuid": "309b0ce3-09a8-4883-bfe4-bd56e215be44",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "ready-monarch.rooster465.autos",
+      "server": "real-cardinal.rooster465.autos",
       "server_port": 443,
-      "password": "PQ05174892",
+      "password": "AE62539071",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -178,47 +184,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych #2",
-      "type": "trojan",
-      "server": "balanced-goat.rooster465.autos",
-      "server_port": 443,
-      "password": "PQ05174892",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "tokyo02.zgjok.com",
-      "server_port": 443,
-      "uuid": "3fe113f9-e564-4111-b8c7-11f597687689",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "tokyo02.zgjok.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     }

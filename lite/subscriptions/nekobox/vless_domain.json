@@ -80,6 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -136,7 +138,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇦🇹 AT | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -158,6 +160,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -214,7 +218,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇦🇹 AT | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -309,6 +313,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "finite-node.rtxconfigz.com",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1028,12 +1057,22 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇦🇹 AT | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "xn-ht.dbsll.ir",
-      "server_port": 8080,
-      "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
-      "packet_encoding": "xudp"
+      "server": "as.tunnelx.space",
+      "server_port": 443,
+      "uuid": "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

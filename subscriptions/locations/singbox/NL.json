@@ -90,20 +90,18 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
-        "🇳🇱 NL | SS | @NamiraConfigs #2",
-        "🇳🇱 NL | SS | @NamiraConfigs #3",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | SS | @red2ray #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #2",
@@ -115,20 +113,18 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
-        "🇳🇱 NL | SS | @NamiraConfigs #2",
-        "🇳🇱 NL | SS | @NamiraConfigs #3",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | SS | @red2ray #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #2",
@@ -144,27 +140,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #1",
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
       "type": "shadowsocks",
       "server": "193.29.139.151",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "193.29.139.235",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #3",
-      "type": "shadowsocks",
-      "server": "108.181.58.239",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ=",
       "password": null
     },
     {
@@ -262,6 +242,14 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "108.181.58.239",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ=",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @red2ray #1",
       "type": "vless",
       "server": "195.184.247.224",
@@ -334,28 +322,6 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "72.56.81.165",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesc #1",

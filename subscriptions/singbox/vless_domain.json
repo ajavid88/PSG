@@ -93,6 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -199,11 +202,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇦🇹 AT | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -239,6 +240,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
@@ -345,11 +349,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇦🇹 AT | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -454,6 +456,48 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "usejh2.neobo-tooth.ru",
+      "server_port": 2096,
+      "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "finite-node.rtxconfigz.com",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "rvg-production-2017.up.railway.app",
+      "server_port": 443,
+      "uuid": "20a78de0-bdc3-7068-860d-441000b15836",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1791,19 +1835,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "xn-ht.dbsll.ir",
-      "server_port": 8080,
-      "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "tr1.zarqivo.ir",
-      "server_port": 2083,
-      "uuid": "5d2679fd-7320-4474-ac47-57adb5c99e66",
+      "server": "vkvd8bpskvxgjwdvcidxgoccr.javanbaghe.workers.dev",
+      "server_port": 80,
+      "uuid": "923e051a-f598-4ea5-9c6c-f7e37c438a60",
       "packet_encoding": "xudp"
     },
     {
@@ -1821,28 +1857,6 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "s1.test.anti-zapret.com",
-      "server_port": 8443,
-      "uuid": "f82332b2-dc8c-eac4-ac12-f276e37e278a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

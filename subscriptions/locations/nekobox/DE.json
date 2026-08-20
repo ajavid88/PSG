@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
@@ -92,22 +93,23 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1"
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,6 +118,7 @@
       "interval": "10m",
       "outbounds": [
         "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
@@ -130,22 +133,23 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
-        "🇩🇪 DE | SS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1"
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -167,6 +171,15 @@
       "server_port": 20017,
       "uuid": "d2733ae6-44e7-4b14-8c2d-3f5bef74cdec",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "82.198.246.97",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VLESS | @ai_duet #1",
@@ -395,17 +408,9 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "144.31.168.176",
-      "server_port": 45640,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplUXZLa3lrQkViQ2t5NXA0QlZnaE8w",
-      "password": null
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "63.187.248.131",
+      "server": "63.188.40.90",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -492,11 +497,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "91.132.160.56",
+      "server": "ger1.nihaovpn.ru",
       "server_port": 443,
-      "uuid": "7eb234e9-d47e-4dfe-bff3-a0d41a0c4e1d",
+      "uuid": "d31aefb3-775b-4e87-a093-a4677addf10a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -505,21 +510,25 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "77.90.52.178",
-      "server_port": 2027,
-      "uuid": "579f0893-e6f9-4036-86a1-7c10aa2d24ea",
-      "packet_encoding": "xudp"
+      "server": "169.40.42.223",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | SS | @v2rayng3 #1",
@@ -557,7 +566,7 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "63.187.248.131",
+      "server": "63.188.40.90",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -603,10 +612,41 @@
     {
       "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "63.187.248.131",
+      "server": "63.188.40.90",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "us3.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

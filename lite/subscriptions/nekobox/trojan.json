@@ -86,7 +86,7 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @v2rayprotocol #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -94,7 +94,8 @@
         "🇦🇺 AU | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
+        "🇮🇪 IE | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,7 +112,7 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @v2rayprotocol #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -119,7 +120,8 @@
         "🇦🇺 AU | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
+        "🇮🇪 IE | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -294,9 +296,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
       "type": "trojan",
-      "server": "185.220.100.168",
+      "server": "104.16.174.121",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -422,14 +424,30 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+      "tag": "🇮🇪 IE | TROJAN | @v2ray_collector #1",
       "type": "trojan",
-      "server": "distinct-quail.rooster465.autos",
+      "server": "kind-stork.rooster465.autos",
       "server_port": 443,
       "password": "AE62539071",
       "tls": {
         "enabled": true,
-        "server_name": "distinct-quail.rooster465.autos",
+        "server_name": "kind-stork.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "pretty-mollusk.rooster465.autos",
+      "server_port": 443,
+      "password": "EQ30679154",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

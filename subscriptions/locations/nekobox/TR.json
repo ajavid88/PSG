@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "sos2.speedit.ir",
-      "server_port": 443,
-      "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -142,14 +116,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "trone.soundfiy.ir",
-      "server_port": 61169,
-      "uuid": "93e37208-ef50-47cf-97cc-8a099b16311c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

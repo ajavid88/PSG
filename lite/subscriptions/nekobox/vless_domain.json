@@ -97,6 +97,7 @@
         "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
@@ -130,8 +131,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -140,6 +143,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
+        "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -169,6 +173,7 @@
         "🇽🇽 XX | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @iranvipnet #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
@@ -202,8 +207,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -212,6 +219,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
+        "🇫🇷 FR | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -501,6 +509,23 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @kilid_stor #1",
+      "type": "vless",
+      "server": "codepen.io",
+      "server_port": 443,
+      "uuid": "ecb790d4-36ca-4dfc-a142-b3a395d1c50d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -927,6 +952,23 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "5iehome.cc",
+      "server_port": 443,
+      "uuid": "d1153291-7d6f-4528-b8b1-a8a4920a1a8b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -940,6 +982,14 @@
       "server": "berovps.masoodbiranvand-230.workers.dev",
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "speed.cloudflare.com",
+      "server_port": 80,
+      "uuid": "5d4fb4ee-cc86-4bdf-9777-ff6e759a8700",
       "packet_encoding": "xudp"
     },
     {
@@ -1060,6 +1110,23 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "gr2.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

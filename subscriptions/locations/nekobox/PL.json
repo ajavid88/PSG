@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @v2raych #1",
         "🇵🇱 PL | VLESS | @v2raymelliii #1",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
@@ -88,8 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @v2raych #1",
         "🇵🇱 PL | VLESS | @v2raymelliii #1",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
@@ -105,44 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "193.34.213.38",
-      "server_port": 443,
-      "uuid": "7eb234e9-d47e-4dfe-bff3-a0d41a0c4e1d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "pretty-mollusk.rooster465.autos",
-      "server_port": 443,
-      "password": "EQ30679154",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @v2raymelliii #1",

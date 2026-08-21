@@ -91,9 +91,10 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #2"
+        "🇫🇮 FI | VLESS | @vmesc #2",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #2"
+        "🇫🇮 FI | VLESS | @vmesc #2",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,28 @@
       "server": "132.243.223.88",
       "server_port": 443,
       "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "87.121.89.80",
+      "server_port": 13443,
+      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -160,11 +184,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "tag": "🇫🇮 FI | VLESS | @vmesc #2",
       "type": "vless",
-      "server": "83.143.112.146",
+      "server": "fi1.levikogjgfdd.ir",
       "server_port": 443,
-      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
+      "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -182,7 +206,7 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #2",
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "fia.mobileemdad.top",
       "server_port": 42542,

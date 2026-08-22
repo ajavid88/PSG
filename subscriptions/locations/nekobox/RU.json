@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -89,7 +88,7 @@
         "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -98,7 +97,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -110,7 +108,7 @@
         "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -125,23 +123,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "89.19.223.136",
-      "server_port": 443,
-      "uuid": "22419260-5475-49d8-a29c-01905c54d1b8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
@@ -377,26 +358,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2raying #1",
       "type": "vless",
-      "server": "138.124.254.21",
-      "server_port": 2096,
-      "uuid": "6fe06b02-74f7-431f-8ca4-c702fa3322bf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "201.24.117.62",
+      "server_port": 14407,
+      "uuid": "a1bb74cc-38e8-49cf-ab05-59e9bdf7880c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

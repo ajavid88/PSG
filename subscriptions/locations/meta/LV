@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @v2ray_free_conf #1", "server": "92.46.41.247", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4eb871d0-20b7-42a1-9cd1-2447eca55735", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇱🇻 LV | VLESS | @v2raych #1", "server": "laoye.in-gect.fun", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇻 LV | VLESS | @v2raych #2", "server": "laoye.in-gect.fun", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "70e20b2e-3b1f-4c25-9a3d-9240570391bb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @v2ray_free_conf #1'
+      - '🇱🇻 LV | VLESS | @v2raych #1'
+      - '🇱🇻 LV | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

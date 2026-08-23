@@ -94,6 +94,8 @@
         "🇯🇵 JP | VLESS | @free1_vpn #2",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -106,6 +108,8 @@
         "🇯🇵 JP | VLESS | @free1_vpn #2",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -176,6 +180,32 @@
       "server_port": 443,
       "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.76.91.138",
+      "server_port": 2087,
+      "uuid": "309b0ce3-09a8-4883-bfe4-bd56e215be44",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "103.76.85.82",
+      "server_port": 443,
+      "uuid": "ef5e311d-ed25-42d7-98a6-30fa273cf174",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

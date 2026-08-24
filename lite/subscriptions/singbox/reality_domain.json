@@ -98,7 +98,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @selinc #1"
+        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇩🇪 DE | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,7 +115,8 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @selinc #1"
+        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇩🇪 DE | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -308,6 +310,28 @@
       "server": "qq.utiltools.ru",
       "server_port": 443,
       "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "nl3.murhost.network",
+      "server_port": 443,
+      "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VMESS | @v2raych #1", "server": "dashboard.aframarket.top", "port": 5384, "type": "vmess", "skip-cert-verify": true, "uuid": "cfd42ad2-6fc7-443f-994e-10e3d7df24d1", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1", "server": "html.iranpood.com", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "3b715892-8610-4fdc-9086-647b36af5443", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VMESS | @v2raych #1'
+      - '🇷🇴 RO | VLESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select

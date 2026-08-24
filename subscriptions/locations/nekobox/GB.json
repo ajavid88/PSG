@@ -77,11 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | VLESS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -94,11 +94,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | VLESS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -117,14 +117,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "94.156.250.148",
-      "server_port": 7001,
-      "method": "YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -157,6 +149,28 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "109.169.37.129",
+      "server_port": 443,
+      "uuid": "2ed0d2a0-dbba-4cc2-95df-a197831d9978",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2raying #1",

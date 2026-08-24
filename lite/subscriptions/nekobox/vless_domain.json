@@ -93,8 +93,6 @@
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
         "🇽🇽 XX | VLESS | @garnet_free #2",
-        "🇽🇽 XX | VLESS | @hope_net #1",
-        "🇽🇽 XX | VLESS | @hope_net #2",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranvipnet #1",
@@ -138,8 +136,10 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇵🇱 PL | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
+        "🇩🇪 DE | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -172,8 +172,6 @@
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
         "🇽🇽 XX | VLESS | @garnet_free #2",
-        "🇽🇽 XX | VLESS | @hope_net #1",
-        "🇽🇽 XX | VLESS | @hope_net #2",
         "🇽🇽 XX | VLESS | @iranproxypro #1",
         "🇽🇽 XX | VLESS | @iranproxypro #2",
         "🇽🇽 XX | VLESS | @iranvipnet #1",
@@ -217,8 +215,10 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇵🇱 PL | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
+        "🇩🇪 DE | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -451,40 +451,6 @@
       "server_port": 2096,
       "uuid": "a75cb418-c1d6-476a-9464-ad1bd5181e3c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "nodejs.org",
-      "server_port": 443,
-      "uuid": "de543079-9ff5-4dce-8b68-97f61685efd7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #2",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @iranproxypro #1",
@@ -1050,6 +1016,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "plelahoa.horlutr.ir",
+      "server_port": 2087,
+      "uuid": "a622acbf-6990-4669-b7aa-39e42620e9cd",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "yesoip-production-ca83.up.railway.app",
@@ -1073,6 +1047,28 @@
       "server_port": 80,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "nl3.murhost.network",
+      "server_port": 443,
+      "uuid": "419f25c1-bc35-412e-93fb-258efee859b5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",

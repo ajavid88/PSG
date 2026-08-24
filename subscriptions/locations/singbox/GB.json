@@ -91,17 +91,7 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @NamiraConfigs #1",
-        "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raying #1",
-        "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayng3 #2",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @free4allvpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,17 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @NamiraConfigs #1",
-        "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | SS | @netfreedom0 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raying #1",
-        "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayng3 #2",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @free4allvpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -146,110 +126,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "146.70.61.37",
-      "server_port": 8080,
-      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
-      "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.11",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2raying #1",
-      "type": "vless",
-      "server": "gb1.wba-pn.ru",
-      "server_port": 443,
-      "uuid": "4bc8ff7a-20b4-41b2-9751-dfca869f0553",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.198",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayng3 #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.162",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.206",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "143.110.163.137",
-      "server_port": 2053,
-      "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "45.155.52.231",
-      "server_port": 443,
-      "uuid": "219f9fec-8983-4f6f-af8c-31bd0c6dbf19",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

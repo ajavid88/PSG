@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @free1_vpn #1",
-        "🇭🇰 HK | TROJAN | @v2ray_collector #1",
-        "🇭🇰 HK | SS | @v2raych #1"
+        "🇭🇰 HK | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @free1_vpn #1",
-        "🇭🇰 HK | TROJAN | @v2ray_collector #1",
-        "🇭🇰 HK | SS | @v2raych #1"
+        "🇭🇰 HK | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,30 +121,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇭🇰 HK | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "185.244.208.210",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "upright-hamster.rooster465.autos",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "202.155.141.87",
-      "server_port": 12345,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplOTM2MzcyYS1kOTc2LTRlMjUtOGIzYi0yOWMxYTU4NDFlMDY=",
-      "password": null
     }
   ],
   "route": {

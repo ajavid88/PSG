@@ -80,12 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,12 +96,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,6 +189,28 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "crm.3c6.ir",
+      "server_port": 2053,
+      "uuid": "18eca719-30b7-4ad0-aa9e-26f73776d214",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -250,11 +272,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "us20.levikogjgfdd.ir",
+      "server": "pl1.nihaovpn.ru",
       "server_port": 443,
-      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "uuid": "00506574-3b10-4f7d-9b2f-8afdc5919b93",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -292,14 +314,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "store13.vevluma.ir",
-      "server_port": 1234,
-      "uuid": "da6ece67-aff5-4f94-94f3-08e87ca8cd51",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @red2ray #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @red2ray #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @outlinereleasedkey #1",
+      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "195.123.226.21",
-      "server_port": 443,
-      "uuid": "33851d53-ede0-45f7-9eb8-9aa961f7d200",
+      "server": "universe.whit3.net",
+      "server_port": 4443,
+      "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "62.171.228.244",
+      "server_port": 8443,
+      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,13 +133,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -78,7 +78,12 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @bored_vpn #1"
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @turboo_server #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | SS | @v2raying #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +92,12 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @bored_vpn #1"
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @turboo_server #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | SS | @v2raying #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +126,60 @@
       "server": "85.192.49.151",
       "server_port": 443,
       "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "fcbbcc4fc4.freeino.ir",
+      "server_port": 7080,
+      "uuid": "2b44a12a-2a00-48aa-a8db-0d182e34d888",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @turboo_server #1",
+      "type": "vless",
+      "server": "212.147.246.134",
+      "server_port": 3389,
+      "uuid": "fc9bf9b8-06b5-4244-aea5-75a460ec5066",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "65.109.215.185",
+      "server_port": 4049,
+      "uuid": "b5c36be7-c0dc-4b72-904e-ba840cba7c49",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2raying #1",
+      "type": "shadowsocks",
+      "server": "31.76.30.79",
+      "server_port": 10808,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
+      "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "2.29.9.64",
+      "server_port": 443,
+      "uuid": "d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

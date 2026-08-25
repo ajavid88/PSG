@@ -94,7 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1"
+        "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1"
+        "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,12 +202,46 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
       "server": "html.iranpood.com",
       "server_port": 2086,
       "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+      "type": "vless",
+      "server": "securitytrails.com",
+      "server_port": 443,
+      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "yesoip-production-ca83.up.railway.app",
+      "server_port": 443,
+      "uuid": "f64911e8-6246-f180-0466-0e45e3b7665b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -96,7 +96,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇨🇾 CY | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1"
+        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +112,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇨🇾 CY | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1"
+        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -260,11 +264,55 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
+      "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
-      "server": "br1.levikogjgfdd.ir",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "germany.panelbaz.com",
+      "server_port": 5000,
+      "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "tg.riotvpn.eu",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

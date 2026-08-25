@@ -83,9 +83,10 @@
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇨🇾 CY | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,9 +100,10 @@
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇨🇾 CY | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -241,11 +243,11 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @outline_ir #1",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "in1.levikogjgfdd.ir",
-      "server_port": 40443,
-      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
+      "server": "de3.prformula.cfd",
+      "server_port": 443,
+      "uuid": "5d71edc2-7547-4b0e-9c94-aebc8c153d60",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -285,11 +287,28 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "tg.riotvpn.eu",
+      "server": "ugb.mobileemdad.top",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "0b20cd63-1208-464b-8795-b10105854dd2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "br1.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

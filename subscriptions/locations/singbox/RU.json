@@ -100,7 +100,6 @@
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -121,7 +120,6 @@
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raying #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -288,9 +286,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "185.137.232.194",
+      "server": "yt.orpheous.ru",
       "server_port": 443,
-      "uuid": "2b092ee6-5e4b-0032-8236-a46bec9393fd",
+      "uuid": "00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -299,15 +297,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @orange_vpns #2",
       "type": "vless",
-      "server": "yt.orpheous.ru",
+      "server": "176.109.88.216",
       "server_port": 443,
-      "uuid": "00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5",
+      "uuid": "2c7f1414-87ae-4a01-9796-a02c067891a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -347,28 +350,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "185.147.26.175",
-      "server_port": 443,
-      "uuid": "00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "66.90.90.13",
-      "server_port": 8443,
-      "uuid": "f230254f-d4cd-4d83-8a2d-e83927ef98ac",
+      "server": "78.159.245.75",
+      "server_port": 9001,
+      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
       "packet_encoding": "xudp"
     },
     {

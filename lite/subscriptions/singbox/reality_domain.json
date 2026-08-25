@@ -93,11 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -109,11 +109,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -198,6 +198,14 @@
       }
     },
     {
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "universe.whit3.net",
+      "server_port": 4443,
+      "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -269,28 +277,6 @@
       "server": "qq.utiltools.ru",
       "server_port": 443,
       "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "germany.panelbaz.com",
-      "server_port": 5000,
-      "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

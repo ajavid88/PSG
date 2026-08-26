@@ -96,9 +96,8 @@
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,9 +111,8 @@
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -250,26 +248,12 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "de3.prformula.cfd",
-      "server_port": 443,
-      "uuid": "5d71edc2-7547-4b0e-9c94-aebc8c153d60",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "holand.zulacdn.ir",
+      "server_port": 50581,
+      "uuid": "13474472-ab43-4749-be44-769321b0d683",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
@@ -292,14 +276,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "united.panelbaz.com",
-      "server_port": 5509,
-      "uuid": "1aebe546-a3d7-432d-8717-cae4b5b95b64",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

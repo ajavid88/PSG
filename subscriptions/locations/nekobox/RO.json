@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "🇷🇴 RO | VLESS | @free1_vpn #1",
+        "🇷🇴 RO | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "🇷🇴 RO | VLESS | @free1_vpn #1",
+        "🇷🇴 RO | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "tag": "🇷🇴 RO | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "universe.whit3.net",
-      "server_port": 4443,
-      "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
-      "packet_encoding": "xudp"
+      "server": "103.126.50.203",
+      "server_port": 443,
+      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "103.126.50.203",
+      "server_port": 443,
+      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

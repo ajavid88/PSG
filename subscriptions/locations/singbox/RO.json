@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @outlinereleasedkey #1"
+        "🇷🇴 RO | VLESS | @free1_vpn #1",
+        "🇷🇴 RO | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @outlinereleasedkey #1"
+        "🇷🇴 RO | VLESS | @free1_vpn #1",
+        "🇷🇴 RO | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @outlinereleasedkey #1",
+      "tag": "🇷🇴 RO | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "212.227.235.66",
-      "server_port": 2053,
-      "uuid": "855d82bc-8cc6-4037-8da5-df0412f3c063",
-      "packet_encoding": "xudp"
+      "server": "103.126.50.203",
+      "server_port": 443,
+      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "103.126.50.203",
+      "server_port": 443,
+      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

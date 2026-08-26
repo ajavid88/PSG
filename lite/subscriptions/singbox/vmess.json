@@ -102,6 +102,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -111,7 +112,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2"
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -131,6 +132,7 @@
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -140,7 +142,7 @@
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2"
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -433,6 +435,31 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "47.83.19.148",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "6JDvArazgU3qQR6Q.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "6JDvArazgU3qQR6Q.v.3dns.vip"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -635,22 +662,13 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #2",
+      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
       "type": "vmess",
-      "server": "165.140.216.142",
-      "server_port": 443,
-      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "alter_id": 0
     }
   ],
   "route": {

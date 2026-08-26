@@ -95,8 +95,10 @@
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇸🇪 SE | VLESS | @outline_ir #1",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇨🇾 CY | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,8 +111,10 @@
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇸🇪 SE | VLESS | @outline_ir #1",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇨🇾 CY | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -210,6 +214,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "sw.crsmaps.com",
+      "server_port": 2053,
+      "uuid": "2f14c4d7-5d16-4914-918c-3a6a54576ccb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sw.volnalink.uk",
+      "server_port": 2083,
+      "uuid": "4f8efa61-96db-1391-b134-9ce844e31228",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -232,11 +266,11 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @vmesc #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "in1.levikogjgfdd.ir",
-      "server_port": 40443,
-      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
+      "server": "shop.jarorobo.ir",
+      "server_port": 8443,
+      "uuid": "8c7bcef9-7bc3-497a-924d-5dd50269e7e8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

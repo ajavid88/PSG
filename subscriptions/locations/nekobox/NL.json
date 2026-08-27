@@ -86,6 +86,8 @@
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raych #2",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | SS | @v2rayprotocol #1",
         "🇳🇱 NL | SS | @vmesc #1",
@@ -107,6 +109,8 @@
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raych #2",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | SS | @v2rayprotocol #1",
         "🇳🇱 NL | SS | @vmesc #1",
@@ -239,11 +243,18 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "31.56.184.149",
+      "server": "5.255.126.104",
+      "server_port": 46142,
+      "uuid": "255386a8-aec5-4425-bfe7-ca49b7448deb",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "194.93.61.95",
       "server_port": 443,
-      "uuid": "4fe19d97-7b1d-4cb2-99ee-4bd8658a4c34",
+      "uuid": "d11613a1-2e1f-4209-a275-aabd986b7ad1",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -253,6 +264,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "nl-ch.zephyrx.ir",
+      "server_port": 2496,
+      "uuid": "6b3887cb-6c6f-4c58-8033-1b80c1d60aa4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @v2rayng3 #1",

@@ -119,10 +119,11 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇮🇹 IT | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -188,10 +189,11 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇷🇺 RU | VLESS | @selinc #1",
+        "🇮🇹 IT | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -768,23 +770,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "betty.ns.cloudflare.com",
-      "server_port": 443,
-      "uuid": "073d1d50-8478-47bf-a828-7a1b381931d5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @public504 #1",
       "type": "vless",
       "server": "fr.turboo-server.xyz",
@@ -802,19 +787,11 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
+      "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ov-canada1.09vpn.com",
-      "server_port": 8443,
-      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @selinc #1",
-      "type": "vless",
-      "server": "qq.utiltools.ru",
-      "server_port": 443,
-      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "server": "usvip.soundfiy.ir",
+      "server_port": 3389,
+      "uuid": "aaab254f-a9bf-4c57-96a0-50f4269ab784",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -830,6 +807,44 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "s1.orangesms.ir",
+      "server_port": 3389,
+      "uuid": "aaab254f-a9bf-4c57-96a0-50f4269ab784",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "ov-canada1.09vpn.com",
+      "server_port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "it.feywebsite.ir",
+      "server_port": 8008,
+      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @serverv2ray00 #1",

@@ -96,7 +96,6 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -107,7 +106,8 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇹 IT | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -121,7 +121,6 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -132,7 +131,8 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇹 IT | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -265,14 +265,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "185.215.228.157",
-      "server_port": 8443,
-      "uuid": "2d9de6ea-56c9-422d-a4ad-cac95b8e0881",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
@@ -424,6 +416,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "it.feywebsite.ir",
+      "server_port": 8008,
+      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

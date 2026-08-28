@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "91.228.227.112", "port": 110, "type": "vless", "skip-cert-verify": true, "uuid": "abc5211d-952e-4c7f-a4f4-045f6be9ba1f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "tr.alertyagency.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇿 BZ | VLESS | @hope_net #1", "server": "45.135.235.155", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @red2ray #1'
-      - '🇹🇷 TR | VLESS | @v2raych #1'
+      - '🇧🇿 BZ | VLESS | @hope_net #1'
 
   - name: 🌍 Global Media
     type: select

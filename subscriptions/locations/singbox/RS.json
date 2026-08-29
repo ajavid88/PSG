@@ -131,9 +131,9 @@
     {
       "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "150.40.126.24",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "server": "de1.cnyvpn.com",
+      "server_port": 2053,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,6 +142,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

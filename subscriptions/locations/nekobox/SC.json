@@ -88,6 +88,7 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1"
@@ -109,6 +110,7 @@
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1"
@@ -315,6 +317,24 @@
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "45.195.111.15",
+      "server_port": 443,
+      "uuid": "82e209b2-97a6-4d67-a10b-72627b9f6702",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",

@@ -93,13 +93,13 @@
         "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | SS | @free1_vpn #1",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | SS | @v2rayprotocol #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
@@ -114,13 +114,13 @@
         "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | SS | @free1_vpn #1",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | SS | @v2rayprotocol #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
@@ -158,6 +158,28 @@
       "server_port": 1080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMbzFxODdGcWdJR1VKN2sxTkZvRjF3",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "5.255.126.104",
+      "server_port": 46142,
+      "uuid": "255386a8-aec5-4425-bfe7-ca49b7448deb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
@@ -241,20 +263,21 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "153.75.87.192",
-      "server_port": 110,
-      "uuid": "11992f2b-181b-403a-9521-813fcd7927a8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "153.75.87.192",
-      "server_port": 8080,
-      "uuid": "11992f2b-181b-403a-9521-813fcd7927a8",
-      "packet_encoding": "xudp"
+      "server": "95.85.228.53",
+      "server_port": 443,
+      "uuid": "8c64cae9-a513-4e37-a68c-980bcaf2c591",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @v2rayng3 #1",

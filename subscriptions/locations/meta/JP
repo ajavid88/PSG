@@ -24,8 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @v2ray_free_conf #1", "server": "13.231.129.39", "port": 29224, "type": "vless", "skip-cert-verify": true, "uuid": "3298044a-024f-4b48-a598-ba56c75e99f3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @v2ray_free_conf #2", "server": "18.179.7.11", "port": 23082, "type": "vless", "skip-cert-verify": true, "uuid": "66f9ea74-295d-425c-af01-331161bae8d9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych #1", "server": "3.114.220.22", "port": 18007, "type": "vless", "skip-cert-verify": true, "uuid": "814bd064-544d-4255-a070-5705c03f6da9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇯🇵 JP | TROJAN | @v2rayprotocol #1", "server": "moral-dolphin.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "PQ05174892"}
 
 proxy-groups:
@@ -41,8 +40,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | VLESS | @megavpn_link #1'
-      - '🇯🇵 JP | VLESS | @v2ray_free_conf #1'
-      - '🇯🇵 JP | VLESS | @v2ray_free_conf #2'
+      - '🇯🇵 JP | VLESS | @v2raych #1'
       - '🇯🇵 JP | TROJAN | @v2rayprotocol #1'
 
   - name: 🌍 Global Media

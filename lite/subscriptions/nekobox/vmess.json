@@ -88,7 +88,6 @@
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -97,6 +96,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -116,7 +116,6 @@
         "🇽🇽 XX | VMESS | @manstervpn #2",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
@@ -125,6 +124,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -397,31 +397,6 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "drbkg16egf3fzlm3.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "drbkg16egf3fzlm3.v.3dns.vip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -604,6 +579,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "82.198.246.233",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",

@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -108,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "144.31.1.201",
+      "server_port": 8090,
+      "uuid": "5f829d2f-2f13-450c-81ac-e9832b8e47ec",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",

@@ -86,12 +86,13 @@
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @red2ray #2",
         "🇬🇧 GB | VLESS | @red2ray #3",
+        "🇬🇧 GB | VLESS | @red2ray #4",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
         "🇬🇧 GB | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
@@ -109,12 +110,13 @@
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @red2ray #2",
         "🇬🇧 GB | VLESS | @red2ray #3",
+        "🇬🇧 GB | VLESS | @red2ray #4",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
         "🇬🇧 GB | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
@@ -216,6 +218,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @red2ray #4",
+      "type": "vless",
+      "server": "18.168.125.235",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
@@ -224,23 +234,15 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
+      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
       "type": "shadowsocks",
-      "server": "82.38.31.149",
+      "server": "82.38.31.198",
       "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "104.238.174.99",
-      "server_port": 24314,
-      "uuid": "dc40dac7-add2-4e09-b3df-d0c6b39701eb",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
+      "tag": "🇬🇧 GB | SS | @v2rayng3 #2",
       "type": "shadowsocks",
       "server": "82.38.31.162",
       "server_port": 443,
@@ -257,6 +259,14 @@
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+      "type": "vless",
+      "server": "18.168.125.235",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
       "type": "vless",
       "server": "18.169.233.193",
       "server_port": 22223,

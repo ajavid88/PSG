@@ -94,9 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇧🇾 BY | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -109,9 +108,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇧🇾 BY | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -204,23 +202,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇧🇾 BY | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "by01.botovod.space",
-      "server_port": 443,
-      "uuid": "a817d012-0eeb-4b13-9f8e-0269e939d6f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -238,12 +219,21 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "rua02.333210.best",
-      "server_port": 40000,
-      "uuid": "793169ce-4ab0-4458-bab0-cd6baa83bdc2",
-      "packet_encoding": "xudp"
+      "server": "shield.getsavesafe.com",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",

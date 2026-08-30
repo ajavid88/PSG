@@ -26,7 +26,8 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "yt-ads.adsmoba.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "ger3.danqela.ir", "port": 50303, "type": "vless", "skip-cert-verify": true, "uuid": "4cdedbb5-20f6-4036-9e72-22ce1dfc0d4b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇺🇸 US | VLESS | @v2raych #1", "server": "usa1.selqora.ir", "port": 50303, "type": "vless", "skip-cert-verify": true, "uuid": "14079f86-f06b-48a5-a83c-5a6a0f6f14bd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,7 +44,8 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
+      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
+      - '🇺🇸 US | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

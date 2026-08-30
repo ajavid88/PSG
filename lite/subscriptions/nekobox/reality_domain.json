@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -181,20 +183,56 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ger3.danqela.ir",
-      "server_port": 50303,
-      "uuid": "4cdedbb5-20f6-4036-9e72-22ce1dfc0d4b",
+      "server": "shop.jarorobo.ir",
+      "server_port": 8443,
+      "uuid": "056fe52c-e28f-43fd-a1f5-e87b14b59d6b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "hamid.hlsd.ir",
+      "server_port": 7777,
+      "uuid": "35805133-21b5-4cbd-b06b-b5f38b9880ee",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "usa1.selqora.ir",
-      "server_port": 50303,
-      "uuid": "14079f86-f06b-48a5-a83c-5a6a0f6f14bd",
-      "packet_encoding": "xudp"
+      "server": "gsv1.montago-shop.ir",
+      "server_port": 443,
+      "uuid": "914e1bad-ccd0-4f92-972d-3d12ccd99246",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

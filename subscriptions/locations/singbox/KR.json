@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @NamiraConfigs #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1",
+        "🇰🇷 KR | SS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @NamiraConfigs #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1",
+        "🇰🇷 KR | SS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "141.164.45.187",
       "server_port": 6679,
       "method": "YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T",
+      "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "server_port": 9090,
+      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
       "password": null
     }
   ],

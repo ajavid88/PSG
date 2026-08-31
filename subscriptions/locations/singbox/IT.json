@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @outline_ir #1"
+        "🇮🇹 IT | SS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @outline_ir #1"
+        "🇮🇹 IT | SS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,6 +137,28 @@
       "server_port": 8388,
       "method": "YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==",
       "password": null
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.105.78.231",
+      "server_port": 10694,
+      "uuid": "8c2d5e7e-116a-49c4-8437-937f4bfce346",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

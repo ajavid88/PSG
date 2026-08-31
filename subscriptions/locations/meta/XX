@@ -183,6 +183,7 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @selinc #3", "server": "go.lumen.com", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "e62aa442-9f2c-4b5b-8b95-bdefdddce556", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @selinc #4", "server": "go.lumen.com", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "cbeb096e-3e16-4f3a-b6cd-078ff124db30", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @selinc #5", "server": "go.lumen.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "436251af-af1b-4f91-9a86-cb9faf2e9d91", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇽🇽 XX | VLESS | @selinc #6", "server": "go.lumen.com", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "282f68bd-d803-4136-9ff1-b8604587c42c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VMESS | @serverv2ray00 #1", "server": "104.21.4.6", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.cfd"}}}
   - {"name": "🇽🇽 XX | VLESS | @shadowsocksshop #1", "server": "sub.shadowsokstes.workers.dev", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "70f5d3b8-7d31-4d7d-9467-e43752d66fca", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | TROJAN | @spikevpn #1", "server": "104.16.7.70", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
@@ -214,7 +215,6 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @v2ray_youtube #5", "server": "104.16.100.66", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "730cbebb-39b2-4a1c-b2f8-f922095d6623", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raybe #1", "server": "berovps.masoodbiranvand-230.workers.dev", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raybe #2", "server": "berovps.masoodbiranvand-230.workers.dev", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇽🇽 XX | VLESS | @v2raych #1", "server": "grok.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e4827586-3061-4521-aeb1-5edb48aaaa23", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raymelliii #1", "server": "v2.lock1.app", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "6c7f57b3-252d-407d-a9e4-38a39820bbdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VMESS | @v2rayng3 #1", "server": "104.17.121.43", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "omkuzygiv.com"}}}
   - {"name": "🇽🇽 XX | VLESS | @v2rayngalpha #1", "server": "104.18.5.250", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -433,6 +433,7 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @selinc #3'
       - '🇽🇽 XX | VLESS | @selinc #4'
       - '🇽🇽 XX | VLESS | @selinc #5'
+      - '🇽🇽 XX | VLESS | @selinc #6'
       - '🇽🇽 XX | VMESS | @serverv2ray00 #1'
       - '🇽🇽 XX | VLESS | @shadowsocksshop #1'
       - '🇽🇽 XX | TROJAN | @spikevpn #1'
@@ -464,7 +465,6 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @v2ray_youtube #5'
       - '🇽🇽 XX | VLESS | @v2raybe #1'
       - '🇽🇽 XX | VLESS | @v2raybe #2'
-      - '🇽🇽 XX | VLESS | @v2raych #1'
       - '🇽🇽 XX | VLESS | @v2raymelliii #1'
       - '🇽🇽 XX | VMESS | @v2rayng3 #1'
       - '🇽🇽 XX | VLESS | @v2rayngalpha #1'

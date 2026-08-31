@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @v2raych #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #3"
@@ -101,7 +100,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @v2raych #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #3"
@@ -114,28 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "sof.edgeptr.org",
-      "server_port": 443,
-      "uuid": "ff9d2eae-8c1f-4176-9290-6ef1b199de5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",

@@ -248,6 +248,7 @@
         "🇽🇽 XX | VLESS | @selinc #3",
         "🇽🇽 XX | VLESS | @selinc #4",
         "🇽🇽 XX | VLESS | @selinc #5",
+        "🇽🇽 XX | VLESS | @selinc #6",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -281,7 +282,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -492,6 +492,7 @@
         "🇽🇽 XX | VLESS | @selinc #3",
         "🇽🇽 XX | VLESS | @selinc #4",
         "🇽🇽 XX | VLESS | @selinc #5",
+        "🇽🇽 XX | VLESS | @selinc #6",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -525,7 +526,6 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #5",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -2550,6 +2550,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @selinc #6",
+      "type": "vless",
+      "server": "go.lumen.com",
+      "server_port": 2095,
+      "uuid": "282f68bd-d803-4136-9ff1-b8604587c42c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "visa.com",
@@ -2951,23 +2959,6 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "grok.com",
-      "server_port": 443,
-      "uuid": "e4827586-3061-4521-aeb1-5edb48aaaa23",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",

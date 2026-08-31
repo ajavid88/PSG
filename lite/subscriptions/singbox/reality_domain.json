@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
-        "🇧🇬 BG | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -106,8 +106,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
-        "🇧🇬 BG | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -192,19 +192,28 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+      "tag": "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "parr.mechanicir.ir",
-      "server_port": 10694,
-      "uuid": "c100e5ba-1cf5-45ce-b491-5c2b02cdde5e",
-      "packet_encoding": "xudp"
+      "server": "rs2.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "sof.edgeptr.org",
-      "server_port": 443,
-      "uuid": "ff9d2eae-8c1f-4176-9290-6ef1b199de5b",
+      "server": "fin.hostingdayam.com.tr",
+      "server_port": 8452,
+      "uuid": "34c6b520-fa66-49e9-a337-b7a6a3af28ba",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

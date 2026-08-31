@@ -102,10 +102,10 @@
         "🇮🇷 IR | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -128,10 +128,10 @@
         "🇮🇷 IR | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -279,14 +279,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "176.97.218.225",
-      "server_port": 2020,
-      "uuid": "19095f13-19ad-468d-b1aa-7a455cde2086",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | SS | @sobi_vpn #1",
       "type": "shadowsocks",
       "server": "tt.hsrdnr.ir",
@@ -303,29 +295,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
-      "type": "vmess",
-      "server": "site.hooracoffee.ir",
-      "server_port": 443,
-      "uuid": "ed954dba-5ad5-4688-8174-247944361c38",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "site.hooracoffee.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/www",
-        "headers": {
-          "Host": "site.hooracoffee.ir"
-        }
-      }
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "s3.zynetraq.ir",
+      "server_port": 2087,
+      "uuid": "ef83b525-e14b-43a7-bbf8-18724ac67721",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "s5.zynetrax.ir",
+      "server_port": 2087,
+      "uuid": "e842f78f-9cd8-4852-f690-1b81042ac7bc",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",

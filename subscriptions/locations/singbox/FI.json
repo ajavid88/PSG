@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @selinc #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
@@ -101,7 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @selinc #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
@@ -122,11 +124,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "fin.hostingdayam.com.tr",
-      "server_port": 8452,
-      "uuid": "34c6b520-fa66-49e9-a337-b7a6a3af28ba",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "finland.hosting-96.ir",
+      "server_port": 6554,
+      "uuid": "a61abe08-05d6-f72d-58ab-b92576abd790",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,14 +160,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fin.hostingdayam.com.tr",
-      "server_port": 8447,
-      "uuid": "34c6b520-fa66-49e9-a337-b7a6a3af28ba",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

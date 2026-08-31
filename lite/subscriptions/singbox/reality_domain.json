@@ -93,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -106,8 +107,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -192,11 +194,11 @@
       }
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "rs2.univesalsrv.com",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -205,15 +207,42 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "fin.hostingdayam.com.tr",
-      "server_port": 8452,
-      "uuid": "34c6b520-fa66-49e9-a337-b7a6a3af28ba",
+      "server": "hadikeikei.ir",
+      "server_port": 2053,
+      "uuid": "f1a22614-ff7a-423c-8cb4-d322c88985ae",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "finland.hosting-96.ir",
+      "server_port": 6554,
+      "uuid": "a61abe08-05d6-f72d-58ab-b92576abd790",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

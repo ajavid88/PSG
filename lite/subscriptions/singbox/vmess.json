@@ -109,8 +109,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1"
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -137,8 +137,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1"
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -583,16 +583,25 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
       "type": "vmess",
-      "server": "91.107.242.197",
-      "server_port": 31285,
-      "uuid": "f7e8a87f-e472-4fca-a393-fb9cc5b5dfa9",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #2",
       "type": "vmess",
       "server": "165.140.216.142",
       "server_port": 443,

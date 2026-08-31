@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgTUg=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @free1_vpn #1"
+        "🇲🇭 MH | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @free1_vpn #1"
+        "🇲🇭 MH | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
+      "tag": "🇲🇭 MH | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "82.40.62.229",
+      "server": "185.207.196.48",
       "server_port": 443,
-      "uuid": "5bfc6650-8b56-0012-b0e9-b98fc6367c0d",
+      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

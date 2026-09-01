@@ -172,6 +172,7 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #2", "server": "172.67.149.60", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c206d543-023d-46cc-9d5a-1f0f2fc16323"}
   - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #3", "server": "104.18.32.47", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
   - {"name": "🇽🇽 XX | VLESS | @prrofile_purple #1", "server": "one-for-all.levikogjgfdd.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "e7961655-9674-4cbd-a36f-ec0d5d7d660c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇽🇽 XX | VLESS | @red2ray #1", "server": "vpn.architect-line.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "30ba1df6-4aa5-4912-9ed9-09f938f3eb18", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @renetvpn #1", "server": "198.41.202.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b9ad895b-12ac-40fc-a5ac-a5b2a1285001", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @renetvpn #2", "server": "172.67.204.84", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e1a928be-e289-4aef-b92e-4106fabdf42f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @renetvpn #3", "server": "104.21.70.11", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "6e569c43-f7e6-4ab7-b3a7-f616a39ff6a1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -214,7 +215,6 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @v2ray_youtube #5", "server": "104.16.100.66", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "730cbebb-39b2-4a1c-b2f8-f922095d6623", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raybe #1", "server": "berovps.masoodbiranvand-230.workers.dev", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raybe #2", "server": "berovps.masoodbiranvand-230.workers.dev", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇽🇽 XX | TROJAN | @v2raych #1", "server": "104.18.152.77", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | VLESS | @v2raymelliii #1", "server": "v2.lock1.app", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "6c7f57b3-252d-407d-a9e4-38a39820bbdb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VMESS | @v2rayng3 #1", "server": "104.17.121.43", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "omkuzygiv.com"}}}
   - {"name": "🇽🇽 XX | VLESS | @v2rayngalpha #1", "server": "104.18.5.250", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -423,6 +423,7 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @prrofile_purple #2'
       - '🇽🇽 XX | TROJAN | @prrofile_purple #3'
       - '🇽🇽 XX | VLESS | @prrofile_purple #1'
+      - '🇽🇽 XX | VLESS | @red2ray #1'
       - '🇽🇽 XX | VLESS | @renetvpn #1'
       - '🇽🇽 XX | VLESS | @renetvpn #2'
       - '🇽🇽 XX | VLESS | @renetvpn #3'
@@ -465,7 +466,6 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @v2ray_youtube #5'
       - '🇽🇽 XX | VLESS | @v2raybe #1'
       - '🇽🇽 XX | VLESS | @v2raybe #2'
-      - '🇽🇽 XX | TROJAN | @v2raych #1'
       - '🇽🇽 XX | VLESS | @v2raymelliii #1'
       - '🇽🇽 XX | VMESS | @v2rayng3 #1'
       - '🇽🇽 XX | VLESS | @v2rayngalpha #1'

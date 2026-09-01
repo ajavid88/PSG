@@ -93,10 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇳🇱 NL | VLESS | @v2raych #1"
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,10 +105,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇳🇱 NL | VLESS | @v2raych #1"
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,14 +190,6 @@
       }
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "de1.cnyvpn.com",
-      "server_port": 2053,
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "de.alertyagency.com",
@@ -224,48 +212,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "qq.utiltools.ru",
-      "server_port": 443,
-      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "app23.jarvestip.ru",
-      "server_port": 443,
-      "uuid": "2f600710-9f4e-4eab-8de1-89f60a878e55",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "tv.tetrov.top",
+      "server_port": 9899,
+      "uuid": "6838085d-93dd-44b9-9cfe-140e718a96c5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

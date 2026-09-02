@@ -85,9 +85,7 @@
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1",
-        "🇫🇷 FR | VLESS | @vmesc #1"
+        "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,9 +101,7 @@
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1",
-        "🇫🇷 FR | VLESS | @vmesc #1"
+        "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,28 +208,6 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fr2.janusgate.org",
-      "server_port": 443,
-      "uuid": "df880bf8-2635-4a83-a6bf-91bb36df284b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @v2rayopen #1",
       "type": "vless",
       "server": "213.130.137.30",
@@ -249,14 +223,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "136.244.112.46",
-      "server_port": 37710,
-      "uuid": "4283865b-7145-44d3-9855-96298c47424d",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇩 MD | VLESS | @v2ray_free_conf #1", "server": "89.35.14.32", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇲🇩 MD | VLESS | @vmesskhodam #1", "server": "89.35.14.32", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VMESS | @Fr33C0nfig #1", "server": "dashboard.lunaramarket.top", "port": 41501, "type": "vmess", "skip-cert-verify": true, "uuid": "1af1b7f5-eb1e-4176-ab60-c134fd283b6c", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇩 MD | VLESS | @v2ray_free_conf #1'
-      - '🇲🇩 MD | VLESS | @vmesskhodam #1'
+      - '🇦🇪 AE | VMESS | @Fr33C0nfig #1'
 
   - name: 🌍 Global Media
     type: select

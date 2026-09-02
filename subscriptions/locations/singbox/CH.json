@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +131,39 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "185.18.250.127",
+      "server_port": 2096,
+      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "45.59.126.91",
+      "server_port": 110,
+      "uuid": "a4efbdb6-b72e-411d-b516-59919045957c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "45.59.126.91",
+      "server_port": 8080,
+      "uuid": "a4efbdb6-b72e-411d-b516-59919045957c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

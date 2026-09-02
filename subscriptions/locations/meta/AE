@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @v2raych #1", "server": "pk-play.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "82865d14-5e10-4d81-80c7-eb375a317286", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VMESS | @Fr33C0nfig #1", "server": "dashboard.lunaramarket.top", "port": 41501, "type": "vmess", "skip-cert-verify": true, "uuid": "1af1b7f5-eb1e-4176-ab60-c134fd283b6c", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @v2raych #1'
+      - '🇦🇪 AE | VMESS | @Fr33C0nfig #1'
       - '🇦🇪 AE | VLESS | @vpnfree85 #1'
 
   - name: 🌍 Global Media

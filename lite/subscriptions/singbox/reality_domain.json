@@ -93,8 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1"
+        "🇩🇪 DE | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1"
+        "🇩🇪 DE | VLESS | @outline_ir #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -190,11 +194,11 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "ww1.levikogjgfdd.ir",
+      "server": "de.alertyagency.com",
       "server_port": 443,
-      "uuid": "af348651-1624-4710-b55f-0307a22d891f",
+      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -212,11 +216,55 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "de.alertyagency.com",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fr2.janusgate.org",
+      "server_port": 443,
+      "uuid": "df880bf8-2635-4a83-a6bf-91bb36df284b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pk-play.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "82865d14-5e10-4d81-80c7-eb375a317286",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

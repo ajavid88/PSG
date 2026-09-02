@@ -82,10 +82,9 @@
         "KingRezaPahlavi",
         "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,10 +97,9 @@
         "KingRezaPahlavi",
         "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -228,11 +226,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "de.alertyagency.com",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -250,11 +248,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "qq.utiltools.ru",
-      "server_port": 443,
-      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "server": "de2.bexait.ir",
+      "server_port": 2434,
+      "uuid": "24a3853d-01c7-4fae-a0cc-97ef0f25a455",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -285,28 +283,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "api-de.data-media-social.org",
-      "server_port": 443,
-      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

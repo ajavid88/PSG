@@ -84,7 +84,6 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -100,7 +99,6 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -237,9 +235,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "46.19.69.201",
+      "server": "78.159.250.214",
       "server_port": 443,
-      "uuid": "053440e6-fc8d-48d9-bb4f-2675e367f64f",
+      "uuid": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -248,23 +246,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "46.19.69.201",
-      "server_port": 443,
-      "uuid": "053440e6-fc8d-48d9-bb4f-2675e367f64f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

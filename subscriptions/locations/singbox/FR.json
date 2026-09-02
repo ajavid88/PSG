@@ -96,10 +96,13 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #2",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | SS | @outline_ir #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2raych #3",
+        "🇫🇷 FR | VLESS | @v2raych #4",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
@@ -115,10 +118,13 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #2",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | SS | @outline_ir #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2raych #2",
+        "🇫🇷 FR | VLESS | @v2raych #3",
+        "🇫🇷 FR | VLESS | @v2raych #4",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
@@ -192,23 +198,6 @@
     {
       "tag": "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "91.134.45.163",
-      "server_port": 443,
-      "uuid": "62a188a9-1e46-4c4d-a375-c427df5573e3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @mtproxy22_v2ray #2",
-      "type": "vless",
       "server": "ww1.levikogjgfdd.ir",
       "server_port": 443,
       "uuid": "af348651-1624-4710-b55f-0307a22d891f",
@@ -254,11 +243,75 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
+      "tag": "🇫🇷 FR | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "51.83.192.80",
+      "server_port": 8388,
+      "method": "YWVzLTI1Ni1nY206aXR6dnBuQDMyMQ==",
+      "password": null
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.130.137.150",
-      "server_port": 443,
-      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "server": "beast.locallynet.org",
+      "server_port": 9443,
+      "uuid": "e6b5e08a-83fa-48d2-8a94-c6cc01fc35fd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "beast.locallynet.org",
+      "server_port": 9443,
+      "uuid": "e6b5e08a-83fa-48d2-8a94-c6cc01fc35fd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "jsnsjwkowowiwiowowleke.vipneninet.ir",
+      "server_port": 52970,
+      "uuid": "5ac40f9b-2c41-4173-8589-4a69d0914390",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "beast.locallynet.org",
+      "server_port": 9443,
+      "uuid": "e6b5e08a-83fa-48d2-8a94-c6cc01fc35fd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

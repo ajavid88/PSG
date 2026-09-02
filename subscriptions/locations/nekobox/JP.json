@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
         "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
         "🇯🇵 JP | VLESS | @vmesskhodam #1"
@@ -89,6 +90,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
         "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
         "🇯🇵 JP | VLESS | @vmesskhodam #1"
@@ -120,6 +122,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "vu2jp26vdi.87544899.xyz",
+      "server_port": 443,
+      "uuid": "58c14e54-6db0-46fb-a1fb-8f3184197d94",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

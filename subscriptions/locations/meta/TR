@@ -25,6 +25,8 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @NamiraConfigs #1", "server": "turk.mamadhpbot.ir", "port": 50118, "type": "vless", "skip-cert-verify": true, "uuid": "93ee032f-b67f-4cac-a239-da1295aec528", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @free1_vpn #1", "server": "185.123.100.56", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "78eb4455-0d07-4bc2-93e3-7c8654f11d74", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "91.228.227.172", "port": 110, "type": "vless", "skip-cert-verify": true, "uuid": "53eb7b3d-9537-4c52-8aea-a6914d93669b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #2", "server": "91.228.227.172", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1b0a74e1-3c69-4386-ae77-9db408d0687f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +42,8 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @free1_vpn #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
+      - '🇹🇷 TR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

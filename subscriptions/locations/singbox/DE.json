@@ -105,7 +105,6 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
@@ -113,6 +112,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -145,7 +145,6 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
@@ -153,6 +152,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
@@ -422,14 +422,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "2.58.81.221",
-      "server_port": 80,
-      "method": "YWVzLTI1Ni1nY206a0tFZDByQnJkNTZGdXJqeg==",
-      "password": null
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
       "type": "vless",
       "server": "node-fra02.rkitman.ru",
@@ -551,6 +543,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "deapp.jisuyun.top",
+      "server_port": 2053,
+      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "deapp.jisuyun.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/devm",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -684,9 +701,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "api-de.data-media-social.org",
+      "server": "gsv5.montago-shop.ir",
       "server_port": 443,
-      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
+      "uuid": "a386f602-e7e5-4a5f-89ae-2917bd7cc6a2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

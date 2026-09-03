@@ -94,6 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -109,6 +110,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -201,6 +203,22 @@
       "server": "152.53.45.251",
       "server_port": 8888,
       "password": "trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @rez1vpn #1",
+      "type": "trojan",
+      "server": "151.101.56.6",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",

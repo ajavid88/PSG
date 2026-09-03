@@ -38,7 +38,8 @@ proxies:
   - {"name": "🇫🇮 FI | VLESS | @selinc #1", "server": "31.76.80.69", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "8975546a-375c-4966-8064-19fc0f66f30a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "185.79.138.71", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇱🇻 LV | VLESS | @v2ray_collector #1", "server": "138.124.180.137", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5234b2b7-5e07-422c-8159-d62a676c00c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "78.159.250.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4054fdc2-ee80-4419-8a8e-d937df4719e2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "185.79.138.71", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇷 FR | VLESS | @v2raych #1", "server": "161.97.160.224", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b81b4d1b-7f20-48f1-82dc-d24bef898cab", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇬 SG | VLESS | @v2rayexpress #1", "server": "5.223.42.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #1", "server": "194.5.65.36", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @v2rayopen #1", "server": "213.130.137.30", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -74,7 +75,8 @@ proxy-groups:
       - '🇫🇮 FI | VLESS | @selinc #1'
       - '🇫🇮 FI | VLESS | @v2ray_collector #1'
       - '🇱🇻 LV | VLESS | @v2ray_collector #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
+      - '🇫🇷 FR | VLESS | @v2raych #1'
       - '🇸🇬 SG | VLESS | @v2rayexpress #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #1'
       - '🇫🇷 FR | VLESS | @v2rayopen #1'

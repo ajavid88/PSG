@@ -81,12 +81,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
+        "🇭🇰 HK | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,12 +100,14 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
+        "🇭🇰 HK | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,6 +200,22 @@
       "server": "152.53.45.251",
       "server_port": 8888,
       "password": "trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @rez1vpn #1",
+      "type": "trojan",
+      "server": "151.101.56.6",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -301,6 +321,13 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "krhtybay.catcat321.com",
+      "server_port": 20022,
+      "password": "7e70223b-f331-41d5-9313-02b8d2df2885"
     }
   ],
   "route": {

@@ -94,8 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
@@ -111,8 +112,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
@@ -208,6 +210,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "axial.medic-ml.ru",
+      "server_port": 443,
+      "uuid": "935ed92d-68c3-42c7-8c32-2db2595737e6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -225,11 +244,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "nnoip-dk-netherland-2ip.zelnora.ir",
-      "server_port": 22189,
-      "uuid": "3614a2a2-b0db-43f7-9a34-b1248539d848",
+      "server": "us.samanehha.io",
+      "server_port": 800,
+      "uuid": "6df7429e-45af-40e6-a47c-75ee1a7aa46d",
       "packet_encoding": "xudp"
     },
     {

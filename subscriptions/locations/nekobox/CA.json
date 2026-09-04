@@ -80,9 +80,9 @@
         "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +93,9 @@
         "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -142,6 +142,14 @@
       }
     },
     {
+      "tag": "🇨🇦 CA | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "maple.adaspoloandco.com",
+      "server_port": 8443,
+      "uuid": "db3f09ae-23f2-42b8-abee-7b89fb392c5e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "ov-canada1.09vpn.com",
@@ -165,14 +173,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "54.39.96.233",
-      "server_port": 8443,
-      "uuid": "db3f09ae-23f2-42b8-abee-7b89fb392c5e",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -81,6 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -93,6 +95,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -199,6 +203,45 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "www.d.mobilenarges.ir",
+      "server_port": 443,
+      "uuid": "d2a8c7bf-e263-4f77-8720-f8888c7c19d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "rs4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

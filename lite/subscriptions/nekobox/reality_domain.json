@@ -80,10 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1"
+        "🇧🇬 BG | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2rayopen #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1"
+        "🇧🇬 BG | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2rayopen #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,53 +183,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "node-fra02.rkitman.ru",
-      "server_port": 443,
-      "uuid": "64774bd8-3116-4eaa-a046-5ea4fc230b81",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "www.d.mobilenarges.ir",
-      "server_port": 443,
-      "uuid": "d2a8c7bf-e263-4f77-8720-f8888c7c19d1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "rs4.univesalsrv.com",
+      "server": "bg4.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
@@ -251,6 +205,28 @@
       "server": "node-fra01.rkitman.ru",
       "server_port": 443,
       "uuid": "64774bd8-3116-4eaa-a046-5ea4fc230b81",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "gsv5.montago-shop.ir",
+      "server_port": 443,
+      "uuid": "a386f602-e7e5-4a5f-89ae-2917bd7cc6a2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

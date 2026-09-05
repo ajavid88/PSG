@@ -93,11 +93,11 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -122,11 +122,11 @@
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -334,6 +334,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "pswed1.plasdomain.ir",
+      "server_port": 32855,
+      "uuid": "cc24b2ac-26f2-48ad-9ce4-b2b37d14490a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "185.146.173.59",
@@ -364,28 +386,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "sws1.milkabebar.ir",
-      "server_port": 10694,
-      "uuid": "e8e1223f-8562-4eb0-9c1c-9488096a33a7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",

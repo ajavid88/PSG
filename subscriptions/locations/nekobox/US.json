@@ -113,10 +113,9 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
-        "🇺🇸 US | SS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇺🇸 US | SS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -131,7 +130,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | TROJAN | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -147,7 +149,6 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
       ],
@@ -193,10 +194,9 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
-        "🇺🇸 US | SS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇺🇸 US | SS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -211,7 +211,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | TROJAN | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -227,7 +230,6 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
       ],
@@ -752,22 +754,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "31.76.70.112",
-      "server_port": 8443,
-      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "108.181.0.177",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpHNXA2d3c0bzY3SEI=",
-      "password": null
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "k2.cloud--vpn.site",
@@ -803,6 +789,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #3",
+      "type": "vless",
+      "server": "143.246.182.63",
+      "server_port": 443,
+      "uuid": "5b45355f-1a9c-4802-90ed-0d1f5dcd4562",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -884,9 +887,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "3.166.17.55",
+      "server": "199.232.78.159",
       "server_port": 443,
-      "uuid": "2b262080-f68a-4108-9ac3-d89140faaf6f",
+      "uuid": "746a8f42-6d95-4117-b0d9-08bce6824757",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -903,7 +906,7 @@
       "type": "vless",
       "server": "199.232.78.159",
       "server_port": 443,
-      "uuid": "746a8f42-6d95-4117-b0d9-08bce6824757",
+      "uuid": "3f945d0c-0d5b-442e-aa10-7aced4c7ad9c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1017,10 +1020,26 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "69.46.46.124",
+      "server": "x4g-production-a10a.up.railway.app",
       "server_port": 443,
-      "uuid": "b79f78f6-ca4e-bad4-029f-4f9c43b6b6d9",
+      "uuid": "29e577fa-7019-0da3-520a-d845cf081c7c",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "151.101.56.7",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1034,10 +1053,17 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "151.101.56.6",
+      "server": "199.232.78.159",
+      "server_port": 80,
+      "uuid": "a3558ef4-b843-4b05-8456-495815234c95",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "607f4f6c-2a71-43aa-e047-1ff5b5c23f67",
-      "packet_encoding": "xudp",
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1047,6 +1073,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "199.232.78.159",
+      "server_port": 80,
+      "uuid": "a3558ef4-b843-4b05-8456-495815234c95",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",
@@ -1290,24 +1324,6 @@
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "165.140.216.142",
-      "server_port": 443,
-      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #2",
       "type": "vmess",
       "server": "165.140.216.142",
       "server_port": 443,

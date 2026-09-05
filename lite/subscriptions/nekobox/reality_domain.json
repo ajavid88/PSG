@@ -80,10 +80,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +94,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,6 +185,23 @@
       }
     },
     {
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "bg4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
       "server": "almaa.orangesms.ir",
@@ -215,33 +232,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "pamstr1.plasdomain.ir",
-      "server_port": 32855,
-      "uuid": "cc24b2ac-26f2-48ad-9ce4-b2b37d14490a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "gsv5.montago-shop.ir",
+      "server": "de-3.kihsuyhf8jkiugsxb.cfd",
       "server_port": 443,
-      "uuid": "a386f602-e7e5-4a5f-89ae-2917bd7cc6a2",
+      "uuid": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

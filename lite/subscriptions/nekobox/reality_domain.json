@@ -81,9 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +93,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,19 +198,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "almaa.orangesms.ir",
-      "server_port": 1824,
-      "uuid": "c66d3204-7046-4fe3-84e1-22a815fdc1a6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "node-fra01.rkitman.ru",
+      "server": "rs1.univesalsrv.com",
       "server_port": 443,
-      "uuid": "64774bd8-3116-4eaa-a046-5ea4fc230b81",
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -223,33 +211,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "de-3.kihsuyhf8jkiugsxb.cfd",
-      "server_port": 443,
-      "uuid": "0dc1fc26-b8e9-4296-9870-0996de3c2333",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇿 NZ | VLESS | @red2ray #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1",
+        "🇰🇷 KR | VLESS | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇿 NZ | VLESS | @red2ray #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1",
+        "🇰🇷 KR | VLESS | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇿 NZ | VLESS | @red2ray #1",
+      "tag": "🇰🇷 KR | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "server_port": 6679,
+      "method": "YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T",
+      "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "114.129.43.30",
-      "server_port": 8880,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d%3Ccode%3E",
-      "packet_encoding": "xudp"
+      "server": "52.231.38.95",
+      "server_port": 443,
+      "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

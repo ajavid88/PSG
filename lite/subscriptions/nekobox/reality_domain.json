@@ -80,7 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -92,7 +94,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -181,11 +185,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "api-de.data-media-social.org",
+      "server": "romania.epicserver.web.tr",
       "server_port": 443,
-      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
+      "uuid": "d448dfdd-6021-4ba5-af88-0adc2d429fe8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -201,6 +205,36 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "sws1.milkabebar.ir",
+      "server_port": 10694,
+      "uuid": "e8e1223f-8562-4eb0-9c1c-9488096a33a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "ishsvvsvsbshsbsh.kafsh-topakin.ir",
+      "server_port": 61463,
+      "uuid": "7cc1dd90-cbc2-496f-bc55-28bbaeca1eff",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",

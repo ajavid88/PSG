@@ -81,7 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,7 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -201,6 +203,23 @@
       "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "rs1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "bg4.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",

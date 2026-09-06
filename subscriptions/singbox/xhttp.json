@@ -99,7 +99,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -109,6 +108,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇫🇮 FI | VLESS | @selinc #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -117,11 +117,11 @@
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -138,7 +138,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -148,6 +147,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇫🇮 FI | VLESS | @selinc #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -156,11 +156,11 @@
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -337,23 +337,6 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "65.109.238.140",
-      "server_port": 443,
-      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
       "type": "vless",
       "server": "104.21.62.144",
@@ -489,6 +472,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "138.124.242.252",
+      "server_port": 10443,
+      "uuid": "05249269-4695-4df8-8968-9cba7a3db33f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -616,6 +607,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "darsadgir.ir",
+      "server_port": 2087,
+      "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "axial.medic-ml.ru",
@@ -673,14 +672,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nnoip-dk-netherland-2ip.zelnora.ir",
-      "server_port": 22189,
-      "uuid": "c745a2b2-42e4-4584-b276-2b609f4cdc2a",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

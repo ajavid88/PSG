@@ -89,14 +89,19 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -105,6 +110,45 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "94.183.209.43",
+      "server_port": 443,
+      "uuid": "5e7ecc47-e424-4653-876e-c7515a2c82b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pl1.bexait.ir",
+      "server_port": 2434,
+      "uuid": "efd9cf32-2a2f-4d05-abe4-d63eb002e483",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

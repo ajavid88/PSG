@@ -93,9 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇸🇪 SE | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,9 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇸🇪 SE | VLESS | @v2raych #1"
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇬🇧 GB | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -192,9 +194,31 @@
       }
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "bg4.univesalsrv.com",
+      "server": "tgfree.rush-server.com",
+      "server_port": 443,
+      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "bg2.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
@@ -209,11 +233,11 @@
       }
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "rs1.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "server": "ww9.levikogjgfdd.ir",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -222,15 +246,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "sv14.betust.net",
+      "server": "ww5.levikogjgfdd.ir",
       "server_port": 443,
-      "uuid": "5d8cf280-e0f4-4539-b35c-7ff90659c0d0",
+      "uuid": "3bcb31ef-840e-415d-abb3-28628add98d0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

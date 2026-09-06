@@ -79,6 +79,8 @@
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "proxy",
@@ -89,6 +91,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
+        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "auto",
@@ -118,6 +122,31 @@
       "server": "132.243.223.227",
       "server_port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "65.109.238.140",
+      "server_port": 443,
+      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "31.76.103.109",
+      "server_port": 8444,
+      "uuid": "15e83ced-7544-422e-863d-deafe29a1dbe",
       "packet_encoding": "xudp"
     },
     {

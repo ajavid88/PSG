@@ -81,7 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇸🇪 SE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,7 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇸🇪 SE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -211,6 +213,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "sv14.betust.net",
+      "server_port": 443,
+      "uuid": "5d8cf280-e0f4-4539-b35c-7ff90659c0d0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

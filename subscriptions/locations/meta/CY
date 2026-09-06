@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_collector #1", "server": "pl5.lckdwn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "98673856-cd6f-4aa0-b2c9-d2ec90c0f47b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇾 CY | VLESS | @red2ray #1", "server": "2.56.120.24", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @v2ray_collector #1'
-      - '🇦🇪 AE | VLESS | @vpnfree85 #1'
+      - '🇨🇾 CY | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

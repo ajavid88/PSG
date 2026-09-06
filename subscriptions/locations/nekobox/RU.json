@@ -78,7 +78,6 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -88,7 +87,6 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -110,28 +108,6 @@
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "176.109.88.216",
-      "server_port": 443,
-      "uuid": "2c7f1414-87ae-4a01-9796-a02c067891a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

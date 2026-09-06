@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @NamiraConfigs #1",
+        "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @outline_ir #1",
@@ -89,7 +90,8 @@
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2"
+        "🇬🇧 GB | VLESS | @vpn_ioss #2",
+        "🇬🇧 GB | VLESS | @vpn_ioss #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,6 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @NamiraConfigs #1",
+        "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @outline_ir #1",
@@ -109,7 +112,8 @@
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2"
+        "🇬🇧 GB | VLESS | @vpn_ioss #2",
+        "🇬🇧 GB | VLESS | @vpn_ioss #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +134,14 @@
       "server": "94.156.250.148",
       "server_port": 7001,
       "method": "YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @father_vpn #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.176",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
@@ -279,6 +291,14 @@
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "82.24.203.15",
+      "server_port": 2083,
+      "uuid": "f2616bce-337a-4d13-8c58-1b5e71986569",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #3",
+      "type": "vless",
+      "server": "82.24.203.174",
       "server_port": 2083,
       "uuid": "f2616bce-337a-4d13-8c58-1b5e71986569",
       "packet_encoding": "xudp"

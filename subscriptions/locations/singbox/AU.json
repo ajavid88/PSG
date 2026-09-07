@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVVo=
+//profile-title: base64:UFNHIHwgQVU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇿 UZ | VLESS | @red2ray #1"
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇿 UZ | VLESS | @red2ray #1"
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇿 UZ | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "189.74.97.47",
-      "server_port": 2087,
-      "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1",
-      "packet_encoding": "xudp"
+      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+      "type": "vmess",
+      "server": "162.159.135.79",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "janett.click",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "janett.click"
+        }
+      }
     }
   ],
   "route": {

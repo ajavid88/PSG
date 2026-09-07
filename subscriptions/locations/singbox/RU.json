@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -102,8 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @mehrosaboran #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -138,11 +136,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @mehrosaboran #1",
       "type": "vless",
-      "server": "89.169.0.193",
+      "server": "188.130.209.185",
       "server_port": 443,
-      "uuid": "4018191a-0d77-4455-922b-dd198ce6a095",
+      "uuid": "eaf8abff-0fbf-4b64-8d8f-18c1757c75df",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -156,23 +154,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "89.169.0.193",
-      "server_port": 443,
-      "uuid": "4018191a-0d77-4455-922b-dd198ce6a095",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

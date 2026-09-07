@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇿 UZ | VLESS | @red2ray #1", "server": "189.74.97.47", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "894fe9f0-b998-49c0-8003-a5007de921e1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "162.159.135.79", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "janett.click"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇿 UZ | VLESS | @red2ray #1'
+      - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
 
   - name: 🌍 Global Media
     type: select

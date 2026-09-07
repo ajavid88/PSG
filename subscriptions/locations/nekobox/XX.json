@@ -79,6 +79,7 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -120,9 +121,7 @@
         "🇽🇽 XX | VLESS | @grizzlyvpn #1",
         "🇽🇽 XX | VLESS | @hope_net #1",
         "🇽🇽 XX | VLESS | @hope_net #2",
-        "🇽🇽 XX | VLESS | @hope_net #3",
-        "🇽🇽 XX | VLESS | @hope_net #4",
-        "🇽🇽 XX | VLESS | @hope_net #5",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -263,6 +262,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -320,6 +321,7 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -361,9 +363,7 @@
         "🇽🇽 XX | VLESS | @grizzlyvpn #1",
         "🇽🇽 XX | VLESS | @hope_net #1",
         "🇽🇽 XX | VLESS | @hope_net #2",
-        "🇽🇽 XX | VLESS | @hope_net #3",
-        "🇽🇽 XX | VLESS | @hope_net #4",
-        "🇽🇽 XX | VLESS | @hope_net #5",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VLESS | @iran_access #1",
         "🇽🇽 XX | VLESS | @iran_access #2",
@@ -504,6 +504,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -580,6 +582,14 @@
       "server": "b2n.ir",
       "server_port": 2083,
       "uuid": "b8e0eb1a-9967-4753-b278-6ef1226dd195",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "172.64.150.28",
+      "server_port": 2082,
+      "uuid": "e5cc16a6-ea42-46b2-82ae-ad2157e1641b",
       "packet_encoding": "xudp"
     },
     {
@@ -1036,17 +1046,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "104.17.153.239",
-      "server_port": 8080,
-      "uuid": "406d0357-ecd8-46ce-afa8-22b0e139348c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #2",
-      "type": "vless",
-      "server": "172.67.156.27",
+      "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
       "server_port": 443,
-      "uuid": "f5a78514-1a94-486e-92a7-3bc9817095a6",
+      "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1059,28 +1061,37 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #3",
+      "tag": "🇽🇽 XX | VLESS | @hope_net #2",
       "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "687ba30b-840f-4578-8f51-be41787c9f6a",
-      "packet_encoding": "xudp"
+      "server": "104.17.157.120",
+      "server_port": 443,
+      "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #4",
-      "type": "vless",
-      "server": "104.18.86.70",
-      "server_port": 8080,
-      "uuid": "406d0357-ecd8-46ce-afa8-22b0e139348c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @hope_net #5",
-      "type": "vless",
-      "server": "104.18.5.2",
-      "server_port": 2096,
-      "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
-      "packet_encoding": "xudp"
+      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
+      "type": "vmess",
+      "server": "104.19.21.240",
+      "server_port": 2052,
+      "uuid": "d6b6d982-d52f-465a-b988-85670b23f64a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @ir_netproxy #1",
@@ -2888,6 +2899,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.16.7.70",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "104.18.151.69",
+      "server_port": 2083,
+      "uuid": "5e2be2b4-8af5-4d18-a15c-d4cb4b1d6ae6",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "ser.coolfrog-bot.ir",
@@ -2939,10 +2975,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "vips.irhubby.ir",
-      "server_port": 8080,
-      "uuid": "9abe6dbd-5988-4943-8a93-afc65ab50f54",
-      "packet_encoding": "xudp"
+      "server": "104.21.91.142",
+      "server_port": 443,
+      "uuid": "7893b302-3882-4c38-9ab6-6313f1575d1a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #1",

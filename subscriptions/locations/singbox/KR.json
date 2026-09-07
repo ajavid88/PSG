@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @prrofile_purple #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @prrofile_purple #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "us.differentok.com",
-      "server_port": 443,
-      "uuid": "eb1c3a3c-c828-404d-bf98-b878c5435600",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇰🇷 KR | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "server_port": 6679,
+      "method": "YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T",
+      "password": null
     }
   ],
   "route": {

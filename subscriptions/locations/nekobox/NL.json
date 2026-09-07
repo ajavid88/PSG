@@ -78,13 +78,17 @@
         "auto",
         "direct",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @orange_vpns #2",
         "🇳🇱 NL | VLESS | @orange_vpns #3",
         "🇳🇱 NL | VLESS | @outline_ir #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
+        "🇳🇱 NL | SS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
@@ -99,13 +103,17 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1",
+        "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @orange_vpns #2",
         "🇳🇱 NL | VLESS | @orange_vpns #3",
         "🇳🇱 NL | VLESS | @outline_ir #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
+        "🇳🇱 NL | SS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
@@ -133,6 +141,22 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.248.80.136",
+      "server_port": 80,
+      "uuid": "df756db8-a7de-4ff9-a847-d2632bd021e2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
@@ -221,6 +245,22 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.225",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @prrofile_purple #1",
+      "type": "shadowsocks",
+      "server": "92.112.126.90",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp3d3pWbjJabkhmcVlhNmw4RVdoM2VZ",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "95.179.138.190",
@@ -258,6 +298,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "172.233.45.87",
+      "server_port": 21300,
+      "uuid": "e2f7f780-cce2-4263-b8db-d7319b908b1a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @v2raying #1",

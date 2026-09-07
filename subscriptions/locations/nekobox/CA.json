@@ -80,9 +80,9 @@
         "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +93,9 @@
         "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -142,6 +142,14 @@
       }
     },
     {
+      "tag": "🇨🇦 CA | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "51.222.155.32",
+      "server_port": 5003,
+      "method": "YWVzLTI1Ni1nY206ZzVNZUQ2RnQzQ1dsSklk",
+      "password": null
+    },
+    {
       "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "ov-canada1.09vpn.com",
@@ -165,14 +173,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ca1.niekotin.de",
-      "server_port": 80,
-      "uuid": "165cbc52-5f64-4ee3-8238-5fe14f4e90c9",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

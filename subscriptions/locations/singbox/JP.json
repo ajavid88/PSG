@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -127,6 +129,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "31.76.91.72",
+      "server_port": 2087,
+      "uuid": "524e00ce-ed89-481d-b4a4-6d7017f884e3",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",

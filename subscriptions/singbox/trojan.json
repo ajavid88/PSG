@@ -105,7 +105,7 @@
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇭🇷 HR | TROJAN | @v2ray_collector #1",
+        "🇧🇾 BY | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
@@ -114,13 +114,16 @@
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
+        "🇺🇸 US | TROJAN | @vmesskhodam #2",
         "🇱🇺 LU | TROJAN | @vpn_ioss #1",
         "🇭🇷 HR | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -143,7 +146,7 @@
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇭🇷 HR | TROJAN | @v2ray_collector #1",
+        "🇧🇾 BY | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
@@ -152,13 +155,16 @@
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
+        "🇺🇸 US | TROJAN | @vmesskhodam #2",
         "🇱🇺 LU | TROJAN | @vpn_ioss #1",
         "🇭🇷 HR | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -434,20 +440,11 @@
       }
     },
     {
-      "tag": "🇭🇷 HR | TROJAN | @v2ray_collector #1",
+      "tag": "🇧🇾 BY | TROJAN | @v2ray_collector #1",
       "type": "trojan",
-      "server": "213.182.199.137",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "178.172.227.178",
+      "server_port": 500,
+      "password": "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
     },
     {
       "tag": "🇺🇸 US | TROJAN | @v2raying #1",
@@ -578,6 +575,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @vmesskhodam #2",
+      "type": "trojan",
+      "server": "151.101.56.7",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇱🇺 LU | TROJAN | @vpn_ioss #1",
       "type": "trojan",
       "server": "188.42.145.180",
@@ -658,6 +671,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "v5.tgfaka.com",
+      "server_port": 48443,
+      "password": "6f48efb9-3817-4652-832f-fd04d93ebbc1",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @teamvpnpro #1",
       "type": "trojan",
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
@@ -679,6 +708,22 @@
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
       "server_port": 443,
       "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "www.calmlunch.com",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

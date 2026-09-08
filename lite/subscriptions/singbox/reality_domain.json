@@ -94,10 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @orange_vpns #2",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,10 +107,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @orange_vpns #2",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇺🇸 US | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -218,23 +214,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "axial.medic-ml.ru",
-      "server_port": 443,
-      "uuid": "935ed92d-68c3-42c7-8c32-2db2595737e6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns #2",
       "type": "vless",
       "server": "sv13.betust.net",
@@ -257,11 +236,11 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "ita.mobileemdad.top",
+      "server": "freshjuniper.download",
       "server_port": 443,
-      "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430",
+      "uuid": "6429d27e-a7d4-4e04-ae57-e88243fbbfe3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -270,23 +249,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ukm.mobileemdad.top",
-      "server_port": 443,
-      "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

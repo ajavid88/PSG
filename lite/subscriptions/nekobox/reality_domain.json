@@ -82,7 +82,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +97,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -222,9 +226,53 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "md3.univesalsrv.com",
+      "server": "gr.edge-cache.onevanet.ir",
+      "server_port": 8887,
+      "uuid": "be39768d-9cee-4e2c-9861-38e7bfc44f90",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "anet4.pinkiola.shop",
+      "server_port": 443,
+      "uuid": "1263b6fe-ac0a-4a6a-89eb-687286188690",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "bg3.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",

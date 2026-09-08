@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @v2raych #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @v2raych #1"
       ],
@@ -110,6 +112,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "144.31.2.33",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
@@ -131,9 +150,9 @@
     {
       "tag": "🇵🇱 PL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "2.26.224.233",
-      "server_port": 8443,
-      "uuid": "758f49d3-5f5f-47e7-bfa4-4ce96faf800d",
+      "server": "polandpanelmarzband.horlutr.ir",
+      "server_port": 2087,
+      "uuid": "804b9e89-8c9c-432e-a5ed-bcf83687e151",
       "packet_encoding": "xudp"
     }
   ],

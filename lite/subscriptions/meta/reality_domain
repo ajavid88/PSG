@@ -28,9 +28,9 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇷🇺 RU | VLESS | @free1_vpn #1", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns #1", "server": "axial.medic-ml.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "935ed92d-68c3-42c7-8c32-2db2595737e6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VLESS | @red2ray #1", "server": "gr.edge-cache.onevanet.ir", "port": 8887, "type": "vless", "skip-cert-verify": true, "uuid": "be39768d-9cee-4e2c-9861-38e7bfc44f90", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "anet4.pinkiola.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1263b6fe-ac0a-4a6a-89eb-687286188690", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇧🇬 BG | VLESS | @v2ray_free_conf #1", "server": "bg3.univesalsrv.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @orange_vpns #2", "server": "sv13.betust.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇹 IT | VLESS | @v2raych #1", "server": "ita.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2raych #1", "server": "ukm.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -49,9 +49,9 @@ proxy-groups:
       - 'KingRezaPahlavi'
       - '🇷🇺 RU | VLESS | @free1_vpn #1'
       - '🇳🇱 NL | VLESS | @orange_vpns #1'
-      - '🇩🇪 DE | VLESS | @red2ray #1'
-      - '🇮🇷 IR | VLESS | @v2ray_free_conf #1'
-      - '🇧🇬 BG | VLESS | @v2ray_free_conf #1'
+      - '🇳🇱 NL | VLESS | @orange_vpns #2'
+      - '🇮🇹 IT | VLESS | @v2raych #1'
+      - '🇩🇪 DE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

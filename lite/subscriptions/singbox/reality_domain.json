@@ -95,9 +95,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇮🇹 IT | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,9 +110,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇮🇹 IT | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -235,11 +235,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2",
       "type": "vless",
-      "server": "gr.edge-cache.onevanet.ir",
-      "server_port": 8887,
-      "uuid": "be39768d-9cee-4e2c-9861-38e7bfc44f90",
+      "server": "sv13.betust.net",
+      "server_port": 443,
+      "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -257,11 +257,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "anet4.pinkiola.shop",
+      "server": "ita.mobileemdad.top",
       "server_port": 443,
-      "uuid": "1263b6fe-ac0a-4a6a-89eb-687286188690",
+      "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -270,20 +270,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "bg3.univesalsrv.com",
+      "server": "ukm.mobileemdad.top",
       "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "uuid": "d58cd097-28e8-429d-bf36-d89892ca6430",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

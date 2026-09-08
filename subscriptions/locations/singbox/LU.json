@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgTFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @prrofile_purple #1"
+        "🇱🇺 LU | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @prrofile_purple #1"
+        "🇱🇺 LU | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "us.differentok.com",
+      "tag": "🇱🇺 LU | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "188.42.145.180",
       "server_port": 443,
-      "uuid": "eb1c3a3c-c828-404d-bf98-b878c5435600",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -25,7 +25,6 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @netfreedom0 #1", "server": "87.120.106.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "static.onevanet.ir", "port": 1128, "type": "vless", "skip-cert-verify": true, "uuid": "c9da5fd7-62bb-46c0-8006-f89a18e38f4b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "058967466159a5d2.monopolitass.ir", "port": 8735, "type": "vless", "skip-cert-verify": true, "uuid": "0dd9bd66-b041-4fb6-86ce-5357b3eb6ae8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +40,6 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @netfreedom0 #1'
       - '🇹🇷 TR | VLESS | @orange_vpns #1'
-      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

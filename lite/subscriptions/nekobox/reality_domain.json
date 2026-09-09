@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1"
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1"
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -181,11 +183,28 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "nl6.mobileemdad.top",
+      "server": "md3.univesalsrv.com",
       "server_port": 443,
-      "uuid": "b560fbd2-b33d-43ae-930c-ed479758c518",
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "bg3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -203,11 +222,11 @@
       }
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "rs4.univesalsrv.com",
+      "server": "gsv3.mobileemdad.top",
       "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "uuid": "1e9b2c13-aee7-4479-97a2-14af6e1f7bec",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -216,6 +235,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

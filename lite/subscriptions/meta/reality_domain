@@ -26,7 +26,10 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "d5.irgonde.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "171d0b5f-ed37-4007-9e81-e07f37454ae9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @free1_vpn #1", "server": "front.onlydreams.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2279f738-e427-467f-9cd6-501943cf583c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_free_conf #1", "server": "qq.utiltools.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "nl555.clonecloudcenter.ir", "port": 15219, "type": "vless", "skip-cert-verify": true, "uuid": "d6bb41bf-6748-4bd8-a4d1-d5934927523b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇸 RS | VLESS | @vmesskhodam #1", "server": "rs4.univesalsrv.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,7 +46,10 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
-      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
+      - '🇩🇪 DE | VLESS | @free1_vpn #1'
+      - '🇷🇺 RU | VLESS | @v2ray_free_conf #1'
+      - '🇳🇱 NL | VLESS | @v2raych #1'
+      - '🇷🇸 RS | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

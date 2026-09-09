@@ -93,7 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,11 +194,63 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "d5.irgonde.ir",
+      "server": "front.onlydreams.ir",
+      "server_port": 8443,
+      "uuid": "2279f738-e427-467f-9cd6-501943cf583c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "qq.utiltools.ru",
       "server_port": 443,
-      "uuid": "171d0b5f-ed37-4007-9e81-e07f37454ae9",
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nl555.clonecloudcenter.ir",
+      "server_port": 15219,
+      "uuid": "d6bb41bf-6748-4bd8-a4d1-d5934927523b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "rs4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

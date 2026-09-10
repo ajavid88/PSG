@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "31.56.189.147", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "99e5e9a0-1c6b-4cb0-805d-a810fd47eb15", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VMESS | @NamiraConfigs #1", "server": "snnsjsowowiwueieyeye.sobu.ir", "port": 40864, "type": "vmess", "skip-cert-verify": true, "uuid": "4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3", "alterId": 0, "cipher": "auto", "network": "xhttp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VMESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

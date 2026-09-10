@@ -35,7 +35,8 @@ proxies:
   - {"name": "🇮🇷 IR | VLESS | @nn_vpn #1", "server": "allsms.rozfa.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @realvpnmaster #1", "server": "zula.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_iran88 #1", "server": "185.143.233.120", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇷 IR | VLESS | @v2raych #1", "server": "gameboy.asan-ps.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8cbec8c7-c2c2-477d-b872-7eabe45deb8b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #1", "server": "tun-1.veraspeed.ir", "port": 2003, "type": "vmess", "skip-cert-verify": true, "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #2", "server": "tun-1.veraspeed.ir", "port": 1001, "type": "vmess", "skip-cert-verify": true, "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇮🇷 IR | VLESS | @v_2rayngvpn #1", "server": "www.zula.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55737b22-c50a-491a-8cd3-69f84e67e3f7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v_2rayngvpn #2", "server": "www.zula.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @vmesskhodam #1", "server": "subscrip.caroptions.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "8b44b39b-03ea-4475-b622-e2ac07daa27b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -65,7 +66,8 @@ proxy-groups:
       - '🇮🇷 IR | VLESS | @nn_vpn #1'
       - '🇮🇷 IR | VLESS | @realvpnmaster #1'
       - '🇮🇷 IR | VLESS | @v2ray_iran88 #1'
-      - '🇮🇷 IR | VLESS | @v2raych #1'
+      - '🇮🇷 IR | VMESS | @v2raych #1'
+      - '🇮🇷 IR | VMESS | @v2raych #2'
       - '🇮🇷 IR | VLESS | @v_2rayngvpn #1'
       - '🇮🇷 IR | VLESS | @v_2rayngvpn #2'
       - '🇮🇷 IR | VLESS | @vmesskhodam #1'

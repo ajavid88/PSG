@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #1", "server": "tun-1.veraspeed.ir", "port": 2003, "type": "vmess", "skip-cert-verify": true, "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇮🇷 IR | VMESS | @v2raych #2", "server": "tun-1.veraspeed.ir", "port": 1001, "type": "vmess", "skip-cert-verify": true, "uuid": "8605b8dd-5b4c-4f2f-96c1-a01495cbc37e", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
+      - '🇮🇷 IR | VMESS | @v2raych #1'
+      - '🇮🇷 IR | VMESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

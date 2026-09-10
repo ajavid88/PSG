@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VMESS | @NamiraConfigs #1", "server": "snnsjsowowiwueieyeye.sobu.ir", "port": 40864, "type": "vmess", "skip-cert-verify": true, "uuid": "4a9a2ec3-91f4-46ed-a647-0a092bf4b6a3", "alterId": 0, "cipher": "auto", "network": "xhttp", "tls": false}
   - {"name": "🇫🇮 FI | VLESS | @ehsawn8 #1", "server": "132.243.223.227", "port": 2101, "type": "vless", "skip-cert-verify": true, "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @selinc #1", "server": "31.76.80.69", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "8975546a-375c-4966-8064-19fc0f66f30a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -39,7 +38,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VMESS | @NamiraConfigs #1'
       - '🇫🇮 FI | VLESS | @ehsawn8 #1'
       - '🇫🇮 FI | VLESS | @selinc #1'
 

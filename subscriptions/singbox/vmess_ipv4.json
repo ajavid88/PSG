@@ -94,6 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -101,7 +102,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "proxy",
@@ -114,6 +114,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -121,7 +122,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "auto",
@@ -216,6 +216,22 @@
       "transport": {
         "type": "ws",
         "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #2",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki",
         "headers": {
           "Host": ""
         }
@@ -338,24 +354,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "193.148.253.210",
-      "server_port": 443,
-      "uuid": "6f8e28e3-d0de-4813-b397-3ff01e4a3350",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "193.148.253.210",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {

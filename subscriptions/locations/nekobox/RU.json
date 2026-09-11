@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @mehrosaboran #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
@@ -92,7 +91,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @mehrosaboran #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
@@ -113,28 +111,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "188.225.45.99",
-      "server_port": 443,
-      "uuid": "5ba7b2fe-8738-4dd9-b2f4-c3450b6f32fe",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",

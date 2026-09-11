@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇼 TW | VMESS | @NamiraConfigs #1", "server": "165.154.195.38", "port": 35034, "type": "vmess", "skip-cert-verify": true, "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇷🇺 RU | VMESS | @NamiraConfigs #1", "server": "renderer-stream-2-62.mirra.now", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api/v1/gpu-stream/socket", "headers": {"Host": "renderer-stream-2-62.mirra.now"}}}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "104.18.152.155", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
@@ -67,7 +67,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇼 TW | VMESS | @NamiraConfigs #1'
+      - '🇷🇺 RU | VMESS | @NamiraConfigs #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇨🇿 CZ | VMESS | @freev2rays #1'

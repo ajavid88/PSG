@@ -101,6 +101,7 @@
         "🇺🇸 US | TROJAN | @outline_ir #1",
         "🇭🇷 HR | TROJAN | @outline_ir #1",
         "🇱🇺 LU | TROJAN | @outline_ir #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇭🇷 HR | TROJAN | @v2ray_collector #1",
@@ -117,8 +118,7 @@
         "🇩🇪 DE | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇭🇺 HU | TROJAN | @v2ray_collector #1"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -137,6 +137,7 @@
         "🇺🇸 US | TROJAN | @outline_ir #1",
         "🇭🇷 HR | TROJAN | @outline_ir #1",
         "🇱🇺 LU | TROJAN | @outline_ir #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇭🇷 HR | TROJAN | @v2ray_collector #1",
@@ -153,8 +154,7 @@
         "🇩🇪 DE | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇭🇺 HU | TROJAN | @v2ray_collector #1"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -353,6 +353,22 @@
       "tag": "🇱🇺 LU | TROJAN | @outline_ir #1",
       "type": "trojan",
       "server": "188.42.145.180",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "172.67.149.60",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -618,22 +634,6 @@
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
       "server_port": 443,
       "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇺 HU | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "hu2.vpnjantit.com",
-      "server_port": 4443,
-      "password": "C0ldyfh-vpnjantit.com",
       "tls": {
         "enabled": true,
         "server_name": "",

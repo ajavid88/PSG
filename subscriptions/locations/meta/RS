@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VMESS | @NamiraConfigs #1", "server": "renderer-stream-2-62.mirra.now", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api/v1/gpu-stream/socket", "headers": {"Host": "renderer-stream-2-62.mirra.now"}}}
+  - {"name": "🇷🇸 RS | VLESS | @v2ray_free_conf #1", "server": "150.40.126.24", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VMESS | @NamiraConfigs #1'
+      - '🇷🇸 RS | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

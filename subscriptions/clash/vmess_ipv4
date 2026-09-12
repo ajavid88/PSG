@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @NamiraConfigs #1", "server": "47.244.120.197", "port": 23026, "type": "vmess", "skip-cert-verify": true, "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/arki", "headers": {"Host": "47.244.120.197"}}}
   - {"name": "🇬🇧 GB | VMESS | @NamiraConfigs #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @NamiraConfigs #1", "server": "165.140.217.2", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
   - {"name": "🇹🇼 TW | VMESS | @NamiraConfigs #1", "server": "165.154.195.38", "port": 35034, "type": "vmess", "skip-cert-verify": true, "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -46,7 +45,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VMESS | @NamiraConfigs #1'
       - '🇬🇧 GB | VMESS | @NamiraConfigs #1'
       - '🇺🇸 US | VMESS | @NamiraConfigs #1'
       - '🇹🇼 TW | VMESS | @NamiraConfigs #1'

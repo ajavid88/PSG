@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
-        "🇨🇾 CY | VLESS | @vpnplusee_free #1"
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
-        "🇨🇾 CY | VLESS | @vpnplusee_free #1"
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,28 +111,6 @@
     },
     {
       "tag": "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "45.136.126.70",
-      "server_port": 8443,
-      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @vpnplusee_free #1",
       "type": "vless",
       "server": "45.136.126.70",
       "server_port": 8443,

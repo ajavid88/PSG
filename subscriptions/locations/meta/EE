@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇪 EE | VLESS | @red2ray #1", "server": "95.85.243.72", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4cee7bf3-b928-4cd3-a230-3cef07a9468b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #1", "server": "94.183.170.135", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #2", "server": "94.183.170.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @v2ray_free_conf #1", "server": "95.85.224.154", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "52ecaf96-9c28-4cad-a132-13898f2bbb29", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇪 EE | VLESS | @red2ray #1'
       - '🇪🇪 EE | VLESS | @v2ray_collector #1'
       - '🇪🇪 EE | VLESS | @v2ray_collector #2'
-      - '🇪🇪 EE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

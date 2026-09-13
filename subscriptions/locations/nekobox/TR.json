@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @netfreedom0 #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @netfreedom0 #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +142,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "disi.netbazshop.ir",
+      "server_port": 33017,
+      "uuid": "2b059169-cf7a-4b8e-923c-c477d3a77908",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

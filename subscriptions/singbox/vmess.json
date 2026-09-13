@@ -94,6 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -110,10 +111,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇹🇼 TW | VMESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
@@ -132,6 +130,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -148,10 +147,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇹🇼 TW | VMESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
@@ -256,6 +252,15 @@
           "Host": "google.com"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "s1.connect.labex.pro",
+      "server_port": 1007,
+      "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @freev2rays #1",
@@ -626,24 +631,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "fast.jahancloud.space",
-      "server_port": 443,
-      "uuid": "3ff37565-366c-40d5-9162-501fa14bfe4b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -667,24 +654,6 @@
           "Host": "cold-dawn-9246.fly.dev"
         }
       }
-    },
-    {
-      "tag": "🇹🇼 TW | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇫🇮 FI | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "65.109.189.128",
-      "server_port": 2086,
-      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",

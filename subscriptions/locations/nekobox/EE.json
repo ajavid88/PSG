@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇪🇪 EE | VLESS | @netmellianti #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1"
+        "🇪🇪 EE | VLESS | @v2ray_collector #1",
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇪🇪 EE | VLESS | @netmellianti #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1"
+        "🇪🇪 EE | VLESS | @v2ray_collector #1",
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,6 +140,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "95.85.245.163",
+      "server_port": 442,
+      "uuid": "2c070f10-57e8-442b-b6cb-ff39b35d929d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

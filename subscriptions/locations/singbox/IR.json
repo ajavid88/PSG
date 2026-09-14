@@ -105,9 +105,9 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @red2ray #2",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -133,9 +133,9 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @red2ray #2",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -331,6 +331,28 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "g2.de2.curtvbest.ir",
+      "server_port": 20410,
+      "uuid": "80c17f6f-4fbb-4055-b2b5-9f46ce00dd80",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | SS | @sobi_vpn #1",
       "type": "shadowsocks",
       "server": "tt.hsrdnr.ir",
@@ -344,14 +366,6 @@
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "b0a75e7e-85eb-4072-9b65-0898b008b161",
       "packet_encoding": "xudp"
     },
     {

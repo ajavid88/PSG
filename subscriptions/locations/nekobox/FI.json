@@ -80,6 +80,9 @@
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
@@ -92,6 +95,9 @@
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
@@ -130,6 +136,48 @@
       "server": "65.109.181.138",
       "server_port": 443,
       "uuid": "52f3a0cb-b0e6-4602-9692-6e328ade89a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "freeman.cvbesty.ir",
+      "server_port": 10210,
+      "uuid": "80c17f6f-4fbb-4055-b2b5-9f46ce00dd80",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "64.188.80.82",
+      "server_port": 443,
+      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "64.188.80.82",
+      "server_port": 443,
+      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

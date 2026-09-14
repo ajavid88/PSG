@@ -96,8 +96,6 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
@@ -113,8 +111,6 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
@@ -231,31 +227,6 @@
       "server_port": 80,
       "uuid": "5a829c25-3056-4717-9ecd-a00a4bae823a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "cdn.devmixa.ir",
-      "server_port": 2086,
-      "uuid": "7247b284-c40d-47c7-af4e-c4738f827a3d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "re.lanzivo.ir",
-      "server_port": 443,
-      "uuid": "df3a4880-02dc-4dc5-ad3c-f0098d4cd3ba",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",

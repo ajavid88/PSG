@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | VLESS | @prrofile_purple #1"
+        "🇿🇦 ZA | VLESS | @prrofile_purple #1",
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | VLESS | @prrofile_purple #1"
+        "🇿🇦 ZA | VLESS | @prrofile_purple #1",
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇿🇦 ZA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "4.168.198.18",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWUdsV1lnZ0I0QWtrNkhQ",
+      "password": null
     }
   ],
   "route": {

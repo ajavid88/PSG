@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @free1_vpn #1"
+        "🇮🇶 IQ | VLESS | @free1_vpn #1",
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @free1_vpn #1"
+        "🇮🇶 IQ | VLESS | @free1_vpn #1",
+        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "81.90.25.123",
+      "server_port": 46908,
+      "uuid": "8b6aceff-1db9-4d5b-b4b2-d727d55b0f96",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

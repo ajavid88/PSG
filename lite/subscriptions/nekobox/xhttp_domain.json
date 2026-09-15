@@ -82,6 +82,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇦🇪 AE | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -95,6 +96,7 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇦🇪 AE | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -196,6 +198,23 @@
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "oneru1.gorecvpn.ru",
+      "server_port": 443,
+      "uuid": "dde5fad9-b5df-4691-b68c-04bfbdb91f36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

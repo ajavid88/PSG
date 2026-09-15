@@ -78,8 +78,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @mimitdl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @mimitdl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,23 +117,6 @@
       "server_port": 80,
       "uuid": "MIMITDL",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "144.31.7.182",
-      "server_port": 443,
-      "uuid": "becd3b04-62a8-4b74-be67-be746008b4c2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

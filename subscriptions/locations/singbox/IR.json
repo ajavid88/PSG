@@ -92,6 +92,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -108,8 +109,7 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -122,6 +122,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -138,8 +139,7 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -168,6 +168,23 @@
       "server": "185.143.234.111",
       "server_port": 443,
       "uuid": "bc4d97ba-d54f-4555-ba71-f7421796d92c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "a.samrayan.ir",
+      "server_port": 443,
+      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -345,20 +362,13 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "s4.zynetraq.ir",
-      "server_port": 2087,
-      "uuid": "a2da2710-909a-44f0-65f9-6d1b8a054e1b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "s4.zynetraq.ir",
-      "server_port": 2087,
-      "uuid": "3272f568-e0bc-4df2-d871-590cb6009781",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇷 IR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "dashboard.afragame.top",
+      "server_port": 5387,
+      "uuid": "b2bc2ff5-e36e-453b-84e9-d93a33203ac3",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",

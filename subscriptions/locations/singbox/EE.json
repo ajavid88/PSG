@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇪🇪 EE | VLESS | @netmellianti #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇪🇪 EE | VLESS | @netmellianti #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -117,6 +119,28 @@
       "server": "185.155.55.10",
       "server_port": 8443,
       "uuid": "42d932cb-8768-41de-b57b-299252a493d2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "188.255.236.213",
+      "server_port": 443,
+      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

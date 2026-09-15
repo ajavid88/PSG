@@ -92,7 +92,6 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -103,7 +102,6 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -132,33 +130,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "64.188.80.82",
-      "server_port": 443,
-      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "fn-cdn-google-922p938m204clvxefl1.wanfira.ir",
+      "server": "144.31.7.182",
       "server_port": 443,
-      "uuid": "34901465-5c99-46f5-b644-424f2e054136",
+      "uuid": "becd3b04-62a8-4b74-be67-be746008b4c2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -167,11 +143,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

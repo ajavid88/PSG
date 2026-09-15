@@ -92,7 +92,7 @@
         "direct",
         "🇹🇷 TR | VLESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -153,26 +153,12 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "87.120.106.181",
       "server_port": 8443,
-      "uuid": "4fa0a993-6003-45c1-991e-4c40eae45d38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "uuid": "abe21eae-96d8-41b0-8978-a5fad369f120",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

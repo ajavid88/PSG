@@ -95,10 +95,11 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,10 +125,11 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -279,16 +281,16 @@
     {
       "tag": "🇮🇷 IR | VLESS | @netmellianti #2",
       "type": "vless",
-      "server": "snappfood.ir",
-      "server_port": 2095,
-      "uuid": "fa9eeceb-105d-4ab1-8f07-d072158522a9",
+      "server": "94.183.210.20",
+      "server_port": 2087,
+      "uuid": "ae80f2ed-7ec9-4b44-94e3-68745d6b0b9e",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @netmellianti #3",
       "type": "vless",
-      "server": "185.143.233.238",
-      "server_port": 2087,
+      "server": "snappfood.ir",
+      "server_port": 2095,
       "uuid": "fa9eeceb-105d-4ab1-8f07-d072158522a9",
       "packet_encoding": "xudp"
     },
@@ -334,6 +336,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "s4.zynetraq.ir",
+      "server_port": 2087,
+      "uuid": "a2da2710-909a-44f0-65f9-6d1b8a054e1b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "s4.zynetraq.ir",
+      "server_port": 2087,
+      "uuid": "3272f568-e0bc-4df2-d871-590cb6009781",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
       "type": "vless",
       "server": "www.zula.ir",
@@ -356,28 +374,6 @@
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "uae.irchatgpt.sbs",
-      "server_port": 31729,
-      "uuid": "5245cd34-f70c-4770-8bb8-7e143d6a6144",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

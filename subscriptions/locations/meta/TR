@@ -25,7 +25,7 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @free1_vpn #1", "server": "trn7.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce89ab18-c812-4467-8cb2-122804cd51d8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @netfreedom0 #1", "server": "87.120.106.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "87.120.106.181", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4fa0a993-6003-45c1-991e-4c40eae45d38", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "87.120.106.181", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "abe21eae-96d8-41b0-8978-a5fad369f120", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +41,7 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @free1_vpn #1'
       - '🇹🇷 TR | VLESS | @netfreedom0 #1'
-      - '🇹🇷 TR | VLESS | @red2ray #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

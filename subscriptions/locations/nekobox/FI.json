@@ -79,7 +79,8 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,6 +138,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "b.irserver.online",
+      "server_port": 1280,
+      "uuid": "ae0dc695-4e12-400b-9db3-550b4e1d7c3b",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

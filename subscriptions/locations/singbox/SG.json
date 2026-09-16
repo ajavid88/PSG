@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | TROJAN | @v2raych #1",
-        "🇸🇬 SG | TROJAN | @v2raych #2",
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -102,8 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | TROJAN | @v2raych #1",
-        "🇸🇬 SG | TROJAN | @v2raych #2",
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -140,18 +140,43 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "sg-3.gsafevpnapi.com",
-      "server_port": 44370,
-      "password": "257b0378-01c9-4ded-836d-f94df60bd19c"
+      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "206.238.237.175",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇸🇬 SG | TROJAN | @v2raych #2",
-      "type": "trojan",
-      "server": "sg-3.gsafevpnapi.com",
-      "server_port": 44370,
-      "password": "257b0378-01c9-4ded-836d-f94df60bd19c"
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sg-1.gsafevpnapi.com",
+      "server_port": 20270,
+      "uuid": "e9e24ed8-b007-4e29-b54f-1ece641e60fb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

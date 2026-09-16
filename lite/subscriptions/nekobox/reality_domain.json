@@ -81,9 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @free1_vpn #1",
+        "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @v2rayopen #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +95,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @free1_vpn #1",
+        "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @v2rayopen #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,6 +207,28 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "lond.2clash.ru",
+      "server_port": 443,
+      "uuid": "3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2rayopen #1",
       "type": "vless",
       "server": "new1.smart-cats.ru",
@@ -228,28 +250,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "game.betust.net",
-      "server_port": 443,
-      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

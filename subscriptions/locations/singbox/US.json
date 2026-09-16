@@ -148,11 +148,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | TROJAN | @v2raych #1",
+        "🇺🇸 US | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
@@ -172,7 +170,7 @@
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | TROJAN | @vpnplusee_free #1"
+        "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -238,11 +236,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | TROJAN | @v2raych #1",
+        "🇺🇸 US | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
@@ -262,7 +258,7 @@
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | TROJAN | @vpnplusee_free #1"
+        "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -1120,27 +1116,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "151.101.56.101",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "140.235.168.4",
+      "server": "fsxhh.fastshop1.com",
       "server_port": 443,
-      "uuid": "0ab925b6-35f7-6e27-e713-925bea65455e",
+      "uuid": "a08af6fb-21af-4c99-99d6-a3361e7a8456",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1153,12 +1133,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "199.232.78.159",
+      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "c1f840b9-84fc-4c8c-ba1b-646869079d8b",
-      "packet_encoding": "xudp",
+      "password": "MITIVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1170,29 +1149,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "k2.cloud--vpn.site",
+      "tag": "🇺🇸 US | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "151.101.56.7",
       "server_port": 443,
-      "uuid": "f54c98ce-ac44-4984-db61-ccca1fdbbf72",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "151.101.109.114",
-      "server_port": 443,
-      "uuid": "06080bd4-29ae-4454-9e21-6da7ce92812e",
-      "packet_encoding": "xudp",
+      "password": "MITIVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1547,18 +1508,18 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @vpnplusee_free #1",
-      "type": "trojan",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "password": "MITIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "tag": "🇺🇸 US | VMESS | @vpnplusee_free #1",
+      "type": "vmess",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "129.146.77.248"
         }
       }
     }

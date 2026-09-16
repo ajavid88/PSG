@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #2"
@@ -101,7 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #2"
@@ -116,11 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
+      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "196.240.109.117",
+      "server": "pl6.moritech.net",
       "server_port": 443,
-      "uuid": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -129,11 +129,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

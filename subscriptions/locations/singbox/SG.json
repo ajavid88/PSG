@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,28 +138,6 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "46.137.202.178",
-      "server_port": 12512,
-      "uuid": "2a6c617d-98e4-49c3-95ab-76f02fcf0150",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
       "server": "5.223.42.211",
@@ -180,6 +158,13 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇸🇬 SG | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "13.250.28.5",
+      "server_port": 44370,
+      "password": "e016d072-ed97-40d4-a83f-04c00f8df2a5"
     }
   ],
   "route": {

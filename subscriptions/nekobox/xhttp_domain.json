@@ -83,9 +83,12 @@
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,9 +102,12 @@
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -222,6 +228,31 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pool.arosakforosh.ir",
+      "server_port": 6422,
+      "uuid": "e054ea15-80b1-4d19-b422-6d6855c88364",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "sitoman.info",
@@ -261,6 +292,23 @@
       "server": "dey.lnmarketplace.net",
       "server_port": 443,
       "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "lt26.cdnfern.org",
+      "server_port": 443,
+      "uuid": "e8002f83-f46a-40d8-9b36-ff982f029488",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

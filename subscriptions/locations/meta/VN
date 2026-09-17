@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "87.58.205.88", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇻🇳 VN | VMESS | @mtproxy22_v2ray #1", "server": "103.56.160.184", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "ef919c67-6638-4416-91af-9a13ffe5b9ca", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/tandung288.click", "headers": {"Host": "103.56.160.184"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
+      - '🇻🇳 VN | VMESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select

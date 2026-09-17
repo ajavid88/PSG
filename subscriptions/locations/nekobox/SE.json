@@ -84,6 +84,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
+        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -97,7 +98,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -113,6 +115,7 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
+        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -126,7 +129,8 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -239,6 +243,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "185.146.173.43",
+      "server_port": 2095,
+      "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb56",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray #1",
@@ -366,12 +378,48 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_collector #1",
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "79.141.174.147",
-      "server_port": 33743,
-      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-      "packet_encoding": "xudp"
+      "server": "trgf.tarnishedking.ir",
+      "server_port": 2087,
+      "uuid": "89418511-64f9-4e74-ac6b-ffc1b828106f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "5.157.10.250",
+      "server_port": 443,
+      "uuid": "f495298f-2bdb-4fd8-9ac9-5dd33d1b482a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",

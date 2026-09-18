@@ -92,8 +92,7 @@
         "direct",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +102,7 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,14 +133,6 @@
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "tr.godnet20.ir",
-      "server_port": 19000,
-      "uuid": "9bbe5565-56fa-4935-940d-1442f443fcc8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
-      "type": "vless",
       "server": "206.1.97.61",
       "server_port": 443,
       "uuid": "840bd8fb-7384-40b8-b119-04dff1537064",
@@ -163,12 +153,21 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "77.92.151.68",
-      "server_port": 13323,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozTzhlUWpXQVVWTDYxVG9VS1VjOUJaazBxblBOZko3bw==",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "route-3.s1n4-nexu.ir",
+      "server_port": 443,
+      "uuid": "b487f9b9-904b-4d47-9a0b-f00b046fb7d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

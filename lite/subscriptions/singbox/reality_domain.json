@@ -93,13 +93,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,13 +110,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,6 +196,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "ai.trstcore.pro",
+      "server_port": 443,
+      "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -300,24 +322,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "freeman.cvbesty.ir",
-      "server_port": 10210,
-      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
+      "server": "jsv-de1.jmovies.ir",
+      "server_port": 443,
+      "uuid": "c26fe2f0-5c69-000B-8a1a-bf116ceb9215",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "g1.haxat.bestvbest.ir",
-      "server_port": 20610,
-      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

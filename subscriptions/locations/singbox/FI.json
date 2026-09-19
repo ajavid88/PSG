@@ -92,8 +92,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1"
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +102,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1"
+        "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -148,9 +146,9 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fi.alpheratzz.org",
+      "server": "87.58.153.64",
       "server_port": 443,
-      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
+      "uuid": "9ed898e2-0120-463d-acd2-96924ba59bb0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -159,23 +157,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "one.alpheratzz.org",
-      "server_port": 443,
-      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

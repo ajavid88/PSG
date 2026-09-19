@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @orange_vpns #1",
-        "🇮🇪 IE | SS | @vmesskhodam #1"
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @orange_vpns #1",
-        "🇮🇪 IE | SS | @vmesskhodam #1"
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @orange_vpns #1",
-      "type": "shadowsocks",
-      "server": "94.245.88.26",
+      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "188.255.236.213",
       "server_port": 443,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
-      "tag": "🇮🇪 IE | SS | @vmesskhodam #1",
-      "type": "shadowsocks",
-      "server": "94.245.88.26",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMjBZNkFGRU4xcFM3TEpY",
-      "password": null
+      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

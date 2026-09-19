@@ -94,17 +94,17 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇱🇻 LV | VLESS | @v2ray_collector #1",
-        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
@@ -112,7 +112,8 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,17 +125,17 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇧🇷 BR | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇱🇻 LV | VLESS | @v2ray_collector #1",
-        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
@@ -142,7 +143,8 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -248,6 +250,28 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "80.91.79.136",
+      "server_port": 443,
+      "uuid": "807cd1e0-f4ce-4785-b7a3-cde0c1614b8d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
       "type": "vless",
       "server": "31.76.113.51",
@@ -299,11 +323,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
+      "tag": "🇧🇷 BR | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "31.184.219.147",
-      "server_port": 9894,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "server": "23.251.55.216",
+      "server_port": 443,
+      "uuid": "c396fa08-e07a-459b-b894-389456fd6a82",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -377,6 +401,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "140.235.168.5",
+      "server_port": 8443,
+      "uuid": "b2141c97-76af-ff6f-839b-70a53e23aad9",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇱🇻 LV | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "138.124.180.137",
@@ -390,28 +422,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "213.155.20.83",
-      "server_port": 443,
-      "uuid": "ee7dd2fe-0a16-468a-bd45-55c221b2a8e2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -434,23 +444,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "62.233.39.9",
-      "server_port": 443,
-      "uuid": "b2141c97-76af-ff6f-839b-70a53e23aad9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -585,12 +578,48 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "95.182.93.92",
-      "server_port": 58582,
-      "uuid": "0ca2dfa0-c6fb-47d6-94de-1f35b95bbb0b",
-      "packet_encoding": "xudp"
+      "server": "169.40.42.224",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "169.40.42.95",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

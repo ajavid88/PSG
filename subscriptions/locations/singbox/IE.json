@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUw=
+//profile-title: base64:UFNHIHwgSUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #2"
+        "🇮🇪 IE | SS | @orange_vpns #1",
+        "🇮🇪 IE | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #2"
+        "🇮🇪 IE | SS | @orange_vpns #1",
+        "🇮🇪 IE | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,43 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "144.31.131.38",
+      "tag": "🇮🇪 IE | SS | @orange_vpns #1",
+      "type": "shadowsocks",
+      "server": "94.245.88.26",
       "server_port": 443,
-      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "YXV0bzo=",
+      "password": null
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "144.31.131.38",
+      "tag": "🇮🇪 IE | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "94.245.88.26",
       "server_port": 443,
-      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMjBZNkFGRU4xcFM3TEpY",
+      "password": null
     }
   ],
   "route": {

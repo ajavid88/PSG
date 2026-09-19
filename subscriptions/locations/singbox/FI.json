@@ -92,7 +92,8 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,11 +146,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "est1313.ggisopi.su",
+      "server": "fi.alpheratzz.org",
       "server_port": 443,
-      "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -157,11 +159,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "one.alpheratzz.org",
+      "server_port": 443,
+      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

@@ -98,6 +98,8 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -114,6 +116,8 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -244,6 +248,40 @@
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fi.alpheratzz.org",
+      "server_port": 443,
+      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "one.alpheratzz.org",
+      "server_port": 443,
+      "uuid": "6a32736d-4b7f-4c35-a1cf-4489d49f2cfb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

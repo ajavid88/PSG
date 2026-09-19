@@ -96,7 +96,6 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #2",
@@ -109,11 +108,11 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇽🇽 XX | VLESS | @flyv2ray #1",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -127,7 +126,6 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #2",
@@ -140,11 +138,11 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇽🇽 XX | VLESS | @flyv2ray #1",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -267,23 +265,6 @@
       "server": "104.17.108.1",
       "server_port": 443,
       "uuid": "6e256a9a-957b-496a-841c-b7e9fe8deb33",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "104.25.179.9",
-      "server_port": 443,
-      "uuid": "72e5d1e3-bc83-4db0-9963-b0c6db748b4b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -464,27 +445,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
+      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "xnforo.ir",
+      "server": "b2n.ir",
       "server_port": 2087,
-      "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
+      "uuid": "8c561eb2-f643-49ce-b5b6-81690ec268c0",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-      "type": "vless",
-      "server": "securitytrails.com",
+      "server": "dey.lnmarketplace.net",
       "server_port": 443,
-      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -497,19 +470,27 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "pool.arosakforosh.ir",
-      "server_port": 6422,
-      "uuid": "e054ea15-80b1-4d19-b422-6d6855c88364",
+      "server": "spd-mynames.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
+      "tag": "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "dey.lnmarketplace.net",
+      "server": "oslomeow.nethcloud.top",
+      "server_port": 8443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+      "type": "vless",
+      "server": "securitytrails.com",
       "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

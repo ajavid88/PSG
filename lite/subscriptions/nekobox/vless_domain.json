@@ -87,7 +87,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -119,6 +119,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇱🇹 LT | VLESS | @red2ray #1",
+        "🇱🇹 LT | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | VLESS | @selinc #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -128,7 +130,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -159,7 +160,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -191,6 +192,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇱🇹 LT | VLESS | @red2ray #1",
+        "🇱🇹 LT | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | VLESS | @selinc #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -200,7 +203,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -371,12 +373,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "b2n.ir",
-      "server_port": 2087,
-      "uuid": "8c561eb2-f643-49ce-b5b6-81690ec268c0",
-      "packet_encoding": "xudp"
+      "server": "a2.arshia-nova.ir",
+      "server_port": 443,
+      "uuid": "bd5bbbac-adc3-4b23-d3ac-8506694c0ef9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -765,6 +776,50 @@
       }
     },
     {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "cloud.figmafound.org",
+      "server_port": 443,
+      "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "auth.figmafound.org",
+      "server_port": 443,
+      "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @selinc #1",
       "type": "vless",
       "server": "go.lumen.com",
@@ -862,14 +917,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "s2.tehranionliine.ir",
-      "server_port": 80,
-      "uuid": "b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

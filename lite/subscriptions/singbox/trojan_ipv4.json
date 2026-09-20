@@ -98,13 +98,14 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇱🇺 LU | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
-        "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇺🇸 US | TROJAN | @vpnplusee_free #1"
+        "🇽🇽 XX | TROJAN | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,13 +121,14 @@
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇱🇺 LU | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
-        "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇺🇸 US | TROJAN | @vpnplusee_free #1"
+        "🇽🇽 XX | TROJAN | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -281,11 +283,43 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+      "tag": "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
       "type": "trojan",
-      "server": "188.114.97.6",
+      "server": "45.80.111.7",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "172.67.238.241",
+      "server_port": 443,
+      "password": "50414e45-4c5f-5a45-5553-565221666bd1",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "172.67.238.241",
+      "server_port": 443,
+      "password": "50414e45-4c5f-5a45-5553-565221666bd1",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -366,22 +400,6 @@
       "server": "104.17.177.143",
       "server_port": 443,
       "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @vpnplusee_free #1",
-      "type": "trojan",
-      "server": "151.101.56.7",
-      "server_port": 443,
-      "password": "mitivpn",
       "tls": {
         "enabled": true,
         "server_name": "",

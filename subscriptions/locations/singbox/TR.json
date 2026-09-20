@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,23 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "87.120.106.180",
-      "server_port": 443,
-      "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -149,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "93.190.9.16",
+      "server_port": 3090,
+      "uuid": "77d89693-d043-402d-ba6b-5adacf705da4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

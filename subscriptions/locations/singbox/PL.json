@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @v2rayopen #1",
-        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @v2rayopen #1",
-        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,9 +112,9 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "pl6.moritech.net",
+      "server": "144.31.5.64",
       "server_port": 443,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "packet_encoding": "xudp",
@@ -144,28 +142,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "83.168.111.58",
-      "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

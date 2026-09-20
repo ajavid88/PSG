@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇦🇹 AT | TROJAN | @vpnplusee_free #1"
+        "🇦🇹 AT | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇦🇹 AT | TROJAN | @vpnplusee_free #1"
+        "🇦🇹 AT | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,11 +128,12 @@
       }
     },
     {
-      "tag": "🇦🇹 AT | TROJAN | @vpnplusee_free #1",
-      "type": "trojan",
-      "server": "212.183.88.136",
-      "server_port": 443,
-      "password": "humanity",
+      "tag": "🇦🇹 AT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "193.8.215.116",
+      "server_port": 8443,
+      "uuid": "2308b549-764d-4abe-ac74-c22b97f3dc0a",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -140,6 +141,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

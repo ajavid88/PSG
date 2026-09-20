@@ -80,9 +80,10 @@
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1"
@@ -96,9 +97,10 @@
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1"
@@ -155,6 +157,14 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "146.70.23.32",
+      "server_port": 8080,
+      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "66.90.105.210",
@@ -163,15 +173,23 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.198",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
+      "tag": "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "91.193.58.201",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2rayng3 #2",
+      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "82.38.31.162",
       "server_port": 443,

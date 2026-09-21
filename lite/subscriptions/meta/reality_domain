@@ -27,10 +27,6 @@ proxies:
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇫🇮 FI | VLESS | @flyv2ray #1", "server": "ai.trstcore.pro", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇦🇱 AL | VLESS | @red2ray #1", "server": "al.xelnivo.ir", "port": 7535, "type": "vless", "skip-cert-verify": true, "uuid": "38535888-4cc0-4823-9006-e48e1a045c7d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇺🇸 US | VLESS | @v2ray_free_conf #1", "server": "jsv-us1.jmovies.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a2dfb6ba-f2ef-001F-a5bf-ad6ea89cc8c0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "snow.betust.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "026f58a9-b36e-4204-8f8d-54c5374163da", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇷 FR | VLESS | @vmesskhodam #1", "server": "fr13.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8fe8109d-6097-4f4b-9957-92d9b9b93b4c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "trn4.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8fe8109d-6097-4f4b-9957-92d9b9b93b4c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -49,10 +45,6 @@ proxy-groups:
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
       - '🇫🇮 FI | VLESS | @flyv2ray #1'
-      - '🇦🇱 AL | VLESS | @red2ray #1'
-      - '🇺🇸 US | VLESS | @v2ray_free_conf #1'
-      - '🇳🇱 NL | VLESS | @v2raych #1'
-      - '🇫🇷 FR | VLESS | @vmesskhodam #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media

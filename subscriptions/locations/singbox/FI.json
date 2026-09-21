@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -122,11 +122,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ai.trstcore.pro",
-      "server_port": 443,
-      "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
+      "server": "144.31.156.247",
+      "server_port": 5432,
+      "uuid": "592ead02-6836-4987-a5c3-c75cea64948f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -135,11 +135,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

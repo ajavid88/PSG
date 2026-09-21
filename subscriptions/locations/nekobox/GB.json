@@ -80,7 +80,6 @@
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -97,7 +96,6 @@
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇬🇧 GB | VLESS | @v2raych #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -157,25 +155,19 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "66.90.105.210",
-      "server_port": 2083,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "138.68.142.165",
-      "server_port": 2053,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "83.136.251.28",
+      "server_port": 443,
+      "uuid": "71ea59d0-0469-40d2-bc82-76481a815f98",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

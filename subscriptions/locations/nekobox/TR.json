@@ -78,11 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @outline_ir #2",
-        "🇹🇷 TR | SS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @outline_ir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,11 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @outline_ir #2",
-        "🇹🇷 TR | SS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @outline_ir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,66 +131,6 @@
       "server_port": 40185,
       "uuid": "My-chanel-Telegram-ATOVPN",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "turk2.hosting-96.ir",
-      "server_port": 4592,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo1OWIwNzVlMzU1OGU5ZjU2YjkzMWYxODQwN2IwNjEwZQ==",
-      "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "turkey.hosting-96.ir",
-      "server_port": 2242,
-      "uuid": "c4107be5-6cf0-8e55-7913-f45b832d6da8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "93.190.9.45",
-      "server_port": 3090,
-      "uuid": "b1ca4f7c-d50a-41b2-b779-07c3e6ed09b2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "trn4.mobileemdad.top",
-      "server_port": 443,
-      "uuid": "8fe8109d-6097-4f4b-9957-92d9b9b93b4c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

@@ -146,6 +146,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇺🇸 US | VLESS | @tobevasl #1",
@@ -153,7 +154,8 @@
         "🇺🇸 US | VLESS | @turboo_server #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -173,8 +175,7 @@
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -238,6 +239,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇺🇸 US | VLESS | @tobevasl #1",
@@ -245,7 +247,8 @@
         "🇺🇸 US | VLESS | @turboo_server #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -265,8 +268,7 @@
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -1096,9 +1098,17 @@
     {
       "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "dl-cf.f8r.ir",
+      "server": "66.33.22.239",
+      "server_port": 54034,
+      "uuid": "97024aee-bb90-4fd1-8262-aa73f6e6ba61",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "199.232.78.159",
       "server_port": 80,
-      "uuid": "010bf7ad-b6ec-482b-8392-ae038f466a0a",
+      "uuid": "50059c3d-02fa-44a2-8011-14e122fa400b",
       "packet_encoding": "xudp"
     },
     {
@@ -1219,12 +1229,28 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "199.232.78.170",
+      "server": "jsv-us1.jmovies.ir",
       "server_port": 443,
-      "uuid": "XpnTeam-12",
+      "uuid": "a2dfb6ba-f2ef-001F-a5bf-ad6ea89cc8c0",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "151.101.56.56",
+      "server_port": 443,
+      "password": "mitivpn",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1560,23 +1586,6 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "199.232.77.215",
-      "server_port": 443,
-      "uuid": "3e89df69-7619-4788-9eee-c49c02a69705",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #2",
       "type": "vless",
       "server": "66.235.200.218",
       "server_port": 443,

@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -101,7 +100,6 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -120,23 +118,6 @@
       "server_port": 33743,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @v2rayopen #1",

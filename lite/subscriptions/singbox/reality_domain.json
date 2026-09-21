@@ -94,6 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇦🇱 AL | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
@@ -107,6 +110,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇦🇱 AL | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
@@ -197,6 +203,67 @@
       "server": "ai.trstcore.pro",
       "server_port": 443,
       "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇱 AL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "al.xelnivo.ir",
+      "server_port": 7535,
+      "uuid": "38535888-4cc0-4823-9006-e48e1a045c7d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "jsv-us1.jmovies.ir",
+      "server_port": 443,
+      "uuid": "a2dfb6ba-f2ef-001F-a5bf-ad6ea89cc8c0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "snow.betust.net",
+      "server_port": 443,
+      "uuid": "026f58a9-b36e-4204-8f8d-54c5374163da",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

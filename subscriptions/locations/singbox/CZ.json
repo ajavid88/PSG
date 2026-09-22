@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1"
+        "🇨🇿 CZ | VLESS | @red2ray #1",
+        "🇨🇿 CZ | VLESS | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1"
+        "🇨🇿 CZ | VLESS | @red2ray #1",
+        "🇨🇿 CZ | VLESS | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -142,6 +144,14 @@
       "server": "153.76.185.88",
       "server_port": 3090,
       "uuid": "5ba9f3dc-e8ec-4c8c-b273-68daed2fef12",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "95.182.87.221",
+      "server_port": 45326,
+      "uuid": "b0d375c3-72d9-4b55-847a-2500e12d5f6f",
       "packet_encoding": "xudp"
     }
   ],

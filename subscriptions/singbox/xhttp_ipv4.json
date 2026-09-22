@@ -98,9 +98,10 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @netmellianti #2",
-        "🇺🇸 US | VLESS | @netmellianti #3",
         "🇩🇪 DE | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -110,12 +111,13 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @v_2rayng0 #2"
+        "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇨🇿 CZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -131,9 +133,10 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @netmellianti #2",
-        "🇺🇸 US | VLESS | @netmellianti #3",
         "🇩🇪 DE | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -143,12 +146,13 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @v_2rayng0 #2"
+        "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇨🇿 CZ | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -308,7 +312,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @netmellianti #2",
+      "tag": "🇺🇸 US | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "23.235.33.98",
       "server_port": 80,
@@ -316,7 +320,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @netmellianti #3",
+      "tag": "🇺🇸 US | VLESS | @netmellianti #2",
       "type": "vless",
       "server": "23.235.33.98",
       "server_port": 80,
@@ -339,6 +343,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "31.57.46.193",
+      "server_port": 44119,
+      "uuid": "6112679e-7c59-43ca-af39-cdeeb59093a6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
@@ -485,11 +497,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "151.101.129.164",
-      "server_port": 80,
-      "uuid": "InternetAzadRobot",
+      "server": "31.57.46.193",
+      "server_port": 44119,
+      "uuid": "6112679e-7c59-43ca-af39-cdeeb59093a6",
       "packet_encoding": "xudp"
     },
     {
@@ -567,6 +579,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "95.182.95.177",
+      "server_port": 10849,
+      "uuid": "ae19ea19-d8af-41dc-9a81-e69eee1a9d0e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

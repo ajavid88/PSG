@@ -102,6 +102,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -126,7 +127,6 @@
         "🇽🇽 XX | VLESS | @luckyvpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -143,11 +143,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇵🇱 PL | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -156,6 +154,8 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
@@ -176,6 +176,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -200,7 +201,6 @@
         "🇽🇽 XX | VLESS | @luckyvpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
@@ -217,11 +217,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-        "🇵🇱 PL | VLESS | @v2rayopen #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -230,6 +228,8 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
@@ -396,6 +396,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "k2.cloud--vpn.site",
+      "server_port": 443,
+      "uuid": "9503e890-3702-4847-af0a-2bceac2f0da0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -703,14 +720,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "5b7fbdcd-411d-451f-bd70-ffa93efbddb0",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "allsms.rozfa.com",
@@ -902,14 +911,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "a6o58qfpwvgrwmz0crtha0r24uyiu2l.x7-f5jb95s0ocjt-0.workers.dev",
-      "server_port": 80,
-      "uuid": "f1e5d738-2e83-4e2f-b6d6-a9013b3e7e48",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -932,23 +933,6 @@
       "server_port": 80,
       "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -1069,6 +1053,36 @@
       "server": "s4.tehranionliine.ir",
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "fl.rushoppingforwomen.com",
+      "server_port": 443,
+      "uuid": "5cdfb212-6257-42a7-8185-8b33f0d23bc6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "n4.steptofsvo.com",
+      "server_port": 11443,
+      "uuid": "ab6a5359-0edf-41c3-8dfd-e4b005e80820",
       "packet_encoding": "xudp"
     },
     {

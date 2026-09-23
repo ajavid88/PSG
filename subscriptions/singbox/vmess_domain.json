@@ -106,13 +106,10 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
-        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -137,13 +134,10 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
-        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇽🇽 XX | VMESS | @serverv2ray00 #2",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -496,31 +490,6 @@
       }
     },
     {
-      "tag": "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "141.101.115.120",
-      "server_port": 443,
-      "uuid": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "clash6.ssr-free.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/dongtaiwang.com",
-        "headers": {
-          "Host": "clash6.ssr-free.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
       "type": "vmess",
       "server": "workers.dev",
@@ -542,31 +511,6 @@
         "path": "/111111.online",
         "headers": {
           "Host": "workers.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @proxy48 #1",
-      "type": "vmess",
-      "server": "188.114.97.3",
-      "server_port": 443,
-      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "afrhms16v.bestxray.buzz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkws",
-        "headers": {
-          "Host": "afrhms16v.bestxray.buzz"
         }
       }
     },
@@ -596,16 +540,16 @@
       }
     },
     {
-      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+      "tag": "🇽🇽 XX | VMESS | @serverv2ray00 #2",
       "type": "vmess",
-      "server": "162.159.135.79",
+      "server": "172.67.152.214",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "janett.click",
+        "server_name": "meroiy.icu",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -616,37 +560,12 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "janett.click"
+          "Host": "meroiy.icu"
         }
       }
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
-      "type": "vmess",
-      "server": "45.85.118.88",
-      "server_port": 443,
-      "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hstr1675520106270.aidapp.life",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aidapp.lifevws",
-        "headers": {
-          "Host": "hstr1675520106270.aidapp.life"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray4win #2",
       "type": "vmess",
       "server": "cf.sudoer.net",
       "server_port": 443,

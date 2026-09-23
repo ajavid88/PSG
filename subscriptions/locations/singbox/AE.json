@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
+        "🇦🇪 AE | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,18 +129,6 @@
           "short_id": "",
           "enabled": true
         }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "104.143.223.78",
-      "server_port": 2085,
-      "uuid": "08eb7e9c-61fa-4204-b9fe-84057fea5570",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
       }
     }
   ],

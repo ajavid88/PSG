@@ -50,8 +50,6 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @v2rayprotocol #1", "server": "82.117.245.170", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @vipv2rey #1", "server": "49.13.135.58", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VMESS | @vpn_ioss #1", "server": "82.198.246.37", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | VLESS | @vpnplusee_free #1", "server": "3cfb1b7e160a0559.de-1.globalmymusic.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "588152b9-2452-4495-be14-4b44eae3aa1f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇩🇪 DE | VLESS | @vpnplusee_free #2", "server": "api.noneok.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -92,8 +90,6 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @v2rayprotocol #1'
       - '🇩🇪 DE | VLESS | @vipv2rey #1'
       - '🇩🇪 DE | VMESS | @vpn_ioss #1'
-      - '🇩🇪 DE | VLESS | @vpnplusee_free #1'
-      - '🇩🇪 DE | VLESS | @vpnplusee_free #2'
 
   - name: 🌍 Global Media
     type: select

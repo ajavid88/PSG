@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgQUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @outlinereleasedkey #1"
+        "🇦🇪 AE | VLESS | @outline_ir #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @outlinereleasedkey #1"
+        "🇦🇪 AE | VLESS | @outline_ir #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @outlinereleasedkey #1",
+      "tag": "🇦🇪 AE | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "46.28.67.55",
+      "server": "31.57.18.56",
       "server_port": 443,
-      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
+      "uuid": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,7 +125,24 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "104.143.223.78",
+      "server_port": 2085,
+      "uuid": "08eb7e9c-61fa-4204-b9fe-84057fea5570",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     }
   ],

@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi"
+        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi"
+        "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,15 +103,16 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
+      "tag": "🇦🇺 AU | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "141.101.115.120",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
+      "uuid": "5f64fa65-7b14-49c5-954d-aa15c6bfcacd",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "clash6.ssr-free.xyz",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -122,22 +121,23 @@
       },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/dongtaiwang.com",
         "headers": {
-          "Host": ""
+          "Host": "clash6.ssr-free.xyz"
         }
       }
     },
     {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
+      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+      "type": "vmess",
+      "server": "162.159.135.79",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "janett.click",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -146,33 +146,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/linkvws",
         "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+          "Host": "janett.click"
         }
       }
     }

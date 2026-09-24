@@ -129,6 +129,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raych #1",
@@ -202,6 +203,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇮🇷 IR | VLESS | @v2raych #1",
@@ -305,9 +307,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
       "type": "vless",
-      "server": "de.huge-b.com",
+      "server": "ger.huge-b.com",
       "server_port": 8880,
-      "uuid": "13011288-2737-489e-adf0-9314cd7dc4bd",
+      "uuid": "c54fe54d-4192-4663-a778-c11db0f7d697",
       "packet_encoding": "xudp"
     },
     {
@@ -315,7 +317,7 @@
       "type": "vless",
       "server": "ger.huge-b.com",
       "server_port": 8880,
-      "uuid": "c54fe54d-4192-4663-a778-c11db0f7d697",
+      "uuid": "2b05bba4-4ce8-4820-9f74-449c6758309d",
       "packet_encoding": "xudp"
     },
     {
@@ -879,6 +881,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "ge4.highspeedly.web.tr",
+      "server_port": 58336,
+      "uuid": "d6daa3dc-dab8-4cd5-9f8e-867aa56d966a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

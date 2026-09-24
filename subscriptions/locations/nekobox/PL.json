@@ -77,13 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
+        "🇵🇱 PL | SS | @netfreedom0 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,13 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
+        "🇵🇱 PL | SS | @netfreedom0 #2",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,28 +109,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "217.30.10.44",
       "server_port": 9076,
       "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #2",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
+      "server_port": 9052,
+      "method": "YWVzLTI1Ni1jZmI6anQyZWtCTmM5SHVWdG0yYQ==",
       "password": null
     },
     {
@@ -160,62 +147,6 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "s2.dipvpn.ru",
-      "server_port": 443,
-      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "196.240.109.117",
-      "server_port": 443,
-      "uuid": "f495298f-2bdb-4fd8-9ac9-5dd33d1b482a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "196.240.109.117",
-      "server_port": 443,
-      "uuid": "f495298f-2bdb-4fd8-9ac9-5dd33d1b482a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇵🇱 PL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "pl4.moritech.net",
@@ -231,6 +162,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "201.10.90.24",
+      "server_port": 2027,
+      "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -81,10 +81,10 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #2",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
+        "🇳🇱 NL | TROJAN | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
@@ -104,10 +104,10 @@
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #2",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
+        "🇳🇱 NL | TROJAN | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
@@ -177,6 +177,22 @@
       "password": null
     },
     {
+      "tag": "🇳🇱 NL | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "194.93.61.120",
+      "server_port": 443,
+      "password": "pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
       "type": "vless",
       "server": "51.158.206.29",
@@ -207,28 +223,6 @@
       "server": "212.46.33.5",
       "server_port": 443,
       "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "51.158.206.97",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -369,9 +363,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "84.32.101.70",
+      "server": "slowkd.sadiepinki.com",
       "server_port": 443,
-      "uuid": "7cde4592-4758-415f-8b97-c188faa4d1c9",
+      "uuid": "dac0bd30-008f-42c9-b377-bfc0dcfa6f0b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -380,6 +374,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

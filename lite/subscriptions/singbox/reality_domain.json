@@ -93,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -190,11 +192,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "app.pizzaitaliano.ir",
-      "server_port": 4208,
-      "uuid": "accf3947-3764-461e-a5dd-edc5902a274f",
+      "server": "german.onrovela.com",
+      "server_port": 30798,
+      "uuid": "ca0250c5-3517-4a29-90fb-a289ea6183dd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -212,11 +214,28 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ww13.levikogjgfdd.ir",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "server": "ide-de.gameservice-iramn3.com",
+      "server_port": 443,
+      "uuid": "91d51cf2-fa3e-4dd0-9a9d-0c8e2732624e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "uk.hamidbrian.ir",
+      "server_port": 12541,
+      "uuid": "c8581f7e-18ea-4ea2-adc4-bd0c339c11ae",
       "packet_encoding": "xudp"
     }
   ],

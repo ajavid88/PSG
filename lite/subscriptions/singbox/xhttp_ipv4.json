@@ -97,6 +97,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -120,6 +121,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -269,6 +271,23 @@
       "server_port": 7443,
       "uuid": "ffc3fba4-1701-43c1-8c51-31d592cf769e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "31.77.183.173",
+      "server_port": 443,
+      "uuid": "ac0c2945-b758-11f1-8181-54db13ea7d40",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @netmellianti #1",

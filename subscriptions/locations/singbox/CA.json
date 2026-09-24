@@ -168,9 +168,9 @@
     {
       "tag": "🇨🇦 CA | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "158.69.112.254",
-      "server_port": 443,
-      "uuid": "661f395d-b153-4199-a04b-693f5fe7f261",
+      "server": "51.79.29.205",
+      "server_port": 10103,
+      "uuid": "f6c29358-4b06-445a-bf01-360a418aca1e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -179,6 +179,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

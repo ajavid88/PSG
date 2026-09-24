@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -84,11 +85,12 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #2",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,6 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -103,11 +106,12 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @red2ray #2",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +125,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @father_vpn #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.176",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @filtershekan_channel #1",
@@ -216,12 +228,56 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "tomaz1337shellbuy.vvzzkontaktezzvv.garden",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "66.90.104.42",
       "server_port": 2083,
       "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "bb1fb703b23b.darzelo.ir",
+      "server_port": 31026,
+      "uuid": "989e5485-36be-4074-bb01-251241a10a24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
@@ -246,15 +302,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

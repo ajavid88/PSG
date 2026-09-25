@@ -78,6 +78,8 @@
         "auto",
         "direct",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
+        "🇨🇿 CZ | VLESS | @v2raych #1",
         "🇨🇿 CZ | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -87,6 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
+        "🇨🇿 CZ | VLESS | @v2raych #1",
         "🇨🇿 CZ | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -126,6 +130,31 @@
           "Host": "shs111.kejixiaoqi666.store"
         }
       }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "194.87.130.9",
+      "server_port": 443,
+      "uuid": "57a437c4-7eed-4ecf-bf50-5e4e35f71deb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "netelandd71.ark-cloudservice.ir",
+      "server_port": 15707,
+      "uuid": "3516526e-6708-4fd4-878f-093690761243",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇿 CZ | VLESS | @vmesc #1",

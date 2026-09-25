@@ -99,20 +99,20 @@
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇦🇪 AE | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇲🇩 MD | VLESS | @v2ray_youtube #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇲🇩 MD | VLESS | @vmesc #1",
-        "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -129,20 +129,20 @@
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇦🇪 AE | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇪🇪 EE | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇲🇩 MD | VLESS | @v2ray_youtube #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇲🇩 MD | VLESS | @vmesc #1",
-        "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -334,11 +334,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
+      "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "144.31.242.69",
+      "server": "82.40.62.92",
       "server_port": 443,
-      "uuid": "188079af-1b15-4256-90f7-d1c4646d2062",
+      "uuid": "521b29e7-8ce0-0012-a210-79069f701464",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -451,11 +451,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "212.46.33.5",
-      "server_port": 443,
-      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
+      "server": "188.130.209.151",
+      "server_port": 444,
+      "uuid": "83fdcfab-711d-49c2-b998-4b1561f7eab2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -471,6 +471,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "176.109.106.182",
+      "server_port": 9881,
+      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
@@ -578,23 +586,6 @@
       "server": "144.172.115.130",
       "server_port": 443,
       "uuid": "free-fff-aaa",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "grpmin.esterla.ir",
-      "server_port": 443,
-      "uuid": "d7f23d5e-87c9-4686-bfc1-9b68a90b6304",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

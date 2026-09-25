@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
+  - {"name": "🇨🇿 CZ | VLESS | @v2ray_free_conf #1", "server": "194.87.130.9", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "57a437c4-7eed-4ecf-bf50-5e4e35f71deb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇿 CZ | VLESS | @v2raych #1", "server": "netelandd71.ark-cloudservice.ir", "port": 15707, "type": "vless", "skip-cert-verify": true, "uuid": "3516526e-6708-4fd4-878f-093690761243", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇿 CZ | VLESS | @vmesc #1", "server": "195.85.23.252", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,6 +41,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇿 CZ | VMESS | @freev2rays #1'
+      - '🇨🇿 CZ | VLESS | @v2ray_free_conf #1'
+      - '🇨🇿 CZ | VLESS | @v2raych #1'
       - '🇨🇿 CZ | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media

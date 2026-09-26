@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2raych #1", "server": "ro-xh02.tcp-reset-club.net", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "721bacfe-ff09-4e63-a735-686015bc1351", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇴 NO | VLESS | @v2raych #1", "server": "89.185.81.95", "port": 8765, "type": "vless", "skip-cert-verify": true, "uuid": "df9f5aca-eda0-428f-a752-e53866153d12", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2raych #1'
+      - '🇳🇴 NO | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

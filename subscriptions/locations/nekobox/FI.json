@@ -80,6 +80,7 @@
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
         "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -91,6 +92,7 @@
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
         "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -128,6 +130,28 @@
       "server": "65.109.199.174",
       "server_port": 443,
       "uuid": "3695cd51-4d9d-4226-ba73-84da238fb05a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fin4.speedtest-shop.ir",
+      "server_port": 15887,
+      "uuid": "3bac8226-09bf-42d7-8e25-c8212301218b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

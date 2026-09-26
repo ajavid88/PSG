@@ -92,9 +92,7 @@
         "direct",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #2",
-        "🇹🇷 TR | VLESS | @red2ray #3"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,9 +102,7 @@
       "outbounds": [
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #2",
-        "🇹🇷 TR | VLESS | @red2ray #3"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,27 +140,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "185.87.24.169",
-      "server_port": 2085,
-      "uuid": "552d68c0-dccf-4623-9eca-f4203e2203d1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "93.190.9.172",
+      "server": "93.190.9.192",
       "server_port": 3090,
-      "uuid": "552d68c0-dccf-4623-9eca-f4203e2203d1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #3",
-      "type": "vless",
-      "server": "45.92.219.170",
-      "server_port": 8080,
-      "uuid": "560ecca1-7e20-4b41-b4d6-781fb3bc179d",
+      "uuid": "9bb5dd4e-bd32-4bdb-a60d-9368433f3885",
       "packet_encoding": "xudp"
     }
   ],

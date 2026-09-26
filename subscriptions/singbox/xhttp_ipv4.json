@@ -100,7 +100,8 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #3",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -133,7 +134,8 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #3",
+        "🇷🇺 RU | VLESS | @outline_ir #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -324,7 +326,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "tag": "🇽🇽 XX | VLESS | @orange_vpns #3",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "9f44d517-29f2-4c6d-cc06-a1268f13da58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #2",
       "type": "vless",
       "server": "185.141.227.180",
       "server_port": 2053,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "45.88.13.6", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "f0e0d780-a43b-98ef-d7fe-f628cfb1a606", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "94.183.154.216", "port": 2001, "type": "vless", "skip-cert-verify": true, "uuid": "a224d815-c1a6-4898-92e6-1602ce706ddd", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:

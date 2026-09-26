@@ -111,7 +111,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -141,7 +141,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -619,16 +619,16 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_collector #1",
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "nycqg19zkwacpm1b.v.3dns.vip",
+      "server": "aidrivercat.org",
       "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "nycqg19zkwacpm1b.v.3dns.vip",
+        "server_name": "aidrivercat.org",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -637,9 +637,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-vmess",
+        "path": "/linkvws",
         "headers": {
-          "Host": "nycqg19zkwacpm1b.v.3dns.vip"
+          "Host": "aidrivercat.org"
         }
       }
     },

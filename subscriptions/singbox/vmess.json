@@ -111,7 +111,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -120,6 +120,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1",
         "🇩🇪 DE | VMESS | @vpn_ioss #1"
@@ -151,7 +152,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇹🇷 TR | VMESS | @free1_vpn #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -160,6 +161,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1",
         "🇩🇪 DE | VMESS | @vpn_ioss #1"
@@ -639,16 +641,16 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2ray_collector #1",
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "nycqg19zkwacpm1b.v.3dns.vip",
+      "server": "aidrivercat.org",
       "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "nycqg19zkwacpm1b.v.3dns.vip",
+        "server_name": "aidrivercat.org",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -657,9 +659,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-vmess",
+        "path": "/linkvws",
         "headers": {
-          "Host": "nycqg19zkwacpm1b.v.3dns.vip"
+          "Host": "aidrivercat.org"
         }
       }
     },
@@ -804,6 +806,15 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "46.29.34.148",
+      "server_port": 9090,
+      "uuid": "ba510d75-d6a3-4aab-adbe-5c0cd3636d9d",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",

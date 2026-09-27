@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,13 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
-      "type": "vmess",
-      "server": "103.215.218.158",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "a6.mobilleali.ir",
+      "server_port": 443,
+      "uuid": "510ffb52-423b-4999-ad81-2d1a9ba8d23b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

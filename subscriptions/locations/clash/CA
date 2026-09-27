@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @v2raych #1", "server": "kazartip.thewalkingded.life", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1", "server": "137.184.164.233", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "5cee90e3-b915-4f1e-bb8d-efadad0c6feb", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmess", "headers": {"Host": "137.184.164.233"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @v2raych #1'
+      - '🇨🇦 CA | VMESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select

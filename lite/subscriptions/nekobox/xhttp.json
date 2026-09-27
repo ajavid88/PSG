@@ -88,14 +88,13 @@
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,14 +113,13 @@
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @red2ray #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -327,6 +325,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "199.232.79.166",
+      "server_port": 443,
+      "uuid": "7f06406f-d284-4159-89a5-839ac88342c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -418,22 +433,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "pl-warsaw.masterpgd.com",
-      "server_port": 6014,
-      "uuid": "1cc6bd10-e414-4171-9220-09aaba23a6fa",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ir.tempfast.ir",
-      "server_port": 44271,
-      "uuid": "9c93c2bf-2cc4-4ca2-9067-2109f81c6f9a",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

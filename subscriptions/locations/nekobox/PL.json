@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -87,8 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -103,50 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "s2.dipvpn.ru",
-      "server_port": 443,
-      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "185.241.208.241",
-      "server_port": 8443,
-      "uuid": "35dab1a4-512d-42f7-8d03-36a3d7593687",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vmesc #1",

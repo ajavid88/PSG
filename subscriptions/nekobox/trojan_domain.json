@@ -81,13 +81,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇽🇽 XX | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @v2raych #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,13 +99,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇽🇽 XX | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
-        "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇺🇸 US | TROJAN | @v2raych #2"
+        "🇽🇽 XX | TROJAN | @teamvpnpro #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -209,6 +209,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @free1_vpn #1",
+      "type": "trojan",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇭🇰 HK | TROJAN | @jiedianf #1",
       "type": "trojan",
       "server": "upright-hamster.rooster465.autos",
@@ -294,22 +310,6 @@
       "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev",
       "server_port": 443,
       "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @v2raych #2",
-      "type": "trojan",
-      "server": "render.com",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

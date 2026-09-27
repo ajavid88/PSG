@@ -99,14 +99,12 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇺🇸 US | TROJAN | @outlinereleasedkey #1",
-        "🇺🇸 US | TROJAN | @outlinereleasedkey #2",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_collector #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
+        "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -117,7 +115,6 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇺🇸 US | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇺🇸 US | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
@@ -139,14 +136,12 @@
         "🇽🇽 XX | TROJAN | @filtershekan_channel #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇺🇸 US | TROJAN | @outlinereleasedkey #1",
-        "🇺🇸 US | TROJAN | @outlinereleasedkey #2",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_collector #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
+        "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #2",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -157,7 +152,6 @@
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇺🇸 US | TROJAN | @free1_vpn #1",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇺🇸 US | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
@@ -324,38 +318,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "199.232.78.160",
-      "server_port": 443,
-      "password": "MiTIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @outlinereleasedkey #2",
-      "type": "trojan",
-      "server": "199.232.78.101",
-      "server_port": 443,
-      "password": "MiTIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @spikevpn #1",
       "type": "trojan",
       "server": "104.16.7.70",
@@ -390,6 +352,22 @@
     {
       "tag": "🇺🇸 US | TROJAN | @v2ray_collector #1",
       "type": "trojan",
+      "server": "199.232.78.160",
+      "server_port": 443,
+      "password": "MiTIVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2ray_collector #2",
+      "type": "trojan",
       "server": "167.82.76.7",
       "server_port": 443,
       "password": "MiTIVPN",
@@ -404,7 +382,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | TROJAN | @v2raying #1",
       "type": "trojan",
       "server": "151.101.56.101",
       "server_port": 443,
@@ -420,25 +398,9 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | TROJAN | @v2raying #2",
       "type": "trojan",
-      "server": "8.6.112.6",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @v2raying #1",
-      "type": "trojan",
-      "server": "151.101.56.101",
+      "server": "151.101.56.7",
       "server_port": 443,
       "password": "MiTiVPN",
       "tls": {
@@ -601,22 +563,6 @@
       "server": "upright-hamster.rooster465.autos",
       "server_port": 443,
       "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @mtproxy22_v2ray #1",
-      "type": "trojan",
-      "server": "shining-piranha.rooster465.autos",
-      "server_port": 443,
-      "password": "CF68213490",
       "tls": {
         "enabled": true,
         "server_name": "",

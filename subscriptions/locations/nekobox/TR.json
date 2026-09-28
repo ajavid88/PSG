@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | SS | @red2ray #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | SS | @red2ray #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,29 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @free1_vpn #1",
-      "type": "vmess",
-      "server": "103.215.218.158",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇹🇷 TR | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "213.142.150.136",
+      "server_port": 1468,
+      "method": "YWVzLTEyOC1nY206X2oyZkt0VUpwZV9md2RGUHRfSWxwZw==",
+      "password": null
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "185.87.24.174",
-      "server_port": 2085,
-      "uuid": "7e24f2b1-04a0-4ab0-af87-3bef7eb78e25",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "93.190.8.116",
-      "server_port": 3090,
-      "uuid": "51c8ed23-7ca5-43f1-b0a8-0a37a7a16647",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "tur17.velqixa.ir",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpIeVpXWEQ3dGFaMTVSSWxSd3FpbDhR",
+      "password": null
     }
   ],
   "route": {

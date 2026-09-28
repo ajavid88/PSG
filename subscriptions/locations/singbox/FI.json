@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -122,12 +122,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "31.76.80.230",
-      "server_port": 8443,
-      "uuid": "d544c858-b1ba-45b2-8868-8197daf2a6ee",
-      "packet_encoding": "xudp"
+      "server": "37.27.193.206",
+      "server_port": 443,
+      "uuid": "e33e40d2-859e-471f-b7dc-6f768f7cad9c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",

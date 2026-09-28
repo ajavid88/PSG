@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1", "server": "v2jp.k1.ssnss.live", "port": 44184, "type": "trojan", "skip-cert-verify": false, "password": "d050aca3-9df2-4461-90ec-92373c1d7636"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "167.148.90.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "49ca3a76-2043-41cc-bdd3-4ae653c649fb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "xn--rihal-zra.paslanmaz.ir", "port": 9696, "type": "vless", "skip-cert-verify": true, "uuid": "f27c715b-f67b-4747-84c9-f4e1366e5ad1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #2", "server": "xn--rihal-zra.paslanmaz.ir", "port": 9696, "type": "vless", "skip-cert-verify": true, "uuid": "f27c715b-f67b-4747-84c9-f4e1366e5ad1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
+      - '🇹🇷 TR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

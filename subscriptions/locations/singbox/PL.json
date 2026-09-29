@@ -92,7 +92,7 @@
         "direct",
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,11 +144,11 @@
       "password": null
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "193.34.213.10",
+      "server": "pl4.moritech.net",
       "server_port": 443,
-      "uuid": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -157,11 +157,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgR0U=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇬🇪 GE | VLESS | @v2raych #1",
+        "🇬🇪 GE | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇬🇪 GE | VLESS | @v2raych #1",
+        "🇬🇪 GE | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "tag": "🇬🇪 GE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "ro-xh02.tcp-reset-club.net",
-      "server_port": 8443,
-      "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
-      "packet_encoding": "xudp"
+      "server": "185.143.179.179",
+      "server_port": 25026,
+      "uuid": "441a29b2-d9aa-47d5-9209-0a9191479f9f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇪 GE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "185.143.179.179",
+      "server_port": 25026,
+      "uuid": "441a29b2-d9aa-47d5-9209-0a9191479f9f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,11 +122,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
-      "server": "37.27.193.206",
+      "server": "65.109.181.18",
+      "server_port": 27014,
+      "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "213.108.23.184",
       "server_port": 443,
-      "uuid": "e33e40d2-859e-471f-b7dc-6f768f7cad9c",
+      "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,14 +150,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-      "type": "vless",
-      "server": "65.109.181.18",
-      "server_port": 27014,
-      "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

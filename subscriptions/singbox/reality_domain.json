@@ -99,11 +99,12 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #3",
         "🇳🇱 NL | VLESS | @outline_ir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
@@ -126,11 +127,12 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #3",
         "🇳🇱 NL | VLESS | @outline_ir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
@@ -328,6 +330,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "psde.ramcalshoping.ir",
+      "server_port": 11706,
+      "uuid": "ef54f383-0fce-4bc2-ab9c-a687bdd106d0",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @orange_vpns #2",
       "type": "vless",
       "server": "files.noneok.com",
@@ -345,28 +355,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #3",
-      "type": "vless",
-      "server": "dn2.pconnectq.ir",
-      "server_port": 443,
-      "uuid": "9cb18d5e-69e9-4338-9338-de7d523ba4de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #2",
       "type": "vless",
       "server": "nl-xh02.tcp-reset-club.net",
@@ -375,11 +363,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "xui.gocdn-prime2.ir",
-      "server_port": 2050,
-      "uuid": "7f181d39-c9a2-4f8b-969f-43d040cfec1b",
+      "server": "p2real33.greewebservices.ir",
+      "server_port": 1330,
+      "uuid": "ea188657-750a-4aba-ac58-d6d114047b4d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -397,12 +385,48 @@
       }
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "ro-xh02.tcp-reset-club.net",
-      "server_port": 8443,
-      "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
-      "packet_encoding": "xudp"
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "ea188657-750a-4aba-ac58-d6d114047b4d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nl2.404vn.space",
+      "server_port": 37951,
+      "uuid": "25284368-40d5-4abe-9f56-54a07e88a7af",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",

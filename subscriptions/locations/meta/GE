@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "ro-xh02.tcp-reset-club.net", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇪 GE | VLESS | @v2raych #1", "server": "185.143.179.179", "port": 25026, "type": "vless", "skip-cert-verify": true, "uuid": "441a29b2-d9aa-47d5-9209-0a9191479f9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇪 GE | VLESS | @v2raych #2", "server": "185.143.179.179", "port": 25026, "type": "vless", "skip-cert-verify": true, "uuid": "441a29b2-d9aa-47d5-9209-0a9191479f9f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
+      - '🇬🇪 GE | VLESS | @v2raych #1'
+      - '🇬🇪 GE | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

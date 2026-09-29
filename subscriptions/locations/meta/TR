@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "xn--rihal-zra.paslanmaz.ir", "port": 9696, "type": "vless", "skip-cert-verify": true, "uuid": "323d28ee-0d31-4278-8fe1-b8b157bc342e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "167.148.90.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "49ca3a76-2043-41cc-bdd3-4ae653c649fb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "93.190.9.60", "port": 3090, "type": "vless", "skip-cert-verify": true, "uuid": "cbbc93ef-6d35-463a-a856-64265c42e66d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @red2ray #1'
-      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

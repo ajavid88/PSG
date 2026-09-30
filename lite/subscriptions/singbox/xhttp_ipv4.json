@@ -102,6 +102,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2"
@@ -124,6 +125,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2"
@@ -333,6 +335,23 @@
       "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "9f44d517-29f2-4c6d-cc06-a1268f13da58",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "151.101.56.9",
+      "server_port": 443,
+      "uuid": "6ba68c69-e108-502d-7b1c-e806fbc3cccd",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

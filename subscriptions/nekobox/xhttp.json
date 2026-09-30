@@ -96,19 +96,21 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @outline_ir #3",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @vmesc #3",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -135,19 +137,21 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @outline_ir #3",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @vmesc #3",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -479,6 +483,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "151.101.56.9",
+      "server_port": 443,
+      "uuid": "6ba68c69-e108-502d-7b1c-e806fbc3cccd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -563,6 +584,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #2",
+      "type": "vless",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "de-2.starsping.com",
@@ -605,12 +643,21 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "s3.zynetraq.ir",
-      "server_port": 2087,
-      "uuid": "78daf25a-eaf1-4b09-8279-5537b7d766b0",
-      "packet_encoding": "xudp"
+      "server": "fastly.videobazi.com",
+      "server_port": 443,
+      "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -638,7 +685,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #2",
+      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
       "type": "vless",
       "server": "xfastvip3.amshap.info",
       "server_port": 80,

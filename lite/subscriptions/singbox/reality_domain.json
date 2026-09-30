@@ -93,12 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,12 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,28 +192,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "gesmankos.sadiepinki.com",
-      "server_port": 443,
-      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "psde.ramcalshoping.ir",
@@ -228,77 +200,33 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "ru-test.omuservice.tech",
-      "server_port": 8443,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "de.berqovo.ir",
-      "server_port": 6300,
-      "uuid": "3df643c6-9f15-4400-a55d-5828998bfd40",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "syhshshd1.speedtest-shop.ir",
-      "server_port": 4383,
-      "uuid": "e7f51062-8c45-4224-841e-5eda0e6855b9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "pl-waw.dontblockmepls.com",
       "server_port": 2063,
       "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "germa12.ggisopi.su",
+      "server_port": 443,
+      "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

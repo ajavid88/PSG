@@ -81,7 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -94,7 +96,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇨🇿 CZ | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -191,11 +195,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇿 CZ | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "nlll.gaz-service.shop",
+      "server": "files.noneok.com",
       "server_port": 443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
+      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -204,6 +208,50 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "areal5.greewebservices.ir",
+      "server_port": 5455,
+      "uuid": "da803bc9-ec45-4c72-b81f-15ad8dd02eaa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

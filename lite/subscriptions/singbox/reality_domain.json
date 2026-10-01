@@ -95,9 +95,10 @@
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,9 +111,10 @@
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -221,55 +223,77 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇬🇧 GB | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "areal5.greewebservices.ir",
-      "server_port": 5455,
-      "uuid": "da803bc9-ec45-4c72-b81f-15ad8dd02eaa",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "p2real22.greewebservices.ir",
-      "server_port": 1320,
-      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "germa12.ggisopi.su",
+      "server": "finporkzov.com",
       "server_port": 443,
-      "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+      "uuid": "7b93e3f1-c5bf-43cd-8fcd-e0e745c92d10",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "shop.jarorobo.ir",
+      "server_port": 443,
+      "uuid": "8e7feb36-3ef5-4e70-a306-4362edd37854",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "fr-12e2dd7903.sishka.network",
+      "server_port": 443,
+      "uuid": "bebc775c-0de1-451c-80cb-64ee06fd5447",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "slowkd.sadiepinki.com",
+      "server_port": 443,
+      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

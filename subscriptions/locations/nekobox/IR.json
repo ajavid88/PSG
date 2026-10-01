@@ -79,7 +79,6 @@
         "direct",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -107,7 +106,6 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -151,23 +149,6 @@
     },
     {
       "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "185.143.234.111",
-      "server_port": 443,
-      "uuid": "bc4d97ba-d54f-4555-ba71-f7421796d92c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2",
       "type": "vless",
       "server": "a.samrayan.ir",
       "server_port": 443,

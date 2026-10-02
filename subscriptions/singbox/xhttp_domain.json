@@ -98,7 +98,7 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -115,7 +115,7 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇽🇽 XX | TROJAN | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -275,12 +275,21 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "tag": "🇺🇸 US | VLESS | @prrofile_purple #3",
       "type": "vless",
-      "server": "tr.koomeh.net",
-      "server_port": 80,
-      "uuid": "f70f524b-08bc-4ca1-b0c2-826dbadba005",
-      "packet_encoding": "xudp"
+      "server": "rvg-production-6c78.up.railway.app",
+      "server_port": 443,
+      "uuid": "1d5a3836-1c2b-7b87-25db-917f29701da6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",

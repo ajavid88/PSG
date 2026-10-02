@@ -82,8 +82,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇽🇽 XX | TROJAN | @outlinereleasedkey #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,8 +96,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇽🇽 XX | TROJAN | @outlinereleasedkey #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -210,6 +210,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "aiogram325666zxcassfdwerw3r34535467b67h678h678jm67i67i.iranpuls.ir",
+      "server_port": 443,
+      "password": "3noytnrarq8xhp43",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -225,14 +241,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "tr.koomeh.net",
-      "server_port": 80,
-      "uuid": "f70f524b-08bc-4ca1-b0c2-826dbadba005",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

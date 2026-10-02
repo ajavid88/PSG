@@ -80,9 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1"
+        "🇷🇺 RU | VLESS | @nofiltering2 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +92,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1"
+        "🇷🇺 RU | VLESS | @nofiltering2 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -183,28 +181,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "p2real22.greewebservices.ir",
-      "server_port": 1320,
-      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "tgfree.rush-server.com",
@@ -227,11 +203,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #2",
       "type": "vless",
-      "server": "files.noneok.com",
+      "server": "tgfree.rush-server.com",
       "server_port": 443,
-      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
+      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -240,6 +216,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

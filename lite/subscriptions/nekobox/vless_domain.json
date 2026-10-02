@@ -118,8 +118,8 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -127,11 +127,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇭🇰 HK | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
@@ -141,7 +139,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
@@ -191,8 +188,8 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -200,11 +197,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇭🇰 HK | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #2",
@@ -214,7 +209,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #2",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
@@ -768,11 +762,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "tag": "🇺🇸 US | VLESS | @public504 #1",
       "type": "vless",
-      "server": "shop.jarorobo.ir",
+      "server": "fr.turboo-server.xyz",
       "server_port": 443,
-      "uuid": "8e7feb36-3ef5-4e70-a306-4362edd37854",
+      "uuid": "turboo-server",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -781,20 +775,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @public504 #1",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "fr.turboo-server.xyz",
+      "server": "msk1.animereze.site",
       "server_port": 443,
-      "uuid": "turboo-server",
+      "uuid": "2463908b-9922-43d1-8186-a9d245790073",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -890,14 +879,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 2095,
-      "uuid": "5860b202-143f-4111-a6f6-ab94c5ef61c2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -914,48 +895,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "de1.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "5838e02b-d60f-43e0-a63c-d03d0c85c7c8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "hk5.miyazono-kaori.com",
-      "server_port": 443,
-      "uuid": "5838e02b-d60f-43e0-a63c-d03d0c85c7c8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "bs.cexora.ir",
+      "server_port": 2087,
+      "uuid": "d8444dda-846b-46f1-2c84-ab356f231ac0",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -1080,28 +1025,6 @@
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "slowkd.sadiepinki.com",
-      "server_port": 443,
-      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @wbrovers #1",

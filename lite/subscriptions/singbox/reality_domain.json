@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +105,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -190,6 +190,28 @@
       }
     },
     {
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "tgfree.rush-server.com",
@@ -208,23 +230,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "msk1.animereze.site",
-      "server_port": 443,
-      "uuid": "2463908b-9922-43d1-8186-a9d245790073",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

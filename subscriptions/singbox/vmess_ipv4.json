@@ -101,8 +101,8 @@
         "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -122,8 +122,8 @@
         "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -360,6 +360,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+      "type": "vmess",
+      "server": "104.17.77.77",
+      "server_port": 8443,
+      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "v2ray1.dozapp.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "172.66.213.38",
@@ -380,15 +405,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "91.107.162.63",
-      "server_port": 8080,
-      "uuid": "0232607c-5100-4a10-a387-33a6a42b1f22",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",

@@ -93,15 +93,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @free1_vpn #3",
-        "🇩🇪 DE | VLESS | @free1_vpn #4",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -117,15 +117,15 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @free1_vpn #3",
-        "🇩🇪 DE | VLESS | @free1_vpn #4",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
-        "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -214,7 +214,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "id-nl-01.mintrocket.org",
       "server_port": 443,
@@ -236,7 +236,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #4",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "arcturus.yokkastars.com",
       "server_port": 40443,
@@ -336,14 +336,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "www.gameturk.bestvnxv.org",
-      "server_port": 21710,
-      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "shop.jarorobo.ir",
@@ -366,11 +358,33 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇹 IT | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "tg2.iramssmoth.ir",
+      "server": "it.monkora.org",
       "server_port": 443,
-      "uuid": "351253fd-52bd-4607-a677-c3daa623df73",
+      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sub.skyshopnet.ir",
+      "server_port": 443,
+      "uuid": "d0e771ef-b9bb-4d50-8e7a-01a3174df0e3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

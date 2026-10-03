@@ -94,6 +94,7 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -102,8 +103,8 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
-        "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -129,6 +130,7 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -137,8 +139,8 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
-        "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -438,6 +440,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "31.57.185.92",
+      "server_port": 8080,
+      "uuid": "78a82010-c288-49a8-a4db-efbd5e75729b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "84.32.100.169",
@@ -547,19 +557,28 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "www.gameturk.bestvnxv.org",
-      "server_port": 21710,
-      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sub.skyshopnet.ir",
+      "server_port": 443,
+      "uuid": "d0e771ef-b9bb-4d50-8e7a-01a3174df0e3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

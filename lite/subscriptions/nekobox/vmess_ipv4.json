@@ -84,7 +84,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VMESS | @v2raych #1"
+        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,7 +99,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VMESS | @v2raych #1"
+        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -264,13 +264,20 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
       "type": "vmess",
-      "server": "91.107.162.63",
-      "server_port": 8080,
-      "uuid": "0232607c-5100-4a10-a387-33a6a42b1f22",
+      "server": "45.80.111.169",
+      "server_port": 8880,
+      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

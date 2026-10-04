@@ -80,8 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @free1_vpn #2",
         "🇩🇪 DE | VLESS | @free1_vpn #3",
-        "🇩🇪 DE | VLESS | @free1_vpn #4",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
@@ -89,11 +89,11 @@
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesc #2",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,8 +104,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @free1_vpn #2",
         "🇩🇪 DE | VLESS | @free1_vpn #3",
-        "🇩🇪 DE | VLESS | @free1_vpn #4",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
@@ -113,11 +113,11 @@
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesc #2",
-        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,7 +205,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "id-nl-01.mintrocket.org",
       "server_port": 443,
@@ -227,7 +227,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #4",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
       "type": "vless",
       "server": "arcturus.yokkastars.com",
       "server_port": 40443,
@@ -379,11 +379,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "sub.skyshopnet.ir",
-      "server_port": 443,
-      "uuid": "d0e771ef-b9bb-4d50-8e7a-01a3174df0e3",
+      "server": "olanbb1w.paslanmaz.ir",
+      "server_port": 42567,
+      "uuid": "ebaac78a-64f7-4d6a-8897-a4b420069378",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -392,6 +392,33 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nmeww50.senbilarsin.ir",
+      "server_port": 36037,
+      "uuid": "ebaac78a-64f7-4d6a-8897-a4b420069378",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -445,28 +472,6 @@
       "server": "germa12.ggisopi.su",
       "server_port": 443,
       "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "germanygem.site",
-      "server_port": 443,
-      "uuid": "f811a2e8-08ed-4b30-b44c-449a7cab54d8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

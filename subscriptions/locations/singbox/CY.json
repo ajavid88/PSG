@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSUU=
+//profile-title: base64:UFNHIHwgQ1k=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @free1_vpn #1"
+        "🇨🇾 CY | VLESS | @red2ray #1",
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @free1_vpn #1"
+        "🇨🇾 CY | VLESS | @red2ray #1",
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "20.238.125.195",
+      "tag": "🇨🇾 CY | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "185.166.154.111",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpuZzBYVENoZ2JKSjNTdjJk",
-      "password": null
+      "uuid": "91d734be-a3d0-4d50-83ab-74cf7b6966fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "2.56.124.3",
+      "server_port": 443,
+      "uuid": "7cdc8f71-59a5-431e-a0a2-10b241a77844",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

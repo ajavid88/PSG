@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VLESS | @v2raych #1", "server": "83.222.23.81", "port": 38065, "type": "vless", "skip-cert-verify": true, "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇰🇿 KZ | VLESS | @v2raych #2", "server": "83.222.23.81", "port": 38065, "type": "vless", "skip-cert-verify": true, "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @NamiraConfigs #1", "server": "204.216.216.23", "port": 10086, "type": "vless", "skip-cert-verify": true, "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2ray_free_conf #1", "server": "57.131.21.102", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "69ac162b-1643-4acb-9f49-09d8b0fad609", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VLESS | @v2raych #1'
-      - '🇰🇿 KZ | VLESS | @v2raych #2'
+      - '🇮🇹 IT | VLESS | @NamiraConfigs #1'
+      - '🇮🇹 IT | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

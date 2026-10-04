@@ -88,6 +88,7 @@
         "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
@@ -108,6 +109,7 @@
         "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
@@ -343,6 +345,31 @@
       "transport": {
         "type": "ws",
         "path": "/lMnsZUN4/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "23.227.38.24",
+      "server_port": 443,
+      "uuid": "c5a2d7b8-bf84-4f97-8577-b9b87f2baaf7",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/AUIKN8AU",
         "headers": {
           "Host": ""
         }

@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raying #1"
       ],
@@ -89,7 +89,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raying #1"
       ],
@@ -131,12 +131,20 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "146.235.16.130",
-      "server_port": 19825,
-      "uuid": "2d1ad594-80a4-4bfb-87a6-038e39701f51",
-      "packet_encoding": "xudp"
+      "tag": "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.16.85.20",
+      "server_port": 80,
+      "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg4-v2ray.sshkit.org"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

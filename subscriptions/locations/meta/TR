@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "tutaim.azad0namah.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "fdc1206a-9d2e-42b7-b615-9ccea8cf70ee", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #2", "server": "pp212pp.diginoisb.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "a34e1abe-7a9a-4255-ab38-5ac70d4e8f71", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #3", "server": "pp212pp.diginoisb.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "a34e1abe-7a9a-4255-ab38-5ac70d4e8f71", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "tr.xelnivo.ir", "port": 5589, "type": "vless", "skip-cert-verify": true, "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @v2raych #1'
-      - '🇹🇷 TR | VLESS | @v2raych #2'
-      - '🇹🇷 TR | VLESS | @v2raych #3'
+      - '🇹🇷 TR | VLESS | @orange_vpns #1'
 
   - name: 🌍 Global Media
     type: select

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ0g=
+//profile-title: base64:UFNHIHwgS1o=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VMESS | @outlinereleasedkey #1"
+        "🇰🇿 KZ | SS | @configv2rayforfree #1",
+        "🇰🇿 KZ | VLESS | @v2raych #1",
+        "🇰🇿 KZ | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VMESS | @outlinereleasedkey #1"
+        "🇰🇿 KZ | SS | @configv2rayforfree #1",
+        "🇰🇿 KZ | VLESS | @v2raych #1",
+        "🇰🇿 KZ | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,29 +114,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇭 CH | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "66.163.118.73",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "mygptagent.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "mygptagent.org"
-        }
-      }
+      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1",
+      "type": "shadowsocks",
+      "server": "77.240.38.27",
+      "server_port": 8443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0=",
+      "password": null
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "83.222.23.81",
+      "server_port": 38065,
+      "uuid": "4b9063e0-3288-44e9-9aac-80fbfce323a0",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

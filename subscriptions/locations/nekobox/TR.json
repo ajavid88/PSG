@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2",
-        "🇹🇷 TR | VLESS | @v2raych #3"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2",
-        "🇹🇷 TR | VLESS | @v2raych #3"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,28 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "tutaim.azad0namah.ir",
-      "server_port": 8080,
-      "uuid": "fdc1206a-9d2e-42b7-b615-9ccea8cf70ee",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "pp212pp.diginoisb.ir",
-      "server_port": 8080,
-      "uuid": "a34e1abe-7a9a-4255-ab38-5ac70d4e8f71",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "pp212pp.diginoisb.ir",
-      "server_port": 8080,
-      "uuid": "a34e1abe-7a9a-4255-ab38-5ac70d4e8f71",
-      "packet_encoding": "xudp"
+      "server": "tr.xelnivo.ir",
+      "server_port": 5589,
+      "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

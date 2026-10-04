@@ -94,10 +94,11 @@
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,10 +123,11 @@
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -327,10 +329,40 @@
     {
       "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "p2tun2.greewebservices.ir",
-      "server_port": 1020,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwMzdaallVb19RWWdRa3NvekhwR01n",
+      "server": "api.tr.faz11.ir",
+      "server_port": 2020,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206SW9paGwyWjVYZllIN2szRTNFS1V2QT09OkpBYjJDM0tFUmpGbFBJU1g1VmJCNnc9PQ==",
       "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "ios-update.applemarket13.shop",
+      "server_port": 4202,
+      "uuid": "d2ec829f-4841-47e8-9286-f6ccf7ee0d30",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "p2tun01.greewebservices.ir",
+      "server_port": 28830,
+      "uuid": "a4b8d677-ecfe-4357-9b68-981c201f3701",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -354,14 +386,6 @@
       "server": "www.zula.ir",
       "server_port": 80,
       "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnfree85 #1",
-      "type": "vless",
-      "server": "s4.tehranionliine.ir",
-      "server_port": 80,
-      "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
       "packet_encoding": "xudp"
     }
   ],

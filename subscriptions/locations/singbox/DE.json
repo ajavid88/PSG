@@ -105,14 +105,13 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
-        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
+        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | TROJAN | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
@@ -151,14 +150,13 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
-        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
+        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | TROJAN | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
@@ -260,28 +258,6 @@
     {
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "169.40.42.184",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
-      "type": "vless",
       "server": "id-nl-01.mintrocket.org",
       "server_port": 443,
       "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
@@ -302,7 +278,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "arcturus.yokkastars.com",
       "server_port": 40443,
@@ -320,6 +296,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
+      "type": "vless",
+      "server": "rubifen.adaspoloandco.com",
+      "server_port": 443,
+      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -461,22 +454,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "45.80.111.169",
-      "server_port": 8880,
-      "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1",
       "type": "vless",
       "server": "49.13.27.100",
@@ -490,6 +467,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "87.120.165.52",
+      "server_port": 443,
+      "uuid": "45016458-a8c5-4e3f-814a-437145e4dd4f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -558,28 +557,6 @@
       "server_port": 2083,
       "uuid": "f46ad8d7-f22c-40fc-d0b2-5db602a6d815",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "shop.jarorobo.ir",
-      "server_port": 443,
-      "uuid": "8e7feb36-3ef5-4e70-a306-4362edd37854",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @red2ray #1",

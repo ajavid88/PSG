@@ -79,7 +79,6 @@
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raying #1"
       ],
@@ -91,7 +90,6 @@
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raying #1"
       ],
@@ -145,28 +143,6 @@
         "path": "/",
         "headers": {
           "Host": "sg4-v2ray.sshkit.org"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "sin-a-01.auuas.com",
-      "server_port": 1891,
-      "uuid": "81c4547b-e5d8-4af8-baf0-91c5c0c05a9b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

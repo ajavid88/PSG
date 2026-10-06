@@ -82,6 +82,7 @@
         "🇵🇱 PL | SS | @netfreedom0 #3",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -95,6 +96,7 @@
         "🇵🇱 PL | SS | @netfreedom0 #3",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
         "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -169,6 +171,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "s2.dipvpn.ru",
+      "server_port": 443,
+      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

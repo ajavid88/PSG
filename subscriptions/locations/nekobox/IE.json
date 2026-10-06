@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | SS | @configv2rayforfree #1"
+        "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
+        "🇮🇪 IE | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | SS | @configv2rayforfree #1"
+        "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
+        "🇮🇪 IE | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1",
+      "tag": "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "ie.tronsg.com",
+      "server_port": 443,
+      "password": "Trojan%4082164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇪 IE | SS | @vmesskhodam #1",
       "type": "shadowsocks",
-      "server": "77.240.38.27",
-      "server_port": 8443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0=",
+      "server": "20.166.33.115",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4eW45SlJqaWNyV09XcUFK",
       "password": null
     }
   ],

@@ -90,6 +90,8 @@
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -114,6 +116,8 @@
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
@@ -384,6 +388,36 @@
       "server": "sr3.tovra.fun",
       "server_port": 8443,
       "uuid": "64608677-3eb3-46ab-a3f9-4b08dfa00f0d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "tunf.gomfara.ir",
+      "server_port": 4078,
+      "uuid": "6730d737-8b4b-432c-9cfa-9d531340344f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "areal5.greewebservices.ir",
+      "server_port": 5455,
+      "uuid": "97b236b9-47ba-4c9a-ae0d-3ddfff5acadf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

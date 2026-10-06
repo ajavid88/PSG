@@ -124,6 +124,7 @@
         "🇽🇽 XX | VLESS | @luckyvpn #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
@@ -131,7 +132,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -150,6 +150,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -193,6 +194,7 @@
         "🇽🇽 XX | VLESS | @luckyvpn #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
@@ -200,7 +202,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
@@ -219,6 +220,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -370,9 +372,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "arcturus.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
+      "server": "rubifen.adaspoloandco.com",
+      "server_port": 443,
+      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -381,11 +383,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -686,6 +683,23 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "hl.paxiva.ir",
+      "server_port": 443,
+      "uuid": "8551ef0a-8c45-41cf-99ef-61f643820121",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "allsms.rozfa.com",
@@ -770,28 +784,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "shop.jarorobo.ir",
-      "server_port": 443,
-      "uuid": "8e7feb36-3ef5-4e70-a306-4362edd37854",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -1026,6 +1018,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "psf-3.weedly.top",
+      "server_port": 80,
+      "uuid": "6f597b2d-2df5-4f4f-a755-bdb5c10604e9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",

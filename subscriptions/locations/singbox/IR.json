@@ -93,6 +93,7 @@
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2",
+        "🇮🇷 IR | SS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -108,7 +109,7 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -121,6 +122,7 @@
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #2",
+        "🇮🇷 IR | SS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -136,7 +138,7 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -191,6 +193,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @ai_duet #1",
+      "type": "shadowsocks",
+      "server": "109.122.251.86",
+      "server_port": 20700,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwTEdDUG5qMldnenhYMUllZFc4eWQ3dHJ3UmxYcWpMYQ==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -336,9 +346,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "tunf.gomfara.ir",
-      "server_port": 4078,
-      "uuid": "6730d737-8b4b-432c-9cfa-9d531340344f",
+      "server": "tun7.radvin1.ir",
+      "server_port": 11777,
+      "uuid": "6acbfd38-2332-4ef5-a09b-fdd74508ef76",
       "packet_encoding": "xudp"
     },
     {
@@ -350,12 +360,22 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2rayng3 #1",
-      "type": "shadowsocks",
-      "server": "n1.cover20.ir",
-      "server_port": 38760,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1Z3MyWDY2eDJQRFpHSDZUZExEaHAvZXlXSStpeW9RQlZDcHBzczlQZVRJPQ==",
-      "password": null
+      "tag": "🇮🇷 IR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "ir2.fastraytel9880.ir",
+      "server_port": 26557,
+      "uuid": "e0f8c121-6182-420b-8f57-8c7114a25911",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "panelm.fastraytel9880.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",

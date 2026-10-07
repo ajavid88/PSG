@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUlM=
+//profile-title: base64:UFNHIHwgQ1k=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇸 RS | VLESS | @v2raych #1"
+        "🇨🇾 CY | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇸 RS | VLESS | @v2raych #1"
+        "🇨🇾 CY | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @v2raych #1",
+      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "150.40.126.19",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "gallery.mv-video.cloud",
+      "server_port": 8443,
+      "uuid": "c1c95983-50a7-44b1-99ac-a062284939d0",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

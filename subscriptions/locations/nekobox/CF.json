@@ -109,6 +109,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -179,7 +180,6 @@
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | SS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -216,7 +216,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -247,6 +246,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -336,6 +337,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -406,7 +408,6 @@
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | SS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -443,7 +444,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -474,6 +474,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -870,6 +872,23 @@
       "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "server16.peekconfig.workers.dev",
+      "server_port": 443,
+      "uuid": "419b7a2c-9fa2-4870-b58a-0498ccc7d6c4",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1808,23 +1827,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "hl.paxiva.ir",
-      "server_port": 443,
-      "uuid": "8551ef0a-8c45-41cf-99ef-61f643820121",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | SS | @mtproxy22_v2ray #1",
       "type": "shadowsocks",
       "server": "passconf.xyz",
@@ -2226,7 +2228,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "104.18.37.228",
+      "server": "172.66.44.97",
       "server_port": 443,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
       "packet_encoding": "xudp",
@@ -2243,7 +2245,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "172.66.44.97",
+      "server": "104.16.117.43",
       "server_port": 443,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
       "packet_encoding": "xudp",
@@ -2260,7 +2262,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
       "type": "vless",
-      "server": "104.18.37.228",
+      "server": "104.16.117.43",
       "server_port": 443,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
       "packet_encoding": "xudp",
@@ -2273,14 +2275,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "undef.network",
-      "server_port": 2052,
-      "uuid": "a2c57a6c-dacb-44d1-9055-fb42d4c888a5",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @renetvpn #1",
@@ -2653,6 +2647,39 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "afe143cb-76e2-4202-995d-da09f07b0cd9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "openai.com",
+      "server_port": 443,
+      "password": "MITIVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "104.21.89.181",
@@ -2703,10 +2730,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "courses.mftplus.qzz.io",
-      "server_port": 2096,
-      "uuid": "b9ede7a5-5b4b-4aee-ac37-2c307e587e47",
-      "packet_encoding": "xudp"
+      "server": "netherlands.aliriw.com",
+      "server_port": 443,
+      "uuid": "27eea947-0046-4b91-a2c6-e35582eeecb5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2raying #1",

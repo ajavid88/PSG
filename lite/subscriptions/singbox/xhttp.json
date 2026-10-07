@@ -100,12 +100,15 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -124,12 +127,15 @@
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -324,6 +330,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
+      "type": "vless",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "qeshmserver",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -375,6 +389,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "9f44d517-29f2-4c6d-cc06-a1268f13da58",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "spd-mynames.global.ssl.fastly.net",
@@ -404,6 +426,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nice.iranapplecenter.com",
+      "server_port": 443,
+      "uuid": "296a8396-8f34-1e47-4365-16e9b682e5d7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
         }
       }
     },

@@ -83,6 +83,7 @@
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @free1_vpn #2",
+        "🇩🇪 DE | VLESS | @free1_vpn #3",
         "🇩🇪 DE | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -104,8 +105,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | SS | @turboo_server #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #2",
         "🇩🇪 DE | SS | @v2rayng3 #1",
@@ -130,6 +131,7 @@
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @free1_vpn #2",
+        "🇩🇪 DE | VLESS | @free1_vpn #3",
         "🇩🇪 DE | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -151,8 +153,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | SS | @turboo_server #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #2",
         "🇩🇪 DE | SS | @v2rayng3 #1",
@@ -253,9 +255,17 @@
     {
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "31.77.109.35",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "9f44d517-29f2-4c6d-cc06-a1268f13da58",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
+      "type": "vless",
+      "server": "2.28.142.170",
       "server_port": 443,
-      "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
+      "uuid": "f774f037-6320-42e3-a97b-6d4a1f018dd5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -264,20 +274,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
       "type": "vless",
-      "server": "87.239.135.112",
+      "server": "31.77.109.35",
       "server_port": 443,
-      "uuid": "d18c7dfb-94c9-4caa-9d0d-da0e563a71ea",
+      "uuid": "87fd990d-ca93-440a-bbd4-e8281c4a0910",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -643,13 +648,12 @@
       "password": null
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "31.76.35.27",
+      "server": "178.162.254.203",
       "server_port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "uuid": "3e383398-adb6-440a-8372-7ec94094b155",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -657,15 +661,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "177.1.186.117",
+      "server": "195.252.179.1",
       "server_port": 443,
-      "uuid": "55ccbeb5-0bf4-4e4d-afcb-23c038e73e00",
+      "uuid": "596086c9-3167-0004-97a1-c04311039e06",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

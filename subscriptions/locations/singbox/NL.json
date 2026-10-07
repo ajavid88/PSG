@@ -98,7 +98,6 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1"
@@ -117,7 +116,6 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1"
@@ -234,9 +232,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.245.103.36",
+      "server": "slowkd.sadiepinki.com",
       "server_port": 443,
-      "uuid": "30141a8e-1b78-4f4b-88d3-1b0c90042256",
+      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -245,6 +243,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -255,24 +258,6 @@
       "server_port": 8443,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "89.127.211.136",
-      "server_port": 443,
-      "uuid": "43f9d37f-eb1b-422b-95c9-8b871b85cac6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @v2rayng3 #1",

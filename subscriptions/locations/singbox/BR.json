@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ1k=
+//profile-title: base64:UFNHIHwgQlI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇧🇷 BR | VMESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇧🇷 BR | VMESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "gallery.mv-video.cloud",
-      "server_port": 8443,
-      "uuid": "c1c95983-50a7-44b1-99ac-a062284939d0",
-      "packet_encoding": "xudp"
+      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "aksai.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aksai.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aksai.org"
+        }
+      }
     }
   ],
   "route": {

@@ -103,12 +103,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇩🇪 DE | VMESS | @magickey_shop #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -129,12 +131,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇩🇪 DE | VMESS | @magickey_shop #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -436,16 +440,16 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @proxy48 #1",
+      "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
       "type": "vmess",
-      "server": "188.114.97.3",
+      "server": "cf.sudoer.net",
       "server_port": 443,
-      "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+      "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "afrhms16v.bestxray.buzz",
+        "server_name": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -454,23 +458,23 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkws",
+        "path": "/api05",
         "headers": {
-          "Host": "afrhms16v.bestxray.buzz"
+          "Host": "scherehtzflk01.schere.net"
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
+      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "45.85.118.88",
+      "server": "aksai.org",
       "server_port": 443,
-      "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "hstr1675520106270.aidapp.life",
+        "server_name": "aksai.org",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -479,9 +483,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/aidapp.lifevws",
+        "path": "/linkvws",
         "headers": {
-          "Host": "hstr1675520106270.aidapp.life"
+          "Host": "aksai.org"
         }
       }
     },
@@ -560,6 +564,44 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "94.130.184.57",
+      "server_port": 80,
+      "uuid": "c5e523e7-da73-40af-a4a9-c638720c30e1",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
+      "type": "vmess",
+      "server": "172.66.213.38",
+      "server_port": 443,
+      "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy4c1.iraniancpi.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "WgCmp8p80KDzo64uHE"
       }
     }
   ],

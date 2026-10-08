@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #2"
@@ -102,8 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #2"
@@ -118,33 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "tgfree.rush-server.com",
+      "server": "45.128.78.84",
       "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #2",
-      "type": "vless",
-      "server": "tgfree.rush-server.com",
-      "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "uuid": "3f58af8e-7c91-424e-85c7-ec6913b7fc8f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

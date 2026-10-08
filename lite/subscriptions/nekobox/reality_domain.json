@@ -80,9 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇩🇪 DE | VLESS | @nofiltering2 #1",
+        "🇩🇪 DE | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,9 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇩🇪 DE | VLESS | @nofiltering2 #1",
+        "🇩🇪 DE | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -183,11 +183,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
+      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1",
       "type": "vless",
-      "server": "tgfree.rush-server.com",
+      "server": "de-2.starsping.com",
       "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -196,20 +196,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #2",
+      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #2",
       "type": "vless",
-      "server": "tgfree.rush-server.com",
+      "server": "de-2.starsping.com",
       "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -218,20 +213,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ger1.trufflevpn.fun",
-      "server_port": 443,
-      "uuid": "579b72a5-785a-4fb6-ac64-1de2f8c49601",
+      "server": "dl.tak.uploadeliasiran01.ir",
+      "server_port": 8443,
+      "uuid": "4950e344-d01b-4e65-abe5-1ba9ecf281d1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

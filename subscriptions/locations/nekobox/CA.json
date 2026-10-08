@@ -80,8 +80,8 @@
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | SS | @outline_ir #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2raych #1"
+        "🇨🇦 CA | SS | @outlinereleasedkey #1",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,8 +92,8 @@
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | SS | @outline_ir #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2raych #1"
+        "🇨🇦 CA | SS | @outlinereleasedkey #1",
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,28 +140,19 @@
       "password": null
     },
     {
+      "tag": "🇨🇦 CA | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "yyz-ca-01.blncvpn4u.cc",
+      "server_port": 9443,
+      "method": "YWVzLTI1Ni1nY206ZXZlYWFUT2I4amk4eW50dzJaOXlXVUcwZDZJcjhMZDhtM3ltSDhUSGRDNWVnaVRIMW1YQ2lCYzBTa3I3RmliSA==",
+      "password": null
+    },
+    {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "23.227.60.7",
       "server_port": 443,
       "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "15.235.122.39",
-      "server_port": 443,
-      "uuid": "ac8cec50-1a43-458e-92ad-81a5d1695a1b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

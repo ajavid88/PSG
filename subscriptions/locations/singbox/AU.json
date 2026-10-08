@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1"
+        "🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1"
+        "🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +124,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+      "type": "vmess",
+      "server": "162.159.135.79",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "janett.click",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "janett.click"
         }
       }
     }

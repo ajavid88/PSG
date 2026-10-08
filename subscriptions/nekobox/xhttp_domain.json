@@ -85,7 +85,10 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,7 +104,10 @@
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -256,11 +262,62 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fastly.videobazi.com",
+      "server_port": 443,
+      "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nice.iranapplecenter.com",
+      "server_port": 443,
+      "uuid": "fd3c92db-8ca8-c0fa-480a-742415809ccc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "sitoman.info",
       "server_port": 443,
       "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "f1.greewebservices.ir",
+      "server_port": 443,
+      "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

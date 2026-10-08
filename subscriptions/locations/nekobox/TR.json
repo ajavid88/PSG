@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | TROJAN | @red2ray #1",
         "🇹🇷 TR | TROJAN | @red2ray #2"
       ],
@@ -87,7 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | TROJAN | @red2ray #1",
         "🇹🇷 TR | TROJAN | @red2ray #2"
       ],
@@ -103,28 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "tr.xelnivo.ir",
-      "server_port": 5589,
-      "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @red2ray #1",

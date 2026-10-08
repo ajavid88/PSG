@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "tr.xelnivo.ir", "port": 5589, "type": "vless", "skip-cert-verify": true, "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | TROJAN | @red2ray #1", "server": "203.202.232.211", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇹🇷 TR | TROJAN | @red2ray #2", "server": "155.103.71.159", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
@@ -39,7 +38,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @orange_vpns #1'
       - '🇹🇷 TR | TROJAN | @red2ray #1'
       - '🇹🇷 TR | TROJAN | @red2ray #2'
 

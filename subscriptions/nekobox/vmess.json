@@ -94,6 +94,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇫🇷 FR | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -107,7 +108,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1"
+        "🇩🇪 DE | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,6 +133,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇫🇷 FR | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -145,7 +147,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1"
+        "🇩🇪 DE | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -519,6 +521,22 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "server_port": 80,
+      "uuid": "479526cd-5011-43cf-a788-504da95e07c2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -802,11 +820,11 @@
       }
     },
     {
-      "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",
+      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
       "type": "vmess",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "server": "95.179.166.22",
+      "server_port": 40405,
+      "uuid": "ebf18c2b-acba-42a1-9fc5-a017af88cccd",
       "security": "auto",
       "alter_id": 0
     }

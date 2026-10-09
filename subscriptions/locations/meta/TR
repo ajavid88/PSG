@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VLESS | @v2raych #1", "server": "platform115.golnamakcert.top", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "platform115.halalkhor.info"}
-  - {"name": "🇲🇾 MY | VLESS | @v2raych #2", "server": "platform115.golnamakcert.top", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "platform115.halalkhor.info"}
+  - {"name": "🇹🇷 TR | VLESS | @outline_ir #1", "server": "176.96.131.251", "port": 1280, "type": "vless", "skip-cert-verify": true, "uuid": "c0e8fb58-a60f-4c15-9444-4e7c109797a8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VLESS | @v2raych #1'
-      - '🇲🇾 MY | VLESS | @v2raych #2'
+      - '🇹🇷 TR | VLESS | @outline_ir #1'
 
   - name: 🌍 Global Media
     type: select

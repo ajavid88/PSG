@@ -28,7 +28,6 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #2", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "dearn.moon-night.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7f0eb17f-c870-40d1-b227-53887811dd5c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2rayprotocol #1", "server": "pl.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -48,7 +47,6 @@ proxy-groups:
       - 'KingRezaPahlavi'
       - '🇩🇪 DE | VLESS | @nofiltering2 #1'
       - '🇩🇪 DE | VLESS | @nofiltering2 #2'
-      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
       - '🇳🇱 NL | VLESS | @v2rayprotocol #1'
 
   - name: 🌍 Global Media

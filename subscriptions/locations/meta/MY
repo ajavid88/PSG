@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇸 IS | VLESS | @v2ray_free_conf #1", "server": "6492.noirex.ir", "port": 34602, "type": "vless", "skip-cert-verify": true, "uuid": "2879a248-579e-46e4-a210-8fda76958bec", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇾 MY | VLESS | @v2raych #1", "server": "platform115.golnamakcert.top", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "platform115.halalkhor.info"}
+  - {"name": "🇲🇾 MY | VLESS | @v2raych #2", "server": "platform115.golnamakcert.top", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "platform115.halalkhor.info"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇸 IS | VLESS | @v2ray_free_conf #1'
+      - '🇲🇾 MY | VLESS | @v2raych #1'
+      - '🇲🇾 MY | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

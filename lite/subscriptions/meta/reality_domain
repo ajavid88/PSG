@@ -28,9 +28,7 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #2", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "w907rj.orbitacorp.dev", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇱🇻 LV | VLESS | @v2ray_free_conf #1", "server": "www.asamping.ir", "port": 20901, "type": "vless", "skip-cert-verify": true, "uuid": "ac9d915e-343c-4d6a-8d80-be975c1cefde", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇮🇸 IS | VLESS | @v2ray_free_conf #1", "server": "6492.noirex.ir", "port": 34602, "type": "vless", "skip-cert-verify": true, "uuid": "2879a248-579e-46e4-a210-8fda76958bec", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "dearn.moon-night.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7f0eb17f-c870-40d1-b227-53887811dd5c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2rayprotocol #1", "server": "pl.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -50,9 +48,7 @@ proxy-groups:
       - 'KingRezaPahlavi'
       - '🇩🇪 DE | VLESS | @nofiltering2 #1'
       - '🇩🇪 DE | VLESS | @nofiltering2 #2'
-      - '🇫🇮 FI | VLESS | @red2ray #1'
-      - '🇱🇻 LV | VLESS | @v2ray_free_conf #1'
-      - '🇮🇸 IS | VLESS | @v2ray_free_conf #1'
+      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
       - '🇳🇱 NL | VLESS | @v2rayprotocol #1'
 
   - name: 🌍 Global Media

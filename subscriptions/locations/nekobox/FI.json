@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VMESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -88,9 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VMESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -105,23 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "w907rj.orbitacorp.dev",
-      "server_port": 443,
-      "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
@@ -141,13 +122,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "fertest3.povrak.ir",
-      "server_port": 55277,
-      "uuid": "954a9c8e-627b-4f75-899e-c5b406555fed",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fi3.srv.safes-infrastructure.com",
+      "server_port": 8443,
+      "uuid": "050f8129-ee72-4a60-9c8b-01bc6287f574",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",

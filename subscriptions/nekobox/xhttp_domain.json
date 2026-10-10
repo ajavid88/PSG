@@ -84,7 +84,8 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
@@ -101,7 +102,8 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
@@ -241,12 +243,29 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "1913e238f9fb6a21.tunvi.w-ert.org",
-      "server_port": 442,
-      "uuid": "8057222f-fda5-4a1d-adf0-1b4c0e7164f5",
+      "server": "ascx-1a106b7e39b001-task-1a110b26294000-f176543e8c.global.ssl.fastly.net",
+      "server_port": 80,
+      "uuid": "19bc4f42-2502-45f6-a573-b28fc8257f02",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "tg1.cdnphotos.org",
+      "server_port": 443,
+      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",

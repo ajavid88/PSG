@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇭 TH | VLESS | @vpn_ioss #1", "server": "103.86.49.57", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "3c52e091-6714-4915-949f-2149fe69951b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇭 TH | VLESS | @vpn_ioss #2", "server": "103.86.49.57", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "3c52e091-6714-4915-949f-2149fe69951b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇾 CY | VLESS | @v2raych #1", "server": "archive.m2ip-video.cloud", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "3ed41dfc-0d38-4379-a470-c815673dc504", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇭 TH | VLESS | @vpn_ioss #1'
-      - '🇹🇭 TH | VLESS | @vpn_ioss #2'
+      - '🇨🇾 CY | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

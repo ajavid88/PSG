@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVEg=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #2",
-      "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "tag": "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "pretty-rat.rooster465.autos",
+      "server_port": 443,
+      "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

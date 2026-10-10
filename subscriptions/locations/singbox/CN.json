@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ1k=
+//profile-title: base64:UFNHIHwgQ04=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
+      "tag": "🇨🇳 CN | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "archive.m2ip-video.cloud",
+      "server": "122.8.45.4",
       "server_port": 8443,
-      "uuid": "3ed41dfc-0d38-4379-a470-c815673dc504",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "uuid": "2d24e797-ec6c-0808-dd31-9cd22b5dfdc7",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

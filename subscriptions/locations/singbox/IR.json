@@ -107,15 +107,11 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | SS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raying #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -140,15 +136,11 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | SS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raying #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -352,44 +344,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ir1.mobileemdad.top",
-      "server_port": 443,
-      "uuid": "99a7651f-3c4c-42fd-9492-ee6c9b2fab09",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "p2tun2.greewebservices.ir",
-      "server_port": 1020,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmNFotaWt5dVdDMEQ5MjZyWndiVGhn",
-      "password": null
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "tun2.appii.ir",
-      "server_port": 8700,
-      "uuid": "412c08d3-d2c4-4a29-a7ce-bc16d6ca6d79",
       "packet_encoding": "xudp"
     },
     {
@@ -446,28 +405,6 @@
       "server_port": 80,
       "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "p2tun01.greewebservices.ir",
-      "server_port": 28830,
-      "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

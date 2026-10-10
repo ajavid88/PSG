@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | TROJAN | @red2ray #1",
-        "🇱🇺 LU | TROJAN | @v2raych #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | TROJAN | @red2ray #1",
-        "🇱🇺 LU | TROJAN | @v2raych #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +103,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇺 LU | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "188.42.145.180",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "31.40.204.131",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -119,11 +120,12 @@
       }
     },
     {
-      "tag": "🇱🇺 LU | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "188.42.145.180",
-      "server_port": 443,
-      "password": "humanity",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "docs.n9ne.com.tr",
+      "server_port": 8444,
+      "uuid": "e81e1114-99b5-4fea-aafc-84426e845a14",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -131,6 +133,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

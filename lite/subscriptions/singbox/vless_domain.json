@@ -139,10 +139,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -211,10 +210,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -884,12 +882,26 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "imbetterimsmarter.mrapanel.shop",
-      "server_port": 13,
-      "uuid": "bb441de5-4707-498c-b958-7ad469342b3d",
-      "packet_encoding": "xudp"
+      "server": "admin-2.mizban-b.site",
+      "server_port": 443,
+      "uuid": "e61ee303-4050-4d88-b65c-df67a6839ffd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -905,14 +917,6 @@
       "server": "berovps.masoodbiranvand-230.workers.dev",
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "dns4.m3hrzd.ir",
-      "server_port": 8030,
-      "uuid": "3661f782-96ab-43f1-ba97-847195fc2ecb",
       "packet_encoding": "xudp"
     },
     {

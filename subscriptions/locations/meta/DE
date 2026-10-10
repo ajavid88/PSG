@@ -57,8 +57,6 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @tobevasl #3", "server": "91.99.195.73", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | TROJAN | @v2ray_collector #1", "server": "31.77.168.33", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo"}
   - {"name": "🇩🇪 DE | VMESS | @v2ray_collector #1", "server": "193.108.117.54", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "aidrivercat.org"}}}
-  - {"name": "🇩🇪 DE | VLESS | @v2raych #1", "server": "194.77.220.104", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VMESS | @v2raych #1", "server": "95.179.166.22", "port": 40405, "type": "vmess", "skip-cert-verify": true, "uuid": "ebf18c2b-acba-42a1-9fc5-a017af88cccd", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VLESS | @v2rayexpress #1", "server": "139.162.146.9", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b5e5c843-eb6b-438d-93c5-4faa71780ac4", "network": "splithttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #1", "server": "84.32.100.169", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "b655491a-c67b-4c6b-880d-d0da3cddd916", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #2", "server": "195.252.179.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "596086c9-3167-0004-97a1-c04311039e06", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -116,8 +114,6 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @tobevasl #3'
       - '🇩🇪 DE | TROJAN | @v2ray_collector #1'
       - '🇩🇪 DE | VMESS | @v2ray_collector #1'
-      - '🇩🇪 DE | VLESS | @v2raych #1'
-      - '🇩🇪 DE | VMESS | @v2raych #1'
       - '🇩🇪 DE | VLESS | @v2rayexpress #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #2'

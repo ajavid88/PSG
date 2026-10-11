@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1",
+        "🇵🇱 PL | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @vpn_ioss #1",
+        "🇵🇱 PL | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "cheerful-swan.rooster465.autos",
+      "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "177.1.192.72",
       "server_port": 443,
-      "password": "UX82473651",
+      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -122,6 +125,33 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpn_ioss #2",
+      "type": "vless",
+      "server": "177.1.192.74",
+      "server_port": 443,
+      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

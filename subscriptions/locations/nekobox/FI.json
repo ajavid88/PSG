@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | SS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raych #1",
@@ -90,7 +89,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | SS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raych #1",
@@ -109,14 +107,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "185.103.110.68",
-      "server_port": 18283,
-      "method": "YWVzLTEyOC1nY206ZjkzMDBhOWJmMzlhZTAzNDdjM2EzYmZiYzRkZDc3NTQ=",
-      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
@@ -143,17 +133,31 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "fi2.hidenet.xyz",
-      "server_port": 8443,
-      "uuid": "efa9d618-443e-4d9a-9c67-c4b3d9d73995",
-      "packet_encoding": "xudp"
+      "server": "f541.donyumvps.tr",
+      "server_port": 34113,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fi.pythonsetupbib.online",
-      "server_port": 443,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "server": "219f.donyumvps.tr",
+      "server_port": 34109,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

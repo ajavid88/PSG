@@ -78,7 +78,9 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +134,41 @@
       "server": "cheerful-swan.rooster465.autos",
       "server_port": 443,
       "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "213.21.232.224",
+      "server_port": 443,
+      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "213.21.232.26",
+      "server_port": 443,
+      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -94,10 +94,10 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | SS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raying #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -124,10 +124,10 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | SS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raying #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -337,14 +337,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "trohop.sarzaminshadi13.ir",
-      "server_port": 2050,
-      "uuid": "ad5e8d2b-6b62-428e-9169-c774d57608af",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
@@ -388,6 +380,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #2",
+      "type": "vless",
+      "server": "nexall.cloudvipgamefall.ir",
+      "server_port": 8080,
+      "uuid": "3fd888a5-9356-4a5e-b161-b87338cc5f32",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

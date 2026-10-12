@@ -102,7 +102,9 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇩🇪 DE | VLESS | @flyv2ray #2",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -165,7 +167,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
-        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @selinc #1",
@@ -183,7 +186,6 @@
         "🇲🇩 MD | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇩🇪 DE | VLESS | @v2rayexpress #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -244,7 +246,9 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇩🇪 DE | VLESS | @flyv2ray #2",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -307,7 +311,8 @@
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
-        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @selinc #1",
@@ -325,7 +330,6 @@
         "🇲🇩 MD | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇩🇪 DE | VLESS | @v2rayexpress #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -726,11 +730,33 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @flyv2ray #2",
+      "type": "vless",
+      "server": "64.188.83.186",
+      "server_port": 443,
+      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "uuid": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -741,6 +767,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "140.225.208.50",
+      "server_port": 2083,
+      "uuid": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #2",
@@ -1558,12 +1592,48 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "206.245.146.248",
-      "server_port": 2085,
-      "uuid": "ec553e40-bd11-44fc-91ba-284fe7264706",
-      "packet_encoding": "xudp"
+      "server": "169.40.42.231",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "169.40.42.90",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @renetvpn #1",
@@ -1727,9 +1797,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "64.188.83.186",
+      "server": "144.31.165.102",
       "server_port": 443,
-      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "uuid": "b1936288-a353-4ff1-89b3-edaead599c6b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1738,11 +1808,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -1798,23 +1863,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayexpress #1",
-      "type": "vless",
-      "server": "139.162.146.9",
-      "server_port": 443,
-      "uuid": "b5e5c843-eb6b-438d-93c5-4faa71780ac4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },

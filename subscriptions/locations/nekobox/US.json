@@ -121,7 +121,6 @@
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇺🇸 US | VLESS | @tobevasl #1",
@@ -130,7 +129,7 @@
         "🇺🇸 US | VLESS | @turboo_server #3",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -197,7 +196,6 @@
         "🇺🇸 US | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
         "🇺🇸 US | VLESS | @tobevasl #1",
@@ -206,7 +204,7 @@
         "🇺🇸 US | VLESS | @turboo_server #3",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -911,14 +909,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "206.245.146.248",
-      "server_port": 2085,
-      "uuid": "ec553e40-bd11-44fc-91ba-284fe7264706",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "visa.com",
@@ -1053,12 +1043,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "13.143.166.18",
+      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "199.232.78.160",
       "server_port": 443,
-      "uuid": "accfae78-b31c-47cb-86a1-bb9a07973e4a",
-      "packet_encoding": "xudp",
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1066,11 +1055,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

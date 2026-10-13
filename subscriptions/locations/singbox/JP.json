@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @lemonshopvpn #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | VLESS | @outline_ir #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @lemonshopvpn #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | VLESS | @outline_ir #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -122,11 +122,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "evident-ant.rooster465.autos",
+      "tag": "🇯🇵 JP | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "142.91.108.25",
       "server_port": 443,
-      "password": "UX82473651",
+      "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -134,6 +135,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

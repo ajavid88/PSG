@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @red2ray #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @red2ray #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,14 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "ee-2e06d85dc0.shamanapp.online",
-      "server_port": 34451,
-      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
@@ -130,11 +120,11 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇪 EE | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "justnotebook.top",
+      "server": "93.89.220.37",
       "server_port": 443,
-      "uuid": "87939c49-07d0-4bfb-8612-5a0380eddebe",
+      "uuid": "185e2bb3-2934-48d0-bbd5-dd20d16e83ee",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -143,6 +133,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

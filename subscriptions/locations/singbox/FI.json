@@ -92,7 +92,8 @@
         "direct",
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -145,6 +147,28 @@
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "219f.donyumvps.tr",
+      "server_port": 34109,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

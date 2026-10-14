@@ -91,10 +91,10 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,28 +131,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "152.233.71.81",
-      "server_port": 443,
-      "uuid": "741809be-e44e-000b-b411-bf66f0ae3860",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -186,6 +164,28 @@
       "type": "vless",
       "server": "219f.donyumvps.tr",
       "server_port": 34109,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "f541.donyumvps.tr",
+      "server_port": 34113,
       "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
       "packet_encoding": "xudp",
       "tls": {

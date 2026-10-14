@@ -94,6 +94,7 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -122,6 +123,7 @@
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇽🇽 XX | TROJAN | @v_2rayng0 #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -408,6 +410,22 @@
       "server": "141.193.213.172",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "167.82.76.7",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",

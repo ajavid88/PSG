@@ -34,6 +34,7 @@ proxies:
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "54.37.136.194", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "e8a432c8-5d84-49a5-b822-67ed761a58f9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇲🇩 MD | VLESS | @v2ray_youtube #1", "server": "89.35.14.32", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "109.248.169.195", "port": 43000, "type": "vless", "skip-cert-verify": true, "uuid": "caed9423-a900-4704-9045-d207a8d4697b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇬 SG | VLESS | @v2rayexpress #1", "server": "5.223.42.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @v2rayexpress #1", "server": "139.162.146.9", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b5e5c843-eb6b-438d-93c5-4faa71780ac4", "network": "splithttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1", "server": "176.119.141.136", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "0828a0bc-8acf-422c-9fac-8ad885a0dbaf", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -66,6 +67,7 @@ proxy-groups:
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇫🇷 FR | VLESS | @v2ray_collector #1'
       - '🇲🇩 MD | VLESS | @v2ray_youtube #1'
+      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇸🇬 SG | VLESS | @v2rayexpress #1'
       - '🇩🇪 DE | VLESS | @v2rayexpress #1'
       - '🇳🇱 NL | VLESS | @v2rayngvpn_1 #1'

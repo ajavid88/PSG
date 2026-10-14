@@ -126,6 +126,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -265,9 +266,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
-        "🇽🇽 XX | VLESS | @v2ray1_ng #1",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -363,6 +364,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -502,9 +504,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
-        "🇽🇽 XX | VLESS | @v2ray1_ng #1",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -967,6 +969,23 @@
       "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "cf.090227.xyz",
+      "server_port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2801,23 +2820,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray1_ng #1",
-      "type": "vless",
-      "server": "cf.090227.xyz",
-      "server_port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2ray4win #1",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -2837,19 +2839,18 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "one-for-all.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "29ca503d-e6b8-4509-b666-48133f450857",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "172.67.132.85",
+      "server_port": 8080,
+      "uuid": "3a701524-30c8-45f3-8922-d7af5d024af0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "love.ns.cloudflare.com",
+      "server_port": 80,
+      "uuid": "22c15b3f-e205-48e2-9b30-1a2c3480e7b2",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
@@ -2902,9 +2903,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "www.gov.ua",
-      "server_port": 8880,
-      "uuid": "725c66a2-2bce-4a24-ba52-b4e2e7047076",
+      "server": "172.67.151.243",
+      "server_port": 2086,
+      "uuid": "b4a16091-a25d-4d33-aee3-f5ae04f34b14",
       "packet_encoding": "xudp"
     },
     {

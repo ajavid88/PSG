@@ -84,11 +84,10 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇨🇦 CA | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇸 IS | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -104,11 +103,10 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇨🇦 CA | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇮🇸 IS | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -280,19 +278,33 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "ge.zanzelo.ir",
-      "server_port": 2196,
-      "uuid": "26842225-7354-4014-b955-d202c62ae936",
-      "packet_encoding": "xudp"
+      "server": "de20.h1cloud.net",
+      "server_port": 25031,
+      "uuid": "83383473-0d62-4089-ac4d-d7ecb413504a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @v2raych #1",
+      "tag": "🇮🇸 IS | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "time.salphetka.ru",
-      "server_port": 443,
-      "uuid": "92295a0d-b610-4075-85e9-bfab09ec6f3a",
+      "server": "2770.zavqeron.ir",
+      "server_port": 39237,
+      "uuid": "cdb26740-5270-46bd-a5f8-60b9fd1624c5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -354,32 +366,10 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "de1.manticore-vpn.lol",
-      "server_port": 443,
-      "uuid": "b1936288-a353-4ff1-89b3-edaead599c6b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "219f.donyumvps.tr",
-      "server_port": 34109,
+      "server": "f541.donyumvps.tr",
+      "server_port": 34113,
       "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
       "packet_encoding": "xudp",
       "tls": {

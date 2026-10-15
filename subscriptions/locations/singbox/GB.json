@@ -183,10 +183,26 @@
     {
       "tag": "🇬🇧 GB | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "57.129.138.142",
-      "server_port": 8880,
-      "uuid": "31cfd50c-cc13-470d-826c-351ce9f81cb5",
-      "packet_encoding": "xudp"
+      "server": "159.65.51.189",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",

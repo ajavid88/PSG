@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇸 IS | VLESS | @red2ray #1"
+        "🇮🇸 IS | VLESS | @red2ray #1",
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇸 IS | VLESS | @red2ray #1"
+        "🇮🇸 IS | VLESS | @red2ray #1",
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇸 IS | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "f45e.donyumvps.tr",
+      "server_port": 34120,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptbF9wUVVrandvSjI2MlpTZUk2ZzBB",
+      "password": null
     }
   ],
   "route": {

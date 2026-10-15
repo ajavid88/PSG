@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFU=
+//profile-title: base64:UFNHIHwgTVk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | TROJAN | @v2ray_collector #1"
+        "🇲🇾 MY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | TROJAN | @v2ray_collector #1"
+        "🇲🇾 MY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇺 LU | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "188.42.145.180",
+      "tag": "🇲🇾 MY | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "my2.oh-node.com",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

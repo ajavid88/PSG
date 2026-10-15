@@ -83,6 +83,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
+        "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -106,6 +107,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
+        "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -242,6 +244,23 @@
       "server": "104.17.108.1",
       "server_port": 443,
       "uuid": "5910d5d4-d670-4cf2-b875-72bfef693c56",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @mimitdl #1",
+      "type": "vless",
+      "server": "62.60.222.174",
+      "server_port": 443,
+      "uuid": "MiMiTdL",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

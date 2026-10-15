@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇸 IS | VLESS | @red2ray #1",
-        "🇮🇸 IS | SS | @v2ray_free_conf #1"
+        "🇹🇼 TW | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇸 IS | VLESS | @red2ray #1",
-        "🇮🇸 IS | SS | @v2ray_free_conf #1"
+        "🇹🇼 TW | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,34 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇸 IS | VLESS | @red2ray #1",
+      "tag": "🇹🇼 TW | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "9e29.velqixa.ir",
-      "server_port": 39231,
-      "uuid": "cdb26740-5270-46bd-a5f8-60b9fd1624c5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇸 IS | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "f45e.donyumvps.tr",
-      "server_port": 34120,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptbF9wUVVrandvSjI2MlpTZUk2ZzBB",
-      "password": null
+      "server": "3696b38bsg.murphyweb.sbs",
+      "server_port": 32134,
+      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

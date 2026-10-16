@@ -92,6 +92,7 @@
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | VLESS | @netfreedom0 #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | VLESS | @netfreedom0 #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -144,6 +146,23 @@
       "server_port": 32134,
       "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "43.174.193.1",
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

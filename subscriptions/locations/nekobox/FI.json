@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "assets.halyvanedorogo.ru",
+      "server_port": 11515,
+      "uuid": "cb8fbad5-4f14-55bc-a24a-3510f47f4b1b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",

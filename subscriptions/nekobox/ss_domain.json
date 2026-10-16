@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇾 MY | VLESS | @v2ray_free_conf #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇾 MY | VLESS | @v2ray_free_conf #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +107,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇾 MY | VLESS | @v2ray_free_conf #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "my2.oh-node.com",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -115,7 +121,70 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
       }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇸 IS | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "3b59.donyumvps.tr",
+      "server_port": 33118,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptbF9wUVVrandvSjI2MlpTZUk2ZzBB",
+      "password": null
     }
   ],
   "route": {

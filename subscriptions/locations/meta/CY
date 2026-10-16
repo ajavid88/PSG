@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VLESS | @v2ray_free_conf #1", "server": "my2.oh-node.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇾 CY | VLESS | @v2raych #1", "server": "nl.song69.fun", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "408c51e8-9246-483d-ba73-34ab4e202eb9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VLESS | @v2ray_free_conf #1'
+      - '🇨🇾 CY | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

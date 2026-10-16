@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇼 TW | VLESS | @netfreedom0 #1", "server": "3696b38bsg.murphyweb.sbs", "port": 32134, "type": "vless", "skip-cert-verify": true, "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇷 FR | VMESS | @orange_vpns #1", "server": "145.239.55.210", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "067fcd63-b215-4abd-8529-ae929a9971a9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇼 TW | VLESS | @netfreedom0 #1'
+      - '🇫🇷 FR | VMESS | @orange_vpns #1'
 
   - name: 🌍 Global Media
     type: select

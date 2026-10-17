@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+        "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
@@ -100,7 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+        "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
@@ -114,12 +114,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+      "tag": "🇯🇵 JP | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "ubia2-join.outline-vpn.cloud",
-      "server_port": 80,
-      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
-      "packet_encoding": "xudp"
+      "server": "jp4.oh-node.com",
+      "server_port": 443,
+      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @outline_ir #1",

@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -108,28 +106,6 @@
       "server": "hk03.ccdn3.work",
       "server_port": 795,
       "uuid": "fc12fb20-4380-11ec-8c97-d707e267af0b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "hk6.oh-node.com",
-      "server_port": 443,
-      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

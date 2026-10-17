@@ -100,8 +100,9 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇭🇰 HK | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+        "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
@@ -123,8 +124,9 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇭🇰 HK | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+        "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
@@ -342,10 +344,10 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "219f.donyumvps.tr",
-      "server_port": 34109,
+      "server": "d337.donyumvps.tr",
+      "server_port": 38110,
       "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
       "packet_encoding": "xudp",
       "tls": {
@@ -364,12 +366,43 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "samgeez.online",
-      "server_port": 8443,
-      "uuid": "a04c750d-3b71-493b-b2c1-6473ff1209dd",
-      "packet_encoding": "xudp"
+      "server": "dns4.m3hrzd.ir",
+      "server_port": 8055,
+      "uuid": "f9ba429b-75c8-4b23-a625-b34b4a9a0830",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "webdisk.jaggyslawa.org",
+      "server_port": 443,
+      "uuid": "75113671-63e3-452d-87d3-261a37e8b472",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",

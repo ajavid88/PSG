@@ -122,6 +122,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | SS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -173,6 +175,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | SS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -697,10 +701,24 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "3.72.50.236",
-      "server_port": 1002,
-      "uuid": "80e6a144-0041-4ebf-b5e4-850095c2a8ee",
-      "packet_encoding": "xudp"
+      "server": "f541.donyumvps.tr",
+      "server_port": 34113,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",
@@ -708,6 +726,22 @@
       "server": "shop.jarorobo.ir",
       "server_port": 8443,
       "uuid": "ce3dab49-42ec-4a3d-b70c-a76efafd8eba",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "ash.asan-ps.ir",
+      "server_port": 9443,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "90c08c98-7ec8-4fab-da36-cf140d18c708",
       "packet_encoding": "xudp"
     },
     {

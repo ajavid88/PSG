@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | SS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
@@ -104,7 +104,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | SS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
@@ -142,11 +142,19 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇺 RU | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "194.87.196.107",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206THBxNVVQVkh0UVlpdUI5akVVTmMyV2tlSVlDVUg5REU=",
+      "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "178.236.251.175",
-      "server_port": 8443,
-      "uuid": "a04c750d-3b71-493b-b2c1-6473ff1209dd",
+      "server": "tg1.cdnphotos.org",
+      "server_port": 443,
+      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -155,21 +163,8 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "78.159.246.179",
-      "server_port": 2053,
-      "uuid": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

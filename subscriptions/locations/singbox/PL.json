@@ -90,10 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,12 +114,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "packet_encoding": "xudp"
+      "tag": "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "92.118.150.146",
+      "server_port": 443,
+      "password": "Trojan%4082164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
@@ -164,24 +170,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "177.1.192.72",
-      "server_port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

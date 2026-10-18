@@ -28,9 +28,12 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #1", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "219f.donyumvps.tr", "port": 34109, "type": "vless", "skip-cert-verify": true, "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇯🇵 JP | VLESS | @v2ray_free_conf #1", "server": "funagfrdfs.alixxplay.com", "port": 35544, "type": "vless", "skip-cert-verify": true, "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "opge.slovovpn.com", "port": 8566, "type": "vless", "skip-cert-verify": true, "uuid": "b3f55843-361b-4766-bc0f-c43fe4f67275", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "07a43ef8ce834d5a.tunvi.w-ert.org", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "58fce630-f90b-42aa-84b4-ba4117864609", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇷 IR | VLESS | @v2raych #1", "server": "tun2.w-ert.org", "port": 447, "type": "vless", "skip-cert-verify": true, "uuid": "ea9b3ad9-6a4d-4a50-a17d-7e0df09b63af", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇷 IR | VLESS | @v2raymelliii #1", "server": "ece25302dafcd536.tunde.w-ert.org", "port": 501, "type": "vless", "skip-cert-verify": true, "uuid": "771e25d5-6f45-4270-87a5-963afb2dd251", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2rayprotocol #1", "server": "pl.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @vmesskhodam #1", "server": "deara.moon-night.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1ebaca17-104a-4a77-92b4-f2e7f3619474", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,8 +53,11 @@ proxy-groups:
       - '🇷🇺 RU | VLESS | @nofiltering2 #1'
       - '🇩🇪 DE | VLESS | @nofiltering2 #1'
       - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
-      - '🇯🇵 JP | VLESS | @v2ray_free_conf #1'
+      - '🇮🇷 IR | VLESS | @v2ray_free_conf #1'
+      - '🇮🇷 IR | VLESS | @v2raych #1'
+      - '🇮🇷 IR | VLESS | @v2raymelliii #1'
       - '🇳🇱 NL | VLESS | @v2rayprotocol #1'
+      - '🇩🇪 DE | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

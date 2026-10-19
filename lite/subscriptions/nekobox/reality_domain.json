@@ -82,10 +82,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
+        "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
@@ -100,10 +99,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
+        "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
@@ -232,11 +230,33 @@
       }
     },
     {
+      "tag": "🇯🇵 JP | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "jp4.oh-node.com",
+      "server_port": 443,
+      "uuid": "7cfd34ae-edad-4cc5-9d6f-066f7add7829",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "opge.slovovpn.com",
-      "server_port": 8566,
-      "uuid": "b3f55843-361b-4766-bc0f-c43fe4f67275",
+      "server": "dearv.moon-night.ir",
+      "server_port": 443,
+      "uuid": "556e306b-e0a1-4832-80e5-575696c27f88",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -254,55 +274,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "07a43ef8ce834d5a.tunvi.w-ert.org",
-      "server_port": 448,
-      "uuid": "58fce630-f90b-42aa-84b4-ba4117864609",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "tun2.w-ert.org",
-      "server_port": 447,
-      "uuid": "ea9b3ad9-6a4d-4a50-a17d-7e0df09b63af",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "ece25302dafcd536.tunde.w-ert.org",
-      "server_port": 501,
-      "uuid": "771e25d5-6f45-4270-87a5-963afb2dd251",
+      "server": "dns11.m3hrzd.ir",
+      "server_port": 8030,
+      "uuid": "0a074c3a-dd15-469f-80a7-3997cd688fd2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

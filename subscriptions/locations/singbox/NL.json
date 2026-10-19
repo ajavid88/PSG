@@ -96,8 +96,10 @@
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | SS | @v2rayopen #1",
@@ -116,8 +118,10 @@
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | SS | @v2rayopen #1",
@@ -242,11 +246,33 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "51.158.206.19",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dns11.m3hrzd.ir",
-      "server_port": 8030,
-      "uuid": "0a074c3a-dd15-469f-80a7-3997cd688fd2",
+      "server": "s3.shardtech.pro",
+      "server_port": 443,
+      "uuid": "aeffee83-4a56-4e01-ad8b-9bae65cb8d70",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -269,6 +295,14 @@
       "server": "89.124.69.148",
       "server_port": 8443,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "dns4.m3hrzd.ir",
+      "server_port": 8055,
+      "uuid": "e2d340e9-fe10-401f-a270-4b069c113da0",
       "packet_encoding": "xudp"
     },
     {

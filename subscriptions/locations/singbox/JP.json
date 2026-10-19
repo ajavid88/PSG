@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @netfreedom0 #1",
         "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -100,8 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @netfreedom0 #1",
         "🇯🇵 JP | VLESS | @orange_vpns #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -112,6 +116,21 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @orange_vpns #1",
@@ -156,6 +175,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "130.94.67.40",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQU0=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇲 AM | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇲 AM | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇲 AM | VLESS | @v2ray_free_conf #1",
+      "tag": "🇭🇰 HK | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "185.202.113.108",
-      "server_port": 443,
-      "uuid": "b2bf3e70-e99f-47ed-9802-5c8d264ecc0c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "3696b38bsg.murphyweb.sbs",
+      "server_port": 32134,
+      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

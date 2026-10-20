@@ -111,16 +111,17 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
+        "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
+        "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
@@ -156,16 +157,17 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
+        "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
         "🇩🇪 DE | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
+        "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
@@ -521,6 +523,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "159.195.137.29",
+      "server_port": 8443,
+      "uuid": "2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
       "server": "66.151.40.60",
@@ -580,33 +604,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "94.26.41.225",
+      "server": "169.40.42.89",
       "server_port": 443,
-      "uuid": "07104d25-afc5-4b3b-a871-c729c57de047",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "de.ipsenter.org",
-      "server_port": 443,
-      "uuid": "c381ed79-f3c9-4028-85ae-687795d89ece",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -672,6 +674,28 @@
       "server_port": 8443,
       "uuid": "dca76b88-b038-e82b-45e1-1d76b476d7ca",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayprotocol #1",
+      "type": "vless",
+      "server": "31.76.249.87",
+      "server_port": 443,
+      "uuid": "dc9e93bc-b53a-11f1-91d3-52540030ba36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vipv2rey #1",

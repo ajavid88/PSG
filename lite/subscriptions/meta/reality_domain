@@ -28,8 +28,7 @@ proxies:
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #1", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @nofiltering2 #1", "server": "de-2.starsping.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #1", "server": "46c94d18655db03e.tunvi.w-ert.org", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "5ac13f85-4243-45fc-a38a-8cdd03ef1efb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇮🇷 IR | VLESS | @v2ray_free_conf #2", "server": "ddehop.sarzaminshadi13.ir", "port": 1980, "type": "vless", "skip-cert-verify": true, "uuid": "0b8f6c16-d535-40c9-933a-a364dc83cb5a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇷 IR | VLESS | @v2raych #1", "server": "ffe7849bc437ef43.tunvi.w-ert.org", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "a9aed6a7-0295-4df4-8d29-c66677d7ea08", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2rayprotocol #1", "server": "pl.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -49,8 +48,7 @@ proxy-groups:
       - 'KingRezaPahlavi'
       - '🇷🇺 RU | VLESS | @nofiltering2 #1'
       - '🇩🇪 DE | VLESS | @nofiltering2 #1'
-      - '🇮🇷 IR | VLESS | @v2ray_free_conf #1'
-      - '🇮🇷 IR | VLESS | @v2ray_free_conf #2'
+      - '🇮🇷 IR | VLESS | @v2raych #1'
       - '🇳🇱 NL | VLESS | @v2rayprotocol #1'
 
   - name: 🌍 Global Media

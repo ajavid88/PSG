@@ -92,7 +92,6 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -122,6 +121,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -258,9 +258,9 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -315,7 +315,6 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -345,6 +344,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -481,9 +481,9 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -553,23 +553,6 @@
       "server": "104.21.65.150",
       "server_port": 443,
       "uuid": "c854ace9-1dc7-4fc4-b87b-6b00db3cc4ed",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "172.64.149.54",
-      "server_port": 443,
-      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -858,19 +841,18 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
+      "server": "172.67.155.65",
+      "server_port": 8443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "162.159.152.4",
+      "server_port": 2052,
+      "uuid": "16a74c64-15bf-4fea-89e1-0a33ca535cc9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
@@ -892,10 +874,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
       "type": "vless",
-      "server": "172.67.155.65",
-      "server_port": 8443,
+      "server": "188.114.97.6",
+      "server_port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -2570,6 +2561,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raying #1",
       "type": "vless",
       "server": "188.114.97.6",
@@ -2602,14 +2609,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "ip1.fastt.ir",
-      "server_port": 2096,
-      "uuid": "8bcdddb3-3154-49e1-ab64-1998e1131c02",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #1",

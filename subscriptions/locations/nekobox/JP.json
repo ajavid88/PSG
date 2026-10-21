@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
-        "🇯🇵 JP | VLESS | @netfreedom0 #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -88,9 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
-        "🇯🇵 JP | VLESS | @netfreedom0 #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
+        "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -105,29 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @lemonshopvpn #1",
-      "type": "vless",
-      "server": "ubia2-join.outline-vpn.cloud",
-      "server_port": 80,
-      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "platform109.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @outline_ir #1",
@@ -148,6 +123,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pq.aws51.yydjc.top",
+      "server_port": 443,
+      "uuid": "0cf7bb7c-cf49-4e1c-aa98-f33cbe3cb156",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

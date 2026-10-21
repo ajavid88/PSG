@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -123,6 +125,28 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 56656,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

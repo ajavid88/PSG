@@ -93,14 +93,14 @@
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇩🇪 DE | VLESS | @netfreedom0 #1",
-        "🇩🇪 DE | VLESS | @netfreedom0 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
@@ -138,14 +138,14 @@
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #3",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
-        "🇩🇪 DE | VLESS | @netfreedom0 #1",
-        "🇩🇪 DE | VLESS | @netfreedom0 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @nofiltering2 #3",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
@@ -431,31 +431,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "89.125.112.12",
-      "server_port": 443,
-      "uuid": "5f5677a6-f1fd-4911-b32a-cfbc506f0cf6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @netfreedom0 #2",
-      "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "de-2.starsping.com",
@@ -537,12 +512,42 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "31.76.11.83",
+      "server_port": 15731,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4QVlYdEIrWE1kZldXT2xtTDhQV2NPWkVQZktIS1Z2N05jVFk2anBjTC9BPQ==",
+      "password": null
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @proxy48 #1",
       "type": "vless",
       "server": "82.165.77.122",
       "server_port": 2083,
       "uuid": "f46ad8d7-f22c-40fc-d0b2-5db602a6d815",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "159.195.137.29",
+      "server_port": 8443,
+      "uuid": "2ae1bbd2-dd81-4737-bbec-6a8c1c74e8f1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @tobevasl #1",
@@ -620,24 +625,10 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "test.wolf-moose.test-cdn-kkk.com",
-      "server_port": 443,
-      "uuid": "bbe37c75-d097-4b72-a074-445a56fe3969",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "rdeead72bbbe22dc0fc.welzora.ir",
+      "server_port": 8080,
+      "uuid": "cffaa00b-1066-452b-ac63-b295866eb7e3",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #1",
@@ -692,9 +683,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayprotocol #1",
       "type": "vless",
-      "server": "31.76.249.87",
+      "server": "94.183.238.15",
       "server_port": 443,
-      "uuid": "dc9e93bc-b53a-11f1-91d3-52540030ba36",
+      "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -703,11 +694,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

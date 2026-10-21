@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -93,7 +94,6 @@
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1"
       ],
@@ -107,6 +107,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -119,7 +120,6 @@
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1"
       ],
@@ -214,6 +214,23 @@
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "146.75.57.238",
+      "server_port": 443,
+      "uuid": "fcdfed39-51aa-4bb5-beb7-61b0357e36b9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -400,14 +417,6 @@
       "server": "kaveh4.gofuc7f.ir",
       "server_port": 2096,
       "uuid": "647f3600-112a-406c-9d19-6d1da58ff041",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "randomquaint.net",
-      "server_port": 2053,
-      "uuid": "95a608b6-bff1-4e10-bb61-0a39f221bb7d",
       "packet_encoding": "xudp"
     },
     {

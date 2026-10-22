@@ -92,6 +92,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -103,6 +104,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
@@ -143,6 +145,28 @@
       "server": "78.159.250.214",
       "server_port": 443,
       "uuid": "4054fdc2-ee80-4419-8a8e-d937df4719e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "103.91.147.212",
+      "server_port": 443,
+      "uuid": "261160d5-0343-4b85-8c28-3d40dd681559",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

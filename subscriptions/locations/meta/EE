@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇰 SK | VLESS | @v2raych #1", "server": "80.243.228.130", "port": 2085, "type": "vless", "skip-cert-verify": true, "uuid": "4dc8093e-4eff-410b-bc14-b69f78209414", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @outlinereleasedkey #1", "server": "ee-2e06d85dc0.shamanapp.online", "port": 34451, "type": "vless", "skip-cert-verify": true, "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇰 SK | VLESS | @v2raych #1'
+      - '🇪🇪 EE | VLESS | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

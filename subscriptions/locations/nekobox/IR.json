@@ -84,7 +84,6 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
@@ -94,9 +93,11 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -113,7 +114,6 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
@@ -123,9 +123,11 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -216,28 +218,6 @@
       "server_port": 2052,
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "tun2.w-ert.org",
-      "server_port": 42924,
-      "uuid": "3e16033f-71d8-417b-abea-7756253f3c3d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -340,12 +320,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "37.32.30.203",
-      "server_port": 11116,
-      "method": "YWVzLTI1Ni1nY206TWpZeE5UTTFZemsyWmpabU1EWXdOekUzTkRVelpqVm1OVFF3WTJNeg==",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "tr-1-tun.healingfluence.org",
+      "server_port": 443,
+      "uuid": "325b80ae-6419-4203-a2c2-ad7b1ced99a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -361,6 +350,22 @@
       "server": "mail.loyalsmile.net",
       "server_port": 8080,
       "uuid": "ff766b85-d50f-47b7-9b63-6ca4ea128f3f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de2-tun.dnetopps.ir",
+      "server_port": 10020,
+      "uuid": "03a3d946-4738-968a-5ce9-e4f470980d47",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "tr1-tun.dnetopps.ir",
+      "server_port": 10050,
+      "uuid": "9feaea01-f52a-b0bb-0142-35233d391d0c",
       "packet_encoding": "xudp"
     },
     {

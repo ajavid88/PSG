@@ -96,8 +96,8 @@
         "🇽🇽 XX | VLESS | @kafing_2 #5",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
@@ -115,8 +115,8 @@
         "🇽🇽 XX | VLESS | @kafing_2 #5",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
@@ -246,23 +246,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "kala.fortresshost.ir",
-      "server_port": 443,
-      "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -278,6 +261,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "010uk.nimhub.ir",
+      "server_port": 1024,
+      "uuid": "6035b7aa-d53b-478e-8b4f-f6b3d58598f5",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",

@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @netfreedom0 #1"
+        "🇭🇰 HK | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @netfreedom0 #1"
+        "🇭🇰 HK | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "3696b38bsg.murphyweb.sbs",
-      "server_port": 32134,
-      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
-      "packet_encoding": "xudp"
+      "tag": "🇭🇰 HK | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "101.32.8.251",
+      "server_port": 50001,
+      "uuid": "5706beb5-479b-475d-b557-00309327e9cc",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

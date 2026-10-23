@@ -91,7 +91,10 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @outline_ir #1",
-        "🇯🇵 JP | SS | @v2rayng3 #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1",
+        "🇯🇵 JP | VLESS | @vmesskhodam #1",
+        "🇯🇵 JP | VLESS | @vmesskhodam #2",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @outline_ir #1",
-        "🇯🇵 JP | SS | @v2rayng3 #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1",
+        "🇯🇵 JP | VLESS | @vmesskhodam #1",
+        "🇯🇵 JP | VLESS | @vmesskhodam #2",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,6 +146,72 @@
       "server_port": 80,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 34379,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 34379,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 30892,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

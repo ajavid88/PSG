@@ -143,6 +143,7 @@
         "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇺🇸 US | SS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | SS | @proxy_confiingir #1",
@@ -160,8 +161,8 @@
         "🇺🇸 US | VLESS | @turboo_server #3",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raying #3",
@@ -241,6 +242,7 @@
         "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇺🇸 US | SS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | SS | @proxy_confiingir #1",
@@ -258,8 +260,8 @@
         "🇺🇸 US | VLESS | @turboo_server #3",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raying #3",
@@ -1127,6 +1129,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #3",
+      "type": "vless",
+      "server": "199.232.78.159",
+      "server_port": 443,
+      "uuid": "e0ef0fb4-f18a-4284-bcf3-f5b3e738c594",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "156.146.38.168",
@@ -1402,7 +1421,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "199.232.239.239",
       "server_port": 443,
@@ -1419,11 +1438,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "wwww.qarvian.ir",
+      "server": "162.35.8.62",
       "server_port": 443,
-      "uuid": "153900df-5824-4b55-98c4-418c5baea523",
+      "uuid": "056405e8-de9f-4d0d-8145-956f13cc34da",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1432,6 +1451,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

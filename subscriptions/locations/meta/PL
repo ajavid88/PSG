@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #1", "server": "2.59.253.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @orange_vpns #1", "server": "2.26.225.89", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇵🇱 PL | VLESS | @netfreedom0 #1'
       - '🇵🇱 PL | VLESS | @orange_vpns #1'
 
   - name: 🌍 Global Media

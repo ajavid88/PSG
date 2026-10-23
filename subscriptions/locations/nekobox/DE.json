@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇩🇪 DE | VLESS | @ai_duet #1",
+        "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @ehsawn8 #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
@@ -100,11 +101,15 @@
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | TROJAN | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2raych #3",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -120,6 +125,7 @@
       "interval": "10m",
       "outbounds": [
         "🇩🇪 DE | VLESS | @ai_duet #1",
+        "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @ehsawn8 #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
@@ -142,11 +148,15 @@
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇩🇪 DE | TROJAN | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2raych #3",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -182,6 +192,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "account.datagrid.cl",
+      "server_port": 8443,
+      "uuid": "TeLEgRAM-ID-conf0088",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -522,6 +554,22 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "188.241.241.236",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @tobevasl #1",
       "type": "vless",
       "server": "91.99.160.151",
@@ -581,11 +629,35 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #2",
+      "type": "vless",
+      "server": "de3.onlinernet.ir",
+      "server_port": 40018,
+      "uuid": "16188ecf-2dcd-40d7-898b-60461f125978",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "pass.zqpm.ir",
-      "server_port": 20727,
-      "uuid": "8bd5d470-fa2e-4be4-adb0-5f42ac2b2bd6",
+      "server": "163.245.41.48",
+      "server_port": 2096,
+      "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "163.245.41.48",
+      "server_port": 2096,
+      "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "static.114.180.233.167.clients.your-server.de",
+      "server_port": 443,
+      "uuid": "6c688f63-fad4-45d8-a6a1-1e978ed26b8b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -594,11 +666,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

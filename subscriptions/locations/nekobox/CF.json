@@ -176,7 +176,6 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
         "🇽🇽 XX | VLESS | @nepo_v2ray #3",
@@ -242,8 +241,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -286,7 +283,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
         "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -399,7 +395,6 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
         "🇽🇽 XX | VLESS | @nepo_v2ray #3",
@@ -465,8 +460,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -509,7 +502,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
         "🇽🇽 XX | VLESS | @vmesc #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
@@ -1732,22 +1724,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "104.21.7.133",
-      "server_port": 80,
-      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/ws?ed=2048",
-        "headers": {
-          "Host": "vmess.lbw666.dpdns.org"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @nepo_v2ray #1",
       "type": "vless",
       "server": "190.93.247.155",
@@ -2587,31 +2563,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "198.41.208.42",
-      "server_port": 443,
-      "uuid": "9ce7ac33-5004-40ea-8236-15bc2d25a37c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "api2.onlinernet.ir",
-      "server_port": 8080,
-      "uuid": "16188ecf-2dcd-40d7-898b-60461f125978",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "104.18.4.130",
@@ -3143,23 +3094,6 @@
       "server_port": 2096,
       "uuid": "bc6bdb15-3aa6-410d-a534-412cc31bfdd2",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",

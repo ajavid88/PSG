@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VLESS | @red2ray #1", "server": "111.90.143.184", "port": 61111, "type": "vless", "skip-cert-verify": true, "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1", "server": "pl2.dedushka.top", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA"}
+  - {"name": "🇵🇱 PL | VMESS | @v2ray_free_conf #1", "server": "45.144.48.32", "port": 57891, "type": "vmess", "skip-cert-verify": true, "uuid": "e03445f2-e562-460c-9c6f-03d841228d47", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VLESS | @red2ray #1'
+      - '🇵🇱 PL | TROJAN | @outlinereleasedkey #1'
+      - '🇵🇱 PL | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

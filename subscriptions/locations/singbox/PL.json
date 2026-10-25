@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @netfreedom0 #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @netfreedom0 #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +131,39 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "pl2.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "connect.hondamotor.site",
+      "server_port": 10002,
+      "uuid": "c6362720-0931-4b91-b187-d8ecf3149734",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "45.144.48.32",
+      "server_port": 57891,
+      "uuid": "e03445f2-e562-460c-9c6f-03d841228d47",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

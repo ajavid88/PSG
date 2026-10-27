@@ -104,6 +104,7 @@
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
+        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
@@ -124,13 +125,12 @@
         "🇽🇽 XX | VLESS | @torang_vpn #2",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
-        "🇮🇷 IR | VLESS | @v2ray1_ng #1",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -140,7 +140,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -177,6 +177,7 @@
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
+        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
@@ -197,13 +198,12 @@
         "🇽🇽 XX | VLESS | @torang_vpn #2",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
-        "🇮🇷 IR | VLESS | @v2ray1_ng #1",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -213,7 +213,7 @@
         "🇽🇽 XX | VLESS | @v_2rayngvpn #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -584,6 +584,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "www.zula.ir",
+      "server_port": 443,
+      "uuid": "2b5e2b86-55b6-4571-abc1-c1dec8605725",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @lemonshopvpn #1",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -830,28 +847,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray1_ng #1",
-      "type": "vless",
-      "server": "p1tun0.greewebservices.ir",
-      "server_port": 38820,
-      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2ray4win #1",
       "type": "vless",
       "server": "www.speedtest.net",
@@ -901,12 +896,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "tamiiiiz.aryan-sport.ir",
-      "server_port": 2053,
-      "uuid": "888074c0-3600-4bed-8a3f-cabd32e7d719",
-      "packet_encoding": "xudp"
+      "server": "sundaylanzgem.site",
+      "server_port": 443,
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2rayngalpha #1",
@@ -1047,11 +1056,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #2",
       "type": "vless",
       "server": "wwww.qarvian.ir",
       "server_port": 443,
-      "uuid": "7dee06cc-4bc8-43ca-a6c2-59f81107f2e3",
+      "uuid": "f9a9aa1f-75fb-4490-9155-85567af7a0ff",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

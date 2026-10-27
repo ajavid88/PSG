@@ -97,8 +97,9 @@
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
-        "🇮🇷 IR | VLESS | @v2ray1_ng #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇦🇹 AT | VLESS | @vmesc #1"
@@ -116,8 +117,9 @@
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
-        "🇮🇷 IR | VLESS | @v2ray1_ng #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇦🇹 AT | VLESS | @vmesc #1"
@@ -264,11 +266,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "p1tun0.greewebservices.ir",
-      "server_port": 38820,
-      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "server": "de.puflino.com",
+      "server_port": 443,
+      "uuid": "c7270753-bd18-4696-956d-57dbde1183fe",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -286,11 +288,33 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "p1tun0.greewebservices.ir",
-      "server_port": 38820,
-      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "server": "sundaylanzgem.site",
+      "server_port": 443,
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "cdn-de.fastik.club",
+      "server_port": 443,
+      "uuid": "d90d6ee8-d5f2-4f2c-b16b-825552452bed",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

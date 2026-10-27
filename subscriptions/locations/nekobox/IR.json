@@ -86,7 +86,6 @@
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
@@ -94,6 +93,7 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
@@ -116,7 +116,6 @@
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
@@ -124,6 +123,7 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
@@ -237,23 +237,6 @@
       "alter_id": 0
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @lemonshopvpn #1",
-      "type": "vless",
-      "server": "www.zula.ir",
-      "server_port": 443,
-      "uuid": "2b5e2b86-55b6-4571-abc1-c1dec8605725",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @miov2ray #1",
       "type": "vless",
       "server": "parspack.com",
@@ -321,6 +304,28 @@
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+      "type": "vless",
+      "server": "p1tun0.greewebservices.ir",
+      "server_port": 38820,
+      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "p1tun0.greewebservices.ir",
       "server_port": 38820,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VMESS | @v2ray_free_conf #1", "server": "45.144.48.32", "port": 57072, "type": "vmess", "skip-cert-verify": true, "uuid": "d8f45bbb-e84d-4ad5-aa63-970f1345b164", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇪🇸 ES | TROJAN | @v2raymelliii #1", "server": "66.163.118.244", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VMESS | @v2ray_free_conf #1'
+      - '🇪🇸 ES | TROJAN | @v2raymelliii #1'
 
   - name: 🌍 Global Media
     type: select

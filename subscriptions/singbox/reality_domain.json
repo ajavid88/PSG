@@ -96,9 +96,10 @@
         "🇩🇪 DE | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇧🇬 BG | VLESS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇦🇹 AT | VLESS | @vmesc #1"
       ],
@@ -114,9 +115,10 @@
         "🇩🇪 DE | VLESS | @flyv2ray #1",
         "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇧🇬 BG | VLESS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇦🇹 AT | VLESS | @vmesc #1"
       ],
@@ -254,7 +256,37 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "se-2.pythonsetupbib.online",
+      "server_port": 61374,
+      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+      "type": "vless",
+      "server": "p1tun0.greewebservices.ir",
+      "server_port": 38820,
+      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "p1tun0.greewebservices.ir",
       "server_port": 38820,
@@ -296,14 +328,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "p2real4.greewebservices.ir",
-      "server_port": 1340,
-      "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vmesc #1",

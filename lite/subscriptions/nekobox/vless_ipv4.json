@@ -99,7 +99,6 @@
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @flyv2ray #1",
-        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
@@ -120,7 +119,6 @@
         "🇽🇽 XX | VLESS | @kesslervpn #2",
         "🇽🇽 XX | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
-        "🇺🇸 US | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -171,7 +169,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇳🇱 NL | VLESS | @v2raych #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raying #1",
@@ -225,7 +223,6 @@
         "🇽🇽 XX | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇬🇧 GB | VLESS | @flyv2ray #1",
-        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
@@ -246,7 +243,6 @@
         "🇽🇽 XX | VLESS | @kesslervpn #2",
         "🇽🇽 XX | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
-        "🇺🇸 US | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -297,7 +293,7 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇳🇱 NL | VLESS | @v2raych #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raying #1",
@@ -670,28 +666,6 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "109.176.229.51",
-      "server_port": 443,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇸🇪 SE | VLESS | @free_vip3 #1",
       "type": "vless",
       "server": "185.146.173.58",
@@ -948,14 +922,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @manstervpn #1",
-      "type": "vless",
-      "server": "151.101.3.8",
-      "server_port": 80,
-      "uuid": "c009b9eb-1cd9-4df8-92d2-4aafe17ac136",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
@@ -1591,12 +1557,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #2",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.152.165.204",
-      "server_port": 2095,
-      "uuid": "f3ac0d2c-4b86-4f53-8070-89f69daba8f5",
-      "packet_encoding": "xudp"
+      "server": "213.152.165.201",
+      "server_port": 2093,
+      "uuid": "28d7a636-fd0b-489e-bf99-baa5b1bf9f15",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

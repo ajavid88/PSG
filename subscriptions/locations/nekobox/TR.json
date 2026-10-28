@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "vip.brelux.ir",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnQ3M0ZmF2YVZhN0VyRE9vUTJBTXBjLVFWeEE0UTRKeQ==",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
@@ -123,14 +131,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "185.98.63.6",
-      "server_port": 8443,
-      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @lemonshopvpn #1", "server": "ubia2-join.outline-vpn.cloud", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇱🇹 LT | VLESS | @outlinereleasedkey #1", "server": "88.216.69.253", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @lemonshopvpn #1'
+      - '🇱🇹 LT | VLESS | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

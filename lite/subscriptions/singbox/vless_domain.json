@@ -102,6 +102,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -122,16 +123,14 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -175,6 +174,7 @@
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @flyv2ray #1",
+        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇽🇽 XX | VLESS | @freev2flyng #2",
@@ -195,16 +195,14 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | VLESS | @torang_vpn #1",
@@ -396,6 +394,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "mojigr.fusetea.ir",
+      "server_port": 1102,
+      "uuid": "1a62ce14-2bac-4a56-98a8-851841b41df6",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -660,6 +666,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "wwww.qarvian.ir",
+      "server_port": 443,
+      "uuid": "cd07ae0d-f31d-4209-a0a4-d9d9cfcca1ad",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "allsms.rozfa.com",
@@ -702,36 +725,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "edge.bookmai.com",
-      "server_port": 443,
-      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "se-2.pythonsetupbib.online",
-      "server_port": 61374,
-      "uuid": "f8d52ece-fad4-478d-875d-df6eed3befa7",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @prooxyk #1",
       "type": "vless",
       "server": "avalpardakht.com",
@@ -761,23 +754,6 @@
       "server": "fr.turboo-server.xyz",
       "server_port": 443,
       "uuid": "turboo-server",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

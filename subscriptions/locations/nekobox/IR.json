@@ -93,8 +93,9 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @red2ray #2",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
@@ -124,8 +125,9 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @red2ray #2",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | SS | @v2raymelliii #1",
@@ -331,6 +333,28 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "tr-pro.mobistora.ir",
+      "server_port": 1091,
+      "uuid": "4cebda86-2af3-4757-a83f-b31136856884",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray1_ng #1",
       "type": "vless",
       "server": "p1tun0.greewebservices.ir",
@@ -353,21 +377,12 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 443,
-      "uuid": "c387b0f2-5d9e-4c95-882d-1d5eeb443ce2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "trohop.sarzaminshadi13.ir",
+      "server_port": 2060,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6TVRKYS1yR0ZlOFFVM1FwZlhhYnZ2U1Vwb2hBeEx6MA==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",

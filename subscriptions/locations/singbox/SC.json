@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -125,6 +127,30 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "155.212.240.10",
+      "server_port": 443,
+      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

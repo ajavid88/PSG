@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vpn_ioss #1"
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vpn_ioss #1"
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,12 +129,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "155.212.240.10",
+      "tag": "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "45.128.76.242",
       "server_port": 443,
-      "uuid": "f27b6f65-6e59-4f89-b929-afa397ca587f",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -144,35 +141,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "156.252.229.11",
-      "server_port": 8443,
-      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

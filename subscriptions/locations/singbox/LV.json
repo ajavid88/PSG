@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | TROJAN | @outlinereleasedkey #1",
         "🇱🇻 LV | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | TROJAN | @outlinereleasedkey #1",
         "🇱🇻 LV | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -130,6 +132,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "85.31.102.163",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.calmlunch.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

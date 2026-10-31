@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @v2ray_collector #1"
+        "🇹🇷 TR | SS | @v2ray1_ng #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @v2ray_collector #1"
+        "🇹🇷 TR | SS | @v2ray1_ng #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,22 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "188.132.237.20",
-      "server_port": 2095,
-      "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "vip.brelux.ir",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnQ3M0ZmF2YVZhN0VyRE9vUTJBTXBjLVFWeEE0UTRKeQ==",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
@@ -145,26 +125,12 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "185.98.63.6",
-      "server_port": 8443,
-      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇹🇷 TR | SS | @v2ray1_ng #1",
+      "type": "shadowsocks",
+      "server": "vip.brelux.ir",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnQ3M0ZmF2YVZhN0VyRE9vUTJBTXBjLVFWeEE0UTRKeQ==",
+      "password": null
     }
   ],
   "route": {

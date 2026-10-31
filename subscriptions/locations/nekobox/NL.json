@@ -80,8 +80,9 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | SS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | TROJAN | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
@@ -89,6 +90,7 @@
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
+        "🇳🇱 NL | SS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
@@ -100,8 +102,9 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | SS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | TROJAN | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
@@ -109,6 +112,7 @@
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
+        "🇳🇱 NL | SS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
@@ -177,7 +181,7 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
+      "tag": "🇳🇱 NL | SS | @outline_ir #1",
       "type": "shadowsocks",
       "server": "c3.nastuh.link",
       "server_port": 443,
@@ -191,6 +195,22 @@
       "server_port": 443,
       "uuid": "telegram-id-qeshmserver",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "45.87.41.18",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -312,6 +332,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.197",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #2",

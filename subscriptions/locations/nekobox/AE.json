@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @v2raych #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @v2raych #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
@@ -101,23 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "yan10.aliboba.shop",
-      "server_port": 443,
-      "uuid": "bdebb0d0-1ac7-4d3a-8f18-99171d74affd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",

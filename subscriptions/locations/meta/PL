@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @v2ray_collector #1", "server": "pl-cfe6b10b7f.shamanapp.online", "port": 34451, "type": "vless", "skip-cert-verify": true, "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "2.26.255.215", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "69e41e64-a832-471a-b740-94577ca85520", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @v2ray_collector #1'
-      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

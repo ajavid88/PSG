@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @vpn_ioss #1", "server": "hw6.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1", "server": "213.108.23.184", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @vpn_ioss #1'
+      - '🇫🇮 FI | VLESS | @v2rayngvpn_1 #1'
 
   - name: 🌍 Global Media
     type: select

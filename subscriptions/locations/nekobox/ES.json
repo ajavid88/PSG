@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @prrofile_purple #1",
-        "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇪🇸 ES | VLESS | @v2raych #1",
         "🇪🇸 ES | TROJAN | @v2raymelliii #1"
       ],
@@ -88,8 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @prrofile_purple #1",
-        "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇪🇸 ES | VLESS | @v2raych #1",
         "🇪🇸 ES | TROJAN | @v2raymelliii #1"
       ],
@@ -107,45 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "170.168.97.6",
-      "server_port": 443,
-      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #2",
-      "type": "vless",
-      "server": "170.168.97.6",
-      "server_port": 443,
-      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇪🇸 ES | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.182.201.140",
+      "server": "213.182.201.104",
       "server_port": 3090,
-      "uuid": "63ca6075-2955-4a71-b491-bcbd2ceee3b2",
+      "uuid": "3770fa16-e793-4aa1-94f6-7e07c5d67c5d",
       "packet_encoding": "xudp"
     },
     {

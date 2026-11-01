@@ -106,8 +106,8 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #3",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -146,8 +146,8 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2ray_youtube #3",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -440,19 +440,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "195.63.146.10",
-      "server_port": 2096,
-      "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "132.243.65.82",
+      "server": "45.38.190.101",
       "server_port": 443,
-      "uuid": "4f35274e-006f-43e7-87be-c8cba4882b0c",
+      "uuid": "55ad002b-6cdf-4d76-81bb-91f3f605afc5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -461,13 +453,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #3",
+      "type": "vless",
+      "server": "163.245.41.52",
+      "server_port": 2096,
+      "uuid": "6da2c981-8c77-4340-bda3-93399b7aea26",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",

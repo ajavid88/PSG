@@ -106,7 +106,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -115,13 +114,11 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇩🇪 DE | VLESS | @v2rayza #3",
-        "🇩🇪 DE | VLESS | @v2rayza #4"
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -145,7 +142,6 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -154,13 +150,11 @@
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇩🇪 DE | VLESS | @v2rayza #3",
-        "🇩🇪 DE | VLESS | @v2rayza #4"
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -438,28 +432,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "132.243.65.82",
-      "server_port": 443,
-      "uuid": "4f35274e-006f-43e7-87be-c8cba4882b0c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @v2ray_youtube #2",
       "type": "vless",
       "server": "163.245.41.52",
@@ -569,23 +541,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @luckyvpn #1",
-      "type": "vless",
-      "server": "blue.rodya.ir",
-      "server_port": 443,
-      "uuid": "e0fa5345-c640-4458-8049-42ed926d3b2c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -620,23 +575,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fastly.videobazi.com",
-      "server_port": 443,
-      "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "sitoman.info",
@@ -654,7 +592,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayza #3",
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
       "server_port": 443,
@@ -671,7 +609,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayza #4",
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #2",
       "type": "vless",
       "server": "kala.fortresshost.ir",
       "server_port": 443,

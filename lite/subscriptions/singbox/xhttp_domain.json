@@ -96,8 +96,7 @@
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇩🇪 DE | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,8 +110,7 @@
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #2",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇩🇪 DE | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -238,28 +236,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
       "server_port": 443,
       "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-      "type": "vless",
-      "server": "sitoman.info",
-      "server_port": 443,
-      "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

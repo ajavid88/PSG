@@ -94,7 +94,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @orange_vpns #1",
         "🇩🇪 DE | VMESS | @orange_vpns #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
@@ -103,6 +102,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -128,7 +128,6 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @orange_vpns #1",
         "🇩🇪 DE | VMESS | @orange_vpns #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
@@ -137,6 +136,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -518,31 +518,6 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "euu1yalfmcqvljex.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "euu1yalfmcqvljex.v.3dns.vip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "euu1yalfmcqvljex.v.3dns.vip"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @orange_vpns #1",
       "type": "vmess",
       "server": "www.ubuntuupdates.com",
@@ -723,6 +698,22 @@
         "path": "/ws",
         "headers": {
           "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "57.129.132.223",
+      "server_port": 80,
+      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "google.com"
         }
       }
     },

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgRUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #1"
+        "🇪🇪 EE | VLESS | @flyv2ray #1",
+        "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #1"
+        "🇪🇪 EE | VLESS | @flyv2ray #1",
+        "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,36 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "euu1yalfmcqvljex.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "euu1yalfmcqvljex.v.3dns.vip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "euu1yalfmcqvljex.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @red2ray #1",
+      "tag": "🇪🇪 EE | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "165.154.63.139",
+      "server": "185.225.205.53",
       "server_port": 443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "uuid": "3d526c7f-059c-4e2b-b09a-8569b268935b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -155,6 +130,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "146.19.143.218",
+      "server_port": 443,
+      "uuid": "ca14493b-b984-4ffb-bc0e-9cb5da969e15",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

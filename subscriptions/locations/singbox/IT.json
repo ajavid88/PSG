@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @v2raych #1",
-        "🇮🇹 IT | SS | @v2rayza #1"
+        "🇮🇹 IT | SS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2rayza #1",
+        "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @v2raych #1",
-        "🇮🇹 IT | SS | @v2rayza #1"
+        "🇮🇹 IT | SS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2rayza #1",
+        "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,11 +133,11 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | SS | @v2raych #1",
+      "tag": "🇮🇹 IT | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
-      "server": "202.50.253.72",
+      "server": "202.50.253.99",
       "server_port": 19999,
-      "method": "YXV0bzo=",
+      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
       "password": null
     },
     {
@@ -145,6 +147,28 @@
       "server_port": 19999,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "2.59.21.188",
+      "server_port": 443,
+      "uuid": "2c114179-04b4-4958-b260-7030d12887de",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

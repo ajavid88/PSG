@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1"
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +106,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇺🇸 US | VLESS | @kafing_2 #1"
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,12 +207,21 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "spd-mynames.global.ssl.fastly.net",
-      "server_port": 80,
-      "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
-      "packet_encoding": "xudp"
+      "server": "tg1.cdnphotos.org",
+      "server_port": 443,
+      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

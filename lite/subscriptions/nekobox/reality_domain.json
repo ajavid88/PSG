@@ -81,7 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,7 +95,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇮🇷 IR | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -223,6 +227,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #1",
+      "type": "vless",
+      "server": "bigshagy.zqpm.ir",
+      "server_port": 5780,
+      "uuid": "996f6fed-a94e-4e9d-b876-82bc4ad02847",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "bigshagy.zqpm.ir",
+      "server_port": 5780,
+      "uuid": "996f6fed-a94e-4e9d-b876-82bc4ad02847",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

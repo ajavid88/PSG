@@ -80,7 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇲🇩 MD | VLESS | @red2ray #2",
+        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @v2rayza #2"
@@ -94,7 +96,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇲🇩 MD | VLESS | @red2ray #2",
+        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @v2rayza #2"
@@ -185,11 +189,50 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "tag": "🇲🇩 MD | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "tunell2027.crackerbinam.org",
-      "server_port": 48312,
-      "uuid": "f47057d5-120d-4b42-b6d6-30469aef6813",
+      "server": "md2.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "gr.freeinternat.com",
+      "server_port": 443,
+      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "vvsvvs.soreanapanel.com",
+      "server_port": 443,
+      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

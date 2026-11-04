@@ -99,19 +99,15 @@
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | VLESS | @privatevpns #2",
-        "🇬🇧 GB | SS | @v2raych #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2raying #2",
-        "🇬🇧 GB | SS | @v2raying #3",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayopen #2",
         "🇬🇧 GB | SS | @v2rayopen #3",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
-        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
-        "🇬🇧 GB | VLESS | @vlessconfig #1",
-        "🇬🇧 GB | VLESS | @vlessconfig #2"
+        "🇬🇧 GB | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -128,19 +124,15 @@
         "🇬🇧 GB | VLESS | @orange_vpns #1",
         "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | VLESS | @privatevpns #2",
-        "🇬🇧 GB | SS | @v2raych #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2raying #2",
-        "🇬🇧 GB | SS | @v2raying #3",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | SS | @v2rayopen #2",
         "🇬🇧 GB | SS | @v2rayopen #3",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
-        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
-        "🇬🇧 GB | VLESS | @vlessconfig #1",
-        "🇬🇧 GB | VLESS | @vlessconfig #2"
+        "🇬🇧 GB | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -246,25 +238,17 @@
     {
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "18.130.38.9",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @privatevpns #2",
-      "type": "vless",
       "server": "3.10.74.126",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2raych #1",
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "51.38.71.51",
-      "server_port": 2083,
-      "method": "TVppPtueyZw6IAdyYQFzMHRleXsZMSorJU0RLCYCWTcPcDZaak1XW11fJGIRGUA2Ki1RSg==",
+      "server": "82.38.31.162",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
     },
     {
@@ -277,14 +261,6 @@
     },
     {
       "tag": "🇬🇧 GB | SS | @v2raying #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.162",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @v2raying #3",
       "type": "shadowsocks",
       "server": "82.38.31.175",
       "server_port": 8080,
@@ -326,14 +302,6 @@
     {
       "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "18.130.38.9",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
-      "type": "vless",
       "server": "3.10.74.126",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
@@ -341,14 +309,6 @@
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vlessconfig #1",
-      "type": "vless",
-      "server": "18.130.38.9",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vlessconfig #2",
       "type": "vless",
       "server": "3.10.74.126",
       "server_port": 22224,

@@ -88,11 +88,9 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @configv2rayforfree #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,11 +109,9 @@
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @configv2rayforfree #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -321,14 +317,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "185.186.78.170",
-      "server_port": 2083,
-      "uuid": "69158986-cfae-4567-8391-0f96d9d985bd",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -368,23 +356,6 @@
       "server": "kala.fortresshost.ir",
       "server_port": 443,
       "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "tg1.cdnphotos.org",
-      "server_port": 443,
-      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -99,10 +99,14 @@
         "🇳🇱 NL | VLESS | @mimitdl #1",
         "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | SS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray1_ng #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #2",
+        "🇳🇱 NL | TROJAN | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #2",
@@ -127,10 +131,14 @@
         "🇳🇱 NL | VLESS | @mimitdl #1",
         "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | SS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray1_ng #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #2",
+        "🇳🇱 NL | TROJAN | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #2",
@@ -304,6 +312,31 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "177.177.215.45",
+      "server_port": 444,
+      "uuid": "254f28cb-d0c1-41e9-a06b-f2155213ff04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.197",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray1_ng #1",
       "type": "vless",
       "server": "51.158.206.96",
@@ -334,12 +367,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "79.141.164.81",
+      "tag": "🇳🇱 NL | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "66.163.127.225",
       "server_port": 443,
-      "uuid": "87b082bd-76c7-42e9-b66a-746899ac567e",
-      "packet_encoding": "xudp",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -351,12 +383,64 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "vvsvvs.soreanapanel.com",
+      "server_port": 443,
+      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "94.183.206.226",
-      "server_port": 7443,
-      "uuid": "12776e55-6230-48b9-b069-1bb8a04b4237",
-      "packet_encoding": "xudp"
+      "server": "vvsvvs.soreanapanel.com",
+      "server_port": 443,
+      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "66.163.127.155",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

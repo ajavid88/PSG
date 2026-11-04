@@ -94,11 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @v2rayza #1",
-        "🇩🇪 DE | VLESS | @v2rayza #2"
+        "🇩🇪 DE | VLESS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,11 +107,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @v2rayza #1",
-        "🇩🇪 DE | VLESS | @v2rayza #2"
+        "🇩🇪 DE | VLESS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,50 +209,6 @@
       }
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "gr.freeinternat.com",
-      "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "vvsvvs.soreanapanel.com",
-      "server_port": 443,
-      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "pl.cloudtechone.org",
@@ -282,14 +232,6 @@
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "bigshagy.zqpm.ir",
-      "server_port": 5780,
-      "uuid": "996f6fed-a94e-4e9d-b876-82bc4ad02847",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayza #2",
       "type": "vless",
       "server": "bigshagy.zqpm.ir",
       "server_port": 5780,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | VLESS | @vmesc #1", "server": "at-3.wizard.select", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "074b00de-c4d0-11f1-9902-a337233c6cda", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇮🇳 IN | VLESS | @vpn_ioss #1", "server": "in.smrtai.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | VLESS | @vmesc #1'
+      - '🇮🇳 IN | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

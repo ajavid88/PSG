@@ -26,6 +26,9 @@ proxies:
   - {"name": "🇬🇧 GB | VLESS | @ehsawn8 #1", "server": "151.101.56.9", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "d8b3f1c4-94c7-423e-a03a-bfa7f6af0ea1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "13.134.83.203", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @privatevpns #2", "server": "13.41.3.108", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "107.181.151.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b62e3646-b84d-443c-9c94-718b646502e0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #2", "server": "107.181.151.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #3", "server": "107.181.151.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1", "server": "13.134.83.203", "port": 22223, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @v2rayvpnchannel #2", "server": "13.41.3.108", "port": 22223, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vlessconfig #1", "server": "13.134.83.203", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -46,6 +49,9 @@ proxy-groups:
       - '🇬🇧 GB | VLESS | @ehsawn8 #1'
       - '🇬🇧 GB | VLESS | @privatevpns #1'
       - '🇬🇧 GB | VLESS | @privatevpns #2'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
+      - '🇬🇧 GB | VLESS | @v2raych #2'
+      - '🇬🇧 GB | VLESS | @v2raych #3'
       - '🇬🇧 GB | VLESS | @v2rayvpnchannel #1'
       - '🇬🇧 GB | VLESS | @v2rayvpnchannel #2'
       - '🇬🇧 GB | VLESS | @vlessconfig #1'

@@ -95,6 +95,7 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @novinology #2", "server": "172.67.156.27", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "62.133.63.45", "port": 8444, "type": "vless", "skip-cert-verify": true, "uuid": "a346c521-7a7f-452b-9356-a4893feb5982", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇧🇬 BG | VLESS | @outline_ir #1", "server": "45.9.156.42", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VLESS | @outline_ir #1", "server": "142.91.108.25", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇨 SC | VLESS | @outlinereleasedkey #1", "server": "156.252.229.11", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "13.134.83.203", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @privatevpns #2", "server": "13.41.3.108", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -118,12 +119,11 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @turboo_server #2", "server": "199.232.237.79", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #1", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #2", "server": "185.146.173.158", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "62.210.91.2", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇺🇸 US | VLESS | @v2ray_free_conf #1", "server": "15.204.97.198", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "152.228.139.33", "port": 35108, "type": "vless", "skip-cert-verify": true, "uuid": "81dc0b61-f9fe-4ad6-8b4e-b8c067b73712", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇸🇪 SE | VLESS | @v2ray_free_conf #1", "server": "193.23.200.213", "port": 45011, "type": "vless", "skip-cert-verify": true, "uuid": "ecf12398-8689-4c8d-91e2-8f1aeb8bd556", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_iran88 #1", "server": "185.143.233.120", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_youtube #1", "server": "9.247.34.134", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "381f7080-8f2c-49db-8321-dae85bee2115", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "130.49.177.193", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "51.158.206.97", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "107.181.151.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b62e3646-b84d-443c-9c94-718b646502e0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇬 SG | VLESS | @v2rayexpress #1", "server": "5.223.42.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2raying #1", "server": "163.172.214.188", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "40cc9b52-25b8-4cd5-8b45-715ae26e6baf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @v2raymelliii #1", "server": "138.124.39.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5254c281-3bc1-40ee-ba89-1aaf8c251402", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -173,13 +173,14 @@ proxies:
   - {"name": "🇽🇽 XX | VLESS | @kopltall_vpn #2", "server": "www.speedtest.net", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "Telegram-BLuev2rayng--joine1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @kurdvpn1 #1", "server": "www.speedtest.net", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "DIGIV2RAY", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @kurdvpn1 #2", "server": "www.speedtest.net", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "DIGIV2RAY", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇯🇵 JP | VLESS | @lemonshopvpn #1", "server": "ubia2-join.outline-vpn.cloud", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @lemonshopvpn #1", "server": "www.zula.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b5e2b86-55b6-4571-abc1-c1dec8605725", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇽🇽 XX | VLESS | @lemonshopvpn #1", "server": "www.speedtest.net", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "f4e22eff-20b2-4af7-aee9-4a67b82b47f3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @lockey_vpn #1", "server": "www.speedtest.net", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "4b75a44d-3c91-461e-b5a0-6060ac8aff68", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @lockey_vpn #2", "server": "www.speedtest.net", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "8a20ecfe-6a72-4e88-aa2c-65a9e43a8512", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @mrvpn1403 #1", "server": "mtn006.chaghooosazi.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ef4cad50-4f83-4c66-85ae-ce8e9692d8cb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇺🇸 US | VLESS | @mrvpn1403 #2", "server": "mtn001.chaghooosazi.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bb2af53a-8a2a-4466-bcf4-7e7de11b8381", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @nn_vpn #1", "server": "allsms.rozfa.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @orange_vpns #1", "server": "edge.bookmai.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇮🇷 IR | VLESS | @prooxyk #1", "server": "avalpardakht.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "392afad2-43e3-4414-a5c3-b529a44df4e3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxy48 #1", "server": "speedtest.org", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "6280b434-4b10-4a53-be5c-e04b932e7c6b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @proxy_confiingir #1", "server": "toy-people.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "312b0699-a47a-496e-97b6-cb3af1654d35", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -292,6 +293,7 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @novinology #2'
       - '🇹🇷 TR | VLESS | @orange_vpns #1'
       - '🇧🇬 BG | VLESS | @outline_ir #1'
+      - '🇯🇵 JP | VLESS | @outline_ir #1'
       - '🇸🇨 SC | VLESS | @outlinereleasedkey #1'
       - '🇬🇧 GB | VLESS | @privatevpns #1'
       - '🇬🇧 GB | VLESS | @privatevpns #2'
@@ -316,11 +318,10 @@ proxy-groups:
       - '🇸🇪 SE | VLESS | @v2logy #1'
       - '🇸🇪 SE | VLESS | @v2logy #2'
       - '🇫🇷 FR | VLESS | @v2ray_collector #1'
-      - '🇺🇸 US | VLESS | @v2ray_free_conf #1'
+      - '🇸🇪 SE | VLESS | @v2ray_free_conf #1'
       - '🇮🇷 IR | VLESS | @v2ray_iran88 #1'
       - '🇳🇱 NL | VLESS | @v2ray_youtube #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
-      - '🇳🇱 NL | VLESS | @v2raych #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
       - '🇸🇬 SG | VLESS | @v2rayexpress #1'
       - '🇳🇱 NL | VLESS | @v2raying #1'
       - '🇨🇭 CH | VLESS | @v2raymelliii #1'
@@ -370,13 +371,14 @@ proxy-groups:
       - '🇽🇽 XX | VLESS | @kopltall_vpn #2'
       - '🇽🇽 XX | VLESS | @kurdvpn1 #1'
       - '🇽🇽 XX | VLESS | @kurdvpn1 #2'
-      - '🇯🇵 JP | VLESS | @lemonshopvpn #1'
       - '🇮🇷 IR | VLESS | @lemonshopvpn #1'
+      - '🇽🇽 XX | VLESS | @lemonshopvpn #1'
       - '🇽🇽 XX | VLESS | @lockey_vpn #1'
       - '🇽🇽 XX | VLESS | @lockey_vpn #2'
       - '🇺🇸 US | VLESS | @mrvpn1403 #1'
       - '🇺🇸 US | VLESS | @mrvpn1403 #2'
       - '🇮🇷 IR | VLESS | @nn_vpn #1'
+      - '🇩🇪 DE | VLESS | @orange_vpns #1'
       - '🇮🇷 IR | VLESS | @prooxyk #1'
       - '🇽🇽 XX | VLESS | @proxy48 #1'
       - '🇽🇽 XX | VLESS | @proxy_confiingir #1'

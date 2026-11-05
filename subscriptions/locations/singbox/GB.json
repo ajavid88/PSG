@@ -97,11 +97,12 @@
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @nofiltering2 #1",
-        "🇬🇧 GB | SS | @nofiltering2 #2",
-        "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #3",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
@@ -124,11 +125,12 @@
         "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @nofiltering2 #1",
-        "🇬🇧 GB | SS | @nofiltering2 #2",
-        "🇬🇧 GB | SS | @orange_vpns #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #3",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
@@ -204,22 +206,6 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @nofiltering2 #2",
-      "type": "shadowsocks",
-      "server": "82.38.31.220",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @orange_vpns #1",
-      "type": "shadowsocks",
-      "server": "141.98.101.181",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "82.38.31.165",
@@ -242,6 +228,72 @@
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "b62e3646-b84d-443c-9c94-718b646502e0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "107.181.151.128",
+      "server_port": 443,
+      "uuid": "8cc7d0fc-1b83-4ee3-b51d-8a03a9b19435",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2raying #1",

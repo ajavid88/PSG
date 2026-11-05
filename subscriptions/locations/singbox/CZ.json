@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @v2ray_collector #1",
         "🇨🇿 CZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @v2ray_collector #1",
         "🇨🇿 CZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -133,6 +135,23 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "212.102.38.25",
+      "server_port": 443,
+      "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

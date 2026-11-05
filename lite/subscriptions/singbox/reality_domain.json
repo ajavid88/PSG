@@ -94,8 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇮🇳 IN | VLESS | @vpn_ioss #1"
+        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,8 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇮🇳 IN | VLESS | @vpn_ioss #1"
+        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -214,11 +216,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "pl.cloudtechone.org",
-      "server_port": 443,
-      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
+      "server": "tunell2027.crackerbinam.org",
+      "server_port": 48312,
+      "uuid": "f47057d5-120d-4b42-b6d6-30469aef6813",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -236,11 +238,28 @@
       }
     },
     {
-      "tag": "🇮🇳 IN | VLESS | @vpn_ioss #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "in.smrtai.top",
+      "server": "edge.bookmai.com",
       "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+      "type": "vless",
+      "server": "pl.cloudtechone.org",
+      "server_port": 443,
+      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

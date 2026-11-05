@@ -82,13 +82,14 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1",
-        "🇱🇻 LV | VLESS | @vpn_ioss #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,13 +102,14 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1",
-        "🇱🇻 LV | VLESS | @vpn_ioss #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -239,14 +241,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1",
-      "type": "vless",
-      "server": "p2tun0.greewebservices.ir",
-      "server_port": 28820,
-      "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "book.jarbook.net",
@@ -260,6 +254,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "tunell2027.crackerbinam.org",
+      "server_port": 48312,
+      "uuid": "f47057d5-120d-4b42-b6d6-30469aef6813",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -281,11 +297,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "pl.cloudtechone.org",
+      "server": "edge.bookmai.com",
       "server_port": 443,
-      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -294,20 +310,32 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "vvsvvs.soreanapanel.com",
+      "server": "snow.betust.net",
       "server_port": 443,
-      "uuid": "913dc759-8639-4890-9bfc-a9acdc5090cf",
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+      "type": "vless",
+      "server": "pl.cloudtechone.org",
+      "server_port": 443,
+      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -347,11 +375,11 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @vpn_ioss #1",
+      "tag": "🇹🇷 TR | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "docs.asasin4.ir",
-      "server_port": 30940,
-      "uuid": "b4beac04-7d69-47eb-85e6-1dd5f2fa6d92",
+      "server": "caudal-reason.freevideochats.org",
+      "server_port": 443,
+      "uuid": "c9e3bc08-bf22-4959-af5e-0eda7c41afcb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

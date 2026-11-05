@@ -92,6 +92,7 @@
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
+        "🇸🇨 SC | TROJAN | @v2ray_collector #1",
         "🇸🇨 SC | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
+        "🇸🇨 SC | TROJAN | @v2ray_collector #1",
         "🇸🇨 SC | SS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -132,6 +134,22 @@
     },
     {
       "tag": "🇸🇨 SC | TROJAN | @selinc #1",
+      "type": "trojan",
+      "server": "45.128.76.242",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "45.128.76.242",
       "server_port": 443,

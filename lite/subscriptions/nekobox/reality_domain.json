@@ -81,9 +81,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇮🇳 IN | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @flyv2ray #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇮🇳 IN | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,11 +205,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
       "type": "vless",
-      "server": "edge.bookmai.com",
+      "server": "pl.cloudtechone.org",
       "server_port": 443,
-      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -229,28 +227,11 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @red2ray #2",
+      "tag": "🇮🇳 IN | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "md2.univesalsrv.com",
+      "server": "in.smrtai.top",
       "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-      "type": "vless",
-      "server": "pl.cloudtechone.org",
-      "server_port": 443,
-      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
+      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

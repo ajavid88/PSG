@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @v2ray_collector #1"
+        "🇱🇻 LV | VLESS | @v2ray_collector #1",
+        "🇱🇻 LV | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @v2ray_collector #1"
+        "🇱🇻 LV | VLESS | @v2ray_collector #1",
+        "🇱🇻 LV | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -147,6 +149,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "docs.asasin4.ir",
+      "server_port": 30940,
+      "uuid": "b4beac04-7d69-47eb-85e6-1dd5f2fa6d92",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

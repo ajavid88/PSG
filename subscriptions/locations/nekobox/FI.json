@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VMESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VMESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +105,15 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "65.108.240.210",
+      "server_port": 39018,
+      "uuid": "8ca123a8-720b-47c5-bd0c-637431418b09",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
@@ -143,6 +156,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "static.207.81.180.157.clients.your-server.de",
+      "server_port": 443,
+      "uuid": "fe1cfc86-a077-403f-afc7-b97cee3f15e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

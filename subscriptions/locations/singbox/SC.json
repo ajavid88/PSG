@@ -94,7 +94,7 @@
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇸🇨 SC | TROJAN | @v2ray_collector #1",
-        "🇸🇨 SC | SS | @v2rayopen #1"
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +106,7 @@
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇸🇨 SC | TROJAN | @v2ray_collector #1",
-        "🇸🇨 SC | SS | @v2rayopen #1"
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,12 +189,12 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "45.207.207.25",
-      "server_port": 443,
-      "method": "YXV0bzo=",
-      "password": null
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "154.197.75.30",
+      "server_port": 8880,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

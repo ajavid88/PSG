@@ -248,10 +248,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -283,6 +283,7 @@
         "🇽🇽 XX | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #2",
         "🇽🇽 XX | VLESS | @vipv2rey #3",
+        "🇽🇽 XX | TROJAN | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -452,10 +453,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇽🇽 XX | TROJAN | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -487,6 +488,7 @@
         "🇽🇽 XX | VLESS | @vipv2rey #1",
         "🇽🇽 XX | VLESS | @vipv2rey #2",
         "🇽🇽 XX | VLESS | @vipv2rey #3",
+        "🇽🇽 XX | TROJAN | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -2466,31 +2468,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "1043634e-8d9d-4736-83fa-f14ddc9d464c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "hikvision-plus.com",
-      "server_port": 2052,
-      "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -2505,6 +2482,20 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @v2raying #1",
@@ -2894,6 +2885,22 @@
       "server_port": 443,
       "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "172.67.118.45",
+      "server_port": 2053,
+      "password": "gHQP0D7D15",
       "tls": {
         "enabled": true,
         "server_name": "",

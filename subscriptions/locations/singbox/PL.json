@@ -91,9 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2"
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2"
+        "🇵🇱 PL | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -156,40 +152,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "191.217.211.161",
-      "server_port": 443,
-      "uuid": "0806e6e2-e01d-482c-b530-be3b57d486d4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "191.217.211.161",
-      "server_port": 443,
-      "uuid": "0806e6e2-e01d-482c-b530-be3b57d486d4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

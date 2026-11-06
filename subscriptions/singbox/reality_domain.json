@@ -97,9 +97,10 @@
         "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1",
         "🇹🇷 TR | VLESS | @vpn_ioss #1"
@@ -117,9 +118,10 @@
         "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1",
         "🇹🇷 TR | VLESS | @vpn_ioss #1"
@@ -289,6 +291,28 @@
       }
     },
     {
+      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "es1.fox-lisa.ru",
+      "server_port": 443,
+      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇺🇦 UA | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "g01tig3hasus3.dnetsolutions.ru",
@@ -306,11 +330,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇱🇹 LT | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "edge.bookmai.com",
+      "server": "app26.betust.net",
       "server_port": 443,
-      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -323,9 +347,9 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "tag": "🇱🇹 LT | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "snow.betust.net",
+      "server": "app26.betust.net",
       "server_port": 443,
       "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
       "packet_encoding": "xudp",

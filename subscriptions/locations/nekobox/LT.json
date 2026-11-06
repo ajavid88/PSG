@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @orange_vpns #1",
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @orange_vpns #1",
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +103,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @orange_vpns #1",
-      "type": "shadowsocks",
-      "server": "52.138.233.48",
+      "tag": "🇱🇹 LT | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "app26.betust.net",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0aXZoNkY2WEZCRDEyZ0Vn",
-      "password": null
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇮🇪 IE | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "20.107.184.151",
+      "tag": "🇱🇹 LT | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "app26.betust.net",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6emlYSERPRlhjNHFSam9q",
-      "password": null
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

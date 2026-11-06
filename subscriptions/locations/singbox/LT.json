@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1I=
+//profile-title: base64:UFNHIHwgTFQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇱🇹 LT | VLESS | @v2raych #1",
+        "🇱🇹 LT | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "49.254.204.133",
-      "server_port": 1774,
-      "method": "YWVzLTI1Ni1jZmI6MTIzNCFAIyQ=",
-      "password": null
+      "tag": "🇱🇹 LT | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "app26.betust.net",
+      "server_port": 443,
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "app26.betust.net",
+      "server_port": 443,
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

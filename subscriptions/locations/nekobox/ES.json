@@ -79,7 +79,6 @@
         "direct",
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
-        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇪🇸 ES | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
@@ -90,7 +89,6 @@
       "outbounds": [
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
-        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇪🇸 ES | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
@@ -137,28 +135,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "es1.fox-lisa.ru",
-      "server_port": 443,
-      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

@@ -206,6 +206,7 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -247,6 +248,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | TROJAN | @v2raying #1",
@@ -281,7 +284,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -409,6 +411,7 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -450,6 +453,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | TROJAN | @v2raying #1",
@@ -484,7 +489,6 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
-        "🇽🇽 XX | VLESS | @vmesskhodam #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -1931,6 +1935,14 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @orange_vpns #2",
+      "type": "vless",
+      "server": "104.17.70.206",
+      "server_port": 8443,
+      "uuid": "5f704d93-7e7f-45b5-81f5-08db4a946220",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @pro_chaneel #1",
       "type": "vless",
       "server": "104.18.12.126",
@@ -2458,6 +2470,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "1043634e-8d9d-4736-83fa-f14ddc9d464c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "hikvision-plus.com",
+      "server_port": 2052,
+      "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -2877,23 +2914,6 @@
       "server": "silver.api-tel.xyz",
       "server_port": 443,
       "uuid": "1af6107c-4618-464f-9ac1-7fe2986aead9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "172.67.126.12",
-      "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
@@ -99,7 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
@@ -110,28 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "lava.r6j.ir",
-      "server_port": 8111,
-      "uuid": "7ff79f4e-e902-4308-91db-410c6db1310a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",

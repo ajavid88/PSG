@@ -82,6 +82,7 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -95,6 +96,7 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
         "🇮🇳 IN | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -210,6 +212,23 @@
       "server": "book.jarbook.net",
       "server_port": 443,
       "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "webdisk.jaggyslawa.org",
+      "server_port": 443,
+      "uuid": "88742d38-3f5c-4b9c-b256-7df5db8257ec",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

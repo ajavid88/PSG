@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSU4=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇳 IN | VLESS | @vpn_ioss #1"
+        "🇭🇰 HK | TROJAN | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇳 IN | VLESS | @vpn_ioss #1"
+        "🇭🇰 HK | TROJAN | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇳 IN | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "in.smrtai.top",
-      "server_port": 443,
-      "uuid": "6bdc8320-7eae-46fc-be08-f5f54e65dfc8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇭🇰 HK | TROJAN | @netfreedom0 #1",
+      "type": "trojan",
+      "server": "sclass-00.catcat321.com",
+      "server_port": 20123,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf"
     }
   ],
   "route": {

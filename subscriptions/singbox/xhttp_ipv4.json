@@ -107,6 +107,7 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇵🇰 PK | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -135,6 +136,7 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇵🇰 PK | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -431,6 +433,28 @@
       "server_port": 80,
       "uuid": "qeshmserver",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇰 PK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "103.175.79.5",
+      "server_port": 443,
+      "uuid": "cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",

@@ -180,12 +180,15 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -312,12 +315,15 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #3",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #4",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -1503,11 +1509,11 @@
       }
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "gr.freeinternat.com",
-      "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
+      "server": "p2real4.greewebservices.ir",
+      "server_port": 1340,
+      "uuid": "fb1d2d8a-d9bd-496f-9d5f-f179cbd00123",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1525,9 +1531,9 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "ee.subv.ru",
+      "server": "prvtch.titun.su",
       "server_port": 443,
       "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
       "packet_encoding": "xudp",
@@ -1581,6 +1587,58 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "da8b92e3-537f-4630-9a04-0869344f4354",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "usatimewebnew.space",
+      "server_port": 443,
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "usatimewebnew.space",
+      "server_port": 443,
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",

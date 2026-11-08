@@ -117,12 +117,11 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @turboo_server #2", "server": "199.232.237.79", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #1", "server": "185.146.173.237", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @v2logy #2", "server": "185.146.173.158", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-ArV2ray", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2ray_free_conf #1", "server": "45.141.202.69", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "ios"}
+  - {"name": "🇫🇷 FR | VLESS | @v2ray_free_conf #1", "server": "5.253.233.248", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a79598d6-a50b-43cc-a6d3-368ff2cff03c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇮🇷 IR | VLESS | @v2ray_iran88 #1", "server": "185.143.233.120", "port": 2086, "type": "vless", "skip-cert-verify": true, "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @v2ray_youtube #1", "server": "212.227.235.66", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇷 FR | VLESS | @v2ray_youtube #1", "server": "62.210.91.2", "port": 23576, "type": "vless", "skip-cert-verify": true, "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "82.148.255.201", "port": 8444, "type": "vless", "skip-cert-verify": true, "uuid": "49fdd350-6ffb-4343-b467-14e269bb95de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇺🇸 US | VLESS | @v2raych #1", "server": "199.232.9.244", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3374d2ed-0dc3-404d-adfd-414b55b3dc9b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇺🇸 US | VLESS | @v2raych #1", "server": "212.69.135.27", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "a941243b-4b25-465f-ba2c-1dc4e1d16217", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇬 SG | VLESS | @v2rayexpress #1", "server": "5.223.42.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2raying #1", "server": "163.172.214.188", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "40cc9b52-25b8-4cd5-8b45-715ae26e6baf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇽🇽 XX | VLESS | @v2raymelliii #1", "server": "172.67.76.40", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d224-4463-b982-532309285094", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -253,11 +252,10 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @turboo_server #2'
       - '🇸🇪 SE | VLESS | @v2logy #1'
       - '🇸🇪 SE | VLESS | @v2logy #2'
-      - '🇳🇱 NL | VLESS | @v2ray_free_conf #1'
+      - '🇫🇷 FR | VLESS | @v2ray_free_conf #1'
       - '🇮🇷 IR | VLESS | @v2ray_iran88 #1'
       - '🇪🇸 ES | VLESS | @v2ray_youtube #1'
       - '🇫🇷 FR | VLESS | @v2ray_youtube #1'
-      - '🇬🇧 GB | VLESS | @v2raych #1'
       - '🇺🇸 US | VLESS | @v2raych #1'
       - '🇸🇬 SG | VLESS | @v2rayexpress #1'
       - '🇳🇱 NL | VLESS | @v2raying #1'

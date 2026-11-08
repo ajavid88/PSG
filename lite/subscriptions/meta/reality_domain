@@ -27,7 +27,7 @@ proxies:
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇪🇪 EE | VLESS | @flyv2ray #2", "server": "ee.subv.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90157e25-cee1-4217-921e-91f300bc1a24", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇧🇬 BG | VLESS | @v2ray_free_conf #1", "server": "p2real4.greewebservices.ir", "port": 1340, "type": "vless", "skip-cert-verify": true, "uuid": "fb1d2d8a-d9bd-496f-9d5f-f179cbd00123", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "svrty.fars-remen.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "db56fe57-a0b9-4456-a5d4-8c49247ae65e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #1", "server": "s1-api.denmexa.ir", "port": 2789, "type": "vless", "skip-cert-verify": true, "uuid": "804eafbf-e793-461e-bc2b-ac8bf9a12091", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -46,7 +46,7 @@ proxy-groups:
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
       - '🇪🇪 EE | VLESS | @flyv2ray #2'
-      - '🇧🇬 BG | VLESS | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #1'
 
   - name: 🌍 Global Media

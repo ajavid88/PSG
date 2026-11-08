@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇴 RO | SS | @mtproxy22_v2ray #1",
         "🇷🇴 RO | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇴 RO | SS | @mtproxy22_v2ray #1",
         "🇷🇴 RO | VLESS | @red2ray #1"
       ],
       "tag": "auto",
@@ -99,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇴 RO | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "82.152.132.211",
+      "server_port": 8044,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpkQ2FtZ2x6ck9SYW9wcWJwQmxwdHpidDlRZGlINENTTg==",
+      "password": null
     },
     {
       "tag": "🇷🇴 RO | VLESS | @red2ray #1",

@@ -103,7 +103,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -171,7 +170,6 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
         "🇽🇽 XX | VLESS | @nepo_v2ray #3",
@@ -233,8 +231,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raying #1",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
@@ -302,7 +300,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -370,7 +367,6 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
         "🇽🇽 XX | VLESS | @nepo_v2ray #3",
@@ -432,8 +428,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | TROJAN | @v2raying #1",
-        "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
@@ -722,22 +718,6 @@
       "server_port": 443,
       "uuid": "1ce9392f-caf4-48f7-bbb9-475b101fbde0",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
-      "type": "trojan",
-      "server": "104.19.229.21",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1643,31 +1623,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "172.67.153.127",
-      "server_port": 443,
-      "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.windowsmsidownloads.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": "www.windowsmsidownloads.com"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @nepo_v2ray #1",
       "type": "vless",
       "server": "190.93.247.155",
@@ -2406,11 +2361,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2raying #1",
-      "type": "trojan",
-      "server": "104.25.108.234",
+      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "cdn-ams.edgeptr.org",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "70f2cc0a-a633-40aa-b5a8-28d608101e9e",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2422,12 +2378,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "172.67.76.40",
+      "tag": "🇽🇽 XX | TROJAN | @v2raying #1",
+      "type": "trojan",
+      "server": "104.25.108.234",
       "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | SS | @filtershekan_channel #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇧🇬 BG | SS | @filtershekan_channel #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | SS | @filtershekan_channel #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇧🇬 BG | SS | @filtershekan_channel #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,28 +107,6 @@
       "server_port": 35176,
       "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TmpjeU5tVmpNVFUxWldVNU5EQTVaRGswT0RnMU5XTTFNekpqWlRFM05Eaz06WWpZMFpERmtNbU0wTVRnMk5ESTJOV0UzWVRZek5qZGpZMlJtWm1aa056UT0=",
       "password": null
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "p2real4.greewebservices.ir",
-      "server_port": 1340,
-      "uuid": "fb1d2d8a-d9bd-496f-9d5f-f179cbd00123",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

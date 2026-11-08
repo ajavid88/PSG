@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇧🇬 BG | VLESS | @v2ray_free_conf #1", "server": "p2real4.greewebservices.ir", "port": 1340, "type": "vless", "skip-cert-verify": true, "uuid": "fb1d2d8a-d9bd-496f-9d5f-f179cbd00123", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇾 CY | VLESS | @v2raych #1", "server": "2.56.127.149", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "16f5041e-7a72-44a0-afbf-744ec2bf1cc9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇧🇬 BG | VLESS | @v2ray_free_conf #1'
+      - '🇨🇾 CY | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

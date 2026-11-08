@@ -81,8 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1"
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,8 +95,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1"
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,12 +207,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "svrty.fars-remen.ir",
-      "server_port": 8080,
-      "uuid": "db56fe57-a0b9-4456-a5d4-8c49247ae65e",
-      "packet_encoding": "xudp"
+      "server": "tuntrk.zapasircloud.ir",
+      "server_port": 3025,
+      "uuid": "f65ae31a-024e-4758-84d2-967704090f18",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
@@ -231,6 +247,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "book.jarbook.net",
+      "server_port": 443,
+      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

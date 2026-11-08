@@ -79,7 +79,7 @@
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -90,7 +90,7 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -145,11 +145,11 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "179.43.166.190",
+      "server": "94.26.35.217",
       "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "uuid": "54066259-28a1-47dc-b0f7-e7715f27918e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -158,6 +158,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

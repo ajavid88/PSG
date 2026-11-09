@@ -108,14 +108,18 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @v2rayopen #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #4",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -142,14 +146,18 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @v2rayopen #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #4",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -453,6 +461,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "185.209.42.72",
+      "server_port": 2084,
+      "uuid": "ca39b355-b488-9297-918f-9d011d075ba2",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "216.24.57.1",
@@ -512,6 +528,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "64c5f924-1c24-44a5-acff-2e3ebcd2f807",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -563,12 +596,55 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "lws.athforce.ir",
-      "server_port": 43443,
-      "uuid": "1ee24c8e-969e-49e9-81c7-54fefe714c74",
-      "packet_encoding": "xudp"
+      "server": "upload.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "media.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "download.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",

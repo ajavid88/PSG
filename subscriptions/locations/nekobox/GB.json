@@ -80,17 +80,21 @@
         "🇬🇧 GB | VLESS | @ehsawn8 #1",
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @nofiltering2 #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | SS | @v2ray1_ng #1",
+        "🇬🇧 GB | VLESS | @privatevpns #2",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #3",
+        "🇬🇧 GB | VLESS | @v2raych #4",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
         "🇬🇧 GB | VLESS | @vlessconfig #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇬🇧 GB | VLESS | @vlessconfig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,17 +105,21 @@
         "🇬🇧 GB | VLESS | @ehsawn8 #1",
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
-        "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @nofiltering2 #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | SS | @v2ray1_ng #1",
+        "🇬🇧 GB | VLESS | @privatevpns #2",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raych #3",
+        "🇬🇧 GB | VLESS | @v2raych #4",
         "🇬🇧 GB | SS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
         "🇬🇧 GB | VLESS | @vlessconfig #1",
-        "🇬🇧 GB | VLESS | @vmesc #1"
+        "🇬🇧 GB | VLESS | @vlessconfig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -151,38 +159,28 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "149.7.16.228",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇬🇧 GB | SS | @nofiltering2 #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.215",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "52.56.76.150",
+      "server": "13.43.176.3",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray1_ng #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.211",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
+      "tag": "🇬🇧 GB | VLESS | @privatevpns #2",
+      "type": "vless",
+      "server": "18.132.237.193",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
@@ -193,11 +191,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "uk1.0a0.uk",
+      "tag": "🇬🇧 GB | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "151.101.56.101",
       "server_port": 443,
-      "uuid": "f016bc0f-5309-4782-ac19-4093f20e08d7",
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "upload.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -206,11 +220,57 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "media.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "fetch.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "download.onecloudtraining.com",
+      "server_port": 443,
+      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -231,17 +291,17 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "141.98.101.181",
-      "server_port": 443,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
       "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "52.56.76.150",
+      "server": "13.43.176.3",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
+      "type": "vless",
+      "server": "18.132.237.193",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -249,32 +309,18 @@
     {
       "tag": "🇬🇧 GB | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "52.56.76.150",
+      "server": "13.43.176.3",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "tag": "🇬🇧 GB | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "57.129.138.142",
-      "server_port": 8080,
-      "uuid": "6228ee5b-fe07-4ee5-8300-386cd004eb84",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "18.132.237.193",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

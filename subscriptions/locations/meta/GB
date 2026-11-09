@@ -27,6 +27,7 @@ proxies:
   - {"name": "🇬🇧 GB | VMESS | @outlinereleasedkey #1", "server": "149.7.16.228", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "52.56.76.150", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @v2ray_collector #1", "server": "23.81.36.148", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "36c3dcc2-17b6-4478-b8a7-3978e6d5afe9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @v2ray_free_conf #1", "server": "uk1.0a0.uk", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f016bc0f-5309-4782-ac19-4093f20e08d7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1", "server": "52.56.76.150", "port": 22223, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vlessconfig #1", "server": "52.56.76.150", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vmesc #1", "server": "57.129.138.142", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "6228ee5b-fe07-4ee5-8300-386cd004eb84", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -47,6 +48,7 @@ proxy-groups:
       - '🇬🇧 GB | VMESS | @outlinereleasedkey #1'
       - '🇬🇧 GB | VLESS | @privatevpns #1'
       - '🇬🇧 GB | VLESS | @v2ray_collector #1'
+      - '🇬🇧 GB | VLESS | @v2ray_free_conf #1'
       - '🇬🇧 GB | VLESS | @v2rayvpnchannel #1'
       - '🇬🇧 GB | VLESS | @vlessconfig #1'
       - '🇬🇧 GB | VLESS | @vmesc #1'

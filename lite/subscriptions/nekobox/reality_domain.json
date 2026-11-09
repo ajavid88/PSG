@@ -82,6 +82,7 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
@@ -96,6 +97,7 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
@@ -212,6 +214,28 @@
       "server": "tuntrk.zapasircloud.ir",
       "server_port": 3025,
       "uuid": "f65ae31a-024e-4758-84d2-967704090f18",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "s2.dipvpn.ru",
+      "server_port": 443,
+      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

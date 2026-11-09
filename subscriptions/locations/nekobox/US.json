@@ -87,8 +87,9 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
-        "🇺🇸 US | TROJAN | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free1_vpn #1",
+        "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #2",
         "🇺🇸 US | TROJAN | @free4allvpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -127,7 +128,6 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | SS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
@@ -153,9 +153,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | TROJAN | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -196,8 +195,9 @@
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @ehsawn8 #1",
-        "🇺🇸 US | TROJAN | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free1_vpn #1",
+        "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #2",
         "🇺🇸 US | TROJAN | @free4allvpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -236,7 +236,6 @@
         "🇺🇸 US | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @outline_ir #1",
         "🇺🇸 US | SS | @outline_ir #1",
         "🇺🇸 US | VLESS | @outline_ir #2",
@@ -262,9 +261,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raych #1",
-        "🇺🇸 US | TROJAN | @v2raych #1",
-        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -470,6 +468,28 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "136.0.197.99",
+      "server_port": 49520,
+      "uuid": "ca4cb252-3fcb-4937-9d08-c39683e46e42",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | TROJAN | @free1_vpn #1",
       "type": "trojan",
       "server": "170.101.101.237",
@@ -486,7 +506,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "leviko-panel-289999.up.railway.app",
       "server_port": 443,
@@ -1085,23 +1105,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @orange_vpns #2",
-      "type": "vless",
-      "server": "whitepanel-ui-production-84c0.up.railway.app",
-      "server_port": 443,
-      "uuid": "b05c5bfc-0f53-474a-8a43-8d30af8bccd2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "146.75.59.186",
@@ -1461,9 +1464,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "66.90.106.28",
+      "server": "136.176.65.251",
       "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "uuid": "39826f32-f5ca-42a5-ab33-188f7d199478",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1503,11 +1506,29 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "38.91.100.16",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "brave-ploys.video-streams.org",
+      "server": "136.176.65.251",
       "server_port": 443,
-      "uuid": "9c91acfe-5642-4d45-b7f0-6a3a205186d4",
+      "uuid": "39826f32-f5ca-42a5-ab33-188f7d199478",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1516,39 +1537,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "169.197.140.214",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "biouitxe-production.up.railway.app",
-      "server_port": 443,
-      "uuid": "bbe9d64d-dbcf-4192-9ebc-60bb44aa1a0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

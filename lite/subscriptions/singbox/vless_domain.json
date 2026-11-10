@@ -116,8 +116,8 @@
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
-        "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
@@ -136,8 +136,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -150,6 +149,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇮🇷 IR | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -185,8 +185,8 @@
         "🇽🇽 XX | VLESS | @kopltall_vpn #2",
         "🇽🇽 XX | VLESS | @kurdvpn1 #1",
         "🇽🇽 XX | VLESS | @kurdvpn1 #2",
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
-        "🇽🇽 XX | VLESS | @lemonshopvpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #1",
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
@@ -205,8 +205,7 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -219,6 +218,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇮🇷 IR | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
@@ -588,6 +588,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "ubia2-join.outline-vpn.cloud",
+      "server_port": 80,
+      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @lemonshopvpn #1",
       "type": "vless",
       "server": "www.zula.ir",
@@ -603,14 +611,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @lemonshopvpn #1",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "f4e22eff-20b2-4af7-aee9-4a67b82b47f3",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @lockey_vpn #1",
@@ -820,38 +820,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "upload.onecloudtraining.com",
-      "server_port": 443,
-      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "media.onecloudtraining.com",
-      "server_port": 443,
-      "uuid": "0ad875ef-b751-46e3-aa89-e1ae20e43bcc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "fdh15.mobileemdad.top",
+      "server_port": 8080,
+      "uuid": "486c73fe-7471-4f7f-a5f0-54e2c3f24b4b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
@@ -1039,6 +1013,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "fnl.mobileemdad.top",
+      "server_port": 8080,
+      "uuid": "a1b42c98-0983-419c-aaa3-fd0ed2facb31",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

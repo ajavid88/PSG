@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #6",
+        "🇺🇸 US | VLESS | @bored_vpn #5",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
@@ -108,7 +108,7 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -125,7 +125,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #6",
+        "🇺🇸 US | VLESS | @bored_vpn #5",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
@@ -139,7 +139,7 @@
         "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -245,7 +245,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #6",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #5",
       "type": "vless",
       "server": "167.82.64.7",
       "server_port": 443,
@@ -447,12 +447,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "185.209.42.72",
-      "server_port": 2084,
-      "uuid": "ca39b355-b488-9297-918f-9d011d075ba2",
-      "packet_encoding": "xudp"
+      "server": "206.71.158.125",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",

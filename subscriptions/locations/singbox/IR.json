@@ -105,9 +105,11 @@
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
@@ -134,9 +136,11 @@
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
+        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
@@ -319,12 +323,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "185.209.42.72",
-      "server_port": 2084,
-      "uuid": "ca39b355-b488-9297-918f-9d011d075ba2",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "Mobin1.hormozmobile10.ir",
+      "server_port": 38435,
+      "uuid": "cdee4bd3-7e46-4699-988d-cdb12f4a452b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "81.12.33.25",
+      "server_port": 8443,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TEQ5eEEwSTVOckUvYVBLdm1YTjBrUT09OlpuUGFHTUMwK2pNOVl3U2MxaUREM3c9PQ==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -341,6 +354,14 @@
       "server_port": 3040,
       "uuid": "ea06f2c7-625a-4e1e-8a9e-fe89a729f2cf",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "payin.ishizaki.ir",
+      "server_port": 4443,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Qk1Ra0s2aWN3YTd2Z21qcGNSYWxaS0NIcWVzOExaV2xLTGZVQTBWc0EvMD06TEYzYkIvcUFtd3pRelhiMXhpMjVEamltdGx2dityN1B3Y3RXZ2dEMHhoMD0=",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2rayngalpha #1",

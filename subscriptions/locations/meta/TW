@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | TROJAN | @red2ray #1", "server": "208.69.78.222", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
+  - {"name": "🇹🇼 TW | VLESS | @hope_net #1", "server": "83.147.13.74", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇼 TW | VLESS | @v2raych #1", "server": "83.147.13.74", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | TROJAN | @red2ray #1'
+      - '🇹🇼 TW | VLESS | @hope_net #1'
+      - '🇹🇼 TW | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

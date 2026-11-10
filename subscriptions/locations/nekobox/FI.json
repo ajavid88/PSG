@@ -79,11 +79,9 @@
         "direct",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,11 +91,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,14 +139,6 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "fdh15.mobileemdad.top",
-      "server_port": 8080,
-      "uuid": "486c73fe-7471-4f7f-a5f0-54e2c3f24b4b",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "213.108.23.184",
@@ -194,28 +182,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "fnl.mobileemdad.top",
-      "server_port": 8080,
-      "uuid": "a1b42c98-0983-419c-aaa3-fd0ed2facb31",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

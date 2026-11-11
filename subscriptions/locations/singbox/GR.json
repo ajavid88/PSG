@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
+        "🇬🇷 GR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
+        "🇬🇷 GR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇬🇷 GR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "gr.freeinternat.com",
+      "server": "85.90.197.158",
       "server_port": 443,
-      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
+      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

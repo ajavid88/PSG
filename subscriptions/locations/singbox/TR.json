@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -100,8 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "188.132.237.20",
+      "server_port": 2095,
+      "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
@@ -138,10 +150,36 @@
     {
       "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "raven91.fars-remen.ir",
-      "server_port": 32545,
-      "uuid": "5ea68468-d58b-42e6-b433-9ea9cfbcac09",
-      "packet_encoding": "xudp"
+      "server": "87.120.106.95",
+      "server_port": 443,
+      "uuid": "59687b90-4bb1-45f5-bf76-e20d00fa6184",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "87.120.106.95",
+      "server_port": 443,
+      "uuid": "59687b90-4bb1-45f5-bf76-e20d00fa6184",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",

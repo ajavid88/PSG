@@ -83,10 +83,9 @@
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,10 +99,9 @@
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇺🇸 US | VLESS | @outline_ir #3",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -233,6 +231,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #3",
+      "type": "vless",
+      "server": "us2.qik-fin.uk",
+      "server_port": 443,
+      "uuid": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -250,36 +265,11 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "gitii.molipen.ir",
-      "server_port": 21172,
-      "uuid": "7fe7a38c-1644-4174-9c0a-60037fd4415b",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "sitoman.info",
       "server_port": 443,
       "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "dey.lnmarketplace.net",
-      "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

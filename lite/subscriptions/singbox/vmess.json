@@ -93,7 +93,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #2",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -107,10 +106,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇳🇱 NL | VMESS | @v2ray_collector #1",
-        "🇮🇹 IT | VMESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1"
+        "🇮🇷 IR | VMESS | @khoneproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -121,7 +117,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #2",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -135,10 +130,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇳🇱 NL | VMESS | @v2ray_collector #1",
-        "🇮🇹 IT | VMESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1"
+        "🇮🇷 IR | VMESS | @khoneproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -220,15 +212,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "s1.connect.labex.pro",
-      "server_port": 1007,
-      "uuid": "d4c556a2-3d61-4b1d-9550-d6d010ff1d3f",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @freev2rays #1",
@@ -554,51 +537,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "188.166.81.135",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 IT | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "149.50.215.240",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "67.220.95.3",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

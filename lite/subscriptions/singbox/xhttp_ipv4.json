@@ -94,15 +94,16 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #2",
+        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #1",
-        "🇽🇽 XX | VLESS | @v2rayngconfiig #1"
+        "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,15 +115,16 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇺🇸 US | VLESS | @bored_vpn #2",
+        "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #1",
-        "🇽🇽 XX | VLESS | @v2rayngconfiig #1"
+        "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -223,7 +225,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @bored_vpn #2",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
       "type": "vless",
       "server": "167.82.64.7",
       "server_port": 443,
@@ -316,19 +318,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
+      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "151.101.3.8",
-      "server_port": 80,
-      "uuid": "qeshmserver",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "216.24.57.1",
+      "server": "170.168.97.6",
       "server_port": 443,
-      "uuid": "3374d2ed-0dc3-404d-adfd-414b55b3dc9b",
+      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -339,6 +333,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @qeshmserver #1",
+      "type": "vless",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "qeshmserver",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -356,6 +358,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "95.129.234.113",
+      "server_port": 8443,
+      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

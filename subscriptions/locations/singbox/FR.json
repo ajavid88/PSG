@@ -98,12 +98,9 @@
         "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @v2raych #2",
-        "🇫🇷 FR | VLESS | @v2raych #3",
-        "🇫🇷 FR | VLESS | @v2raych #4",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,12 +116,9 @@
         "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @v2raych #2",
-        "🇫🇷 FR | VLESS | @v2raych #3",
-        "🇫🇷 FR | VLESS | @v2raych #4",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -179,7 +173,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "15.224.158.254",
+      "server": "15.236.176.177",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -187,7 +181,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #2",
       "type": "vless",
-      "server": "51.45.40.123",
+      "server": "15.188.255.228",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -223,38 +217,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "15.224.158.254",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "51.45.40.123",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "15.224.158.254",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #4",
-      "type": "vless",
-      "server": "51.45.40.123",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "62.210.91.2",
@@ -277,21 +239,20 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2rayopen #1",
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "84.46.251.105",
-      "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "15.236.176.177",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
+      "type": "vless",
+      "server": "15.188.255.228",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

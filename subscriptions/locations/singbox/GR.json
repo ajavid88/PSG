@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUU=
+//profile-title: base64:UFNHIHwgR1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @v2raych #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @v2raych #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,19 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "dns24.m3hrzd.ir",
-      "server_port": 1352,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpieVg0LURWMEM0MlBMRlRXUWhNVEFRNjNtWjhxckRSQg==",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",
+      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "protectnet.cloudinohost.com",
+      "server": "gr.freeinternat.com",
       "server_port": 443,
-      "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058",
+      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -133,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

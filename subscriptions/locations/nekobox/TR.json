@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -87,8 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -103,36 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "188.132.237.20",
-      "server_port": 2095,
-      "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @selinc #1",
-      "type": "vless",
-      "server": "tr.0a0.uk",
-      "server_port": 443,
-      "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",

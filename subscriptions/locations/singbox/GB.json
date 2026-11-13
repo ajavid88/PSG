@@ -96,7 +96,8 @@
         "🇬🇧 GB | SS | @nofiltering2 #1",
         "🇬🇧 GB | SS | @nofiltering2 #2",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
@@ -117,7 +118,8 @@
         "🇬🇧 GB | SS | @nofiltering2 #1",
         "🇬🇧 GB | SS | @nofiltering2 #2",
         "🇬🇧 GB | VLESS | @privatevpns #1",
-        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
@@ -178,18 +180,42 @@
     {
       "tag": "🇬🇧 GB | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "51.24.104.155",
+      "server": "51.24.138.99",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.214",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
+      "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "151.101.56.7",
+      "server_port": 443,
+      "password": "MiTIVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #2",
+      "type": "trojan",
+      "server": "151.101.56.255",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
@@ -226,7 +252,7 @@
     {
       "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "51.24.104.155",
+      "server": "51.24.138.99",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -234,7 +260,7 @@
     {
       "tag": "🇬🇧 GB | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "51.24.104.155",
+      "server": "51.24.138.99",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"

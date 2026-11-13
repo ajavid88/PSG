@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @mtproxy22_v2ray #1",
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇺🇦 UA | VLESS | @v2ray_free_conf #1",
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @mtproxy22_v2ray #1",
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇺🇦 UA | VLESS | @v2ray_free_conf #1",
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +103,43 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @mtproxy22_v2ray #1",
-      "type": "shadowsocks",
-      "server": "146.70.90.198",
-      "server_port": 17456,
-      "method": "YWVzLTEyOC1nY206ODgxY2YzOWFmZmM1Mjg2Nzk5YTU4NWYxYWNkMjRkMTE=",
-      "password": null
+      "tag": "🇺🇦 UA | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "194.150.220.101",
+      "server_port": 443,
+      "uuid": "6d9b168e-b952-452f-9307-53d2fdb926ef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇮🇪 IE | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "20.107.184.151",
+      "tag": "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "g01tig3hasus3.dnetsolutions.ru",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6emlYSERPRlhjNHFSam9q",
-      "password": null
+      "uuid": "e08d9bc5-6832-4dd4-bd44-d9bbe61e5817",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

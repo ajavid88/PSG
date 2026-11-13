@@ -95,12 +95,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @configv2rayforfree #1",
         "🇺🇸 US | TROJAN | @netfreedom0 #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇩🇪 DE | TROJAN | @v2ray_collector #1",
-        "🇸🇪 SE | TROJAN | @v2ray_collector #1",
-        "🇩🇪 DE | TROJAN | @vmesskhodam #1",
+        "🇩🇪 DE | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇺🇸 US | TROJAN | @free4allvpn #1",
         "🇭🇰 HK | TROJAN | @netfreedom0 #1",
@@ -118,12 +117,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @configv2rayforfree #1",
         "🇺🇸 US | TROJAN | @netfreedom0 #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇩🇪 DE | TROJAN | @v2ray_collector #1",
-        "🇸🇪 SE | TROJAN | @v2ray_collector #1",
-        "🇩🇪 DE | TROJAN | @vmesskhodam #1",
+        "🇩🇪 DE | TROJAN | @vpn_ioss #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
         "🇺🇸 US | TROJAN | @free4allvpn #1",
         "🇭🇰 HK | TROJAN | @netfreedom0 #1",
@@ -221,9 +219,25 @@
     {
       "tag": "🇺🇸 US | TROJAN | @netfreedom0 #1",
       "type": "trojan",
-      "server": "216.152.155.158",
+      "server": "170.101.101.237",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "151.101.56.7",
+      "server_port": 443,
+      "password": "MiTIVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -283,41 +297,9 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | TROJAN | @v2ray_collector #1",
+      "tag": "🇩🇪 DE | TROJAN | @vpn_ioss #1",
       "type": "trojan",
-      "server": "193.108.119.96",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "learn.iloverussia2026.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "95.143.196.97",
-      "server_port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | TROJAN | @vmesskhodam #1",
-      "type": "trojan",
-      "server": "193.108.119.134",
+      "server": "193.108.119.78",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {

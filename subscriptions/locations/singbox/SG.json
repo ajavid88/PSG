@@ -90,8 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2raych #2",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -100,8 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2raych #2",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -112,40 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "matrix.phonicsindia.mobi",
-      "server_port": 443,
-      "uuid": "b19c62cc-f2c2-4895-aee1-978a0f58f8c8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "googleapis.hmacreation.eu.cc",
-      "server_port": 443,
-      "uuid": "5010a4d8-8279-472a-8df3-c8f7894574fb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

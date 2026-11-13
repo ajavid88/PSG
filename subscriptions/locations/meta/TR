@@ -25,8 +25,6 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @NamiraConfigs #1", "server": "188.132.237.20", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @selinc #1", "server": "tr.0a0.uk", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "87.120.106.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "59687b90-4bb1-45f5-bf76-e20d00fa6184", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @v2raych #2", "server": "87.120.106.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "59687b90-4bb1-45f5-bf76-e20d00fa6184", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "trn26.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2bca38e7-c6b8-45ca-bfc4-311a359b8154", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -43,8 +41,6 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VLESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @selinc #1'
-      - '🇹🇷 TR | VLESS | @v2raych #1'
-      - '🇹🇷 TR | VLESS | @v2raych #2'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media

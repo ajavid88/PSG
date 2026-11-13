@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
-        "🇷🇺 RU | VLESS | @netfreedom0 #2",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2"
       ],
@@ -90,10 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
-        "🇷🇺 RU | VLESS | @netfreedom0 #2",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2"
       ],
@@ -111,23 +107,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "cdn.oldertown.ru",
-      "server_port": 443,
-      "uuid": "29777784-b5ad-4e2a-be7b-335f033ab97c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | SS | @flyv2ray #1",
       "type": "shadowsocks",
       "server": "185.22.153.117",
@@ -137,28 +116,6 @@
     },
     {
       "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "147.45.104.86",
-      "server_port": 7443,
-      "uuid": "af185070-7170-46a8-b1e9-d61a035f4691",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #2",
       "type": "vless",
       "server": "193.233.127.149",
       "server_port": 443,

@@ -92,6 +92,7 @@
         "direct",
         "🇹🇷 TR | VLESS | @outlinereleasedkey #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @outlinereleasedkey #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -140,6 +142,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "homestead-walloping.sports-streams.org",
+      "server_port": 443,
+      "uuid": "3de06bd1-d888-47b9-86fb-67e4da09a6c9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

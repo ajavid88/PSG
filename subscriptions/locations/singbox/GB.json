@@ -106,7 +106,8 @@
         "🇬🇧 GB | VLESS | @vlessconfig #1",
         "🇬🇧 GB | VLESS | @vlessconfig #2",
         "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇬🇧 GB | SS | @vmesskhodam #1"
+        "🇬🇧 GB | SS | @vmesskhodam #1",
+        "🇬🇧 GB | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,7 +131,8 @@
         "🇬🇧 GB | VLESS | @vlessconfig #1",
         "🇬🇧 GB | VLESS | @vlessconfig #2",
         "🇬🇧 GB | VLESS | @vmesc #1",
-        "🇬🇧 GB | SS | @vmesskhodam #1"
+        "🇬🇧 GB | SS | @vmesskhodam #1",
+        "🇬🇧 GB | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -290,6 +292,28 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "uk.axnode.net",
+      "server_port": 443,
+      "uuid": "1a63104d-0961-4881-91ef-3d243243f048",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "uk.axnode.net",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "public_key": "SLcOjAZzronAk6ks4DcKwQNac06m9X1z2KcnIXfpAWU",
+          "short_id": "75",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,15 +101,15 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "mhzedir.qzz.io",
-      "server_port": 2059,
-      "uuid": "4fd80dc2-8d73-45fa-839e-c1ad2875c752",
+      "server": "msk10.gacvpn.site",
+      "server_port": 443,
+      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "nl3-edge.gacvpn.site",
         "insecure": true,
         "utls": {
           "enabled": true,

@@ -105,17 +105,18 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇳🇱 NL | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
@@ -141,17 +142,18 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇳🇱 NL | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
@@ -506,6 +508,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "US032013.ssgreen.org",
+      "server_port": 443,
+      "uuid": "4b6411e3-914d-4d6c-b486-58b1b88f5c5f",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "US032013.ssgreen.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US032013.ssgreen.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -631,6 +658,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "viber.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -727,24 +770,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "103.88.232.55",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     },
     {

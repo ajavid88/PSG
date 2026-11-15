@@ -95,6 +95,7 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1"
@@ -110,6 +111,7 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1"
@@ -219,6 +221,23 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "static-uk.song69.fun",
+      "server_port": 443,
+      "uuid": "8ac4cf4e-c31c-4fb3-b56d-cf914970fa1b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",

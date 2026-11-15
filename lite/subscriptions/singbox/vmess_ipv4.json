@@ -95,7 +95,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇺🇸 US | VMESS | @v2rayopen #1"
+        "🇳🇱 NL | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,7 +109,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇺🇸 US | VMESS | @v2rayopen #1"
+        "🇳🇱 NL | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -226,7 +228,25 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2rayopen #1",
+      "tag": "🇳🇱 NL | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "209.38.42.238",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "67.220.95.3",
       "server_port": 18000,

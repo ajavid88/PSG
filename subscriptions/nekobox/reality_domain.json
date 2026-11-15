@@ -81,12 +81,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
+        "🇪🇪 EE | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #2",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #2",
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayopen #1",
@@ -103,12 +102,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
+        "🇪🇪 EE | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #2",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #2",
-        "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayopen #1",
@@ -223,6 +221,28 @@
       }
     },
     {
+      "tag": "🇪🇪 EE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "ee.subv.ru",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇧🇬 BG | VLESS | @hope_net #1",
       "type": "vless",
       "server": "p11real3.greewebservices.ir",
@@ -245,7 +265,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "de166.mech-pro.online",
       "server_port": 443,
@@ -289,55 +309,11 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "ee.subv.ru",
-      "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
       "type": "vless",
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "timete.hagrid-connected.com",
-      "server_port": 443,
-      "uuid": "beda6bd0-7ce4-477a-91f1-860d018dbfcb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

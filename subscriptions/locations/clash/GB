@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | VLESS | @v2ray_free_conf #1", "server": "timete.hagrid-connected.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "beda6bd0-7ce4-477a-91f1-860d018dbfcb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇦🇹 AT | VMESS | @v2raych #1", "server": "154.47.19.225", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
+  - {"name": "🇬🇧 GB | TROJAN | @prrofile_purple #1", "server": "151.101.56.7", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTIVPN"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | VLESS | @v2ray_free_conf #1'
-      - '🇦🇹 AT | VMESS | @v2raych #1'
+      - '🇬🇧 GB | TROJAN | @prrofile_purple #1'
 
   - name: 🌍 Global Media
     type: select

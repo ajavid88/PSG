@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgRVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @netfreedom0 #1"
+        "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @netfreedom0 #1"
+        "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +114,60 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @netfreedom0 #1",
-      "type": "trojan",
-      "server": "sclass-00.catcat321.com",
-      "server_port": 20123,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf"
+      "tag": "🇪🇸 ES | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "212.227.235.66",
+      "server_port": 2053,
+      "uuid": "ead0dd61-d398-40ad-80d6-a0e1e516d7d3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "170.168.97.6",
+      "server_port": 443,
+      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "170.168.97.6",
+      "server_port": 443,
+      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

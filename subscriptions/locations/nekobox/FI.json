@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_collector #2",
-        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -90,8 +90,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2ray_collector #2",
-        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -111,14 +111,6 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #2",
-      "type": "vless",
       "server": "169.40.34.41",
       "server_port": 443,
       "uuid": "622654a4-b666-000b-9260-fb717e05154f",
@@ -134,11 +126,19 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2rayngalpha #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "tgju.org",
-      "server_port": 80,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "server": "191.217.205.175",
+      "server_port": 7443,
+      "uuid": "0b22812b-4a79-42b1-93ec-5b157b0f2f7f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "191.217.205.175",
+      "server_port": 7443,
+      "uuid": "0b22812b-4a79-42b1-93ec-5b157b0f2f7f",
       "packet_encoding": "xudp"
     },
     {

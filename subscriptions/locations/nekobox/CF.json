@@ -160,7 +160,6 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
-        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @merdesert #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #2",
@@ -200,7 +199,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -228,7 +228,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -236,7 +235,6 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayopen #1",
-        "🇽🇽 XX | VLESS | @v2rayopen #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2raytg #2",
@@ -360,7 +358,6 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
-        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @merdesert #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #2",
@@ -400,7 +397,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #2",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -428,7 +426,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -436,7 +433,6 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayopen #1",
-        "🇽🇽 XX | VLESS | @v2rayopen #2",
         "🇽🇽 XX | VLESS | @v2rayprotocol #1",
         "🇽🇽 XX | VLESS | @v2raytg #1",
         "🇽🇽 XX | VLESS | @v2raytg #2",
@@ -1452,22 +1448,6 @@
       "password": "bpb-trojan"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @manstervpn #2",
-      "type": "trojan",
-      "server": "104.18.37.111",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @merdesert #1",
       "type": "vless",
       "server": "104.21.60.171",
@@ -1993,6 +1973,23 @@
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
+      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
       "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
       "tls": {
@@ -2006,11 +2003,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
       "type": "vless",
-      "server": "yx.l110.us.ci",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2343,23 +2340,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "104.16.72.101",
-      "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -2436,23 +2416,6 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "104.18.34.33",
-      "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2rayopen #2",
       "type": "vless",
       "server": "yx.l110.us.ci",
       "server_port": 443,

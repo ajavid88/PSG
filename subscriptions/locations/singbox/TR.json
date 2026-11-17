@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,7 +138,15 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "sibilgg.opik.net",
+      "server_port": 8080,
+      "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "45.144.214.102",
       "server_port": 443,
@@ -153,12 +163,27 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "sibilgg.opik.net",
-      "server_port": 8080,
-      "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
-      "packet_encoding": "xudp"
+      "server": "176.96.128.133",
+      "server_port": 17202,
+      "uuid": "7dca07fb-e54f-4ed5-988b-41d650c48bf4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "6_NnkeHy6GOnjIWMk6uOFGEzNAfrkC49GaRAmKQTKG8",
+          "short_id": "c071d934",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

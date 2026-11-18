@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2"
@@ -87,6 +89,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2"
@@ -103,6 +107,50 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "tr.0a0.uk",
+      "server_port": 443,
+      "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "185.71.216.95",
+      "server_port": 2194,
+      "uuid": "128bd8ad-4f6c-4d70-af13-15a2cec331d2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2raytg #1",

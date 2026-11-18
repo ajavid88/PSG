@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFY=
+//profile-title: base64:UFNHIHwgSEs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇭🇰 HK | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇭🇰 HK | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @free4allvpn #1",
-      "type": "vless",
-      "server": "195.135.252.28",
-      "server_port": 443,
-      "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa",
-      "packet_encoding": "xudp",
+      "tag": "🇭🇰 HK | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "sclass-c1.catcat321.com",
+      "server_port": 20086,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -123,11 +122,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

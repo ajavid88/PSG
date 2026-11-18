@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇱 CL | TROJAN | @v2ray_collector #1",
-        "🇨🇱 CL | VLESS | @v2raych #1"
+        "🇨🇱 CL | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇱 CL | TROJAN | @v2ray_collector #1",
-        "🇨🇱 CL | VLESS | @v2raych #1"
+        "🇨🇱 CL | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,28 +122,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇱 CL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "147.224.235.131",
-      "server_port": 60246,
-      "uuid": "556bc1b7-a083-4188-bacf-2e5753a23609",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

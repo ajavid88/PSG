@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @filtershekan_channel #1"
+        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
+        "🇨🇭 CH | SS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @filtershekan_channel #1"
+        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
+        "🇨🇭 CH | SS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | SS | @orange_vpns #1",
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {

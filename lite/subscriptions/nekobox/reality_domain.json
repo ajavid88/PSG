@@ -80,10 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +95,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,6 +187,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "de7.angelsleep9.com",
+      "server_port": 443,
+      "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
       "type": "vless",
       "server": "prvtch.titun.su",
@@ -229,11 +253,11 @@
       }
     },
     {
-      "tag": "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+      "tag": "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "g01tig3hasus3.dnetsolutions.ru",
+      "server": "4935e4t.de25.h1clayd.click",
       "server_port": 443,
-      "uuid": "e08d9bc5-6832-4dd4-bd44-d9bbe61e5817",
+      "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -242,15 +266,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇺🇦 UA | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "xray2-direct-mci1-fs-ce.freesocks.work",
+      "server": "g01tig3hasus3.dnetsolutions.ru",
       "server_port": 443,
-      "uuid": "33c12d52-1dc4-435c-bc27-dbe8aec2a3dc",
+      "uuid": "e08d9bc5-6832-4dd4-bd44-d9bbe61e5817",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

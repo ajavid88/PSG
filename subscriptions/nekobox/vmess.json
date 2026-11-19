@@ -94,6 +94,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #3",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -103,8 +104,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
-        "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
+        "🇧🇷 BR | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
@@ -131,6 +135,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #3",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -140,8 +145,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
-        "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
+        "🇧🇷 BR | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
@@ -549,6 +557,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -751,9 +784,9 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
+      "tag": "🇧🇷 BR | VMESS | @outlinereleasedkey #1",
       "type": "vmess",
-      "server": "62.93.166.184",
+      "server": "103.88.232.55",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -788,6 +821,51 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "193.108.117.61",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "38.91.107.49",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇸🇪 SE | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {

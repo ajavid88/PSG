@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
-        "🇨🇭 CH | SS | @orange_vpns #1"
+        "🇨🇭 CH | SS | @orange_vpns #1",
+        "🇨🇭 CH | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
-        "🇨🇭 CH | SS | @orange_vpns #1"
+        "🇨🇭 CH | SS | @orange_vpns #1",
+        "🇨🇭 CH | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,6 +133,29 @@
       "server_port": 19999,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "share.gifmems.com",
+      "server_port": 443,
+      "uuid": "31e407b3-6e1e-425f-98ea-fcf8f494c6a0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "share.gifmems.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "public_key": "UGQPJAkxXArjmKVbPQ4ZDSh3hVrs9RhFPmjFAvDi5Q0",
+          "short_id": "668aabc33312234d",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

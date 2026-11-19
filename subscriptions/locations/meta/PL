@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #1", "server": "documentnest.website", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "187.54.1.75", "port": 3738, "type": "vless", "skip-cert-verify": true, "uuid": "e0decac3-1b3e-4ab1-a2a8-860a8aca76f6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "digitalrepository.online", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #2", "server": "honeycombnode.website", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "qq", "flow": "xtls-rprx-vision", "servername": "honeycombnode.website", "reality-opts": {"public-key": "7EY13JUT6TfZc9Jnk-SiZL3foUw6PA56byhCQi1szxs", "short-id": "be5f517e33cb153f"}}
+  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #1", "server": "cache.livemusic.ac", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "31e407b3-6e1e-425f-98ea-fcf8f494c6a0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "qq", "flow": "xtls-rprx-vision", "servername": "cache.livemusic.ac", "reality-opts": {"public-key": "gvro_MfP76DXzWNLNYK8ov1zqxS1NBrMMCKzHmsCoR4", "short-id": "b300bdca73007d9b"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,9 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @NamiraConfigs #1'
-      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
-      - '🇵🇱 PL | VLESS | @v2raych #1'
-      - '🇵🇱 PL | VLESS | @NamiraConfigs #2'
 
   - name: 🌍 Global Media
     type: select

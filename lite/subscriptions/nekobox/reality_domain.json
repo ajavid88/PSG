@@ -82,8 +82,9 @@
         "KingRezaPahlavi",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇨🇿 CZ | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @selinc #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1"
       ],
       "tag": "proxy",
@@ -97,8 +98,9 @@
         "KingRezaPahlavi",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇨🇿 CZ | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @selinc #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1"
       ],
       "tag": "auto",
@@ -231,19 +233,19 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
+      "tag": "🇨🇿 CZ | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "fr.abbaas.net",
-      "server_port": 8443,
-      "uuid": "SoonTeam%20",
+      "server": "guide.blog-forme.ru",
+      "server_port": 2087,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @selinc #1",
       "type": "vless",
-      "server": "xray2-direct-mci1-fs-ce.freesocks.work",
+      "server": "tr.0a0.uk",
       "server_port": 443,
-      "uuid": "2e0790f3-c89f-4283-9af5-49fdb0e60c08",
+      "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -252,8 +254,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "fr.abbaas.net",
+      "server_port": 8443,
+      "uuid": "SoonTeam%20",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",

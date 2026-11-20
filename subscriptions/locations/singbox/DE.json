@@ -113,17 +113,16 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | TROJAN | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | SS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | SS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -154,17 +153,16 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | TROJAN | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | SS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇩🇪 DE | VLESS | @v2rayopen #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | SS | @v2rayza #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -441,7 +439,7 @@
     {
       "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
-      "server": "193.108.117.111",
+      "server": "23.157.88.43",
       "server_port": 19999,
       "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
       "password": null
@@ -550,24 +548,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "193.108.117.61",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "193.108.119.78",
@@ -584,21 +564,12 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "static.99.177.233.167.clients.your-server.de",
-      "server_port": 443,
-      "uuid": "89d096e6-6d55-4dff-bed7-0d8064665ee6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇩🇪 DE | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "62.113.237.3",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvMy05RWc3OXVtaDRDYVk4c1dDN2Iz",
+      "password": null
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
@@ -648,28 +619,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "9.247.23.209",
-      "server_port": 443,
-      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "68.183.72.92",
@@ -685,14 +634,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | SS | @v2rayza #1",
-      "type": "shadowsocks",
-      "server": "185.176.204.18",
-      "server_port": 19999,
-      "method": "YXV0bzo=",
-      "password": null
     },
     {
       "tag": "🇩🇪 DE | VLESS | @vipv2rey #1",
@@ -717,24 +658,72 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "afshin.daltoonserver.ir",
-      "server_port": 8989,
-      "uuid": "600c8cf7-88e0-40e4-bed6-318ecf4a5110",
+      "server": "9.247.23.209",
+      "server_port": 443,
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "s6-sms-cdn.ecom-stg.samsung.con",
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "du5g.altheora.ir",
+      "server_port": 27181,
+      "uuid": "5eda3398-bb23-47dd-b95c-4f9fb1282d35",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "login.zanjanphone.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "login.zanjanphone.ir"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "144.31.215.218",
+      "server_port": 2096,
+      "uuid": "fbe22815-0718-4eae-816f-e91c67d15b54",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "st64d67.rumedia-cdn.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "5DVeaUVfUfD6bRT6pMDiRa70i6m1NrNp8tFNS9xf4yo",
-          "short_id": "7c42b13e98",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "st64d67.rumedia-cdn.com"
         }
       }
     }

@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇦 UA | SS | @orange_vpns #1",
         "🇺🇦 UA | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇺🇦 UA | SS | @orange_vpns #1",
         "🇺🇦 UA | SS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -99,6 +101,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇺🇦 UA | SS | @orange_vpns #1",
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     },
     {
       "tag": "🇺🇦 UA | SS | @v2rayopen #1",

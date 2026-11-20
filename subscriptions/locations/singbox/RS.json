@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇸 RS | VLESS | @v2raych #1"
+        "🇷🇸 RS | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇸 RS | VLESS | @v2raych #1"
+        "🇷🇸 RS | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "150.40.126.187",
-      "server_port": 443,
-      "uuid": "c1f4f185-5786-40c9-893f-2f100b7165f2",
-      "packet_encoding": "xudp",
+      "tag": "🇷🇸 RS | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "38.180.101.235",
+      "server_port": 5443,
+      "password": "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -123,11 +122,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

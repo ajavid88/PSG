@@ -48,6 +48,7 @@ proxies:
   - {"name": "🇩🇪 DE | TROJAN | @netfreedom0 #1", "server": "193.108.119.29", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @netfreedom0 #2", "server": "216.152.155.176", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @orange_vpns #1", "server": "blog.findlocaljobnetworkandbuildcommunityconnections.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "dba20dcb635e430fa4d3bfc303a149d2"}
+  - {"name": "🇽🇽 XX | VMESS | @orange_vpns #1", "server": "free3.familysharing.ir", "port": 8880, "type": "vmess", "skip-cert-verify": true, "uuid": "4fa625e5-346d-d732-9b93-ce960f81bbc0", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1", "server": "139.84.231.142", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇧🇷 BR | VMESS | @outlinereleasedkey #1", "server": "103.88.232.55", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇺🇸 US | VMESS | @proxy48 #1", "server": "188.114.97.3", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "afrhms16v.bestxray.buzz"}}}
@@ -59,7 +60,6 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #1", "server": "188.114.97.6", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #2", "server": "188.114.97.6", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇪🇸 ES | TROJAN | @red2ray #1", "server": "66.163.118.203", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
-  - {"name": "🇳🇱 NL | TROJAN | @red2ray #1", "server": "66.163.127.44", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇽🇽 XX | VMESS | @red2ray #1", "server": "www.gptcloudai.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/truth", "headers": {"Host": "www.gptcloudai.com"}}}
   - {"name": "🇸🇨 SC | TROJAN | @selinc #1", "server": "45.128.76.242", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇺🇸 US | VMESS | @serverv2ray00 #1", "server": "104.21.4.6", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "glweidf.cfd"}}}
@@ -73,7 +73,9 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @v2ray_collector #1", "server": "193.108.117.61", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇪🇸 ES | TROJAN | @v2ray_collector #1", "server": "66.163.118.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector #1", "server": "sclass-b1.catcat321.com", "port": 20027, "type": "trojan", "skip-cert-verify": false, "password": "d7563108-615c-4338-a7bd-77f359869a4a"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2ray_collector #1", "server": "193.108.119.78", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | VMESS | @v2ray_free_conf #1", "server": "38.91.107.49", "port": 18000, "type": "vmess", "skip-cert-verify": true, "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇺🇸 US | TROJAN | @v2raych #1", "server": "167.88.61.175", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @v2rayopen #1", "server": "ipfast.kingmna.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "auRVImItMy7CqRAY7FC8Wg"}
   - {"name": "🇺🇸 US | TROJAN | @vmesc #1", "server": "216.152.156.81", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @vmesskhodam #1", "server": "ipfast.kingmna.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "SiFvGI5bX01GGtGOJ2_nxA"}
@@ -84,7 +86,6 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @vpnfree85 #1", "server": "188.114.97.6", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "mitivpn"}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
   - {"name": "🇽🇽 XX | TROJAN | @vpnowl #1", "server": "104.17.177.143", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇺🇸 US | TROJAN | @NamiraConfigs #1", "server": "werty-production.up.railway.app", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "6PXChM2Bqbi3fmGV", "sni": "werty-production.up.railway.app"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -123,6 +124,7 @@ proxy-groups:
       - '🇩🇪 DE | TROJAN | @netfreedom0 #1'
       - '🇺🇸 US | TROJAN | @netfreedom0 #2'
       - '🇺🇸 US | TROJAN | @orange_vpns #1'
+      - '🇽🇽 XX | VMESS | @orange_vpns #1'
       - '🇿🇦 ZA | TROJAN | @outlinereleasedkey #1'
       - '🇧🇷 BR | VMESS | @outlinereleasedkey #1'
       - '🇺🇸 US | VMESS | @proxy48 #1'
@@ -134,7 +136,6 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @prrofile_purple #1'
       - '🇽🇽 XX | TROJAN | @prrofile_purple #2'
       - '🇪🇸 ES | TROJAN | @red2ray #1'
-      - '🇳🇱 NL | TROJAN | @red2ray #1'
       - '🇽🇽 XX | VMESS | @red2ray #1'
       - '🇸🇨 SC | TROJAN | @selinc #1'
       - '🇺🇸 US | VMESS | @serverv2ray00 #1'
@@ -148,7 +149,9 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @v2ray_collector #1'
       - '🇪🇸 ES | TROJAN | @v2ray_collector #1'
       - '🇺🇸 US | TROJAN | @v2ray_collector #1'
+      - '🇩🇪 DE | TROJAN | @v2ray_collector #1'
       - '🇺🇸 US | VMESS | @v2ray_free_conf #1'
+      - '🇺🇸 US | TROJAN | @v2raych #1'
       - '🇺🇸 US | TROJAN | @v2rayopen #1'
       - '🇺🇸 US | TROJAN | @vmesc #1'
       - '🇺🇸 US | TROJAN | @vmesskhodam #1'
@@ -159,7 +162,6 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @vpnfree85 #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
       - '🇽🇽 XX | TROJAN | @vpnowl #1'
-      - '🇺🇸 US | TROJAN | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

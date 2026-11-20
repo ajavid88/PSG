@@ -93,7 +93,8 @@
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,7 +118,8 @@
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vpnfree85 #1"
+        "🇮🇷 IR | VLESS | @vpnfree85 #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -304,6 +306,23 @@
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "iran.powerpanel.space",
+      "server_port": 443,
+      "uuid": "eb877612-ddf8-4877-a7de-b79e9c7f146c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

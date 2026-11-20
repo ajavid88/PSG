@@ -116,7 +116,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -200,6 +199,7 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VMESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -273,7 +273,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -307,7 +308,6 @@
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇽🇽 XX | VLESS | @father_vpn #1",
-        "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -391,6 +391,7 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VMESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
@@ -464,7 +465,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -705,23 +707,6 @@
       "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "1ce9392f-caf4-48f7-bbb9-475b101fbde0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "162.159.198.1",
-      "server_port": 443,
-      "uuid": "99c5b713-dedf-4a10-8070-916ff3f49b0e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1808,6 +1793,15 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @orange_vpns #1",
+      "type": "vmess",
+      "server": "free3.familysharing.ir",
+      "server_port": 8880,
+      "uuid": "4fa625e5-346d-d732-9b93-ce960f81bbc0",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @pro_chaneel #1",
       "type": "vless",
       "server": "104.18.12.126",
@@ -2794,6 +2788,30 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "104.27.97.42",
+      "server_port": 8443,
+      "uuid": "3692de53-42e6-4aed-a522-40ec355dcd2f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.sahanwickramasinghe.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "free.sahanwickramasinghe.com"
         }
       }
     }

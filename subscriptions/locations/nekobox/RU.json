@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
@@ -88,6 +89,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
@@ -110,6 +112,23 @@
       "server": "193.233.127.149",
       "server_port": 443,
       "uuid": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "harbor.gerqix.online",
+      "server_port": 443,
+      "uuid": "25ac78e7-6d1d-4c9a-a450-c01a4871769f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -111,8 +111,10 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
+        "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -142,8 +144,10 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
+        "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -396,6 +400,23 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "leviko-se9938.shopingggg.ir",
+      "server_port": 443,
+      "uuid": "beda6bd0-7ce4-477a-91f1-860d018dbfcb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "185.231.101.94",
@@ -416,6 +437,22 @@
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
+      "server_port": 443,
+      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | TUIC | @vipv2rey #2",
+      "type": "tuic",
+      "server": "70.34.208.3",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
       "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",

@@ -42,13 +42,13 @@ proxies:
   - {"name": "🇺🇸 US | VMESS | @v2ray4win #2", "server": "cf.sudoer.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api05", "headers": {"Host": "scherehtzflk01.schere.net"}}}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector #1", "server": "sclass-b1.catcat321.com", "port": 20027, "type": "trojan", "skip-cert-verify": false, "password": "d7563108-615c-4338-a7bd-77f359869a4a"}
   - {"name": "🇺🇸 US | VMESS | @v2ray_free_conf #1", "server": "38.91.107.49", "port": 18000, "type": "vmess", "skip-cert-verify": true, "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇺🇸 US | TROJAN | @v2raych #1", "server": "167.88.61.175", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @v2rayopen #1", "server": "ipfast.kingmna.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "auRVImItMy7CqRAY7FC8Wg"}
   - {"name": "🇺🇸 US | TROJAN | @vmesc #1", "server": "216.152.156.81", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @vmesskhodam #1", "server": "ipfast.kingmna.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "SiFvGI5bX01GGtGOJ2_nxA"}
   - {"name": "🇺🇸 US | VMESS | @vpn_ioss #1", "server": "67.220.95.3", "port": 18000, "type": "vmess", "skip-cert-verify": true, "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe", "alterId": 0, "cipher": "none", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @vpn_ioss #2", "server": "67.220.95.3", "port": 18000, "type": "vmess", "skip-cert-verify": true, "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
-  - {"name": "🇺🇸 US | TROJAN | @NamiraConfigs #1", "server": "werty-production.up.railway.app", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "6PXChM2Bqbi3fmGV", "sni": "werty-production.up.railway.app"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -81,13 +81,13 @@ proxy-groups:
       - '🇺🇸 US | VMESS | @v2ray4win #2'
       - '🇺🇸 US | TROJAN | @v2ray_collector #1'
       - '🇺🇸 US | VMESS | @v2ray_free_conf #1'
+      - '🇺🇸 US | TROJAN | @v2raych #1'
       - '🇺🇸 US | TROJAN | @v2rayopen #1'
       - '🇺🇸 US | TROJAN | @vmesc #1'
       - '🇺🇸 US | TROJAN | @vmesskhodam #1'
       - '🇺🇸 US | VMESS | @vpn_ioss #1'
       - '🇺🇸 US | VMESS | @vpn_ioss #2'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
-      - '🇺🇸 US | TROJAN | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

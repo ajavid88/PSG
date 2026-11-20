@@ -94,11 +94,12 @@
         "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | TROJAN | @prrofile_purple #2",
         "🇪🇸 ES | TROJAN | @red2ray #1",
-        "🇳🇱 NL | TROJAN | @red2ray #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇪🇸 ES | TROJAN | @v2ray_collector #1",
+        "🇩🇪 DE | TROJAN | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -109,8 +110,7 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
-        "🇺🇸 US | TROJAN | @vmesskhodam #1",
-        "🇺🇸 US | TROJAN | @NamiraConfigs #1"
+        "🇺🇸 US | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -135,11 +135,12 @@
         "🇽🇽 XX | TROJAN | @prrofile_purple #1",
         "🇽🇽 XX | TROJAN | @prrofile_purple #2",
         "🇪🇸 ES | TROJAN | @red2ray #1",
-        "🇳🇱 NL | TROJAN | @red2ray #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
         "🇪🇸 ES | TROJAN | @v2ray_collector #1",
+        "🇩🇪 DE | TROJAN | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -150,8 +151,7 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
-        "🇺🇸 US | TROJAN | @vmesskhodam #1",
-        "🇺🇸 US | TROJAN | @NamiraConfigs #1"
+        "🇺🇸 US | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -445,22 +445,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "66.163.127.44",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇸🇨 SC | TROJAN | @selinc #1",
       "type": "trojan",
       "server": "45.128.76.242",
@@ -512,6 +496,38 @@
       "tag": "🇪🇸 ES | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "66.163.118.40",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "193.108.119.78",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "167.88.61.175",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
@@ -693,22 +709,6 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @NamiraConfigs #1",
-      "type": "trojan",
-      "server": "werty-production.up.railway.app",
-      "server_port": 443,
-      "password": "6PXChM2Bqbi3fmGV",
-      "tls": {
-        "enabled": true,
-        "server_name": "werty-production.up.railway.app",
         "insecure": true,
         "utls": {
           "enabled": true,

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇿 KZ | VMESS | @v2ray_free_conf #1", "server": "3h-kazakhstan1.09vpn.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmess/", "headers": {"Host": "3h-kazakhstan1.09vpn.com"}}}
+  - {"name": "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1", "server": "139.84.231.142", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇿 KZ | VMESS | @v2ray_free_conf #1'
+      - '🇿🇦 ZA | TROJAN | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

@@ -26,14 +26,12 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇫🇷 FR | VLESS | @NamiraConfigs #1", "server": "vip.xoamrz.ir", "port": 35464, "type": "vless", "skip-cert-verify": true, "uuid": "e848d0b5-ef9a-4f04-8085-38a432f7151b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇨🇭 CH | VLESS | @filtershekan_channel #1", "server": "prvtch.titun.su", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90157e25-cee1-4217-921e-91f300bc1a24", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇷 FR | VLESS | @free1_vpn #1", "server": "fr.abbaas.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "SoonTeam%20", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇧🇬 BG | VLESS | @hope_net #1", "server": "p11real3.greewebservices.ir", "port": 1040, "type": "vless", "skip-cert-verify": true, "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇨🇿 CZ | VLESS | @orange_vpns #1", "server": "guide.blog-forme.ru", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @selinc #1", "server": "tr.0a0.uk", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇷 FR | VLESS | @v2ray_collector #1", "server": "fr.abbaas.net", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "SoonTeam%20", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @v2raych #1", "server": "15b171g.nl7.h1clayd.click", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #1", "server": "s1.berluno.ir", "port": 1155, "type": "vless", "skip-cert-verify": true, "uuid": "97b4d3ec-2ce2-4888-b8c7-369ff303dea0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #1", "server": "n4.topingr.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "ios", "servername": "www.tgju.org", "reality-opts": {"public-key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk", "short-id": "433e30cfbff1b1da"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,14 +48,12 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇫🇷 FR | VLESS | @NamiraConfigs #1'
       - '🇨🇭 CH | VLESS | @filtershekan_channel #1'
-      - '🇫🇷 FR | VLESS | @free1_vpn #1'
       - '🇧🇬 BG | VLESS | @hope_net #1'
-      - '🇨🇿 CZ | VLESS | @orange_vpns #1'
       - '🇹🇷 TR | VLESS | @selinc #1'
-      - '🇫🇷 FR | VLESS | @v2ray_collector #1'
-      - '🇪🇪 EE | VLESS | @v2raych #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #1'
+      - '🇩🇪 DE | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

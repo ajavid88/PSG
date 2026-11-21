@@ -101,9 +101,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #5",
         "🇺🇸 US | VLESS | @bored_vpn #6",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
+        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -137,9 +137,9 @@
         "🇺🇸 US | VLESS | @bored_vpn #5",
         "🇺🇸 US | VLESS | @bored_vpn #6",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
+        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -365,23 +365,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
-      "type": "vless",
-      "server": "193.233.127.149",
-      "server_port": 443,
-      "uuid": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "23.235.33.98",
@@ -395,6 +378,23 @@
       "server": "199.232.78.160",
       "server_port": 443,
       "uuid": "bad0b0df-f838-48a7-a86b-7d5f8b075952",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #2",
+      "type": "vless",
+      "server": "167.82.76.31",
+      "server_port": 443,
+      "uuid": "4e932df2-a06a-4043-861c-87fe8d217aae",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

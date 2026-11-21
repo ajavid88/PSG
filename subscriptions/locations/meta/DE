@@ -45,11 +45,13 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @tobevasl #3", "server": "91.99.195.73", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | TROJAN | @v2ray_collector #1", "server": "193.108.119.78", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇩🇪 DE | VLESS | @v2raymelliii #1", "server": "s1.berluno.ir", "port": 1155, "type": "vless", "skip-cert-verify": true, "uuid": "97b4d3ec-2ce2-4888-b8c7-369ff303dea0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2rayngalpha #1", "server": "tgju.org", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2rayngconfiig #1", "server": "89.116.46.210", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9a74144f-6218-4257-9e70-a4c50fe1e5a4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2rayprotocol #1", "server": "68.183.72.92", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bf14dc50-e9f2-49fd-8642-620446edeafb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @vipv2rey #1", "server": "49.13.135.58", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "18e82ee0-3b88-48d1-9292-484c8051f690", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @vmesc #1", "server": "9.247.23.209", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #1", "server": "167.235.108.33", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2929b620-54e1-4236-8740-8a7a2e399d39", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #1", "server": "n4.topingr.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "ios", "servername": "www.tgju.org", "reality-opts": {"public-key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk", "short-id": "433e30cfbff1b1da"}}
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #2", "server": "latvia.zovip2.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab", "network": "ws", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "cdn2.zovip2.ir", "ws-opts": {"path": "", "headers": {"Host": "cdn2.zovip2.ir"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -85,11 +87,13 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @tobevasl #3'
       - '🇩🇪 DE | TROJAN | @v2ray_collector #1'
       - '🇩🇪 DE | VLESS | @v2raymelliii #1'
+      - '🇩🇪 DE | VLESS | @v2rayngalpha #1'
       - '🇩🇪 DE | VLESS | @v2rayngconfiig #1'
       - '🇩🇪 DE | VLESS | @v2rayprotocol #1'
       - '🇩🇪 DE | VLESS | @vipv2rey #1'
       - '🇩🇪 DE | VLESS | @vmesc #1'
       - '🇩🇪 DE | VLESS | @NamiraConfigs #1'
+      - '🇩🇪 DE | VLESS | @NamiraConfigs #2'
 
   - name: 🌍 Global Media
     type: select

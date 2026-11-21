@@ -88,6 +88,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | SS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
         "🇩🇪 DE | SS | @netfreedom0 #1",
         "🇩🇪 DE | TROJAN | @netfreedom0 #1",
@@ -101,11 +102,13 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | TROJAN | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇩🇪 DE | VLESS | @v2rayngalpha #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,6 +127,7 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇩🇪 DE | SS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
         "🇩🇪 DE | SS | @netfreedom0 #1",
         "🇩🇪 DE | TROJAN | @netfreedom0 #1",
@@ -137,11 +141,13 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | TROJAN | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇩🇪 DE | VLESS | @v2rayngalpha #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -333,6 +339,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "static.28.210.29.2.clients.your-server.de",
+      "server_port": 25565,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDOFpKN1I0cF9ISEozMmNzdDdpbFQtMFppMkYyMmhBYw==",
+      "password": null
     },
     {
       "tag": "🇩🇪 DE | VLESS | @nepo_v2ray #1",
@@ -547,6 +561,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngalpha #1",
+      "type": "vless",
+      "server": "tgju.org",
+      "server_port": 80,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "89.116.46.210",
@@ -627,17 +649,46 @@
     {
       "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "167.235.108.33",
-      "server_port": 443,
-      "uuid": "2929b620-54e1-4236-8740-8a7a2e399d39",
+      "server": "n4.topingr.ir",
+      "server_port": 8080,
+      "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "www.tgju.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
+          "short_id": "433e30cfbff1b1da",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "latvia.zovip2.ir",
+      "server_port": 443,
+      "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn2.zovip2.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "cdn2.zovip2.ir"
         }
       }
     }

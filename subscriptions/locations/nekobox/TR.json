@@ -80,10 +80,12 @@
         "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
-        "🇹🇷 TR | VLESS | @v2rayza #3"
+        "🇹🇷 TR | VLESS | @v2rayza #3",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +96,12 @@
         "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
-        "🇹🇷 TR | VLESS | @v2rayza #3"
+        "🇹🇷 TR | VLESS | @v2rayza #3",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -165,6 +169,14 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "game.celvixo.ir",
+      "server_port": 2087,
+      "uuid": "6a7df290-9197-44b0-fc7f-5b24cc78e24b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "sibilgg.opik.net",
@@ -220,6 +232,29 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "trn21.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "61658d80-ecb6-47ec-a95b-e651c3a34365",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "delivery.mp.microsoft.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "public_key": "PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ",
+          "short_id": "e8f4426268c05621",
+          "enabled": true
         }
       }
     }

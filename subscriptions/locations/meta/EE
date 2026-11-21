@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | TROJAN | @v2raych #1", "server": "main.ig-panel.ir", "port": 1019, "type": "trojan", "skip-cert-verify": false, "password": "SOBFQrnx5F47dYeuenKYWg%3D%3D"}
+  - {"name": "🇪🇪 EE | VLESS | @v2raych #1", "server": "15b171g.nl7.h1clayd.click", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | TROJAN | @v2raych #1'
+      - '🇪🇪 EE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | TROJAN | @NamiraConfigs #1", "server": "shop.raadshop.bond", "port": 8447, "type": "trojan", "skip-cert-verify": false, "password": "pu0149u56dhl4t43"}
+  - {"name": "🇰🇿 KZ | VMESS | @v2ray_free_conf #1", "server": "3h-kazakhstan1.09vpn.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmess/", "headers": {"Host": "3h-kazakhstan1.09vpn.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | TROJAN | @NamiraConfigs #1'
+      - '🇰🇿 KZ | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

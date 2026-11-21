@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | TROJAN | @NamiraConfigs #1", "server": "shop.raadshop.bond", "port": 8447, "type": "trojan", "skip-cert-verify": false, "password": "pu0149u56dhl4t43"}
-  - {"name": "🇸🇪 SE | VLESS | @NamiraConfigs #1", "server": "shop.raadshop.bond", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "16f13ab8-8fab-45fd-97c5-dd022f40a688", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @deli_servers #1", "server": "185.146.173.59", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-deli-servers", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #1", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "d9c4d8a1-f6a6-4cb8-b0b5-31d218ec3bce", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
   - {"name": "🇸🇪 SE | VLESS | @free_vip3 #2", "server": "185.146.173.58", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "89f86124-a711-4751-9363-4083834dabf5", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "185.146.173.58"}}}
@@ -60,8 +58,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | TROJAN | @NamiraConfigs #1'
-      - '🇸🇪 SE | VLESS | @NamiraConfigs #1'
       - '🇸🇪 SE | VLESS | @deli_servers #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #1'
       - '🇸🇪 SE | VLESS | @free_vip3 #2'

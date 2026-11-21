@@ -89,14 +89,17 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇪🇪 EE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇪🇪 EE | VLESS | @v2raych #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -105,6 +108,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "15b171g.nl7.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -80,7 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇨🇿 CZ | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -107,7 +107,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇨🇿 CZ | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
@@ -211,11 +211,21 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
-      "type": "trojan",
-      "server": "shop.raadshop.bond",
-      "server_port": 8447,
-      "password": "pu0149u56dhl4t43"
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "render.com",
+      "server_port": 2087,
+      "uuid": "517570e9-a016-47d4-813e-5079065254b5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",

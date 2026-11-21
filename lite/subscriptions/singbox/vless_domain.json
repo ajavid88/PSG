@@ -93,7 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
@@ -139,10 +140,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @v2rayngalpha #1",
+        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -153,8 +152,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -165,7 +163,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
@@ -211,10 +210,8 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇺🇸 US | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @v2rayngalpha #1",
+        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -225,8 +222,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -310,13 +306,20 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "vip.xoamrz.ir",
-      "server_port": 35464,
-      "uuid": "e848d0b5-ef9a-4f04-8085-38a432f7151b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "server": "static.216.7.245.188.clients.your-server.de",
+      "server_port": 8443,
+      "uuid": "b2505fa2-f7c4-40d2-8c4a-1f6336bd37f1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "static.122.183.105.178.clients.your-server.de",
+      "server_port": 8443,
+      "uuid": "b2505fa2-f7c4-40d2-8c4a-1f6336bd37f1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
@@ -879,23 +882,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ipfast.kingmna.com",
-      "server_port": 443,
-      "uuid": "414b00e3-cc5e-4378-a895-04242f27a757",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
       "type": "vless",
       "server": "edge.mediacorphub.org",
@@ -913,29 +899,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "s1.berluno.ir",
-      "server_port": 1155,
-      "uuid": "97b4d3ec-2ce2-4888-b8c7-369ff303dea0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayngalpha #1",
+      "tag": "🇫🇮 FI | VLESS | @v2rayngalpha #1",
       "type": "vless",
       "server": "tgju.org",
       "server_port": 80,
@@ -1106,28 +1070,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "n4.topingr.ir",
-      "server_port": 8080,
-      "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tgju.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-          "short_id": "433e30cfbff1b1da",
-          "enabled": true
         }
       }
     }

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgR1I=
+//profile-title: base64:UFNHIHwgQVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇷 GR | VLESS | @v2raych #1"
+        "🇦🇹 AT | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇷 GR | VLESS | @v2raych #1"
+        "🇦🇹 AT | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,15 +110,16 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "94.241.172.107",
-      "server_port": 443,
-      "uuid": "4777d90d-265b-4927-a0d1-63f36ed1421c",
-      "packet_encoding": "xudp",
+      "tag": "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "xmfhlpy.com",
         "insecure": true,
         "utls": {
           "enabled": true,

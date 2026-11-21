@@ -93,12 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇹🇷 TR | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,12 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇹🇷 TR | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,15 +192,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "vip.xoamrz.ir",
-      "server_port": 35464,
-      "uuid": "e848d0b5-ef9a-4f04-8085-38a432f7151b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
       "type": "vless",
       "server": "prvtch.titun.su",
@@ -268,50 +253,6 @@
         "reality": {
           "public_key": "",
           "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "s1.berluno.ir",
-      "server_port": 1155,
-      "uuid": "97b4d3ec-2ce2-4888-b8c7-369ff303dea0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "n4.topingr.ir",
-      "server_port": 8080,
-      "uuid": "0eaa8ce1-f041-4831-9e52-ffe2dae154ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.tgju.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "public_key": "SAW3BGJNg72vtXHswOafte0QqaIEjM1dD1vZahkwJlk",
-          "short_id": "433e30cfbff1b1da",
           "enabled": true
         }
       }

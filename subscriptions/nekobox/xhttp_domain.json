@@ -80,10 +80,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +98,14 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,6 +193,13 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "nseig2wxgsiqc51s"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -202,11 +217,36 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "faf19d58-79f2-4857-f790-3ebd8cb2459d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "kala.fortresshost.ir",
+      "server_port": 443,
+      "uuid": "b55e1ca7-6954-4223-b269-96ece46e9005",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -242,6 +282,13 @@
       "server_port": 2087,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #2",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "nseig2wxgsiqc51s"
     }
   ],
   "route": {

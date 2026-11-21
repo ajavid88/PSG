@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -110,11 +111,11 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,6 +123,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -142,11 +144,11 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -156,6 +158,13 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "nseig2wxgsiqc51s"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -381,28 +390,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "swe1.baterium.space",
-      "server_port": 443,
-      "uuid": "7d63243c-983e-44db-a1b8-13dc3fd6f7a2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇸🇪 SE | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "185.231.101.94",
@@ -468,6 +455,13 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #2",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "nseig2wxgsiqc51s"
     }
   ],
   "route": {

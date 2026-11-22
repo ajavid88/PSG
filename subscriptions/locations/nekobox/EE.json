@@ -76,17 +76,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇪🇪 EE | VLESS | @v2raych #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇪🇪 EE | VLESS | @v2raych #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -99,23 +96,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "107.150.93.43",
-      "server_port": 443,
-      "uuid": "e9958027-03be-4eb5-bcec-70415b2e4844",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

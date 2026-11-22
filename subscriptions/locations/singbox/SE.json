@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -115,7 +114,7 @@
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,7 +122,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -148,7 +146,7 @@
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -158,13 +156,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
-      "type": "trojan",
-      "server": "shop.raadshop.bond",
-      "server_port": 8447,
-      "password": "nseig2wxgsiqc51s"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -457,11 +448,27 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #2",
-      "type": "trojan",
-      "server": "shop.raadshop.bond",
-      "server_port": 8447,
-      "password": "nseig2wxgsiqc51s"
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "rt.velnix-services.ir",
+      "server_port": 17550,
+      "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
+          "short_id": "9ab3bfdd8ec94f3f",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

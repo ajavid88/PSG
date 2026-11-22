@@ -80,14 +80,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
+        "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,14 +97,13 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇸🇪 SE | TROJAN | @NamiraConfigs #2"
+        "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -193,11 +191,21 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
-      "type": "trojan",
-      "server": "shop.raadshop.bond",
-      "server_port": 8447,
-      "password": "nseig2wxgsiqc51s"
+      "tag": "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "api.ferrin.uk",
+      "server_port": 443,
+      "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",
@@ -282,13 +290,6 @@
       "server_port": 2087,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #2",
-      "type": "trojan",
-      "server": "shop.raadshop.bond",
-      "server_port": 8447,
-      "password": "nseig2wxgsiqc51s"
     }
   ],
   "route": {

@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_free_conf #1", "server": "153.80.22.106", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "153.80.22.106", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VLESS | @vpn_ioss #1", "server": "95.129.234.113", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @v2ray_free_conf #1'
+      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media

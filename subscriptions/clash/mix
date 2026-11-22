@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇪 SE | TROJAN | @NamiraConfigs #1", "server": "shop.raadshop.bond", "port": 8447, "type": "trojan", "skip-cert-verify": false, "password": "nseig2wxgsiqc51s"}
   - {"name": "🇽🇽 XX | TROJAN | @configv2rayforfree #1", "server": "188.114.96.1", "port": 2083, "type": "trojan", "skip-cert-verify": false, "password": "nzrc4ma4087c1ukr"}
   - {"name": "🇩🇪 DE | TROJAN | @father_vpn #1", "server": "91.233.8.25", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz"}
   - {"name": "🇳🇱 NL | TROJAN | @flyv2ray #1", "server": "66.163.127.44", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
@@ -48,7 +47,6 @@ proxies:
   - {"name": "🇺🇸 US | TROJAN | @netfreedom0 #2", "server": "216.152.155.176", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇺🇸 US | TROJAN | @netfreedom0 #3", "server": "66.23.203.21", "port": 59689, "type": "trojan", "skip-cert-verify": false, "password": "ae7eb4dwyaz25pxwgq59"}
   - {"name": "🇺🇸 US | TROJAN | @netfreedom0 #4", "server": "167.88.61.85", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
-  - {"name": "🇽🇽 XX | VMESS | @orange_vpns #1", "server": "free3.familysharing.ir", "port": 8880, "type": "vmess", "skip-cert-verify": true, "uuid": "4fa625e5-346d-d732-9b93-ce960f81bbc0", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1", "server": "139.84.231.142", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇦🇹 AT | VMESS | @outlinereleasedkey #1", "server": "154.47.19.225", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇺🇸 US | VMESS | @proxy48 #1", "server": "188.114.97.3", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "afrhms16v.bestxray.buzz"}}}
@@ -78,7 +76,6 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @vpnfree85 #1", "server": "188.114.97.6", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "mitivpn"}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
   - {"name": "🇽🇽 XX | TROJAN | @vpnowl #1", "server": "104.17.177.143", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇸🇪 SE | TROJAN | @NamiraConfigs #2", "server": "shop.raadshop.bond", "port": 8447, "type": "trojan", "skip-cert-verify": false, "password": "nseig2wxgsiqc51s", "sni": "dl.google.com"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -92,7 +89,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇪 SE | TROJAN | @NamiraConfigs #1'
       - '🇽🇽 XX | TROJAN | @configv2rayforfree #1'
       - '🇩🇪 DE | TROJAN | @father_vpn #1'
       - '🇳🇱 NL | TROJAN | @flyv2ray #1'
@@ -117,7 +113,6 @@ proxy-groups:
       - '🇺🇸 US | TROJAN | @netfreedom0 #2'
       - '🇺🇸 US | TROJAN | @netfreedom0 #3'
       - '🇺🇸 US | TROJAN | @netfreedom0 #4'
-      - '🇽🇽 XX | VMESS | @orange_vpns #1'
       - '🇿🇦 ZA | TROJAN | @outlinereleasedkey #1'
       - '🇦🇹 AT | VMESS | @outlinereleasedkey #1'
       - '🇺🇸 US | VMESS | @proxy48 #1'
@@ -147,7 +142,6 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @vpnfree85 #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
       - '🇽🇽 XX | TROJAN | @vpnowl #1'
-      - '🇸🇪 SE | TROJAN | @NamiraConfigs #2'
 
   - name: 🌍 Global Media
     type: select

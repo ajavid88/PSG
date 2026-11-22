@@ -33,9 +33,10 @@ proxies:
   - {"name": "🇺🇸 US | VLESS | @red2ray #1", "server": "xray2-direct-mci1-fs-ce.freesocks.work", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9b4abcc9-cfb9-4728-a641-eb694a0c24d5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇺🇸 US | VLESS | @red2ray #2", "server": "xray2-direct-mci1-fs-ce.freesocks.work", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "be5b8af8-a0b1-4e22-92c0-dbee37de1aa6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @selinc #1", "server": "tr.0a0.uk", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "free-amsterdam-node-1.cloudwidecdn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2raych #2", "server": "free-amsterdam-node-1.cloudwidecdn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "p2real22.greewebservices.ir", "port": 1320, "type": "vless", "skip-cert-verify": true, "uuid": "bee52362-4183-42c5-b065-d3a3f344d00c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇿 CZ | VLESS | @v2rayza #1", "server": "guide.blog-forme.ru", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "guide.blog-forme.ru"}
+  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #1", "server": "poland.biznes.lol", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "poland.biznes.lol", "reality-opts": {"public-key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk", "short-id": ""}}
+  - {"name": "🇸🇪 SE | VLESS | @NamiraConfigs #1", "server": "rt.velnix-services.ir", "port": 17550, "type": "vless", "skip-cert-verify": true, "uuid": "4690521d-18a6-47de-bdef-85fd353e270e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "play.google.com", "reality-opts": {"public-key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI", "short-id": "9ab3bfdd8ec94f3f"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -59,9 +60,10 @@ proxy-groups:
       - '🇺🇸 US | VLESS | @red2ray #1'
       - '🇺🇸 US | VLESS | @red2ray #2'
       - '🇹🇷 TR | VLESS | @selinc #1'
-      - '🇳🇱 NL | VLESS | @v2raych #1'
-      - '🇳🇱 NL | VLESS | @v2raych #2'
+      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
       - '🇨🇿 CZ | VLESS | @v2rayza #1'
+      - '🇵🇱 PL | VLESS | @NamiraConfigs #1'
+      - '🇸🇪 SE | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

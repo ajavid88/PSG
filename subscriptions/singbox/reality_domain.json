@@ -100,9 +100,10 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
-        "🇳🇱 NL | VLESS | @v2raych #2",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,9 +121,10 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
-        "🇳🇱 NL | VLESS | @v2raych #2",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -360,11 +362,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "free-amsterdam-node-1.cloudwidecdn.com",
-      "server_port": 443,
-      "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "bee52362-4183-42c5-b065-d3a3f344d00c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -373,23 +375,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "free-amsterdam-node-1.cloudwidecdn.com",
-      "server_port": 443,
-      "uuid": "44ae52b9-76fc-444d-8e43-186b4384b80a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -400,6 +390,52 @@
       "server_port": 2087,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "poland.biznes.lol",
+      "server_port": 443,
+      "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "poland.biznes.lol",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "rt.velnix-services.ir",
+      "server_port": 17550,
+      "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.google.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
+          "short_id": "9ab3bfdd8ec94f3f",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

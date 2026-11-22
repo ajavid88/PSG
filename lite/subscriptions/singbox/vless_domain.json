@@ -93,7 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
@@ -125,6 +126,8 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -137,7 +140,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -163,7 +166,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
@@ -195,6 +199,8 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -207,7 +213,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
@@ -306,11 +312,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "api.ferrin.uk",
+      "server": "bridge.ir.sync-bridge.ir",
       "server_port": 443,
-      "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+      "uuid": "d8f6fd5c-0546-44a5-958c-2f7822831b60",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -321,6 +327,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "render.com",
+      "server_port": 2053,
+      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
@@ -721,6 +735,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "ipfast.kingmna.com",
+      "server_port": 443,
+      "uuid": "99d05f08-3192-4fdb-9796-59c689e0ff54",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "faf19d58-79f2-4857-f790-3ebd8cb2459d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @prooxyk #1",
       "type": "vless",
       "server": "avalpardakht.com",
@@ -867,12 +906,21 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "v1.nimbaha13.ir",
-      "server_port": 8880,
-      "uuid": "1c942ed7-fef9-45c6-9873-91f93075185d",
-      "packet_encoding": "xudp"
+      "server": "wwww.qarvian.ir",
+      "server_port": 443,
+      "uuid": "97e0ea78-67ae-4984-8a14-a7d1a51e58de",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",

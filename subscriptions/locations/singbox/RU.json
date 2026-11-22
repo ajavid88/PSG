@@ -90,8 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -100,8 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -114,11 +116,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "153.80.22.106",
+      "server": "168.113.253.178",
       "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "uuid": "58708e38-dd5a-0001-902d-93621ee2bd83",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -131,13 +133,20 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "48.103.218.77",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206NW1LalhBR3JsaUlBbFl3V0RlRnprQ0VNSWdRZEZRTGU=",
+      "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "153.80.22.106",
-      "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
+      "server": "147.45.47.101",
+      "server_port": 8443,
+      "uuid": "27f26dee-9cf1-4cca-93f8-9ac23d311408",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -145,6 +154,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

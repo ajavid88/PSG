@@ -92,7 +92,8 @@
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -170,6 +172,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "195.15.207.252",
+      "server_port": 443,
+      "uuid": "65b6bc06-44c9-4b21-8dc0-bdf1d688c0e6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

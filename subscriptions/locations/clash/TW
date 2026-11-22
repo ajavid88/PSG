@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #1", "server": "poland.biznes.lol", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "poland.biznes.lol", "reality-opts": {"public-key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk", "short-id": ""}}
+  - {"name": "🇹🇼 TW | TROJAN | @outlinereleasedkey #1", "server": "34.80.15.95", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "123456"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @NamiraConfigs #1'
+      - '🇹🇼 TW | TROJAN | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
@@ -100,10 +101,9 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,6 +114,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
@@ -121,10 +122,9 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -204,6 +204,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "germany2oviahodkvn.whooisthebest.ir",
+      "server_port": 10001,
+      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -362,11 +384,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "p2real22.greewebservices.ir",
-      "server_port": 1320,
-      "uuid": "bee52362-4183-42c5-b065-d3a3f344d00c",
+      "server": "f0d7aft.nl17.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -375,11 +397,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "xray2-direct-mci1-fs-ce.freesocks.work",
+      "server_port": 443,
+      "uuid": "0388f6ba-f01c-46fc-9c5b-97ec8dbc99b0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -390,52 +424,6 @@
       "server_port": 2087,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "poland.biznes.lol",
-      "server_port": 443,
-      "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "poland.biznes.lol",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "rt.velnix-services.ir",
-      "server_port": 17550,
-      "uuid": "4690521d-18a6-47de-bdef-85fd353e270e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.google.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "11H0rw_I2vLcxhem8CTZMIuVwi3_0RPzJ5xM6Ue-XDI",
-          "short_id": "9ab3bfdd8ec94f3f",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

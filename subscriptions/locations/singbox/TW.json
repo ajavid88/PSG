@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgVFc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1"
+        "🇹🇼 TW | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1"
+        "🇹🇼 TW | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,25 +110,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "poland.biznes.lol",
+      "tag": "🇹🇼 TW | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "34.80.15.95",
       "server_port": 443,
-      "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "password": "123456",
       "tls": {
         "enabled": true,
-        "server_name": "poland.biznes.lol",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

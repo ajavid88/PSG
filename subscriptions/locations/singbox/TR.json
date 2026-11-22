@@ -90,9 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | SS | @v2raych #1",
+        "🇹🇷 TR | SS | @v2raych #2",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -104,9 +105,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | SS | @v2raych #1",
+        "🇹🇷 TR | SS | @v2raych #2",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -120,14 +122,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "tr.subscriptionservice.ir",
-      "server_port": 2089,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNkZQeDliajdnZWwwUEdadEdJWUlMRzFYaVhWblEzNw==",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @nofiltering2 #1",
@@ -172,6 +166,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "istanbul07.npvnot.com",
+      "server_port": 995,
+      "method": "YWVzLTI1Ni1nY206TmpNeFltVmlabUpoTWpJek5qY3dNV1U0TTJVM01EVTNNVEl6WmpReg==",
+      "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2raych #2",
+      "type": "shadowsocks",
+      "server": "istanbul07.npvnot.com",
+      "server_port": 995,
+      "method": "YWVzLTI1Ni1nY206TjJGa1ptTTBZVFF5WXpjelpqWTFNbUV3TVdWbE4ySm1Zak15TjJVMA==",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2raytg #1",

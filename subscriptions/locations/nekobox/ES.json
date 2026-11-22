@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | TROJAN | @red2ray #1"
+        "🇪🇸 ES | TROJAN | @red2ray #1",
+        "🇪🇸 ES | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | TROJAN | @red2ray #1"
+        "🇪🇸 ES | TROJAN | @red2ray #1",
+        "🇪🇸 ES | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇪🇸 ES | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "5.188.181.201",
+      "server_port": 9020,
+      "method": "YWVzLTI1Ni1jZmI6Qk5tQVhYeEFIWXBUUmR6dQ==",
+      "password": null
     }
   ],
   "route": {

@@ -93,15 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
-        "🇺🇸 US | VLESS | @NamiraConfigs #2",
-        "🇺🇸 US | VLESS | @NamiraConfigs #3",
-        "🇺🇸 US | VLESS | @NamiraConfigs #4",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
@@ -114,15 +110,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
-        "🇺🇸 US | VLESS | @NamiraConfigs #2",
-        "🇺🇸 US | VLESS | @NamiraConfigs #3",
-        "🇺🇸 US | VLESS | @NamiraConfigs #4",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1"
       ],
@@ -208,38 +200,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "render.com",
-      "server_port": 2053,
-      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "render.com",
-      "server_port": 2053,
-      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #3",
-      "type": "vless",
-      "server": "render.com",
-      "server_port": 2053,
-      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #4",
-      "type": "vless",
-      "server": "render.com",
-      "server_port": 2053,
-      "uuid": "cf7e6223-a9c6-4d85-8678-831bc9dd184c",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -299,12 +259,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "tag": "🇸🇨 SC | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "sinavm3.soft10.ir",
-      "server_port": 8443,
-      "uuid": "c2425034-91ef-44bf-9fd4-f2be9c1e989a",
-      "packet_encoding": "xudp"
+      "server": "api.ferrin.uk",
+      "server_port": 443,
+      "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",

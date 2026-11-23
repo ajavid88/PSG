@@ -106,11 +106,8 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -147,11 +144,8 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -636,40 +630,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "167.82.64.7",
-      "server_port": 443,
-      "uuid": "XpnTeam-130",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #2",
-      "type": "vless",
-      "server": "167.82.64.7",
-      "server_port": 443,
-      "uuid": "XpnTeam-130",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "185.248.141.233",
@@ -693,28 +653,6 @@
       "server_port": 8443,
       "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "195.226.93.224",
-      "server_port": 443,
-      "uuid": "ad295072-0049-4981-a9aa-6314c43e87e5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "n2.fernstatic.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "xRIN4AZSp2c_yaCurN9DNoh0q8zSj-AlMCflpb1pwBA",
-          "short_id": "00a9d4acc75cf31c",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

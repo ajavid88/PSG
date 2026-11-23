@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
+        "🇹🇷 TR | VLESS | @nofiltering2 #2",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
@@ -104,6 +105,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
+        "🇹🇷 TR | VLESS | @nofiltering2 #2",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
@@ -121,6 +123,28 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @nofiltering2 #1",
+      "type": "vless",
+      "server": "45.144.214.102",
+      "server_port": 443,
+      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @nofiltering2 #2",
       "type": "vless",
       "server": "45.144.214.102",
       "server_port": 443,

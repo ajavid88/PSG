@@ -93,9 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1"
@@ -109,9 +112,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1"
@@ -198,6 +204,39 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "6862421c-72ba-4510-bcd7-f29226a8c632",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "148c45b8-7e40-4062-9ba8-3836b844550b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "finlandnovemberone.best",
+      "server_port": 443,
+      "uuid": "fdbd8fb8-7d27-4bd8-9da1-1e42c4876835",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -215,19 +254,28 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "host.taghvimtime.ir",
-      "server_port": 8443,
-      "uuid": "faf19d58-79f2-4857-f790-3ebd8cb2459d",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "ipfast.kingmna.com",
+      "server_port": 443,
+      "uuid": "e5bab8e0-45c9-4e26-a346-8a522abf5406",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

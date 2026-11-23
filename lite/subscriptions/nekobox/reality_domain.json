@@ -80,10 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
+        "🇫🇷 FR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +96,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
+        "🇫🇷 FR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,6 +189,22 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "6862421c-72ba-4510-bcd7-f29226a8c632",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "148c45b8-7e40-4062-9ba8-3836b844550b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
       "type": "vless",
       "server": "prvtch.titun.su",
@@ -251,24 +271,23 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "nl-06.neverspy.tech",
+      "server": "ww3.levikogjgfdd.ir",
       "server_port": 443,
-      "uuid": "03786aa4-21a5-4e7c-83d6-873aafc41217",
+      "uuid": "b81b4d1b-7f20-48f1-82dc-d24bef898cab",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl-06.neverspy.tech",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
-          "public_key": "sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0",
-          "short_id": "86af85a72387ef02",
+          "public_key": "",
+          "short_id": "",
           "enabled": true
         }
       }

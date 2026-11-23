@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -200,9 +199,8 @@
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #2",
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
@@ -259,8 +257,7 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2"
+        "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -268,7 +265,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -391,9 +387,8 @@
         "🇽🇽 XX | VLESS | @proxy48 #2",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #1",
-        "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+        "🇽🇽 XX | TROJAN | @prrofile_purple #2",
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
@@ -450,8 +445,7 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2"
+        "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -465,23 +459,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "172.67.178.143",
-      "server_port": 443,
-      "uuid": "ccaa9413-2163-466e-a915-29c215b0be0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -1979,12 +1956,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
-      "type": "vless",
+      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1996,29 +1972,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
-      "type": "vless",
+      "tag": "🇽🇽 XX | TROJAN | @prrofile_purple #2",
+      "type": "trojan",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
-      "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -2769,30 +2727,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "172.67.178.143",
-      "server_port": 443,
-      "uuid": "ccaa9413-2163-466e-a915-29c215b0be0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nEtRa-28e601.rUZgArSiS053GmAIlCoMsaccOunT.WORKERs.DEV",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": "netra-28e601.ruzgarsis053gmailcomsaccount.workers.dev"
         }
       }
     }

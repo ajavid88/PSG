@@ -96,8 +96,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,8 +110,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -262,46 +260,24 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "turk.soft98ver2.com",
-      "server_port": 302,
-      "uuid": "24abae59-cde5-4ad2-bac0-5fd80be14cc2",
+      "server": "nl-06.neverspy.tech",
+      "server_port": 443,
+      "uuid": "03786aa4-21a5-4e7c-83d6-873aafc41217",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "nl-06.neverspy.tech",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "cdn.yemnaro.ir",
-      "server_port": 443,
-      "uuid": "58c78645-8494-4c88-97b2-3a75d4b01338",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "opensuse.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
-          "short_id": "f3f00787a8b3f471",
+          "public_key": "sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0",
+          "short_id": "86af85a72387ef02",
           "enabled": true
         }
       }

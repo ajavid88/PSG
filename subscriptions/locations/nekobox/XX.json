@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -202,8 +203,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
-        "🇽🇽 XX | VLESS | @prrofile_purple #5",
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
@@ -226,7 +225,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -261,7 +259,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -269,6 +268,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -394,8 +394,6 @@
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
-        "🇽🇽 XX | VLESS | @prrofile_purple #5",
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
@@ -418,7 +416,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -453,7 +450,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -467,6 +465,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "172.67.178.143",
+      "server_port": 443,
+      "uuid": "ccaa9413-2163-466e-a915-29c215b0be0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -1968,7 +1983,7 @@
       "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "uuid": "8102891d-7b37-4dc5-8261-9474b59b5c63",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1983,9 +1998,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "172.67.182.80",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "0050dd81-65fb-439c-abf6-c4c609205c44",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2000,43 +2015,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
       "type": "vless",
-      "server": "104.21.18.141",
-      "server_port": 443,
-      "uuid": "0050dd81-65fb-439c-abf6-c4c609205c44",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #4",
-      "type": "vless",
       "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "97532b08-357e-4140-a6f0-8e07f2ed3327",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #5",
-      "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
-      "uuid": "fdc48be3-a615-41ac-8bd1-ed844c931048",
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2316,23 +2297,6 @@
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "9a84e4a2-731d-4dd5-a22d-796c7a345e39",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "midjourney.com",
-      "server_port": 443,
-      "uuid": "5988b269-9ed5-4061-97b0-9123a9062876",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2805,6 +2769,30 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "172.67.178.143",
+      "server_port": 443,
+      "uuid": "ccaa9413-2163-466e-a915-29c215b0be0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nEtRa-28e601.rUZgArSiS053GmAIlCoMsaccOunT.WORKERs.DEV",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "netra-28e601.ruzgarsis053gmailcomsaccount.workers.dev"
         }
       }
     }

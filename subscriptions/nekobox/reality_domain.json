@@ -86,9 +86,9 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,9 +105,9 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -327,28 +327,6 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "turk.soft98ver2.com",
-      "server_port": 302,
-      "uuid": "24abae59-cde5-4ad2-bac0-5fd80be14cc2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇨🇿 CZ | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "guide.blog-forme.ru",
@@ -357,24 +335,47 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "cdn.yemnaro.ir",
+      "server": "nl-06.neverspy.tech",
       "server_port": 443,
-      "uuid": "58c78645-8494-4c88-97b2-3a75d4b01338",
+      "uuid": "03786aa4-21a5-4e7c-83d6-873aafc41217",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "opensuse.org",
+        "server_name": "nl-06.neverspy.tech",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0",
+          "short_id": "86af85a72387ef02",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "leviko-us6922.shopingggg.ir",
+      "server_port": 8443,
+      "uuid": "1d1eda2e-0bd7-4478-877b-1c5425c6c4dd",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
-          "public_key": "EMMr7Eqwy3wpgbatnOaAmym5Tm4nXyJlC83iVvCadmk",
-          "short_id": "f3f00787a8b3f471",
+          "public_key": "yr_opKG6DGTppNDXkk-DhGSYJZXbb9o-caexk2FZO38",
+          "short_id": "8f3c6e2a1b5d4f09",
           "enabled": true
         }
       }

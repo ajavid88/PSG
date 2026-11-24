@@ -116,18 +116,13 @@
     {
       "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "finlandnovemberone.best",
-      "server_port": 443,
-      "uuid": "fdbd8fb8-7d27-4bd8-9da1-1e42c4876835",
+      "server": "pl.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {

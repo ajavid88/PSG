@@ -80,12 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+        "🇱🇺 LU | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇫🇷 FR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,12 +95,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+        "🇱🇺 LU | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇫🇷 FR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,20 +187,28 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "panel.jorvexo.ir",
-      "server_port": 1152,
-      "uuid": "6862421c-72ba-4510-bcd7-f29226a8c632",
-      "packet_encoding": "xudp"
+      "server": "pl.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
+      "tag": "🇱🇺 LU | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "panel.jorvexo.ir",
-      "server_port": 1152,
-      "uuid": "148c45b8-7e40-4062-9ba8-3836b844550b",
-      "packet_encoding": "xudp"
+      "server": "fr.extremumnews.com",
+      "server_port": 6443,
+      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
@@ -254,28 +260,6 @@
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ww3.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "b81b4d1b-7f20-48f1-82dc-d24bef898cab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -111,6 +111,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
@@ -141,6 +142,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
@@ -644,16 +646,25 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "aeli.orevix.ir",
+      "server_port": 4200,
+      "uuid": "40052699-47f0-4815-9725-c1698d1b0648",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
       "type": "vmess",
-      "server": "www.windowssearchtools.com",
+      "server": "172.67.156.121",
       "server_port": 443,
-      "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "www.windowssearchtools.com",
+        "server_name": "www.gptcloudai.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -664,7 +675,7 @@
         "type": "ws",
         "path": "/truth",
         "headers": {
-          "Host": "www.windowssearchtools.com"
+          "Host": "www.gptcloudai.com"
         }
       }
     },

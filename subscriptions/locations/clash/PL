@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @free4allvpn #1", "server": "195.135.252.28", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | TROJAN | @NamiraConfigs #1", "server": "78.17.171.140", "port": 2053, "type": "trojan", "skip-cert-verify": false, "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @free4allvpn #1'
+      - '🇵🇱 PL | TROJAN | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

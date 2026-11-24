@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -100,7 +99,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -112,18 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "pl.extremumnews.com",
-      "server_port": 6443,
-      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",

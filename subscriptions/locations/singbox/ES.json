@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | TROJAN | @red2ray #1",
-        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | TROJAN | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | TROJAN | @red2ray #1",
-        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | TROJAN | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,14 +124,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "213.182.201.57",
-      "server_port": 3090,
-      "uuid": "83182e55-2298-405d-b4f8-797e47b50174",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇺 LU | VLESS | @NamiraConfigs #1", "server": "fr.extremumnews.com", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "391a32c6-084c-4d61-8e8d-472678021dac", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇨🇭 CH | TROJAN | @v2ray_collector #1", "server": "208.69.78.158", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇺 LU | VLESS | @NamiraConfigs #1'
+      - '🇨🇭 CH | TROJAN | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select

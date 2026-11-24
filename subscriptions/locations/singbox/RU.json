@@ -90,14 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @outlinereleasedkey #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
         "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1"
+        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @outlinereleasedkey #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
         "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1"
+        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "cdn588.whitenw.net",
+      "server_port": 7490,
+      "uuid": "9a2675fd-f76e-419d-8a3e-2f6b5a9cd430",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
@@ -141,14 +143,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
-      "type": "shadowsocks",
-      "server": "48.103.218.77",
-      "server_port": 18443,
-      "method": "YWVzLTI1Ni1nY206NW1LalhBR3JsaUlBbFl3V0RlRnprQ0VNSWdRZEZRTGU=",
-      "password": null
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @outlinereleasedkey #1",
       "type": "vless",
       "server": "vps3.nemnogogo.com",
@@ -166,71 +160,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "82.202.156.115",
-      "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "ws.quantum.vodka",
-      "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "ws.quantum.vodka",
-      "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "95.129.234.113",
@@ -239,20 +168,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #2",
       "type": "vless",
-      "server": "185.86.145.173",
+      "server": "5.129.204.170",
       "server_port": 443,
-      "uuid": "37af0181-5598-4aad-a040-d926bcb65757",
+      "uuid": "0001b6f2-5030-b838-1f97-9a588ba7a9ef",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "wholebeam.com",
+        "server_name": "kimryparom.net",
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "2e49febaa6fd5355f433"
       }
     }
   ],

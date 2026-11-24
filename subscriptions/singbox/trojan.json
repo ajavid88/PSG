@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇵🇱 PL | TROJAN | @NamiraConfigs #1",
         "🇽🇽 XX | TROJAN | @configv2rayforfree #1",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇳🇱 NL | TROJAN | @flyv2ray #1",
@@ -107,7 +108,7 @@
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -117,8 +118,7 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
-        "🇺🇸 US | TROJAN | @vmesskhodam #2",
-        "🇺🇸 US | TROJAN | @vmesskhodam #3"
+        "🇺🇸 US | TROJAN | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -129,6 +129,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇵🇱 PL | TROJAN | @NamiraConfigs #1",
         "🇽🇽 XX | TROJAN | @configv2rayforfree #1",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇳🇱 NL | TROJAN | @flyv2ray #1",
@@ -143,7 +144,7 @@
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -153,8 +154,7 @@
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
-        "🇺🇸 US | TROJAN | @vmesskhodam #2",
-        "🇺🇸 US | TROJAN | @vmesskhodam #3"
+        "🇺🇸 US | TROJAN | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -236,6 +236,13 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @NamiraConfigs #1",
+      "type": "trojan",
+      "server": "78.17.171.140",
+      "server_port": 2053,
+      "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX"
     },
     {
       "tag": "🇽🇽 XX | TROJAN | @configv2rayforfree #1",
@@ -435,11 +442,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_collector #1",
       "type": "trojan",
-      "server": "104.18.152.219",
+      "server": "208.69.78.158",
       "server_port": 443,
-      "password": "humanity",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -583,22 +590,6 @@
       "type": "trojan",
       "server": "ipfast.kingmna.com",
       "server_port": 443,
-      "password": "auRVImItMy7CqRAY7FC8Wg",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @vmesskhodam #2",
-      "type": "trojan",
-      "server": "ipfast.kingmna.com",
-      "server_port": 443,
       "password": "6-FrR5YsfjfyNp6AIFZgcQ",
       "tls": {
         "enabled": true,
@@ -611,7 +602,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @vmesskhodam #3",
+      "tag": "🇺🇸 US | TROJAN | @vmesskhodam #2",
       "type": "trojan",
       "server": "ipfast.kingmna.com",
       "server_port": 443,

@@ -237,7 +237,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -272,7 +271,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -427,7 +427,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -462,7 +461,8 @@
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
-        "🇽🇽 XX | VLESS | @wbrovers #1"
+        "🇽🇽 XX | VLESS | @wbrovers #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -2301,22 +2301,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "104.18.152.219",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -2692,14 +2676,14 @@
     {
       "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
       "type": "vmess",
-      "server": "www.windowssearchtools.com",
+      "server": "172.67.156.121",
       "server_port": 443,
-      "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "www.windowssearchtools.com",
+        "server_name": "www.gptcloudai.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -2710,7 +2694,7 @@
         "type": "ws",
         "path": "/truth",
         "headers": {
-          "Host": "www.windowssearchtools.com"
+          "Host": "www.gptcloudai.com"
         }
       }
     },
@@ -2777,6 +2761,30 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "172.64.154.113",
+      "server_port": 8443,
+      "uuid": "53bbdad4-2f4e-45db-8df4-fa491a6a7227",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "freeceshi6.frii.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": "freeceshi6.frii.site"
         }
       }
     }

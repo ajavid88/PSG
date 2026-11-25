@@ -101,21 +101,22 @@
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
         "🇸🇪 SE | VLESS | @minovpnch #1",
+        "🇸🇪 SE | TROJAN | @outlinereleasedkey #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇸🇪 SE | VLESS | @v2rayprotocol #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -134,21 +135,22 @@
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
         "🇸🇪 SE | VLESS | @minovpnch #1",
+        "🇸🇪 SE | TROJAN | @outlinereleasedkey #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #1",
         "🇸🇪 SE | VLESS | @realvpnmaster #2",
         "🇸🇪 SE | VLESS | @realvpnmaster #3",
         "🇸🇪 SE | VLESS | @realvpnmaster #4",
         "🇸🇪 SE | VLESS | @realvpnmaster #5",
+        "🇸🇪 SE | VLESS | @red2ray #1",
         "🇸🇪 SE | VLESS | @serverv2ray00 #1",
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
         "🇸🇪 SE | VLESS | @v2rayprotocol #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -311,6 +313,13 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "pu0149u56dhl4t43"
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster #1",
       "type": "vless",
       "server": "185.146.173.185",
@@ -351,6 +360,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "88.216.72.172",
+      "server_port": 443,
+      "uuid": "31e407b3-6e1e-425f-98ea-fcf8f494c6a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "185.146.173.59",
@@ -381,23 +412,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "192.71.82.2",
-      "server_port": 443,
-      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @v2rayprotocol #1",
@@ -466,20 +480,24 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇸🇪 SE | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "88.216.60.73",
+      "server_port": 443,
+      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -90,11 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @outlinereleasedkey #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @outlinereleasedkey #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,14 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "cdn588.whitenw.net",
-      "server_port": 7490,
-      "uuid": "9a2675fd-f76e-419d-8a3e-2f6b5a9cd430",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
@@ -166,27 +154,6 @@
       "server_port": 8443,
       "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "5.129.204.170",
-      "server_port": 443,
-      "uuid": "0001b6f2-5030-b838-1f97-9a588ba7a9ef",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "kimryparom.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "2e49febaa6fd5355f433"
-      }
     }
   ],
   "route": {

@@ -76,17 +76,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇵🇱 PL | TROJAN | @NamiraConfigs #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇵🇱 PL | TROJAN | @NamiraConfigs #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -99,13 +96,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | TROJAN | @NamiraConfigs #1",
-      "type": "trojan",
-      "server": "78.17.171.140",
-      "server_port": 2053,
-      "password": "t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX"
     }
   ],
   "route": {

@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #1", "server": "5.83.142.50", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7ce93cef-119d-4cba-9d9d-da0056ba979c", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @ai_duet #1", "server": "3.126.31.60", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fa12c1f5-24be-4119-8506-aad16f3bcd35", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @configv2rayforfree #1", "server": "kala.fortresshost.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @ehsawn8 #1", "server": "13.140.92.21", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "35eb914a-f7c2-4ffa-8503-1bf30df0f1a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -45,8 +46,10 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @tobevasl #3", "server": "91.99.195.73", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2ray_collector #1", "server": "app.streamru14.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd90e601-a56c-42b8-aab7-aa02d26fcb04", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VMESS | @v2ray_collector #1", "server": "193.108.119.87", "port": 1270, "type": "vmess", "skip-cert-verify": true, "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
-  - {"name": "🇩🇪 DE | VLESS | @v2raych #1", "server": "static.176.191.130.94.clients.your-server.de", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "13bda8f2-02af-475f-a9b6-2dbc7f023ab5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇩🇪 DE | VLESS | @v2raych #2", "server": "169.40.42.35", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "146.103.42.26", "port": 9543, "type": "vless", "skip-cert-verify": true, "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2raych #1", "server": "panel.user.dsafa2dasd.terman.ir", "port": 56315, "type": "vless", "skip-cert-verify": true, "uuid": "2c123b03-ac90-4bff-80d8-b9f39b73c846", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2raych #2", "server": "panel.user.dsafa2dasd.terman.ir", "port": 56315, "type": "vless", "skip-cert-verify": true, "uuid": "d4ed3ba6-02a7-4312-83b9-e5f5678f61aa", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @v2raych #3", "server": "146.103.42.26", "port": 9543, "type": "vless", "skip-cert-verify": true, "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇩🇪 DE | VLESS | @v2rayngconfiig #1", "server": "89.116.46.210", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9a74144f-6218-4257-9e70-a4c50fe1e5a4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2rayprotocol #1", "server": "94.183.238.15", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5edbcb44-8d04-4fa7-a587-bc5d60c24ca1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @v2rayprotocol #2", "server": "68.183.72.92", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bf14dc50-e9f2-49fd-8642-620446edeafb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -54,6 +57,8 @@ proxies:
   - {"name": "🇩🇪 DE | VLESS | @vmesskhodam #1", "server": "185.248.141.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c3abfda2-9261-4173-a8dc-afe269a15491", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇩🇪 DE | VLESS | @vpn_ioss #1", "server": "88.216.211.36", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇩🇪 DE | VLESS | @vpn_ioss #2", "server": "88.216.70.125", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "88e79aa6-f431-4453-8dcc-652a0c747198", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #2", "server": "mepladu.klyck.online", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "de32225b-374c-4a6a-830e-7c4e367fcfb5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "firefox", "flow": "xtls-rprx-vision", "servername": "mepladu.klyck.online", "reality-opts": {"public-key": "Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE", "short-id": "f5a3723f6b3bf8f0"}}
+  - {"name": "🇩🇪 DE | VLESS | @NamiraConfigs #3", "server": "static.69.71.203.116.clients.your-server.de", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "5c74ed1a-ea18-4c7b-930f-492f387d6f63", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "static.241.103.99.91.clients.your-server.de"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -67,6 +72,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | VLESS | @NamiraConfigs #1'
       - '🇩🇪 DE | VLESS | @ai_duet #1'
       - '🇩🇪 DE | VLESS | @configv2rayforfree #1'
       - '🇩🇪 DE | VLESS | @ehsawn8 #1'
@@ -89,8 +95,10 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @tobevasl #3'
       - '🇩🇪 DE | VLESS | @v2ray_collector #1'
       - '🇩🇪 DE | VMESS | @v2ray_collector #1'
+      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
       - '🇩🇪 DE | VLESS | @v2raych #1'
       - '🇩🇪 DE | VLESS | @v2raych #2'
+      - '🇩🇪 DE | VLESS | @v2raych #3'
       - '🇩🇪 DE | VLESS | @v2rayngconfiig #1'
       - '🇩🇪 DE | VLESS | @v2rayprotocol #1'
       - '🇩🇪 DE | VLESS | @v2rayprotocol #2'
@@ -98,6 +106,8 @@ proxy-groups:
       - '🇩🇪 DE | VLESS | @vmesskhodam #1'
       - '🇩🇪 DE | VLESS | @vpn_ioss #1'
       - '🇩🇪 DE | VLESS | @vpn_ioss #2'
+      - '🇩🇪 DE | VLESS | @NamiraConfigs #2'
+      - '🇩🇪 DE | VLESS | @NamiraConfigs #3'
 
   - name: 🌍 Global Media
     type: select

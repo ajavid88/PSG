@@ -29,6 +29,7 @@ proxies:
   - {"name": "🇨🇭 CH | VLESS | @filtershekan_channel #1", "server": "prvtch.titun.su", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90157e25-cee1-4217-921e-91f300bc1a24", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇧🇬 BG | VLESS | @hope_net #1", "server": "p11real3.greewebservices.ir", "port": 1040, "type": "vless", "skip-cert-verify": true, "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @selinc #1", "server": "tr.0a0.uk", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2raych #2", "server": "panel.user.dsafa2dasd.terman.ir", "port": 56315, "type": "vless", "skip-cert-verify": true, "uuid": "d4ed3ba6-02a7-4312-83b9-e5f5678f61aa", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -48,6 +49,7 @@ proxy-groups:
       - '🇨🇭 CH | VLESS | @filtershekan_channel #1'
       - '🇧🇬 BG | VLESS | @hope_net #1'
       - '🇹🇷 TR | VLESS | @selinc #1'
+      - '🇩🇪 DE | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

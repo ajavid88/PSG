@@ -93,7 +93,8 @@
         "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | VLESS | @orange_vpns #1"
+        "🇨🇭 CH | VLESS | @orange_vpns #1",
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +105,8 @@
         "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | VLESS | @orange_vpns #1"
+        "🇨🇭 CH | VLESS | @orange_vpns #1",
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,6 +190,22 @@
       "server_port": 443,
       "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "208.69.78.208",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "",

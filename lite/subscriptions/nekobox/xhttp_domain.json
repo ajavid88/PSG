@@ -80,6 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
@@ -93,6 +95,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
@@ -179,6 +183,45 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "api.ferrin.uk",
+      "server_port": 443,
+      "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "d8a566eabb938ddad8a566eabb938ddad8a566eabb938dda.drwsh.org",
+      "server_port": 8080,
+      "uuid": "13dfb464-58a7-4bfa-a30d-48eb38c6cc8e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

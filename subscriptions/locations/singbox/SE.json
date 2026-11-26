@@ -116,7 +116,8 @@
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VLESS | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -150,7 +151,8 @@
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VLESS | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -497,6 +499,28 @@
         "reality": {
           "public_key": "",
           "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "tpaa.sublinkplas.ir",
+      "server_port": 12190,
+      "uuid": "b28e9267-bb15-4e09-b126-a49aad8a52a2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "delivery.mp.microsoft.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "public_key": "33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM",
+          "short_id": "3e5cba1bd6eb6221",
           "enabled": true
         }
       }

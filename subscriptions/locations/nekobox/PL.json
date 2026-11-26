@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
@@ -86,7 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
@@ -101,28 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "mirror.embrofree.org",
-      "server_port": 443,
-      "uuid": "713142c9-ad09-4894-b35c-645423f3f6c9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",

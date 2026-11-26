@@ -96,10 +96,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
+        "🇺🇸 US | VMESS | @orange_vpns #1",
         "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇧🇷 BR | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2ray_collector #1"
+        "🇫🇷 FR | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,10 +114,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
+        "🇺🇸 US | VMESS | @orange_vpns #1",
         "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇧🇷 BR | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2ray_collector #1"
+        "🇫🇷 FR | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -252,6 +254,15 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @orange_vpns #1",
+      "type": "vmess",
+      "server": "84.17.41.2",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
       "type": "vmess",
       "server": "154.47.19.225",
@@ -292,24 +303,6 @@
       }
     },
     {
-      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "103.88.232.55",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "23.162.152.127",
@@ -326,6 +319,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "67.220.95.3",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

@@ -24,7 +24,9 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @flyv2ray #1", "server": "168.113.253.178", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "58708e38-dd5a-0001-902d-93621ee2bd83", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "89.125.136.56", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "FastKey_446172", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "78.159.240.11", "port": 445, "type": "vless", "skip-cert-verify": true, "uuid": "37af0181-5598-4aad-a040-d926bcb65757", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych #2", "server": "78.159.240.11", "port": 445, "type": "vless", "skip-cert-verify": true, "uuid": "37af0181-5598-4aad-a040-d926bcb65757", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #1", "server": "165.231.157.126", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "0173d52e-8e1b-4681-831e-11529677b72f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "safari", "flow": "xtls-rprx-vision", "servername": "api-6b04608f.adhil.uk"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +42,8 @@ proxy-groups:
     proxies: 
       - '🇷🇺 RU | VLESS | @flyv2ray #1'
       - '🇷🇺 RU | VLESS | @v2raych #1'
+      - '🇷🇺 RU | VLESS | @v2raych #2'
+      - '🇷🇺 RU | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

@@ -81,17 +81,18 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | VLESS | @privatevpns #2",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VMESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,17 +104,18 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | VLESS | @privatevpns #2",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VMESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -170,17 +172,9 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "167.17.64.175",
-      "server_port": 19999,
-      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
-      "password": null
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "35.180.108.240",
+      "server": "15.224.82.181",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -188,9 +182,17 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #2",
       "type": "vless",
-      "server": "13.36.85.204",
+      "server": "15.224.11.40",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "152.228.162.19",
+      "server_port": 80,
+      "uuid": "5ce84688-f535-46ad-a512-37b17becf6ea",
       "packet_encoding": "xudp"
     },
     {
@@ -230,15 +232,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "35.180.108.240",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
-      "type": "vless",
-      "server": "13.36.85.204",
+      "server": "15.224.82.181",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -246,15 +240,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "35.180.108.240",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
-      "type": "vless",
-      "server": "13.36.85.204",
+      "server": "15.224.82.181",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -277,6 +263,72 @@
         "reality": {
           "public_key": "",
           "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "panel.jeprost.ir",
+      "server_port": 443,
+      "uuid": "615d860b-aabe-499b-a582-cac6f83cce68",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+          "short_id": "44",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "panel.jeprost.ir",
+      "server_port": 443,
+      "uuid": "f673883f-849c-4aa3-935e-260e0a6a8710",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+          "short_id": "4cac40e00a53ab",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #3",
+      "type": "vless",
+      "server": "panel.jeprost.ir",
+      "server_port": 443,
+      "uuid": "20813df5-f02e-4772-80c9-b66e04b0e0a4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "OxB8GilVtbKilKbaux4Ps04HYtRBHPUHHVaomrQjECg",
+          "short_id": "18260c49e3c85452",
           "enabled": true
         }
       }

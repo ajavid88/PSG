@@ -93,7 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | SS | @proxy_confiingir #1"
+        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇺🇸 US | SS | @proxy_confiingir #1",
+        "🇩🇪 DE | SS | @v2ray_free_conf #1",
+        "🇺🇦 UA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇺🇸 US | SS | @proxy_confiingir #1"
+        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇺🇸 US | SS | @proxy_confiingir #1",
+        "🇩🇪 DE | SS | @v2ray_free_conf #1",
+        "🇺🇦 UA | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,11 +194,35 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "tr.subscriptionservice.ir",
+      "server_port": 2089,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUMTk5TUNub2daQktpMFFKZGNTZ1Vub0wzVTl3bDd0MQ==",
+      "password": null
+    },
+    {
       "tag": "🇺🇸 US | SS | @proxy_confiingir #1",
       "type": "shadowsocks",
       "server": "ak1857.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇩🇪 DE | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "servermood.abolithenis.ir",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpabUo3SVE0VUdOUWJBNHRGam5RYTBsdW9DZExPdXhnQg==",
+      "password": null
+    },
+    {
+      "tag": "🇺🇦 UA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "kyiv02.npvnot.com",
+      "server_port": 443,
+      "method": "YWVzLTI1Ni1nY206TXpSbFl6QTBaR1kwTmpjMlpqUTJZVFJpTVRnMllUa3pOak00T0dJMQ==",
       "password": null
     }
   ],

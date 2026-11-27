@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1"
+        "🇱🇹 LT | SS | @hope_net #1",
+        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1",
+        "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1"
+        "🇱🇹 LT | SS | @hope_net #1",
+        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1",
+        "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -108,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @hope_net #1",
+      "type": "shadowsocks",
+      "server": "195.238.126.20",
+      "server_port": 9001,
+      "method": "YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ==",
+      "password": null
     },
     {
       "tag": "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1",
@@ -130,6 +142,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "195.238.126.20",
+      "server_port": 9068,
+      "method": "YWVzLTI1Ni1jZmI6bXdnUmc5aFJxM2I0UW53Yg==",
+      "password": null
     }
   ],
   "route": {

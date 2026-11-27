@@ -83,7 +83,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -98,7 +98,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -253,12 +253,21 @@
       }
     },
     {
-      "tag": "🇨🇿 CZ | VLESS | @v2rayza #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "guide.blog-forme.ru",
-      "server_port": 2087,
-      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "packet_encoding": "xudp"
+      "server": "mcsp.67resserv67.info",
+      "server_port": 443,
+      "uuid": "5dd4822d-b8dc-49dd-84b6-c3ea44ef42f7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",

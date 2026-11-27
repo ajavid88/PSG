@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @nofiltering2 #1",
-        "🇹🇷 TR | VLESS | @nofiltering2 #2",
+        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raytg #1"
@@ -89,8 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @nofiltering2 #1",
-        "🇹🇷 TR | VLESS | @nofiltering2 #2",
+        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇹🇷 TR | VLESS | @v2raytg #1"
@@ -109,48 +107,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @nofiltering2 #1",
-      "type": "vless",
-      "server": "45.144.214.102",
-      "server_port": 443,
-      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @nofiltering2 #2",
-      "type": "vless",
-      "server": "45.144.214.102",
-      "server_port": 443,
-      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "tr.subscriptionservice.ir",
+      "server_port": 2089,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUMTk5TUNub2daQktpMFFKZGNTZ1Vub0wzVTl3bDd0MQ==",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",

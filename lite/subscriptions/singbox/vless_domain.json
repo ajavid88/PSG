@@ -128,7 +128,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
@@ -137,11 +136,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -200,7 +198,6 @@
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
         "🇺🇸 US | VLESS | @public504 #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
@@ -209,11 +206,10 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇽🇽 XX | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayy_vpn13 #1",
@@ -749,14 +745,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "nt2.jetgemini.ir",
-      "server_port": 5051,
-      "uuid": "fbe13da8-ed47-4a95-a894-269ae0b26839",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
       "type": "vless",
       "server": "tr.0a0.uk",
@@ -862,31 +850,6 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "k2.cloud--vpn.site",
-      "server_port": 443,
-      "uuid": "bdaf42dd-f75b-4594-d5f8-51c0feeb8406",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "docs.asasin4.ir",
-      "server_port": 30940,
-      "uuid": "2516e5aa-d196-49ce-bbab-c3c80e53e0a4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -905,9 +868,26 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "velaroorts.ir",
+      "server": "karen.shahankhan.ir",
       "server_port": 443,
-      "uuid": "9736c8d5-baac-4655-9886-f4d3661b43b4",
+      "uuid": "a6eed628-ef46-4eb1-b1c9-e13853e082c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 443,
+      "uuid": "55b3fd10-3658-40a2-8951-ec90932d1d30",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

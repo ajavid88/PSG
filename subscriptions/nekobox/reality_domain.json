@@ -80,12 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #3",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @outline_ir #3",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #2",
@@ -100,12 +100,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇾 CY | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #3",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @outline_ir #3",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #2",
@@ -197,7 +197,7 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @bored_vpn #1",
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #3",
       "type": "vless",
       "server": "mirror.embrofree.org",
       "server_port": 443,
@@ -307,12 +307,26 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "docs.asasin4.ir",
-      "server_port": 30940,
-      "uuid": "2516e5aa-d196-49ce-bbab-c3c80e53e0a4",
-      "packet_encoding": "xudp"
+      "server": "h-pl.ok-habits.xyz",
+      "server_port": 443,
+      "uuid": "259ec8bc-5a6b-4b33-8a71-c40e8d150c24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇿 CZ | VLESS | @v2rayza #1",

@@ -79,10 +79,9 @@
         "direct",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #2",
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,10 +91,9 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #2",
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -155,6 +153,23 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "turkey-ip1.mmdaqaorg.xyz",
+      "server_port": 50738,
+      "uuid": "56665684-5ac0-4ba9-9d49-8b258fb57974",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
       "type": "vless",
       "server": "tr.0a0.uk",
@@ -177,37 +192,12 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "docs.asasin4.ir",
-      "server_port": 30940,
-      "uuid": "2516e5aa-d196-49ce-bbab-c3c80e53e0a4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "sibilgg.opik.net",
       "server_port": 8080,
       "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "212.98.224.35",
-      "server_port": 443,
-      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

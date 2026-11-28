@@ -173,7 +173,9 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
+        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | VLESS | @merdesert #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #2",
@@ -360,7 +362,9 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
+        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | VLESS | @merdesert #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #2",
@@ -1451,11 +1455,35 @@
       "password": "bpb-trojan"
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @manstervpn #2",
+      "type": "trojan",
+      "server": "104.18.37.111",
+      "server_port": 443,
+      "password": "bpb-trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
       "type": "vless",
       "server": "104.31.16.65",
       "server_port": 2096,
       "uuid": "281a5a7c-6530-4cd6-b0f2-a2666e6c3b36",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "172.64.154.113",
+      "server_port": 8443,
+      "uuid": "53bbdad4-2f4e-45db-8df4-fa491a6a7227",
       "packet_encoding": "xudp"
     },
     {

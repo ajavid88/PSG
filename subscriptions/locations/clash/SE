@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇷 FR | VMESS | @mahsaproxy #1", "server": "152.228.229.14", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b28bd4c0-86e3-11ed-ae56-e341819d545b", "alterId": 100, "cipher": "chacha20-poly1305", "network": "h2", "tls": true}
+  - {"name": "🇸🇪 SE | TROJAN | @outlinereleasedkey #1", "server": "sw100.marshonet.store", "port": 8228, "type": "trojan", "skip-cert-verify": false, "password": "pHLdtRnEC5stYZvt9GqMyMYx215AskPW"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇷 FR | VMESS | @mahsaproxy #1'
+      - '🇸🇪 SE | TROJAN | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

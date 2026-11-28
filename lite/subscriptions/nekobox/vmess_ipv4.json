@@ -82,7 +82,6 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇫🇷 FR | VMESS | @mahsaproxy #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -96,7 +95,6 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
-        "🇫🇷 FR | VMESS | @mahsaproxy #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -211,24 +209,6 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @mahsaproxy #1",
-      "type": "vmess",
-      "server": "152.228.229.14",
-      "server_port": 443,
-      "uuid": "b28bd4c0-86e3-11ed-ae56-e341819d545b",
-      "security": "auto",
-      "alter_id": 100,
-      "tls": {
-        "enabled": true,
-        "server_name": "snappfood.com",
         "insecure": true,
         "utls": {
           "enabled": true,

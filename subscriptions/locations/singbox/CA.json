@@ -92,10 +92,7 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @mt_proxy #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | SS | @v2ray_free_conf #1",
-        "🇨🇦 CA | TROJAN | @v2raych #1",
         "🇨🇦 CA | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -106,10 +103,7 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @mt_proxy #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | SS | @v2ray_free_conf #1",
-        "🇨🇦 CA | TROJAN | @v2raych #1",
         "🇨🇦 CA | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -145,53 +139,12 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @mt_proxy #1",
-      "type": "vless",
-      "server": "kuruish.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "23.227.60.7",
       "server_port": 443,
       "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "149.22.95.183",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
-      "password": null
-    },
-    {
-      "tag": "🇨🇦 CA | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "216.152.147.79",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
         "server_name": "",

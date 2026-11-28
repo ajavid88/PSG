@@ -97,7 +97,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @outline_ir #3",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇫🇷 FR | VLESS | @NamiraConfigs #3"
@@ -115,7 +115,7 @@
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
         "🇺🇸 US | VLESS | @outline_ir #3",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @NamiraConfigs #2",
         "🇫🇷 FR | VLESS | @NamiraConfigs #3"
@@ -290,12 +290,26 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "nlne57.skiki.pro",
-      "server_port": 2443,
-      "uuid": "16ae4cc7-178f-4f3f-a477-0186430d8a14",
-      "packet_encoding": "xudp"
+      "server": "tpll.sublinkplas.ir",
+      "server_port": 12190,
+      "uuid": "47921e53-9a38-4e2e-8a39-08b38512eff4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
